@@ -90,6 +90,22 @@
 
 ---
 
+## 2.5 GitHub Actions からの疎通確認（2026-11-15、[run 43613316635](https://github.com/hiro11223/ggame-yamo/actions/runs/43613316635)）
+
+| API | ローカル回線 | Actions |
+|---|---|---|
+| SteamSpy `request=tag&tag=Horror` | 403（Cloudflare） | **200**（196,739 bytes） |
+| GetItems | 200 | 200 |
+| StoreQuery | 200 | 200 |
+
+**SteamSpy の気になる点**
+- 応答は約197KBで、1件あたり約200〜270バイトから、**全部で約700〜1000件**と推定される。StoreQuery の Horror（14,515件）よりずっと少ない。
+- 先頭が `PUBG: BATTLEGROUNDS` で、所有者数の多い順に上位だけ返している可能性がある。
+- そうだとすると、「レビュー数が中程度の作品を拾う」という目的に対して、**大作に偏った候補しか集まらない**。
+- 次のステップで、件数と並び順を実際に数えて確認する。
+
+---
+
 ## 3. bakage 向けの実在タグ候補（採用はユーザー判断）
 
 `tagdata/populartags/english` の全429タグから、バカゲーに近そうなものを抜き出した。
