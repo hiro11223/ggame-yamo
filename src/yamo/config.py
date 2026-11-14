@@ -26,7 +26,8 @@ class RetryConfig(_Strict):
 class FetchConfig(_Strict):
     steamspy_interval_sec: float = Field(1.0, ge=1.0)  # SteamSpy の規約: 1req/秒
     steamspy_list_interval_sec: float = Field(60.0, ge=60.0)  # 一覧系: 1req/分
-    appdetails_interval_sec: float = Field(2.0, ge=0)
+    appdetails_interval_sec: float = Field(2.0, ge=0)  # Steam ストアAPI（GetItems / appdetails）
+    getitems_batch_size: int = Field(100, ge=1)
     web_interval_sec: float = Field(2.0, ge=0)
     timeout_sec: float = Field(30.0, gt=0)
     max_new_fetch: int = Field(300, ge=0)

@@ -6,10 +6,11 @@ user_agent: "yamo/0.1 (+https://github.com/hiro11223/ggame-yamo)"
 fetch:
   steamspy_interval_sec: 1.0       # SteamSpy 通常API
   steamspy_list_interval_sec: 60   # SteamSpy 一覧系(タグ別一覧)
-  appdetails_interval_sec: 2.0     # Steam appdetails / appreviews
+  appdetails_interval_sec: 2.0     # Steam ストアAPI（GetItems / appdetails）
+  getitems_batch_size: 100         # GetItems 1回あたりの件数
   web_interval_sec: 2.0            # 公式サイト / itch ページ
   timeout_sec: 30
-  max_new_fetch: 300               # 1回の実行で新規/再取得する appdetails の上限
+  max_new_fetch: 300               # 1回の実行で新規/再取得する作品数の上限
   max_streaming_checks: 150
   retry: { max_attempts: 5, base_sec: 2, max_sec: 120 }
 
@@ -58,8 +59,8 @@ categories:
   bakage:
     label: バカゲー
     steam:
-      collect:     [Funny, Comedy, Memes, Parody, Dark Humor, Physics, Party Game]
-      require_any: [Funny, Comedy, Memes, Parody, Dark Humor]
+      collect:     [Funny, Comedy, Memes, Dark Humor, Physics, Party Game]
+      require_any: [Funny, Comedy, Memes, Dark Humor]
       exclude:     [Sexual Content]
       bonus:       { Short: 5, Online Co-Op: 8, Physics: 3 }
     itch: { tags: [funny, comedy, meme, parody] }

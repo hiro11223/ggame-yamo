@@ -1,123 +1,167 @@
-"""Steam ストアAPI: appdetails / appreviews / タグ一覧（実在検証用）。"""
+"""Steam ストアAPI。
+
+- IStoreBrowseService/GetItems（キー不要・最大100件程度をまとめて取得）:
+  名前、価格、対応言語、デモ、発売日、レビュー、開発者、説明文、ヘッダー画像
+- appdetails（1件ずつ）: 公式サイトURL のみ（GetItems の links は SNS しか含まないため）
+- タグ一覧（実在検証用）
+
+appreviews は 2026-10 頃からストアトップへ 302 されるようになったため廃止。
+"""
 
 from __future__ import annotations
 
 import datetime as dt
-import re
+import json
 from typing import Any
 
 from ..http import HttpClient
 
+GETITEMS_URL = "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/"
 APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
-APPREVIEWS_URL = "https://store.steampowered.com/appreviews/{appid}"
 TAGLIST_URL = "https://store.steampowered.com/tagdata/populartags/english"
+ASSET_BASE = "https://shared.akamai.steamstatic.com/store_item_assets/"
 
 RATE_KEY = "steam_store"
 
+# Steam の ELanguage（GetItems の supported_languages[].elanguage）
+ELANGUAGE = {"english": 0, "japanese": 10}
+# GetItems の type（実データで確認済みのもの）
+ITEM_TYPES = {0: "game", 1: "demo", 11: "music"}
 
-def fetch_tag_names(client: HttpClient, interval: float) -> set[str]:
+
+def fetch_tag_names(client: HttpClient, interval: float) -> dict[str, int]:
+    """タグ名→tagid。Steam のデータには末尾に空白の付いた名前（例 'Parody '）があるので strip する。"""
     resp = client.get(TAGLIST_URL, rate_key=RATE_KEY, interval=interval)
-    return {str(t["name"]) for t in resp.json() if isinstance(t, dict) and "name" in t}
-
-
-# ---- appdetails ---------------------------------------------------------
-
-_TAG_RE = re.compile(r"<[^>]+>")
-
-
-def parse_languages(html: str | None) -> dict[str, bool]:
-    """supported_languages（l=english で取得したHTML断片）から日本語/英語の対応を判定。"""
-    if not html:
-        return {"japanese": False, "english": False}
-    text = _TAG_RE.sub(",", html)
-    names = {p.strip(" *\t\r\n").lower() for p in re.split(r"[,\n]", text)}
-    return {"japanese": "japanese" in names, "english": "english" in names}
-
-
-_DATE_FORMATS = ("%d %b, %Y", "%b %d, %Y", "%d %B, %Y", "%B %d, %Y", "%b %Y", "%B %Y")
-
-
-def parse_release_date(s: str | None) -> str | None:
-    if not s:
-        return None
-    s = s.strip()
-    for fmt in _DATE_FORMATS:
-        try:
-            return dt.datetime.strptime(s, fmt).date().isoformat()
-        except ValueError:
-            pass
-    if re.fullmatch(r"\d{4}", s):
-        return f"{s}-01-01"
-    return None
-
-
-def _price_jpy(data: dict[str, Any], to_jpy: dict[str, float]) -> float | None:
-    if data.get("is_free"):
-        return 0.0
-    po = data.get("price_overview")
-    if not po:
-        return None  # 価格未設定（未発売など）
-    rate = to_jpy.get(str(po.get("currency", "")).upper())
-    if rate is None or po.get("final") is None:
-        return None
-    # Steam の価格は通貨単位×100（JPY も同様）
-    return round(po["final"] / 100 * rate, 2)
-
-
-def parse_appdetails(appid: int, payload: dict[str, Any], to_jpy: dict[str, float]) -> dict[str, Any]:
-    """appdetails のレスポンスを、キャッシュに保存する最小限のフィールドに変換する。"""
-    entry = payload.get(str(appid)) or {}
-    if not entry.get("success"):
-        return {"unavailable": True}
-    data = entry.get("data") or {}
-    rd = data.get("release_date") or {}
     return {
-        "unavailable": False,
-        "type": data.get("type"),
-        "name": data.get("name"),
-        "is_free": bool(data.get("is_free")),
-        "price_jpy": _price_jpy(data, to_jpy),
-        "languages": parse_languages(data.get("supported_languages")),
-        "has_demo": bool(data.get("demos")),
-        "release_date": parse_release_date(rd.get("date")),
-        "coming_soon": bool(rd.get("coming_soon")),
-        "website": data.get("website") or None,
-        "header_image": data.get("header_image"),
-        "developers": list(data.get("developers") or []),
-        "short_description": data.get("short_description") or "",
+        str(t["name"]).strip(): int(t["tagid"])
+        for t in resp.json()
+        if isinstance(t, dict) and "name" in t and "tagid" in t
     }
 
 
-def fetch_appdetails(
-    client: HttpClient, appid: int, interval: float, to_jpy: dict[str, float]
-) -> dict[str, Any]:
+# ---- GetItems -----------------------------------------------------------
+
+DATA_REQUEST = {
+    "include_basic_info": True,
+    "include_release": True,
+    "include_reviews": True,
+    "include_supported_languages": True,
+    "include_assets": True,
+}
+
+
+def _release(rel: dict[str, Any], now: dt.datetime) -> tuple[str | None, bool]:
+    ts = rel.get("steam_release_date") or rel.get("original_release_date")
+    if rel.get("is_coming_soon"):
+        return (_ts_date(ts) if ts else None), True
+    if not ts:
+        return None, True  # 発売日がない＝未発売とみなす
+    return _ts_date(ts), dt.datetime.fromtimestamp(int(ts), dt.timezone.utc) > now
+
+
+def _ts_date(ts: int | str) -> str:
+    return dt.datetime.fromtimestamp(int(ts), dt.timezone.utc).date().isoformat()
+
+
+def reviews_from_summary(summary: dict[str, Any] | None) -> tuple[int, int]:
+    """summary_filtered → (好評数, 不評数)。好評数は percent_positive×review_count から推定（丸め誤差は許容）。
+
+    percent_positive=0 かつ review_count=0 はレビューなし。
+    """
+    if not summary:
+        return 0, 0
+    count = int(summary.get("review_count") or 0)
+    pct = int(summary.get("percent_positive") or 0)
+    if count <= 0:
+        return 0, 0
+    pos = round(count * pct / 100)
+    return pos, count - pos
+
+
+def parse_store_item(item: dict[str, Any], now: dt.datetime) -> dict[str, Any]:
+    if item.get("success") != 1:
+        return {"unavailable": True}
+    langs = {
+        lang["elanguage"]
+        for lang in item.get("supported_languages") or []
+        if lang.get("supported")
+    }
+    bpo = item.get("best_purchase_option") or {}
+    if item.get("is_free"):
+        price: float | None = 0.0
+    elif bpo.get("final_price_in_cents") is not None:
+        # country_code=JP なので円。単位は 1/100
+        price = int(bpo["final_price_in_cents"]) / 100
+    else:
+        price = None
+    release_date, coming_soon = _release(item.get("release") or {}, now)
+    assets = item.get("assets") or {}
+    header = None
+    if assets.get("asset_url_format") and assets.get("header"):
+        header = ASSET_BASE + assets["asset_url_format"].replace("${FILENAME}", assets["header"])
+    basic = item.get("basic_info") or {}
+    pos, neg = reviews_from_summary((item.get("reviews") or {}).get("summary_filtered"))
+    return {
+        "unavailable": False,
+        "type": ITEM_TYPES.get(item.get("type"), f"type{item.get('type')}"),
+        "name": item.get("name"),
+        "is_free": bool(item.get("is_free")),
+        "price_jpy": price,
+        "languages": {name: code in langs for name, code in ELANGUAGE.items()},
+        "has_demo": bool((item.get("related_items") or {}).get("demo_appid")),
+        "release_date": release_date,
+        "coming_soon": coming_soon,
+        "early_access": bool(item.get("is_early_access")),
+        "header_image": header,
+        "developers": [d["name"] for d in basic.get("developers") or [] if d.get("name")],
+        "short_description": basic.get("short_description") or "",
+        "positive": pos,
+        "negative": neg,
+    }
+
+
+def fetch_items(
+    client: HttpClient, appids: list[int], interval: float, now: dt.datetime
+) -> dict[int, dict[str, Any]]:
+    """GetItems で複数作品をまとめて取得する。返らなかった appid は unavailable 扱い。"""
+    payload = {
+        "ids": [{"appid": a} for a in appids],
+        "context": {"language": "english", "country_code": "JP"},
+        "data_request": DATA_REQUEST,
+    }
+    resp = client.get(
+        GETITEMS_URL,
+        params={"input_json": json.dumps(payload, separators=(",", ":"))},
+        rate_key=RATE_KEY,
+        interval=interval,
+    )
+    items = (resp.json().get("response") or {}).get("store_items") or []
+    out: dict[int, dict[str, Any]] = {}
+    for item in items:
+        # 存在しない appid は appid=0 で返るので、id を使う
+        appid = int(item.get("id") or item.get("appid") or 0)
+        if appid:
+            out[appid] = parse_store_item(item, now)
+    for a in appids:
+        out.setdefault(a, {"unavailable": True})
+    return out
+
+
+# ---- appdetails（公式サイトURL のみ） -----------------------------------
+
+
+def parse_website(appid: int, payload: dict[str, Any]) -> str | None:
+    entry = payload.get(str(appid)) or {}
+    if not entry.get("success"):
+        return None
+    return (entry.get("data") or {}).get("website") or None
+
+
+def fetch_website(client: HttpClient, appid: int, interval: float) -> str | None:
     resp = client.get(
         APPDETAILS_URL,
         params={"appids": appid, "cc": "jp", "l": "english"},
         rate_key=RATE_KEY,
         interval=interval,
     )
-    return parse_appdetails(appid, resp.json() or {}, to_jpy)
-
-
-# ---- appreviews ---------------------------------------------------------
-
-
-def parse_appreviews(payload: dict[str, Any]) -> dict[str, int] | None:
-    if not payload.get("success"):
-        return None
-    qs = payload.get("query_summary") or {}
-    return {
-        "positive": int(qs.get("total_positive", 0)),
-        "negative": int(qs.get("total_negative", 0)),
-    }
-
-
-def fetch_appreviews(client: HttpClient, appid: int, interval: float) -> dict[str, int] | None:
-    resp = client.get(
-        APPREVIEWS_URL.format(appid=appid),
-        params={"json": 1, "language": "all", "purchase_type": "all", "num_per_page": 0},
-        rate_key=RATE_KEY,
-        interval=interval,
-    )
-    return parse_appreviews(resp.json() or {})
+    return parse_website(appid, resp.json() or {})

@@ -1,13 +1,15 @@
+import datetime as dt
 import json
+from urllib.parse import parse_qs, urlparse
 
 import responses
 
 from yamo.sources import steam_store, steamspy
 
-from .conftest import load_fixture
+from .conftest import NOW, load_fixture
 
-TO_JPY = {"JPY": 1.0, "USD": 150.0}
 
+# ---- SteamSpy -----------------------------------------------------------
 
 def test_parse_steamspy_tag():
     apps = steamspy.parse_tag_response(json.dumps(load_fixture("steamspy_tag_horror.json")))
@@ -60,44 +62,83 @@ def test_collect_failed_when_source_down(client):
     assert len(responses.calls) == 3  # 1タグ目で上限 → 残りのタグは試さない
 
 
-def test_parse_appdetails():
-    d = steam_store.parse_appdetails(1001, load_fixture("appdetails_1001.json"), TO_JPY)
-    assert d["name"] == "Quiet Hallway"
-    assert d["price_jpy"] == 520
-    assert d["languages"] == {"japanese": True, "english": True}
-    assert d["has_demo"] is True
-    assert d["release_date"] == "2024-03-12"
-    assert d["coming_soon"] is False
-    assert d["developers"] == ["Tiny Ghost"]
+# ---- タグ一覧 -----------------------------------------------------------
+
+@responses.activate
+def test_tag_names_are_stripped(client):
+    # 実データには 'Parody ' のように末尾空白つきの名前がある
+    responses.get(steam_store.TAGLIST_URL, json=[{"tagid": 4878, "name": "Parody "}, {"tagid": 1667, "name": "Horror"}])
+    assert steam_store.fetch_tag_names(client, 0) == {"Parody": 4878, "Horror": 1667}
 
 
-def test_parse_appdetails_unsuccessful():
-    assert steam_store.parse_appdetails(5, {"5": {"success": False}}, TO_JPY) == {"unavailable": True}
+# ---- GetItems -----------------------------------------------------------
+
+def _items():
+    """実APIの応答（2026-11-15取得、項目を間引いたもの）。"""
+    return {i["id"]: i for i in load_fixture("getitems_sample.json")["response"]["store_items"]}
 
 
-def test_parse_appdetails_free_and_usd():
-    free = {"9": {"success": True, "data": {"is_free": True}}}
-    assert steam_store.parse_appdetails(9, free, TO_JPY)["price_jpy"] == 0
-    usd = {"9": {"success": True, "data": {"price_overview": {"currency": "USD", "final": 499}}}}
-    assert steam_store.parse_appdetails(9, usd, TO_JPY)["price_jpy"] == 748.5
+def test_parse_store_item_paid_game():
+    d = steam_store.parse_store_item(_items()[1150690], NOW)  # OMORI
+    assert d["name"] == "OMORI" and d["type"] == "game"
+    assert d["price_jpy"] == 1980
+    assert d["languages"] == {"english": True, "japanese": True}
+    assert d["has_demo"] is False
+    assert d["release_date"] == "2020-12-25" and d["coming_soon"] is False
+    assert d["developers"] == ["OMOCAT, LLC"]
+    assert d["header_image"] == ("https://shared.akamai.steamstatic.com/store_item_assets/"
+                                 "steam/apps/1150690/header.jpg?t=1671584768")
+    # 80516件 × 97% → 好評 78101 / 不評 2415（推定）
+    assert (d["positive"], d["negative"]) == (78101, 2415)
 
 
-def test_parse_languages_variants():
-    assert steam_store.parse_languages("English") == {"japanese": False, "english": True}
-    assert steam_store.parse_languages("Japanese<strong>*</strong>") == {"japanese": True, "english": False}
-    # "Simplified Chinese" のような部分一致で誤判定しない
-    assert steam_store.parse_languages("Simplified Chinese, Korean") == {"japanese": False, "english": False}
-    assert steam_store.parse_languages(None) == {"japanese": False, "english": False}
+def test_parse_store_item_free_and_english_only():
+    d = steam_store.parse_store_item(_items()[698780], NOW)  # Doki Doki Literature Club!
+    assert d["is_free"] is True and d["price_jpy"] == 0
+    assert d["languages"] == {"english": True, "japanese": False}
 
 
-def test_parse_release_date_formats():
-    assert steam_store.parse_release_date("12 Mar, 2024") == "2024-03-12"
-    assert steam_store.parse_release_date("Mar 12, 2024") == "2024-03-12"
-    assert steam_store.parse_release_date("Q3 2026") is None
-    assert steam_store.parse_release_date("Coming soon") is None
+def test_parse_store_item_demo_and_early_access():
+    items = _items()
+    assert steam_store.parse_store_item(items[1092790], NOW)["has_demo"] is True  # Inscryption
+    assert steam_store.parse_store_item(items[1966720], NOW)["early_access"] is True  # Lethal Company
 
 
-def test_parse_appreviews():
-    payload = {"success": 1, "query_summary": {"total_positive": 40, "total_negative": 2, "total_reviews": 42}}
-    assert steam_store.parse_appreviews(payload) == {"positive": 40, "negative": 2}
-    assert steam_store.parse_appreviews({"success": 0}) is None
+def test_parse_store_item_not_found():
+    assert steam_store.parse_store_item(_items()[999999999], NOW) == {"unavailable": True}
+
+
+def test_parse_store_item_coming_soon():
+    future = int((NOW + dt.timedelta(days=30)).timestamp())
+    base = {"id": 5, "success": 1, "type": 0, "name": "X"}
+    assert steam_store.parse_store_item({**base, "release": {"steam_release_date": future}}, NOW)["coming_soon"] is True
+    assert steam_store.parse_store_item({**base, "release": {}}, NOW)["coming_soon"] is True
+    assert steam_store.parse_store_item({**base, "release": {"is_coming_soon": True}}, NOW)["coming_soon"] is True
+
+
+def test_reviews_from_summary():
+    assert steam_store.reviews_from_summary({"review_count": 0, "percent_positive": 0}) == (0, 0)
+    assert steam_store.reviews_from_summary(None) == (0, 0)
+    assert steam_store.reviews_from_summary({"review_count": 3, "percent_positive": 66}) == (2, 1)
+
+
+@responses.activate
+def test_fetch_items_batches_and_marks_missing(client):
+    def cb(req):
+        payload = json.loads(parse_qs(urlparse(req.url).query)["input_json"][0])
+        assert payload["context"] == {"language": "english", "country_code": "JP"}
+        assert payload["data_request"]["include_reviews"] is True
+        assert [i["appid"] for i in payload["ids"]] == [1150690, 698780, 42]
+        items = _items()
+        return 200, {}, json.dumps({"response": {"store_items": [items[1150690], items[698780]]}})
+
+    responses.add_callback(responses.GET, steam_store.GETITEMS_URL, callback=cb)
+    out = steam_store.fetch_items(client, [1150690, 698780, 42], 0, NOW)
+    assert out[1150690]["name"] == "OMORI"
+    assert out[42] == {"unavailable": True}  # 応答に含まれなかったもの
+
+
+def test_parse_website():
+    payload = load_fixture("appdetails_1001.json")
+    assert steam_store.parse_website(1001, payload) == "https://tinyghost.example/"
+    assert steam_store.parse_website(5, {"5": {"success": False}}) is None

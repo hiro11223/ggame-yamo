@@ -1,0 +1,53 @@
+# 疎通確認: GitHub Actions のランナーから各APIに1回ずつアクセスし、
+# ステータスコードと本文の先頭をログに出す。手動実行のみ。
+name: connectivity-check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: connectivity-check
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      UA: "yamo/0.1 (+https://github.com/${{ github.repository }})"
+    steps:
+      - name: Probe APIs
+        shell: bash
+        run: |
+          set -u
+          # probe <ラベル> <URL> [curl の追加引数...]
+          probe() {
+            local label="$1" url="$2"; shift 2
+            echo "::group::${label}"
+            local body code
+            body="$(mktemp)"
+            code="$(curl -sS -o "${body}" -w '%{http_code}' --max-time 30 -A "${UA}" "$@" "${url}" || echo "curl-error")"
+            echo "URL: ${url}"
+            echo "HTTP status: ${code}"
+            echo "Body size: $(wc -c < "${body}") bytes"
+            echo "--- body (first 500 bytes) ---"
+            head -c 500 "${body}"; echo
+            echo "::endgroup::"
+            echo "- ${label}: ${code}" >> "${GITHUB_STEP_SUMMARY}"
+          }
+
+          # SteamSpy タグ別一覧（一覧系 1req/分。ここでは1回だけ）
+          probe "SteamSpy tag=Horror" "https://steamspy.com/api.php?request=tag&tag=Horror"
+
+          sleep 2
+          # IStoreBrowseService/GetItems（キー不要）
+          probe "Steam GetItems" "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/" -G \
+            --data-urlencode 'input_json={"ids":[{"appid":1150690}],"context":{"language":"english","country_code":"JP"},"data_request":{"include_reviews":true,"include_basic_info":true}}'
+
+          sleep 2
+          # 参考: IStoreQueryService/Query（SteamSpy の代替候補。Horror の tagid=1667）
+          probe "Steam StoreQuery (reference)" "https://api.steampowered.com/IStoreQueryService/Query/v1/" -G \
+            --data-urlencode 'input_json={"query":{"start":0,"count":5,"sort":2,"filters":{"released_only":true,"type_filters":{"include_games":true},"tagids_must_match":[{"tagids":[1667]}]}},"context":{"language":"english","country_code":"JP"}}'

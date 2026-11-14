@@ -1,0 +1,294 @@
+{
+ "response": {
+  "store_items": [
+   {
+    "item_type": 0,
+    "id": 1150690,
+    "success": 1,
+    "visible": true,
+    "name": "OMORI",
+    "appid": 1150690,
+    "type": 0,
+    "reviews": {
+     "summary_filtered": {
+      "review_count": 80516,
+      "percent_positive": 97,
+      "review_score": 9,
+      "review_score_label": "Overwhelmingly Positive"
+     },
+     "summary_language_specific": {
+      "review_count": 54727,
+      "percent_positive": 97,
+      "review_score": 9,
+      "review_score_label": "Overwhelmingly Positive"
+     }
+    },
+    "basic_info": {
+     "short_description": "Explore a strange world full of colorful friends and foes. When the time comes, the path you’ve chosen will determine your fate... and perhaps the fate of others as well.",
+     "publishers": [
+      {
+       "name": "OMOCAT, LLC"
+      }
+     ],
+     "developers": [
+      {
+       "name": "OMOCAT, LLC"
+      }
+     ]
+    },
+    "release": {
+     "steam_release_date": 1608883234,
+     "original_release_date": 1608883200
+    },
+    "best_purchase_option": {
+     "packageid": 392170,
+     "final_price_in_cents": "198000",
+     "formatted_final_price": "¥1,980"
+    },
+    "supported_languages": [
+     {
+      "elanguage": 0,
+      "supported": true
+     },
+     {
+      "elanguage": 10,
+      "supported": true
+     },
+     {
+      "elanguage": 6,
+      "supported": true
+     },
+     {
+      "elanguage": 4,
+      "supported": true
+     }
+    ],
+    "assets": {
+     "asset_url_format": "steam/apps/1150690/${FILENAME}?t=1671584768",
+     "header": "header.jpg"
+    }
+   },
+   {
+    "item_type": 0,
+    "id": 698780,
+    "success": 1,
+    "visible": true,
+    "name": "Doki Doki Literature Club!",
+    "appid": 698780,
+    "type": 0,
+    "is_free": true,
+    "reviews": {
+     "summary_filtered": {
+      "review_count": 230333,
+      "percent_positive": 96,
+      "review_score": 9,
+      "review_score_label": "Overwhelmingly Positive"
+     },
+     "summary_language_specific": {
+      "review_count": 133116,
+      "percent_positive": 96,
+      "review_score": 9,
+      "review_score_label": "Overwhelmingly Positive"
+     },
+     "counts_all_purchases": true
+    },
+    "basic_info": {
+     "short_description": "The Literature Club is full of cute girls! Will you write the way into their heart? This game is not suitable for children or those who are easily disturbed.",
+     "publishers": [
+      {
+       "name": "Team Salvato",
+       "creator_clan_account_id": 33976869
+      }
+     ],
+     "developers": [
+      {
+       "name": "Team Salvato",
+       "creator_clan_account_id": 33976869
+      }
+     ]
+    },
+    "release": {
+     "steam_release_date": 1507278060,
+     "original_release_date": 1506063600
+    },
+    "supported_languages": [
+     {
+      "elanguage": 0,
+      "supported": true
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 1092790,
+    "success": 1,
+    "visible": true,
+    "name": "Inscryption",
+    "appid": 1092790,
+    "type": 0,
+    "related_items": {
+     "demo_appid": [
+      1753260
+     ],
+     "demos": [
+      {
+       "appid": 1753260,
+       "show_above_purchase": false
+      }
+     ]
+    },
+    "reviews": {
+     "summary_filtered": {
+      "review_count": 136426,
+      "percent_positive": 96,
+      "review_score": 9,
+      "review_score_label": "Overwhelmingly Positive"
+     },
+     "summary_language_specific": {
+      "review_count": 77190,
+      "percent_positive": 96,
+      "review_score": 9,
+      "review_score_label": "Overwhelmingly Positive"
+     }
+    },
+    "basic_info": {
+     "short_description": "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards...",
+     "publishers": [
+      {
+       "name": "Devolver Digital",
+       "creator_clan_account_id": 6638525
+      }
+     ],
+     "developers": [
+      {
+       "name": "Daniel Mullins Games",
+       "creator_clan_account_id": 33030951
+      }
+     ]
+    },
+    "release": {
+     "steam_release_date": 1634655900,
+     "mac_release_date": 1655924400,
+     "linux_release_date": 1655924400
+    },
+    "best_purchase_option": {
+     "packageid": 368113,
+     "final_price_in_cents": "205000",
+     "formatted_final_price": "¥2,050"
+    },
+    "supported_languages": [
+     {
+      "elanguage": 0,
+      "supported": true
+     },
+     {
+      "elanguage": 2,
+      "supported": true
+     },
+     {
+      "elanguage": 1,
+      "supported": true
+     },
+     {
+      "elanguage": 5,
+      "supported": true
+     },
+     {
+      "elanguage": 10,
+      "supported": true
+     },
+     {
+      "elanguage": 4,
+      "supported": true
+     },
+     {
+      "elanguage": 8,
+      "supported": true
+     },
+     {
+      "elanguage": 6,
+      "supported": true
+     },
+     {
+      "elanguage": 3,
+      "supported": true
+     },
+     {
+      "elanguage": 22,
+      "supported": true
+     },
+     {
+      "elanguage": 7,
+      "supported": true
+     },
+     {
+      "elanguage": 21,
+      "supported": true
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 1966720,
+    "success": 1,
+    "visible": true,
+    "name": "Lethal Company",
+    "appid": 1966720,
+    "type": 0,
+    "is_early_access": true,
+    "reviews": {
+     "summary_filtered": {
+      "review_count": 412249,
+      "percent_positive": 96,
+      "review_score": 9,
+      "review_score_label": "Overwhelmingly Positive"
+     },
+     "summary_language_specific": {
+      "review_count": 276903,
+      "percent_positive": 97,
+      "review_score": 9,
+      "review_score_label": "Overwhelmingly Positive"
+     }
+    },
+    "basic_info": {
+     "short_description": "A co-op horror about scavenging at abandoned moons to sell scrap to the Company.",
+     "publishers": [
+      {
+       "name": "Zeekerss"
+      }
+     ],
+     "developers": [
+      {
+       "name": "Zeekerss"
+      }
+     ]
+    },
+    "release": {
+     "steam_release_date": 1698095392,
+     "is_early_access": true
+    },
+    "best_purchase_option": {
+     "packageid": 710154,
+     "final_price_in_cents": "120000",
+     "formatted_final_price": "¥1,200"
+    },
+    "supported_languages": [
+     {
+      "elanguage": 0,
+      "supported": true
+     }
+    ]
+   },
+   {
+    "item_type": 0,
+    "id": 999999999,
+    "success": 15,
+    "visible": false,
+    "name": "",
+    "store_url_path": "app/0/",
+    "store_url_slug": "",
+    "appid": 0
+   }
+  ]
+ }
+}
