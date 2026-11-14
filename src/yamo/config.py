@@ -24,9 +24,9 @@ class RetryConfig(_Strict):
 
 
 class FetchConfig(_Strict):
-    steamspy_interval_sec: float = Field(1.0, ge=1.0)  # SteamSpy の規約: 1req/秒
-    steamspy_list_interval_sec: float = Field(60.0, ge=60.0)  # 一覧系: 1req/分
-    appdetails_interval_sec: float = Field(2.0, ge=0)  # Steam ストアAPI（GetItems / appdetails）
+    steam_interval_sec: float = Field(2.0, ge=1.0)  # Steam API（StoreQuery / GetItems / appdetails）
+    query_page_size: int = Field(1000, ge=1, le=1000)  # StoreQuery 1回の件数（API上限 1000）
+    query_max_items: int = Field(50000, ge=1)  # 1カテゴリで取得する最大件数（暴走防止）
     getitems_batch_size: int = Field(100, ge=1)
     web_interval_sec: float = Field(2.0, ge=0)
     timeout_sec: float = Field(30.0, gt=0)
@@ -71,17 +71,15 @@ class DefaultsConfig(_Strict):
 
 
 class SteamTagsConfig(_Strict):
-    collect: list[str] = Field(min_length=1)
-    require_any: list[str] = []
+    # どれか1つを持つ作品を StoreQuery で収集する（OR）
+    require_any: list[str] = Field(min_length=1)
+    # 1つでも持つ作品を除外する（StoreQuery 側で除外）
     exclude: list[str] = []
+    # 持っていれば加点（作品の上位20タグで判定）
     bonus: dict[str, float] = {}
 
     def all_tags(self) -> set[str]:
-        return set(self.collect) | set(self.require_any) | set(self.exclude) | set(self.bonus)
-
-    def required(self) -> list[str]:
-        """どれか1つは持っていなければならないタグ。未指定なら collect と同じ。"""
-        return self.require_any or self.collect
+        return set(self.require_any) | set(self.exclude) | set(self.bonus)
 
 
 class ItchTagsConfig(_Strict):
@@ -157,7 +155,7 @@ class Config(_Strict):
         return v
 
     def steam_tags(self) -> set[str]:
-        """SteamSpy から一覧を取得する必要のある全タグ。"""
+        """config で使っている全 Steam タグ（実在検証の対象）。"""
         tags: set[str] = set()
         for cat in self.categories.values():
             if cat.steam:

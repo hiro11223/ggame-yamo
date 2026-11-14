@@ -1,10 +1,11 @@
-"""Steam ストアAPI。
+"""Steam ストアAPI（すべてキー不要）。
 
-- IStoreBrowseService/GetItems（キー不要・最大100件程度をまとめて取得）:
-  名前、価格、対応言語、デモ、発売日、レビュー、開発者、説明文、ヘッダー画像
-- appdetails（1件ずつ）: 公式サイトURL のみ（GetItems の links は SNS しか含まないため）
-- タグ一覧（実在検証用）
+- IStoreQueryService/Query: タグIDで候補を収集し、同時に詳細（StoreItem）も取得する。最大1000件/回
+- IStoreBrowseService/GetItems: appid 指定で詳細を取得（日本語説明文の取得用。段階2で使用）
+- appdetails（1件ずつ）: 公式サイトURL のみ（StoreItem の links は SNS しか含まないため）
+- タグ一覧: タグ名→ID の対応と実在検証
 
+SteamSpy はタグ一覧が所有者数上位の数百件しか返さず、タグも不正確だったため廃止。
 appreviews は 2026-10 頃からストアトップへ 302 されるようになったため廃止。
 """
 
@@ -16,6 +17,7 @@ from typing import Any
 
 from ..http import HttpClient
 
+QUERY_URL = "https://api.steampowered.com/IStoreQueryService/Query/v1/"
 GETITEMS_URL = "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/"
 APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
 TAGLIST_URL = "https://store.steampowered.com/tagdata/populartags/english"
@@ -41,12 +43,14 @@ def fetch_tag_names(client: HttpClient, interval: float) -> dict[str, int]:
 
 # ---- GetItems -----------------------------------------------------------
 
+CONTEXT = {"language": "english", "country_code": "JP"}
 DATA_REQUEST = {
     "include_basic_info": True,
     "include_release": True,
     "include_reviews": True,
     "include_supported_languages": True,
     "include_assets": True,
+    "include_tag_count": 20,  # 重みの大きい上位20タグ
 }
 
 
@@ -117,7 +121,55 @@ def parse_store_item(item: dict[str, Any], now: dt.datetime) -> dict[str, Any]:
         "short_description": basic.get("short_description") or "",
         "positive": pos,
         "negative": neg,
+        "tagids": [t["tagid"] for t in item.get("tags") or [] if "tagid" in t] or list(item.get("tagids") or []),
     }
+
+
+def _item_appid(item: dict[str, Any]) -> int:
+    # 存在しない appid は appid=0 で返るので、id を優先する
+    return int(item.get("id") or item.get("appid") or 0)
+
+
+def query_page(
+    client: HttpClient,
+    *,
+    tagids_any: list[int],
+    exclude: list[int],
+    released_only: bool,
+    start: int,
+    count: int,
+    interval: float,
+    now: dt.datetime,
+) -> tuple[int, dict[int, dict[str, Any]]]:
+    """StoreQuery の1ページ。戻り値は (総件数, appid→詳細)。
+
+    tagids_must_match の1グループ内は OR、tagids_exclude は1つでも持てば除外。
+    sort を省略すると毎回ランダム順になりページングが成立しないため、appid 昇順（sort=2）で固定。
+    """
+    filters: dict[str, Any] = {
+        "type_filters": {"include_games": True},
+        "tagids_must_match": [{"tagids": tagids_any}],
+    }
+    if released_only:
+        filters["released_only"] = True
+    if exclude:
+        filters["tagids_exclude"] = exclude
+    payload = {
+        "query": {"start": start, "count": count, "sort": 2, "filters": filters},
+        "context": CONTEXT,
+        "data_request": DATA_REQUEST,
+    }
+    resp = client.get(
+        QUERY_URL,
+        params={"input_json": json.dumps(payload, separators=(",", ":"))},
+        rate_key=RATE_KEY,
+        interval=interval,
+    )
+    body = resp.json().get("response") or {}
+    total = int((body.get("metadata") or {}).get("total_matching_records") or 0)
+    items = {_item_appid(i): parse_store_item(i, now) for i in body.get("store_items") or []}
+    items.pop(0, None)
+    return total, items
 
 
 def fetch_items(
@@ -126,7 +178,7 @@ def fetch_items(
     """GetItems で複数作品をまとめて取得する。返らなかった appid は unavailable 扱い。"""
     payload = {
         "ids": [{"appid": a} for a in appids],
-        "context": {"language": "english", "country_code": "JP"},
+        "context": CONTEXT,
         "data_request": DATA_REQUEST,
     }
     resp = client.get(
@@ -138,8 +190,7 @@ def fetch_items(
     items = (resp.json().get("response") or {}).get("store_items") or []
     out: dict[int, dict[str, Any]] = {}
     for item in items:
-        # 存在しない appid は appid=0 で返るので、id を使う
-        appid = int(item.get("id") or item.get("appid") or 0)
+        appid = _item_appid(item)
         if appid:
             out[appid] = parse_store_item(item, now)
     for a in appids:

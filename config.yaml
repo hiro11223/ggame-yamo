@@ -4,13 +4,13 @@
 user_agent: "yamo/0.1 (+https://github.com/hiro11223/ggame-yamo)"
 
 fetch:
-  steamspy_interval_sec: 1.0       # SteamSpy 通常API
-  steamspy_list_interval_sec: 60   # SteamSpy 一覧系(タグ別一覧)
-  appdetails_interval_sec: 2.0     # Steam ストアAPI（GetItems / appdetails）
+  steam_interval_sec: 2.0          # Steam API（StoreQuery / GetItems / appdetails）
+  query_page_size: 1000            # StoreQuery 1回あたりの件数（上限 1000）
+  query_max_items: 50000           # 1カテゴリで取得する最大件数
   getitems_batch_size: 100         # GetItems 1回あたりの件数
   web_interval_sec: 2.0            # 公式サイト / itch ページ
   timeout_sec: 30
-  max_new_fetch: 300               # 1回の実行で新規/再取得する作品数の上限
+  max_new_fetch: 300               # 1回の実行で作品ごとに取得する件数の上限（公式サイトURL など）
   max_streaming_checks: 150
   retry: { max_attempts: 5, base_sec: 2, max_sec: 120 }
 
@@ -41,8 +41,7 @@ categories:
   horror:
     label: ホラー
     steam:
-      collect:     [Horror, Psychological Horror, Survival Horror]
-      require_any: [Horror, Psychological Horror, Survival Horror]
+      require_any: [Horror, Psychological Horror, Survival Horror]   # どれか1つを持つ作品を収集
       exclude:     [Sexual Content, Nudity]
       bonus:       { Short: 5, Atmospheric: 3, Online Co-Op: 5 }
     itch: { tags: [horror] }
@@ -59,11 +58,10 @@ categories:
   bakage:
     label: バカゲー
     steam:
-      # 必須は「笑い・ネタ」を直接表すタグのみ。Surreal / Experimental は範囲が広すぎるので使わない
-      collect:     [Funny, Comedy, Memes, Parody, Satire, Dark Humor, Dark Comedy, Physics, Party Game]
+      # 「笑い・ネタ」を直接表すタグのみ。Surreal / Experimental は範囲が広すぎるので使わない
       require_any: [Funny, Comedy, Memes, Parody, Satire, Dark Humor, Dark Comedy]
       exclude:     [Sexual Content]
-      bonus:       { Short: 5, Online Co-Op: 8, Local Multiplayer: 3, Physics: 3, Destruction: 3 }
+      bonus:       { Short: 5, Online Co-Op: 8, Local Multiplayer: 3, Physics: 3, Destruction: 3, Party Game: 3 }
     itch: { tags: [funny, comedy, meme, parody] }
     filters:
       max_price_jpy: 1500

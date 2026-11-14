@@ -41,16 +41,6 @@ def test_bonus_tags_are_added():
     assert steam_score(tags={"Short"}, **common) - steam_score(tags=set(), **common) == 5
 
 
-def test_prefilter(cfg):
-    cat = cfg.categories["horror"]
-    assert filters.prefilter({"Horror"}, 950, 50, cat) == (True, "")
-    assert filters.prefilter({"Short"}, 950, 50, cat)[1] == "必須タグなし"
-    assert filters.prefilter({"Horror", "Sexual Content"}, 950, 50, cat)[1] == "除外タグ"
-    assert filters.prefilter({"Horror"}, 100, 200, cat)[1] == "好評率不足"
-    assert filters.prefilter({"Horror"}, 190000, 10000, cat)[1] == "レビュー数過多"
-    assert filters.prefilter({"Horror"}, 0, 0, cat) == (True, "")  # appreviews で後から確認
-
-
 def _details(**kw):
     d = {"unavailable": False, "type": "game", "price_jpy": 520, "has_demo": False,
          "languages": {"japanese": False, "english": True}, "release_date": "2024-03-12",

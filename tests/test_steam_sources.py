@@ -4,62 +4,9 @@ from urllib.parse import parse_qs, urlparse
 
 import responses
 
-from yamo.sources import steam_store, steamspy
+from yamo.sources import steam_store
 
 from .conftest import NOW, load_fixture
-
-
-# ---- SteamSpy -----------------------------------------------------------
-
-def test_parse_steamspy_tag():
-    apps = steamspy.parse_tag_response(json.dumps(load_fixture("steamspy_tag_horror.json")))
-    assert apps[1001].positive == 950 and apps[1001].reviews == 1000
-    assert apps[1001].price_usd_cents == 499
-    assert apps[1001].developer == "Tiny Ghost"
-
-
-def test_parse_steamspy_unknown_tag_returns_empty():
-    assert steamspy.parse_tag_response("[]") == {}
-
-
-@responses.activate
-def test_collect_merges_tag_membership(client, fake_clock):
-    def cb(req):
-        tag = req.params["tag"]
-        body = {"Horror": load_fixture("steamspy_tag_horror.json"),
-                "Short": {"1001": {"appid": 1001, "name": "Quiet Hallway"}},
-                "Nope": []}[tag]
-        return 200, {}, json.dumps(body)
-
-    responses.add_callback(responses.GET, steamspy.API_URL, callback=cb)
-    apps, status, empty = steamspy.collect(client, ["Horror", "Nope", "Short"], 60)
-    assert status.status == "ok"
-    assert apps[1001].tags == {"Horror", "Short"}
-    assert apps[1002].tags == {"Horror"}
-    assert empty == ["Nope"]
-    assert fake_clock.sleeps == [60, 60]  # 一覧系は 1req/分
-
-
-@responses.activate
-def test_collect_partial_when_one_tag_fails(client):
-    def cb(req):
-        if req.params["tag"] == "Bad":
-            return 404, {}, ""
-        return 200, {}, json.dumps(load_fixture("steamspy_tag_horror.json"))
-
-    responses.add_callback(responses.GET, steamspy.API_URL, callback=cb)
-    apps, status, _ = steamspy.collect(client, ["Bad", "Horror"], 60)
-    assert status.status == "partial"
-    assert len(apps) == 5
-
-
-@responses.activate
-def test_collect_failed_when_source_down(client):
-    responses.get(steamspy.API_URL, status=503)
-    apps, status, _ = steamspy.collect(client, ["Horror", "Short"], 60)
-    assert status.status == "failed"
-    assert apps == {}
-    assert len(responses.calls) == 3  # 1タグ目で上限 → 残りのタグは試さない
 
 
 # ---- タグ一覧 -----------------------------------------------------------
@@ -142,3 +89,53 @@ def test_parse_website():
     payload = load_fixture("appdetails_1001.json")
     assert steam_store.parse_website(1001, payload) == "https://tinyghost.example/"
     assert steam_store.parse_website(5, {"5": {"success": False}}) is None
+
+
+# ---- StoreQuery ---------------------------------------------------------
+
+@responses.activate
+def test_query_page_builds_filters_and_parses(client):
+    seen = {}
+
+    def cb(req):
+        seen.update(json.loads(parse_qs(urlparse(req.url).query)["input_json"][0]))
+        items = _items()
+        omori = dict(items[1150690], tags=[{"tagid": 1667, "weight": 900}, {"tagid": 4234, "weight": 500}])
+        body = {"response": {"metadata": {"total_matching_records": 2500, "start": 0, "count": 2},
+                             "store_items": [omori, items[698780]]}}
+        return 200, {}, json.dumps(body)
+
+    responses.add_callback(responses.GET, steam_store.QUERY_URL, callback=cb)
+    total, items = steam_store.query_page(
+        client, tagids_any=[1667, 1721], exclude=[12095], released_only=True,
+        start=1000, count=1000, interval=0, now=NOW,
+    )
+    q = seen["query"]
+    assert (q["start"], q["count"], q["sort"]) == (1000, 1000, 2)  # sort 省略はランダム順になるので固定
+    assert q["filters"]["tagids_must_match"] == [{"tagids": [1667, 1721]}]  # 1グループ = OR
+    assert q["filters"]["tagids_exclude"] == [12095]
+    assert q["filters"]["released_only"] is True
+    assert q["filters"]["type_filters"] == {"include_games": True}
+    assert seen["context"] == {"language": "english", "country_code": "JP"}
+    assert seen["data_request"]["include_tag_count"] == 20
+    assert total == 2500
+    assert set(items) == {1150690, 698780}
+    assert items[1150690]["tagids"] == [1667, 4234]
+    assert items[1150690]["price_jpy"] == 1980
+
+
+@responses.activate
+def test_query_page_without_exclude_and_unreleased(client):
+    seen = {}
+
+    def cb(req):
+        seen.update(json.loads(parse_qs(urlparse(req.url).query)["input_json"][0]))
+        return 200, {}, json.dumps({"response": {"metadata": {"total_matching_records": 0}}})
+
+    responses.add_callback(responses.GET, steam_store.QUERY_URL, callback=cb)
+    total, items = steam_store.query_page(
+        client, tagids_any=[1], exclude=[], released_only=False, start=0, count=10, interval=0, now=NOW,
+    )
+    assert (total, items) == (0, {})
+    assert "tagids_exclude" not in seen["query"]["filters"]
+    assert "released_only" not in seen["query"]["filters"]

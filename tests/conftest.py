@@ -57,8 +57,7 @@ def make_config(**overrides) -> Config:
             "horror": {
                 "label": "ホラー",
                 "steam": {
-                    "collect": ["Horror"],
-                    "require_any": ["Horror"],
+                    "require_any": ["Horror", "Psychological Horror"],
                     "exclude": ["Sexual Content"],
                     "bonus": {"Short": 5},
                 },

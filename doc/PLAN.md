@@ -13,7 +13,7 @@
 |---|---|---|
 | A | 価格の通貨 | Steamは `cc=jp` で円価格を取得します。itchはUSDなので、configの固定レート（例: 150）で円に換算して条件を判定します |
 | B | `without permission` / `要許可` の扱い | **⚠️ 条件付き**にします（事前申請の一種とみなす）。`prohibited` / `not allowed` / `禁止` は ❌ NG |
-| C | 「Atmospheric」「Short」のような広いタグ | これらだけで該当にすると、ホラー以外も大量に入ります。そこでタグを3種類に分けます。**候補収集用 `collect`**、**必須（どれか1つ）`require_any`**、**加点用 `bonus`** |
+| C | 「Atmospheric」「Short」のような広いタグ | これらだけで該当にすると、ホラー以外も大量に入ります。そこでタグを3種類に分けます。**候補収集用 `collect`**、**必須（どれか1つ）`require_any`**、**加点用 `bonus`**（後に StoreQuery へ移行したため `collect` は廃止し、`require_any` で収集） |
 | D | robots.txt | プロジェクトPages（`user.github.io/repo/`）では、サブパスの robots.txt はクローラーに無視されます。配置はしますが、効くのは実質 `noindex` メタだけです |
 | E | パッケージ名 | `yamo`（実行は `python -m yamo ...`）。変更できます |
 
@@ -34,8 +34,7 @@
 │   ├── state.py              # state/ 配下JSONの読み書き、TTL判定
 │   ├── models.py             # Game, Verdict, SourceStatus
 │   ├── sources/
-│   │   ├── steamspy.py       # タグ別一覧（1req/分）
-│   │   ├── steam_store.py    # GetItems（バッチ）/ appdetails（公式サイトのみ）/ タグ一覧
+│   │   ├── steam_store.py    # StoreQuery（収集＋詳細）/ GetItems / appdetails（公式サイトのみ）/ タグ一覧
 │   │   └── itch.py           # タグ別RSS
 │   ├── merge.py              # タイトル正規化・Steam/itch統合
 │   ├── filters.py
@@ -47,7 +46,7 @@
 │   ├── render.py             # Jinja2でHTML、data.json出力
 │   └── web/                  # index.html.j2, app.js, style.css
 ├── tests/
-│   ├── fixtures/             # steamspy/GetItems/appdetails JSON、itch RSS、配信規約文言サンプル
+│   ├── fixtures/             # GetItems/appdetails JSON、itch RSS、配信規約文言サンプル
 │   └── test_*.py
 └── .github/workflows/
     ├── update.yml            # 定期実行＋Pagesデプロイ
@@ -76,15 +75,20 @@
    - Steam: `store.steampowered.com/tagdata/populartags/english` と照合します
    - itch: RSSの404または0件を検出します
    - 実在しないタグは WARN を出し、ページにも表示します
-2. **SteamSpy**: `collect` + `exclude` + `bonus` の各タグ一覧を取得します（1req/分）。各作品のタグは「どのタグ一覧に現れたか」から決めます。こうすると作品ごとのSteamSpy呼び出しが不要になります。
-3. SteamSpyの値（好評/不評数）で**事前フィルタと仮スコア**を出し、上位から **IStoreBrowseService/GetItems**（キー不要）でまとめて取得します。
-   - context は `language=english`, `country_code=JP`。1回のバッチは `getitems_batch_size`（既定100）件です
-   - 名前、価格（円）、対応言語、デモ有無、発売日、レビュー、開発者、説明文、ヘッダー画像はすべて GetItems から取ります
+2. **IStoreQueryService/Query**（キー不要）で、カテゴリごとに候補を全件収集します。同時に詳細も取得します。
+   - フィルタ: `tagids_must_match: [{tagids: require_any}]`（1グループ内はOR）、`tagids_exclude: exclude`、`released_only`、`type_filters.include_games`
+   - `sort: 2`（appid 昇順）で固定します。省略すると毎回ランダム順になり、ページングが成立しないためです
+   - 1回1000件（`query_page_size`、APIの上限）で、`start` をずらしてページングします。1カテゴリあたり `query_max_items`（既定5万件）が上限です
+   - 2026-11-15 の実測: horror 16,703件（17ページ）、bakage 19,131件（20ページ）。全体で約85秒
+   - 詳細は `data_request` で同時に取ります。名前、価格（円）、対応言語、デモ有無、発売日、レビュー、開発者、説明文、ヘッダー画像、上位20タグです。context は `language=english`, `country_code=JP`
    - レビューは `reviews.summary_filtered` の `review_count` と `percent_positive` を使います。好評数は「review_count × percent_positive」から推定します（丸め誤差は許容）。両方0ならレビューなしです
    - 言語は `supported_languages[].elanguage` で判定します（0=英語、10=日本語。appdetails と10作品で一致を確認済み）
-   - 対象は新規または期限切れ（7日）だけで、上限は `max_new_fetch` 件です。取得できなかった分は、次回の実行で自然に取得されます
-   - 表示用の日本語説明文は、`language=japanese` の GetItems で別に取得します（段階2）
-4. **appdetails** は、GetItems では取れない**公式サイトURLだけ**のために使います（GetItems の `links` は SNS しか含まないため）。対象は本フィルタを通過した作品だけで、1件ずつ・7日キャッシュです。
+   - 収集のたびに最新値を取るので、詳細のキャッシュは持ちません
+   - SteamSpy はタグ一覧が所有者数上位の560件しか返さず（Horror のカバー率2.1%）、タグも不正確だったため廃止しました（[STEAM_API_SURVEY.md](STEAM_API_SURVEY.md)）
+3. 本フィルタ（価格・好評率・レビュー数・言語・デモ・発売日）とスコア計算。加点タグは各作品の上位20タグで判定します。
+4. **appdetails** は、公式サイトURLを取るためだけに使います（StoreItem の `links` は SNS しか含まないため）。
+   - 対象は掲載作品だけで、スコア順に1件ずつ、上限 `max_new_fetch` 件。7日キャッシュです
+   - 表示用の日本語説明文は、`language=japanese` の GetItems（100件ずつ）で別に取得します（段階2）
    - appreviews は 2026-10-22 頃からストアのトップへ 302 されるようになったため、廃止しました
 5. **itch RSS**: カテゴリタグごとに3種類のフィードを取得します。
    - 新着: `https://itch.io/games/newest/tag-<tag>.xml`
@@ -94,7 +98,7 @@
    - 価格は RSS の `<currency>` を見て、config の `currency.to_jpy` 表で円に換算します。表にない通貨は WARN を出し、価格フィルタを「不明」として扱います
 6. 統合 → 本フィルタ → スコア計算。
    - Steam と itch を統合するのは、**正規化タイトルが一致し、かつ開発者名と作者名が近い**場合だけです
-   - 作者名は itch URL のサブドメインと RSS の作者表記、開発者名は GetItems の `basic_info.developers` から取ります
+   - 作者名は itch URL のサブドメインと RSS の作者表記、開発者名は StoreItem の `basic_info.developers` から取ります
    - 「近い」の判定は、両方を正規化したうえで包含関係か類似度（difflib、既定0.8）で見ます
 7. 配信可否: 未判定または30日超の作品を、上限件数まで判定します。そのあと overrides を適用します。
 8. `site/` にHTML、data.json、robots.txt を出力します。`state/` を更新します。
@@ -108,7 +112,7 @@ SQLiteではなくJSONにします。理由は、GitHub上で差分が読めて�
 
 ```
 state/
-├── steam_items.json      # Steam詳細キャッシュ（GetItems 7日、公式サイトURL 7日）
+├── steam_websites.json   # Steam の公式サイトURL キャッシュ（appdetails、7日）
 ├── itch_items.json       # itch RSS蓄積
 ├── streaming.json        # 配信可否 最新判定（30日）
 ├── verdict_history.jsonl # 判定変化の履歴（変化時のみ追記）
@@ -117,16 +121,8 @@ state/
 ```
 
 ```jsonc
-// steam_items.json
-{ "steam:620": { "fetched_at": "2026-11-15T03:20:00Z",   // GetItems
-  "type": "game", "name": "...", "price_jpy": 980, "is_free": false,
-  "languages": {"japanese": true, "english": true},
-  "has_demo": true, "release_date": "2024-03-12", "coming_soon": false, "early_access": false,
-  "header_image": "https://...", "developers": ["..."],
-  "positive": 950, "negative": 50,                       // summary_filtered から推定
-  "short_description": "...",                            // english
-  "short_description_ja": "...",                         // japanese（段階2、本フィルタ通過作品のみ）
-  "website": "https://...", "website_fetched_at": "..." } }  // appdetails
+// steam_websites.json（Steam の詳細は毎回 StoreQuery で取り直すのでキャッシュしない）
+{ "steam:620": { "website": "https://...", "fetched_at": "2026-11-15T03:20:00Z" } }
 
 // itch_items.json
 { "itch:author/game-slug": { "first_seen": "...", "last_seen": "...",
@@ -151,25 +147,37 @@ state/
 
 ## 5. config例
 
+実際の [config.yaml](../config.yaml) と同じ内容です。
+
 ```yaml
-user_agent: "yamo/0.1 (+https://github.com/<owner>/<repo>)"
+# 実況ネタ探索サイト 設定ファイル
+# 書き方は README の「config.yaml の書き方」を参照。
+
+user_agent: "yamo/0.1 (+https://github.com/hiro11223/ggame-yamo)"
+
 fetch:
-  steamspy_interval_sec: 1.0
-  steamspy_list_interval_sec: 60
-  appdetails_interval_sec: 2.0   # Steam ストアAPI（GetItems / appdetails）
-  getitems_batch_size: 100
-  web_interval_sec: 2.0           # 公式サイト/itchページ
-  max_new_fetch: 300
+  steam_interval_sec: 2.0          # Steam API（StoreQuery / GetItems / appdetails）
+  query_page_size: 1000            # StoreQuery 1回あたりの件数（上限 1000）
+  query_max_items: 50000           # 1カテゴリで取得する最大件数
+  getitems_batch_size: 100         # GetItems 1回あたりの件数
+  web_interval_sec: 2.0            # 公式サイト / itch ページ
+  timeout_sec: 30
+  max_new_fetch: 300               # 1回の実行で作品ごとに取得する件数の上限（公式サイトURL など）
   max_streaming_checks: 150
   retry: { max_attempts: 5, base_sec: 2, max_sec: 120 }
+
 cache_ttl_days: { appdetails: 7, streaming: 30 }
+
 currency:
   to_jpy: { USD: 150, EUR: 165, GBP: 195, JPY: 1 }
+
 itch:
   retention_days: 120
   feeds: [newest, popular, top_rated]
+
 merge:
   developer_similarity: 0.8
+
 streaming:
   # 公式サイト巡回から除外するホスト（サブドメイン含む）
   excluded_hosts: [x.com, twitter.com, linktr.ee, discord.gg, discord.com,
@@ -185,8 +193,7 @@ categories:
   horror:
     label: ホラー
     steam:
-      collect:     [Horror, Psychological Horror, Survival Horror]
-      require_any: [Horror, Psychological Horror, Survival Horror]
+      require_any: [Horror, Psychological Horror, Survival Horror]   # どれか1つを持つ作品を収集
       exclude:     [Sexual Content, Nudity]
       bonus:       { Short: 5, Atmospheric: 3, Online Co-Op: 5 }
     itch: { tags: [horror] }
@@ -196,19 +203,22 @@ categories:
       reviews: { min: 30, max: 20000 }
       require_demo: false
     weights:
-      rating: 0.5          # 好評率（Wilson下限）
-      volume: 0.3          # レビュー数の「ちょうど良さ」
+      rating: 0.5            # 好評率（Wilson下限）
+      volume: 0.3            # レビュー数の「ちょうど良さ」
       recency: 0.2
-      volume_sweet_spot: 500
+      volume_sweet_spot: 500 # このレビュー数で volume が最大
   bakage:
     label: バカゲー
     steam:
-      collect:     [Funny, Comedy, Memes, Parody, Dark Humor, Physics, Party Game]
-      require_any: [Funny, Comedy, Memes, Parody, Dark Humor]
+      # 「笑い・ネタ」を直接表すタグのみ。Surreal / Experimental は範囲が広すぎるので使わない
+      require_any: [Funny, Comedy, Memes, Parody, Satire, Dark Humor, Dark Comedy]
       exclude:     [Sexual Content]
-      bonus:       { Short: 5, Online Co-Op: 8, Physics: 3 }
+      bonus:       { Short: 5, Online Co-Op: 8, Local Multiplayer: 3, Physics: 3, Destruction: 3, Party Game: 3 }
     itch: { tags: [funny, comedy, meme, parody] }
-    filters: { max_price_jpy: 1500, min_positive_ratio: 0.80, reviews: { min: 30, max: 30000 } }
+    filters:
+      max_price_jpy: 1500
+      min_positive_ratio: 0.80
+      reviews: { min: 30, max: 30000 }
     weights: { rating: 0.5, volume: 0.3, recency: 0.2, volume_sweet_spot: 800 }
 
 itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }
@@ -331,7 +341,7 @@ jobs:
 
 | 段階 | 内容 | テスト |
 |---|---|---|
-| 1 | config/state/http基盤、SteamSpy + GetItems（appdetails は公式サイトのみ）。CLIでJSONを出力 | 取得部は`responses`でモック（正常、429リトライ、5xxでスキップ、上限件数）。フィルタとスコアの単体テスト |
+| 1 | config/state/http基盤、StoreQuery で収集＋詳細（appdetails は公式サイトのみ）。CLIでJSONを出力 | 取得部は`responses`でモック（正常、429リトライ、5xxでスキップ、上限件数）。フィルタとスコアの単体テスト |
 | 2 | HTML出力（タブ、並べ替え、絞り込み、NEW、ソース状態、スマホ対応、noindex、robots.txt） | render出力のスナップショット的な検証（meta noindex、NEW付与、列） |
 | 3 | update.yml と Pages、data ブランチでの持ち越し | ローカルで`act`は使わず、手動の workflow_dispatch で確認（手順はREADMEに書きます） |
 | 4 | itch RSS、蓄積、タイトル正規化による統合 | RSSフィクスチャ、正規化（™/®、記号、全角半角、Demo接尾辞など）のテスト |
@@ -341,7 +351,6 @@ jobs:
 ## 10. 既知のリスク・注意点
 
 - **itchの一覧**: RSSは件数が少ないので、itchの一覧は数回実行してから充実していきます。
-- **SteamSpyのタグ一覧**: 非公式で、遅延や欠損があります。失敗したときは前回データで代替します。
-  2026-11-15時点で、ローカル回線からは Cloudflare に止められて 403 になります。Actions 上での可否を疎通確認中です。代替は IStoreQueryService/Query（[STEAM_API_SURVEY.md](STEAM_API_SURVEY.md)）。
+- **Steam の StoreQuery / GetItems**: 公式に文書化されていないAPIで、予告なく仕様が変わる可能性があります（appreviews は実際に変わりました）。JSON以外の応答やエラーはソース失敗として扱い、前回データで代替します。
 - **公式サイトの巡回**: robots.txtを尊重し、同じホストだけ、1ページ1MBまで、タイムアウト10秒にします。
 - **自動判定の精度**: 根拠がなければ「不明」にする方針なので、不明が多めになる想定です。overridesで少しずつ補っていく運用になります。

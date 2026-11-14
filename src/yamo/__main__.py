@@ -23,7 +23,7 @@ def main(argv: list[str] | None = None) -> int:
     r = sub.add_parser("run", help="収集してページ用データを出力する")
     r.add_argument("--state-dir", default="state")
     r.add_argument("--out", default="site")
-    r.add_argument("--max-new", type=int, default=None, help="appdetails の新規取得上限（config を上書き）")
+    r.add_argument("--max-new", type=int, default=None, help="作品ごとの取得（公式サイトURL など）の上限（config を上書き）")
     r.add_argument("--sources", default=None, help="カンマ区切り。例: steam")
 
     sub.add_parser("check-tags", help="config のタグが実在するか検証する")
@@ -37,10 +37,10 @@ def main(argv: list[str] | None = None) -> int:
     cfg = load_config(args.config)
 
     if args.cmd == "check-tags":
-        from .pipeline import _validate_steam_tags
+        from .pipeline import fetch_steam_tag_ids
 
         warnings: list[str] = []
-        _validate_steam_tags(_client(cfg), cfg, warnings)
+        fetch_steam_tag_ids(_client(cfg), cfg, warnings)
         for w in warnings:
             print("WARN:", w)
         print("OK" if not warnings else f"{len(warnings)}件の警告")

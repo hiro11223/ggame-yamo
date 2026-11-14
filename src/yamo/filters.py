@@ -1,8 +1,7 @@
-"""カテゴリ条件による絞り込み。
+"""カテゴリ条件による絞り込み（StoreQuery で取得した詳細に対して適用）。
 
-prefilter: SteamSpy の情報だけで判定できる条件（タグ・レビュー数・好評率）。appdetails 取得前に件数を絞る。
-final_filter: appdetails 取得後の全条件。
-どちらも (通過したか, 落ちた理由) を返す。
+タグの必須・除外は StoreQuery 側で済ませているので、ここでは扱わない。
+(通過したか, 落ちた理由) を返す。
 """
 
 from __future__ import annotations
@@ -11,16 +10,6 @@ import datetime as dt
 from typing import Any
 
 from .config import CategoryConfig, DefaultsConfig
-
-
-def tag_match(tags: set[str], cat: CategoryConfig) -> tuple[bool, str]:
-    if not cat.steam:
-        return False, "Steam対象外カテゴリ"
-    if not tags & set(cat.steam.required()):
-        return False, "必須タグなし"
-    if tags & set(cat.steam.exclude):
-        return False, "除外タグ"
-    return True, ""
 
 
 def review_match(positive: int, negative: int, cat: CategoryConfig) -> tuple[bool, str]:
@@ -34,16 +23,6 @@ def review_match(positive: int, negative: int, cat: CategoryConfig) -> tuple[boo
         if total == 0 or positive / total < f.min_positive_ratio:
             return False, "好評率不足"
     return True, ""
-
-
-def prefilter(tags: set[str], positive: int, negative: int, cat: CategoryConfig) -> tuple[bool, str]:
-    ok, why = tag_match(tags, cat)
-    if not ok:
-        return ok, why
-    if positive + negative == 0:
-        # SteamSpy にレビュー数がない作品は appreviews で後から確認するので通す
-        return True, ""
-    return review_match(positive, negative, cat)
 
 
 def final_filter(

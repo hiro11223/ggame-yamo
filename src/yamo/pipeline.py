@@ -10,17 +10,19 @@ from pathlib import Path
 from typing import Any
 
 from . import filters
-from .config import Config
+from .config import CategoryConfig, Config
 from .http import HttpClient, HttpStatusError, SourceUnavailable
 from .models import SourceStatus
 from .scoring import steam_score
-from .sources import steam_store, steamspy
+from .sources import steam_store
 from .state import StateStore, is_expired, iso, utcnow
 
 log = logging.getLogger(__name__)
 
 ALL_SOURCES = ("steam",)
-STEAM_CACHE = "steam_items.json"
+WEBSITE_CACHE = "steam_websites.json"
+
+FETCH_ERRORS = (SourceUnavailable, HttpStatusError, ValueError)
 
 
 @dataclass
@@ -35,91 +37,67 @@ def steam_id(appid: int) -> str:
     return f"steam:{appid}"
 
 
-def _validate_steam_tags(client: HttpClient, cfg: Config, warnings: list[str]) -> None:
-    wanted = cfg.steam_tags()
-    try:
-        known = steam_store.fetch_tag_names(client, cfg.fetch.appdetails_interval_sec)
-    except (SourceUnavailable, HttpStatusError, ValueError) as e:
-        warnings.append(f"Steamタグの実在検証ができませんでした: {e}")
-        return
-    for tag in sorted(wanted - set(known)):
+def fetch_steam_tag_ids(client: HttpClient, cfg: Config, warnings: list[str]) -> dict[str, int]:
+    """タグ名→ID を取得し、config のタグの実在を検証する。取得失敗時は例外をそのまま上げる。"""
+    tag_ids = steam_store.fetch_tag_names(client, cfg.fetch.steam_interval_sec)
+    for tag in sorted(cfg.steam_tags() - set(tag_ids)):
         warnings.append(f"Steamタグ {tag!r} は存在しません（config.yaml を確認してください）")
+    return tag_ids
 
 
-def _prefilter(cfg: Config, apps: dict[int, steamspy.SpyApp], today: dt.date) -> dict[int, tuple[list[str], float]]:
-    """SteamSpy の情報だけで事前フィルタし、仮スコア（取得の優先度）をつける。"""
-    candidates: dict[int, tuple[list[str], float]] = {}
-    for key, cat in cfg.categories.items():
-        if not cat.steam:
-            continue
-        reasons: Counter = Counter()
-        for app in apps.values():
-            ok, why = filters.prefilter(app.tags, app.positive, app.negative, cat)
-            if not ok:
-                reasons[why] += 1
-                continue
-            pre = steam_score(
-                positive=app.positive, negative=app.negative, release_date=None,
-                tags=app.tags, weights=cat.weights, bonus=cat.steam.bonus, today=today,
-            )
-            cats, best = candidates.get(app.appid, ([], 0.0))
-            candidates[app.appid] = (cats + [key], max(best, pre))
-        log.info("事前フィルタ[%s]: 除外 %s", key, dict(reasons))
-    log.info("事前フィルタ通過: %d件", len(candidates))
-    return candidates
-
-
-def _fetch_store_items(
-    cfg: Config, client: HttpClient, cache: dict[str, Any], need: list[int],
-    max_new: int, now: dt.datetime, status: SourceStatus,
-) -> None:
-    """GetItems でバッチ取得してキャッシュに書き込む。"""
-    batch_size = cfg.fetch.getitems_batch_size
-    targets = need[:max_new]
-    fetched = 0
-    for i in range(0, len(targets), batch_size):
-        batch = targets[i:i + batch_size]
+def _query_category(
+    cfg: Config, client: HttpClient, key: str, cat: CategoryConfig,
+    tag_ids: dict[str, int], now: dt.datetime, status: SourceStatus,
+) -> dict[int, dict[str, Any]] | None:
+    """1カテゴリ分を StoreQuery で全件取得する。1ページも取れなければ None。"""
+    assert cat.steam
+    any_ids = [tag_ids[t] for t in cat.steam.require_any if t in tag_ids]
+    if not any_ids:
+        status.partial(f"{key}: 実在する必須タグがないため収集できません")
+        return None
+    exclude_ids = [tag_ids[t] for t in cat.steam.exclude if t in tag_ids]
+    found: dict[int, dict[str, Any]] = {}
+    start, total, pages = 0, None, 0
+    limit = cfg.fetch.query_max_items
+    while (total is None or start < total) and start < limit:
         try:
-            result = steam_store.fetch_items(client, batch, cfg.fetch.appdetails_interval_sec, now)
-        except SourceUnavailable as e:
-            status.partial(f"GetItems: {e}")
+            total, items = steam_store.query_page(
+                client, tagids_any=any_ids, exclude=exclude_ids,
+                released_only=not cfg.defaults.include_coming_soon,
+                start=start, count=min(cfg.fetch.query_page_size, limit - start),
+                interval=cfg.fetch.steam_interval_sec, now=now,
+            )
+        except FETCH_ERRORS as e:
+            status.partial(f"{key}: StoreQuery {start}件目以降を取得できませんでした: {e}")
             break
-        except ValueError as e:
-            status.partial(f"GetItems: JSON以外の応答のため今回は中止 ({e})")
+        pages += 1
+        if not items:
             break
-        except HttpStatusError as e:
-            status.partial(f"GetItems: {e}")
-            continue
-        for appid, d in result.items():
-            prev = cache.get(steam_id(appid), {})
-            # 公式サイトURL（appdetails で別取得）は引き継ぐ
-            for k in ("website", "website_fetched_at"):
-                if k in prev:
-                    d[k] = prev[k]
-            d["fetched_at"] = iso(now)
-            cache[steam_id(appid)] = d
-        fetched += len(batch)
-    pending = sum(1 for a in need if steam_id(a) not in cache)
-    status.notes.append(f"GetItems 取得 {fetched}件 / 未取得(次回以降) {pending}件")
-    log.info("GetItems: 取得 %d件, 次回以降 %d件", fetched, pending)
+        found.update(items)
+        start += cfg.fetch.query_page_size
+    if total is not None and total > limit:
+        status.notes.append(f"{key}: 総件数 {total} のうち上限 {limit} 件まで取得")
+    log.info("StoreQuery[%s]: %d件取得（総件数 %s、%dページ）", key, len(found), total, pages)
+    return found if pages else None
 
 
 def _fetch_websites(
-    cfg: Config, client: HttpClient, cache: dict[str, Any], appids: list[int],
+    cfg: Config, client: HttpClient, store: StateStore, appids: list[int],
     max_new: int, now: dt.datetime, status: SourceStatus,
-) -> None:
-    """掲載作品の公式サイトURLを appdetails で取得（GetItems では取れない）。"""
+) -> dict[str, Any]:
+    """掲載作品の公式サイトURLを appdetails で取得（StoreItem には含まれない）。スコア順に上限まで。"""
+    cache: dict[str, Any] = store.load(WEBSITE_CACHE, {})
     ttl = cfg.cache_ttl_days.appdetails
-    budget = max_new
+    budget, fetched = max_new, 0
     for appid in appids:
-        entry = cache[steam_id(appid)]
-        if not is_expired(entry.get("website_fetched_at"), ttl, now):
+        sid = steam_id(appid)
+        if not is_expired(cache.get(sid, {}).get("fetched_at"), ttl, now):
             continue
         if budget <= 0:
             break
         budget -= 1
         try:
-            entry["website"] = steam_store.fetch_website(client, appid, cfg.fetch.appdetails_interval_sec)
+            website = steam_store.fetch_website(client, appid, cfg.fetch.steam_interval_sec)
         except SourceUnavailable as e:
             status.partial(f"appdetails: {e}")
             break
@@ -129,16 +107,23 @@ def _fetch_websites(
         except HttpStatusError as e:
             status.partial(f"appdetails {appid}: {e}")
             continue
-        entry["website_fetched_at"] = iso(now)
+        cache[sid] = {"website": website, "fetched_at": iso(now)}
+        fetched += 1
+    pending = sum(1 for a in appids if steam_id(a) not in cache)
+    status.notes.append(f"公式サイトURL 取得 {fetched}件 / 未取得(次回以降) {pending}件")
+    store.save(WEBSITE_CACHE, cache)
+    return cache
 
 
-def _build_item(appid: int, d: dict[str, Any], app: steamspy.SpyApp, scores: dict[str, float]) -> dict[str, Any]:
+def _build_item(
+    appid: int, d: dict[str, Any], tags: list[str], scores: dict[str, float], website: str | None,
+) -> dict[str, Any]:
     pos, neg = d["positive"], d["negative"]
     total = pos + neg
     return {
         "id": steam_id(appid),
         "source": "steam",
-        "title": d.get("name") or app.name,
+        "title": d.get("name") or "",
         "url": f"https://store.steampowered.com/app/{appid}/",
         "thumbnail": d.get("header_image"),
         "price_jpy": d.get("price_jpy"),
@@ -146,13 +131,13 @@ def _build_item(appid: int, d: dict[str, Any], app: steamspy.SpyApp, scores: dic
         "negative": neg,
         "reviews": total,
         "positive_ratio": round(pos / total, 4) if total else None,
-        "tags": sorted(app.tags),
+        "tags": tags,
         "has_demo": d.get("has_demo", False),
         "early_access": d.get("early_access", False),
         "languages": sorted(k for k, v in (d.get("languages") or {}).items() if v),
         "release_date": d.get("release_date"),
-        "developers": d.get("developers") or ([app.developer] if app.developer else []),
-        "website": d.get("website"),
+        "developers": d.get("developers") or [],
+        "website": website,
         "description": d.get("short_description") or "",
         "categories": scores,
         "score": max(scores.values()),
@@ -168,38 +153,40 @@ def _run_steam(
     max_new: int,
     warnings: list[str],
 ) -> tuple[list[dict[str, Any]], list[SourceStatus]]:
-    _validate_steam_tags(client, cfg, warnings)
+    status = SourceStatus("steam")
+    try:
+        tag_ids = fetch_steam_tag_ids(client, cfg, warnings)
+    except FETCH_ERRORS as e:
+        status.fail(f"タグ一覧を取得できませんでした: {e}")
+        return [], [status]
+    tag_names = {v: k for k, v in tag_ids.items()}
 
-    apps, spy_status, empty = steamspy.collect(
-        client, sorted(cfg.steam_tags()), cfg.fetch.steamspy_list_interval_sec
-    )
-    for tag in empty:
-        warnings.append(f"SteamSpy: タグ {tag!r} の一覧が0件でした")
-    store_status = SourceStatus("steam_store")
-    if spy_status.status == "failed":
-        store_status.status = "skipped"
-        store_status.notes.append("SteamSpy 失敗のため未実行")
-        return [], [spy_status, store_status]
-
-    today = now.date()
-    candidates = _prefilter(cfg, apps, today)
-
-    # GetItems: 新規・期限切れのみ、仮スコア順に上限まで
-    cache: dict[str, Any] = store.load(STEAM_CACHE, {})
-    order = sorted(candidates, key=lambda a: (-candidates[a][1], a))
-    ttl = cfg.cache_ttl_days.appdetails
-    need = [a for a in order if is_expired(cache.get(steam_id(a), {}).get("fetched_at"), ttl, now)]
-    _fetch_store_items(cfg, client, cache, need, max_new, now, store_status)
-
-    # 本フィルタとスコア（レビュー数は GetItems の値を使う）
-    passed: list[tuple[int, dict[str, float]]] = []
-    reasons: Counter = Counter()
-    for appid in order:
-        d = cache.get(steam_id(appid))
-        if not d:
+    # 1) StoreQuery でカテゴリごとに全件取得（詳細込み）
+    details: dict[int, dict[str, Any]] = {}
+    cats_of: dict[int, list[str]] = {}
+    ok_categories = 0
+    for key, cat in cfg.categories.items():
+        if not cat.steam:
             continue
+        found = _query_category(cfg, client, key, cat, tag_ids, now, status)
+        if found is None:
+            continue
+        ok_categories += 1
+        for appid, d in found.items():
+            details[appid] = d
+            cats_of.setdefault(appid, []).append(key)
+    if ok_categories == 0:
+        status.status = "failed"
+        return [], [status]
+
+    # 2) 本フィルタとスコア
+    today = now.date()
+    passed: list[tuple[int, list[str], dict[str, float]]] = []
+    reasons: Counter = Counter()
+    for appid, d in details.items():
+        tags = [tag_names.get(t, str(t)) for t in d.get("tagids", [])]
         scores: dict[str, float] = {}
-        for key in candidates[appid][0]:
+        for key in cats_of[appid]:
             cat = cfg.categories[key]
             ok, why = filters.final_filter(d, d.get("positive", 0), d.get("negative", 0), cat, cfg.defaults)
             if not ok:
@@ -207,18 +194,22 @@ def _run_steam(
                 continue
             scores[key] = steam_score(
                 positive=d["positive"], negative=d["negative"], release_date=d.get("release_date"),
-                tags=apps[appid].tags, weights=cat.weights, bonus=cat.steam.bonus, today=today,
+                tags=set(tags), weights=cat.weights, bonus=cat.steam.bonus, today=today,
             )
         if scores:
-            passed.append((appid, scores))
+            passed.append((appid, tags, scores))
+    passed.sort(key=lambda p: (-max(p[2].values()), p[0]))
     log.info("本フィルタ: 除外 %s / 掲載 %d件", dict(reasons), len(passed))
 
-    _fetch_websites(cfg, client, cache, [a for a, _ in passed], max_new, now, store_status)
-    store.save(STEAM_CACHE, cache)
+    # 3) 公式サイトURL（掲載作品のみ、スコア順）
+    websites = _fetch_websites(cfg, client, store, [a for a, _, _ in passed], max_new, now, status)
 
-    items = [_build_item(a, cache[steam_id(a)], apps[a], s) for a, s in passed]
-    store_status.count = len(items)
-    return items, [spy_status, store_status]
+    items = [
+        _build_item(a, details[a], tags, scores, websites.get(steam_id(a), {}).get("website"))
+        for a, tags, scores in passed
+    ]
+    status.count = len(items)
+    return items, [status]
 
 
 def run(

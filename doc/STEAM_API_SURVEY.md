@@ -43,7 +43,7 @@
 
 ---
 
-## 2. IStoreQueryService/Query（SteamSpy の代替候補・未実装）
+## 2. IStoreQueryService/Query（採用・実装済み）
 
 `https://api.steampowered.com/IStoreQueryService/Query/v1/?input_json=...`
 
@@ -117,7 +117,13 @@
 **結論: SteamSpy のタグ一覧は候補収集に使えない。**
 - 所有者数の上位しか返らないので、大作に偏る。
 - 一覧の約半分は、Steam 上ではそのタグが付いていない作品。
-- 候補収集は IStoreQueryService/Query に切り替えることを提案する（承認待ち）。
+- 候補収集は IStoreQueryService/Query に切り替えた（2026-11-15 承認・実装済み）。
+
+### 切り替え後の実測（ローカル回線、2026-11-15）
+
+- horror は16,703件（17ページ）、bakage は19,131件（20ページ）。全件取れて、所要時間は約85秒。
+- 本フィルタを通過した掲載作品は6,417件で、レビュー数の中央値は132件。
+- 上位はレビュー数が数百〜1000件程度のインディー作品が中心で、要件の意図どおり。
 
 ---
 

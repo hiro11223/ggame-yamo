@@ -14,7 +14,8 @@ def test_repository_config_is_valid():
     cfg = load_config(ROOT / "config.yaml")
     assert set(cfg.categories) == {"horror", "bakage"}
     assert "Psychological Horror" in cfg.steam_tags()
-    assert "Sexual Content" in cfg.steam_tags()  # 除外タグも一覧取得対象
+    assert "Sexual Content" in cfg.steam_tags()  # 除外・加点タグも実在検証の対象
+    assert "Destruction" in cfg.steam_tags()
     assert cfg.currency.to_jpy["USD"] == 150
 
 
@@ -23,16 +24,18 @@ def test_unknown_key_is_rejected():
         make_config(fetch={"max_new_fetsh": 10})
 
 
-def test_steamspy_interval_cannot_be_shortened():
+def test_steam_interval_and_page_size_limits():
     with pytest.raises(ValidationError):
-        make_config(fetch={"steamspy_list_interval_sec": 10})
+        make_config(fetch={"steam_interval_sec": 0.5})
+    with pytest.raises(ValidationError):
+        make_config(fetch={"query_page_size": 2000})  # StoreQuery の上限は 1000
 
 
 def test_reserved_category_name():
     with pytest.raises(ValidationError):
-        make_config(categories={"all": {"label": "x", "steam": {"collect": ["Horror"]}}})
+        make_config(categories={"all": {"label": "x", "steam": {"require_any": ["Horror"]}}})
 
 
-def test_require_any_defaults_to_collect():
-    cfg = make_config(categories={"c": {"label": "x", "steam": {"collect": ["A", "B"]}}})
-    assert cfg.categories["c"].steam.required() == ["A", "B"]
+def test_require_any_must_not_be_empty():
+    with pytest.raises(ValidationError):
+        make_config(categories={"c": {"label": "x", "steam": {"require_any": []}}})
