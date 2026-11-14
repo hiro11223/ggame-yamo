@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>実況ネタ探索</title>
+<link rel="stylesheet" href="style.css?v={{ version }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>実況ネタ探索</h1>
+    <p class="meta">
+      更新: <time datetime="{{ generated_at }}">{{ generated_at | jst }}</time>
+      ・掲載 {{ total }}件
+      {% if new_count %}・<span class="new-badge">NEW</span> {{ new_count }}件{% endif %}
+    </p>
+    <ul class="sources" aria-label="データソースの取得状況">
+      {% for s in sources %}
+      <li class="source source-{{ s.status }}">
+        <span aria-hidden="true">{{ s.icon }}</span> {{ s.label }}: {{ s.status_label }}（{{ s.count }}件）
+        {% if s.errors or s.notes %}
+        <details>
+          <summary>詳細</summary>
+          <ul>
+            {% for e in s.errors %}<li class="error">{{ e }}</li>{% endfor %}
+            {% for n in s.notes %}<li>{{ n }}</li>{% endfor %}
+          </ul>
+        </details>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% if stale_count %}
+    <p class="notice">⚠️ 取得に失敗したソースがあるため、{{ stale_count }}件は前回のデータを表示しています。</p>
+    {% endif %}
+    {% if warnings %}
+    <details class="warnings">
+      <summary>⚠️ 警告 {{ warnings | length }}件</summary>
+      <ul>{% for w in warnings %}<li>{{ w }}</li>{% endfor %}</ul>
+    </details>
+    {% endif %}
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="tabs" role="tablist" aria-label="カテゴリ">
+    {% for key, label in categories.items() %}
+    <button type="button" role="tab" class="tab" data-tab="{{ key }}" aria-selected="false">
+      {{ label }}<span class="count">{{ counts[key] }}</span>
+    </button>
+    {% endfor %}
+    <button type="button" role="tab" class="tab" data-tab="all" aria-selected="false">
+      全部<span class="count">{{ total }}</span>
+    </button>
+  </nav>
+
+  <form class="controls" id="controls" onsubmit="return false">
+    <label class="control search">
+      <span>検索</span>
+      <input type="search" name="q" placeholder="タイトル・開発者・説明" autocomplete="off">
+    </label>
+    <label class="control">
+      <span>配信可否</span>
+      <select name="verdict">
+        <option value="">すべて</option>
+        <option value="ok">✅ OK</option>
+        <option value="conditional">⚠️ 条件付き</option>
+        <option value="ng">❌ NG</option>
+        <option value="unknown">❓ 不明</option>
+        <option value="not_ng">NG 以外</option>
+      </select>
+    </label>
+    <label class="control">
+      <span>タグ</span>
+      <select name="tag"><option value="">すべて</option></select>
+    </label>
+    <label class="control">
+      <span>言語</span>
+      <select name="lang">
+        <option value="">指定なし</option>
+        <option value="japanese">日本語対応</option>
+        <option value="english">英語対応</option>
+      </select>
+    </label>
+    <label class="control">
+      <span>並べ替え</span>
+      <select name="sort">
+        <option value="score">スコア</option>
+        <option value="reviews">レビュー数</option>
+        <option value="ratio">好評率</option>
+        <option value="price">価格</option>
+        <option value="release">発売日</option>
+        <option value="title">タイトル</option>
+      </select>
+    </label>
+    <label class="control">
+      <span>順序</span>
+      <select name="dir">
+        <option value="desc">降順</option>
+        <option value="asc">昇順</option>
+      </select>
+    </label>
+    <label class="check"><input type="checkbox" name="demo"> デモあり</label>
+    <label class="check"><input type="checkbox" name="new"> NEW のみ</label>
+    <button type="button" class="reset" id="reset">条件をリセット</button>
+  </form>
+
+  <p class="result-count" id="result-count" aria-live="polite"></p>
+
+  <div class="table-wrap">
+    <table class="games" id="games">
+      <thead>
+        <tr>
+          <th scope="col" class="c-thumb"><span class="visually-hidden">サムネイル</span></th>
+          <th scope="col" class="c-title"><button type="button" data-sort="title">タイトル</button></th>
+          <th scope="col" class="c-source">ソース</th>
+          <th scope="col" class="c-num"><button type="button" data-sort="price">価格</button></th>
+          <th scope="col" class="c-num"><button type="button" data-sort="ratio">好評率</button></th>
+          <th scope="col" class="c-num"><button type="button" data-sort="reviews">レビュー数</button></th>
+          <th scope="col" class="c-tags">タグ</th>
+          <th scope="col" class="c-demo">デモ</th>
+          <th scope="col" class="c-lang">言語</th>
+          <th scope="col" class="c-stream">配信可否</th>
+          <th scope="col" class="c-num"><button type="button" data-sort="score">スコア</button></th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <noscript><p class="notice">一覧の表示には JavaScript が必要です。</p></noscript>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>配信可否の自動判定は、ストアページや公式サイトの文言から推定した<strong>候補</strong>です。配信・収益化の前に、必ず公式の規約を確認してください。</p>
+    <p>データ: Steam ストア / itch.io。スコアは好評率・レビュー数・新しさから算出しています（itch は別基準）。</p>
+  </div>
+</footer>
+
+<script id="data" type="application/json">{{ data_json }}</script>
+<script src="app.js?v={{ version }}"></script>
+</body>
+</html>

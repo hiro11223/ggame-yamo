@@ -198,6 +198,30 @@ def fetch_items(
     return out
 
 
+def fetch_descriptions(
+    client: HttpClient, appids: list[int], interval: float, language: str = "japanese"
+) -> dict[int, str]:
+    """GetItems で指定言語の短い説明文だけを取得する（表示用）。"""
+    payload = {
+        "ids": [{"appid": a} for a in appids],
+        "context": {**CONTEXT, "language": language},
+        "data_request": {"include_basic_info": True},
+    }
+    resp = client.get(
+        GETITEMS_URL,
+        params={"input_json": json.dumps(payload, separators=(",", ":"))},
+        rate_key=RATE_KEY,
+        interval=interval,
+    )
+    out: dict[int, str] = {}
+    for item in (resp.json().get("response") or {}).get("store_items") or []:
+        appid = _item_appid(item)
+        desc = ((item.get("basic_info") or {}).get("short_description") or "").strip()
+        if appid and item.get("success") == 1 and desc:
+            out[appid] = desc
+    return out
+
+
 # ---- appdetails（公式サイトURL のみ） -----------------------------------
 
 

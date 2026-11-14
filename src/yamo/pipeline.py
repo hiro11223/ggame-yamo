@@ -9,7 +9,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from . import filters
+from . import filters, render
 from .config import CategoryConfig, Config
 from .http import HttpClient, HttpStatusError, SourceUnavailable
 from .models import SourceStatus
@@ -136,8 +136,24 @@ def _fetch_websites(
     return cache
 
 
+def _fetch_descriptions_ja(
+    cfg: Config, client: HttpClient, appids: list[int], status: SourceStatus,
+) -> dict[int, str]:
+    """掲載作品の日本語説明文を GetItems でまとめて取得（失敗しても英語で表示できるので致命的ではない）。"""
+    out: dict[int, str] = {}
+    size = cfg.fetch.getitems_batch_size
+    for i in range(0, len(appids), size):
+        try:
+            out.update(steam_store.fetch_descriptions(client, appids[i:i + size], cfg.fetch.steam_interval_sec))
+        except FETCH_ERRORS as e:
+            status.partial(f"日本語説明文: {e}")
+            break
+    return out
+
+
 def _build_item(
     appid: int, d: dict[str, Any], tags: list[str], scores: dict[str, float], website: str | None,
+    description_ja: str | None = None,
 ) -> dict[str, Any]:
     pos, neg = d["positive"], d["negative"]
     total = pos + neg
@@ -160,8 +176,12 @@ def _build_item(
         "developers": d.get("developers") or [],
         "website": website,
         "description": d.get("short_description") or "",
+        "description_ja": description_ja,
         "categories": scores,
         "score": max(scores.values()),
+        # 配信可否は段階5で判定する。それまでは全件「不明（未判定）」
+        "streaming": {"verdict": "unknown", "method": None, "checked_at": None, "evidence": []},
+        "is_new": False,
         "stale": False,
     }
 
@@ -224,14 +244,30 @@ def _run_steam(
     passed.sort(key=lambda p: (-max(p[2].values()), p[0]))
 
     # 3) 公式サイトURL（掲載作品のみ、スコア順）
-    websites = _fetch_websites(cfg, client, store, [a for a, _, _ in passed], max_new, now, status)
+    listed = [a for a, _, _ in passed]
+    websites = _fetch_websites(cfg, client, store, listed, max_new, now, status)
+    descriptions_ja = _fetch_descriptions_ja(cfg, client, listed, status)
 
     items = [
-        _build_item(a, details[a], tags, scores, websites.get(steam_id(a), {}).get("website"))
+        _build_item(a, details[a], tags, scores, websites.get(steam_id(a), {}).get("website"),
+                    descriptions_ja.get(a))
         for a, tags, scores in passed
     ]
     status.count = len(items)
     return items, [status]
+
+
+def mark_new(items: list[dict[str, Any]], last_output: dict[str, Any]) -> None:
+    """前回の出力に存在しなかった作品に NEW を付ける。
+
+    前回の出力がない（初回）場合は全件が新規になってしまうので、何も付けない。
+    前回データで代替した作品（stale）は新規扱いしない。
+    """
+    if not last_output.get("generated_at"):
+        return
+    prev = {i["id"] for i in last_output.get("items", [])}
+    for item in items:
+        item["is_new"] = not item.get("stale") and item["id"] not in prev
 
 
 def run(
@@ -247,7 +283,6 @@ def run(
     now = now or utcnow()
     sources = sources or set(ALL_SOURCES)
     store = StateStore(state_dir)
-    out = StateStore(out_dir)
     last_output = store.load("last_output.json", {"items": []})
     warnings: list[str] = []
     statuses: list[SourceStatus] = []
@@ -268,6 +303,7 @@ def run(
             items += steam_items
 
     items.sort(key=lambda i: (-i["score"], i["id"]))
+    mark_new(items, last_output)
     for w in warnings:
         log.warning(w)
 
@@ -281,7 +317,7 @@ def run(
         "warnings": warnings,
         "items": items,
     }
-    out.save("data.json", payload)
+    render.write_site(payload, out_dir)
     if exit_code == 0:
         store.save("last_output.json", {"generated_at": iso(now), "items": items})
     store.save("run_status.json", {

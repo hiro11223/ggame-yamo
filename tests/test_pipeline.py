@@ -63,11 +63,22 @@ class FakeSteam:
         self.query_body = None  # 文字列を入れると、その本文を返す（JSON以外の応答の再現用）
         self.fail_from_start = None  # この start 以降は 500 を返す
         self.taglist_status = 200
+        self.description_calls: list[list[int]] = []
 
     def install(self, rsps):
         rsps.add_callback(responses.GET, steam_store.QUERY_URL, callback=self.query)
         rsps.add_callback(responses.GET, steam_store.APPDETAILS_URL, callback=self.appdetails)
         rsps.add_callback(responses.GET, steam_store.TAGLIST_URL, callback=self.taglist)
+        rsps.add_callback(responses.GET, steam_store.GETITEMS_URL, callback=self.getitems_ja)
+
+    def getitems_ja(self, req):
+        payload = json.loads(parse_qs(urlparse(req.url).query)["input_json"][0])
+        assert payload["context"]["language"] == "japanese"
+        ids = [i["appid"] for i in payload["ids"]]
+        self.description_calls.append(ids)
+        items = [{"id": a, "appid": a, "success": 1, "basic_info": {"short_description": f"{a} の説明"}}
+                 for a in ids if a != 1004]  # 1004 は日本語説明なし
+        return 200, {}, json.dumps({"response": {"store_items": items}})
 
     def taglist(self, req):
         if self.taglist_status != 200:
@@ -137,6 +148,25 @@ def test_end_to_end(cfg, client, tmp_path, fake_steam):
     state = StateStore(tmp_path / "state")
     assert state.load(WEBSITE_CACHE, {})["steam:1001"]["fetched_at"] == "2026-11-15T03:17:00Z"
     assert len(state.load("last_output.json", {})["items"]) == 2
+
+
+def test_japanese_descriptions_for_listed_items(cfg, client, tmp_path, fake_steam):
+    result = run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW)
+    assert sorted(sum(fake_steam.description_calls, [])) == [1001, 1004]  # 掲載作品だけ
+    by_id = {i["id"]: i for i in result.items}
+    assert by_id["steam:1001"]["description_ja"] == "1001 の説明"
+    assert by_id["steam:1004"]["description_ja"] is None
+    assert by_id["steam:1004"]["description"] == "Brand New Fright desc"  # 英語は残る
+
+
+def test_new_badge_on_second_run(cfg, client, tmp_path, fake_steam):
+    r1 = run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW)
+    assert not any(i["is_new"] for i in r1.items)  # 初回は付けない
+    fake_steam.catalog[1007] = store_item(1007, "Fresh Scare", tags=[1667], count=500, pct=97, price=300)
+    r2 = run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW + dt.timedelta(days=3))
+    assert {i["id"] for i in r2.items if i["is_new"]} == {"steam:1007"}
+    html = (tmp_path / "site" / "index.html").read_text(encoding="utf-8")
+    assert '<span class="new-badge">NEW</span> 1件' in html
 
 
 def test_bonus_tag_raises_score(cfg, client, tmp_path, fake_steam):
