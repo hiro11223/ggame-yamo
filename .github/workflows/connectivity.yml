@@ -15,7 +15,7 @@ concurrency:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     env:
       UA: "yamo/0.1 (+https://github.com/${{ github.repository }})"
     steps:
@@ -51,3 +51,64 @@ jobs:
           # 参考: IStoreQueryService/Query（SteamSpy の代替候補。Horror の tagid=1667）
           probe "Steam StoreQuery (reference)" "https://api.steampowered.com/IStoreQueryService/Query/v1/" -G \
             --data-urlencode 'input_json={"query":{"start":0,"count":5,"sort":2,"filters":{"released_only":true,"type_filters":{"include_games":true},"tagids_must_match":[{"tagids":[1667]}]}},"context":{"language":"english","country_code":"JP"}}'
+
+      - name: Analyze SteamSpy tag coverage (Horror)
+        shell: bash
+        run: |
+          # SteamSpy 一覧系は 1req/分。上の疎通確認から間隔を空ける
+          sleep 61
+          python3 - <<'PY'
+          import json, os, time, urllib.parse, urllib.request
+
+          UA = os.environ["UA"]
+
+          def get(url):
+              req = urllib.request.Request(url, headers={"User-Agent": UA})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  return json.load(r)
+
+          spy = get("https://steamspy.com/api.php?request=tag&tag=Horror")
+          rows = list(spy.values())
+          print(f"SteamSpy Horror 件数: {len(rows)}")
+
+          print("--- 先頭20件（応答の並び順のまま）: appid / owners / reviews / name ---")
+          for r in rows[:20]:
+              print(f"{r['appid']}\t{r['owners']}\t{r['positive'] + r['negative']}\t{r['name']}")
+
+          def owners_low(r):
+              return int(r["owners"].split("..")[0].replace(",", "").strip() or 0)
+          lows = [owners_low(r) for r in rows]
+          print(f"所有者数の下限が降順に並んでいるか: {all(a >= b for a, b in zip(lows, lows[1:]))}")
+          print(f"所有者数の下限 最小: {min(lows):,}  最大: {max(lows):,}")
+
+          rev = [r["positive"] + r["negative"] for r in rows]
+          buckets = {"<30": 0, "30-999": 0, "1000-20000": 0, ">20000": 0}
+          for n in rev:
+              k = "<30" if n < 30 else "30-999" if n < 1000 else "1000-20000" if n <= 20000 else ">20000"
+              buckets[k] += 1
+          print(f"レビュー数の分布: {buckets}")
+
+          # StoreQuery で Horror(1667) の全 appid を取得して突き合わせる
+          ids, start, total = set(), 0, None
+          while total is None or start < total:
+              q = {"query": {"start": start, "count": 1000, "sort": 2,
+                             "filters": {"released_only": True, "type_filters": {"include_games": True},
+                                         "tagids_must_match": [{"tagids": [1667]}]}},
+                   "context": {"language": "english", "country_code": "JP"}}
+              res = get("https://api.steampowered.com/IStoreQueryService/Query/v1/?input_json="
+                        + urllib.parse.quote(json.dumps(q)))["response"]
+              total = res["metadata"]["total_matching_records"]
+              batch = [i["appid"] for i in res.get("ids", [])]
+              if not batch:
+                  break
+              ids.update(batch)
+              start += len(batch)
+              time.sleep(2)
+          spy_ids = {int(r["appid"]) for r in rows}
+          print(f"StoreQuery Horror 件数: {len(ids)} (total_matching_records={total})")
+          print(f"重なり: {len(spy_ids & ids)}  SteamSpyのみ: {len(spy_ids - ids)}  StoreQueryのみ: {len(ids - spy_ids)}")
+          print(f"SteamSpy が StoreQuery の Horror をカバーする割合: {len(spy_ids & ids) / max(1, len(ids)):.1%}")
+          print(f"PUBG(578080) は StoreQuery の Horror に含まれるか: {578080 in ids}")
+          sample = [r["name"] for r in rows if int(r["appid"]) not in ids][:10]
+          print(f"SteamSpy にだけある作品の例: {sample}")
+          PY
