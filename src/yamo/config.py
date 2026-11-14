@@ -66,7 +66,12 @@ class MergeConfig(_Strict):
 
 
 class StreamingConfig(_Strict):
+    # 公式サイト巡回から除外するホスト（サブドメイン含む）
     excluded_hosts: list[str] = []
+    # 公式サイトのトップに加えて見るパス
+    paths: list[str] = ["/press", "/presskit", "/press-kit", "/streaming", "/faq"]
+    max_page_bytes: int = Field(1_000_000, ge=10_000)
+    page_timeout_sec: float = Field(10, gt=0)
 
 
 class DefaultsConfig(_Strict):

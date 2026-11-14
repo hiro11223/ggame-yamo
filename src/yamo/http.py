@@ -47,6 +47,13 @@ class HttpClient:
         self._clock = clock
         self._last: dict[str, float] = {}
 
+    def derive(self, retry: RetryConfig, timeout: float) -> "HttpClient":
+        """同じセッション・時計で、再試行回数とタイムアウトだけ違うクライアントを作る（外部サイト用）。"""
+        return HttpClient(
+            self.session.headers["User-Agent"], retry, timeout,
+            session=self.session, sleep=self._sleep, clock=self._clock,
+        )
+
     def _wait_interval(self, key: str, interval: float) -> None:
         last = self._last.get(key)
         if last is not None:
@@ -69,6 +76,7 @@ class HttpClient:
         params: dict[str, Any] | None = None,
         rate_key: str,
         interval: float,
+        stream: bool = False,
     ) -> requests.Response:
         """GET。同じ rate_key のリクエストは interval 秒以上空ける。
 
@@ -80,7 +88,7 @@ class HttpClient:
             self._wait_interval(rate_key, interval)
             resp: requests.Response | None = None
             try:
-                resp = self.session.get(url, params=params, timeout=self.timeout)
+                resp = self.session.get(url, params=params, timeout=self.timeout, stream=stream)
             except (requests.ConnectionError, requests.Timeout) as e:
                 reason = f"{type(e).__name__}: {e}"
             else:

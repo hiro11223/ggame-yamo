@@ -16,6 +16,7 @@ from .models import SourceStatus
 from .scoring import itch_score, steam_score
 from .sources import itch, steam_store
 from .state import StateStore, is_expired, iso, utcnow
+from .streaming import runner as streaming
 
 log = logging.getLogger(__name__)
 
@@ -392,6 +393,7 @@ def run(
     now: dt.datetime | None = None,
     max_new: int | None = None,
     sources: set[str] | None = None,
+    check_streaming: bool = True,
 ) -> RunResult:
     now = now or utcnow()
     sources = sources or set(ALL_SOURCES)
@@ -423,11 +425,14 @@ def run(
             st[0].notes.append(f"Steam と同一作品として統合 {merged}件")
 
     items.sort(key=lambda i: (-i["score"], i["id"]))
+    if items and check_streaming:
+        statuses.append(streaming.run_checks(cfg, client, store, items, now))
     mark_new(items, last_output)
     for w in warnings:
         log.warning(w)
 
-    active = [s for s in statuses if s.status != "skipped"]
+    # 配信可否チェックはデータソースではないので、ジョブの成否には含めない
+    active = [s for s in statuses if s.status != "skipped" and s.name in ALL_SOURCES]
     exit_code = 1 if active and all(s.status == "failed" for s in active) else 0
 
     payload = {

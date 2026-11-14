@@ -7,7 +7,14 @@ from urllib.parse import parse_qs, urlparse
 import pytest
 import responses
 
-from yamo.pipeline import WEBSITE_CACHE, run
+from yamo.pipeline import WEBSITE_CACHE
+from yamo.pipeline import run as _run
+
+
+def run(*args, **kwargs):
+    """配信可否チェックは test_streaming_pipeline で確かめるので、ここでは切る。"""
+    kwargs.setdefault("check_streaming", False)
+    return _run(*args, **kwargs)
 from yamo.sources import steam_store
 from yamo.state import StateStore
 

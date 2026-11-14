@@ -41,6 +41,15 @@ class StateStore:
         with open(path, encoding="utf-8") as f:
             return json.load(f)
 
+    def append_jsonl(self, name: str, rows: list[Any]) -> None:
+        """1行1件の JSON を追記する（履歴用）。"""
+        if not rows:
+            return
+        self.root.mkdir(parents=True, exist_ok=True)
+        with open(self.root / name, "a", encoding="utf-8", newline="\n") as f:
+            for row in rows:
+                f.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
+
     def save(self, name: str, data: Any) -> None:
         """差分が読みやすいよう、キー順固定・1キー1行に近い形で書く。書き込みは原子的。"""
         self.root.mkdir(parents=True, exist_ok=True)

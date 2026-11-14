@@ -282,6 +282,14 @@ itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }
   - `Streaming is OK` のように、許可が単独の `OK` で書かれた文 → 不明（取りこぼしは overrides で補う方針）
   - 許可語が前後の別の文にある場合 → 不明（OKの判定は同じ文の中だけ）
 
+- **実装メモ（2026-11-15）**
+  - 精度のため、計画の規則を2点だけ絞った
+    - 「do not / may not / cannot」は、配信・録画・アップロード系の動詞が続く場合だけ禁止語にした（「you may not like it」で NG にしないため）
+    - 「credit」は「please credit」「give us credit」などの言い回しだけを条件語にした
+  - 「Monetization is not allowed」のように収益化だけを禁じる文は、NG ではなく条件付きにした
+  - HTML の本文抽出は標準ライブラリ（html.parser）で行い、bs4 / lxml は使わない
+  - 実データで確かめたところ、インディー作品の大半は配信ポリシーを書いておらず、判定は「不明」が大半になる
+
 ## 8. workflow例（update.yml）
 
 ```yaml

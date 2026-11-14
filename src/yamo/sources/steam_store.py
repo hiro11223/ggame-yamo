@@ -232,6 +232,26 @@ def parse_website(appid: int, payload: dict[str, Any]) -> str | None:
     return (entry.get("data") or {}).get("website") or None
 
 
+def fetch_store_texts(client: HttpClient, appid: int, interval: float) -> tuple[str | None, str]:
+    """配信可否の判定用に、公式サイトURL とストアの説明文・法的表記（HTML）を取得する。"""
+    resp = client.get(
+        APPDETAILS_URL,
+        params={"appids": appid, "cc": "jp", "l": "english"},
+        rate_key=RATE_KEY,
+        interval=interval,
+    )
+    entry = (resp.json() or {}).get(str(appid)) or {}
+    if not entry.get("success"):
+        return None, ""
+    data = entry.get("data") or {}
+    parts: list[str] = []
+    for k in ("detailed_description", "about_the_game", "legal_notice"):
+        v = data.get(k) or ""
+        if v and v not in parts:  # detailed_description と about_the_game は同じ内容のことが多い
+            parts.append(v)
+    return data.get("website") or None, "\n".join(parts)
+
+
 def fetch_website(client: HttpClient, appid: int, interval: float) -> str | None:
     resp = client.get(
         APPDETAILS_URL,

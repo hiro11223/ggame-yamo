@@ -29,7 +29,7 @@ STATUS_LABELS = {
     "failed": ("❌", "失敗"),
     "skipped": ("⏭️", "未実行"),
 }
-SOURCE_LABELS = {"steam": "Steam", "itch": "itch.io"}
+SOURCE_LABELS = {"steam": "Steam", "itch": "itch.io", "streaming": "配信可否チェック"}
 
 
 def embed_json(data: Any) -> Markup:

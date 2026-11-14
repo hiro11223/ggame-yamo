@@ -1,0 +1,91 @@
+# 配信可否の自動判定: 文言サンプルと正解ラベル（ok / conditional / ng / unknown）
+# 指示で必須とされたものには required: true を付けている
+
+# ---- 必須 ----
+- text: "Feel free to stream without asking permission!"
+  expect: ok
+  required: true
+- text: "Do not stream without permission."
+  expect: conditional
+  required: true
+- text: "Follow us on Twitter, YouTube and Twitch! Join our Discord."
+  expect: unknown
+  required: true
+  note: SNSリンクだけの説明文
+- text: "A mainstream horror experience with a streamlined story."
+  expect: unknown
+  required: true
+- text: "配信日: 2026年3月予定。DL配信開始しました！"
+  expect: unknown
+  required: true
+- text: "Streaming is OK."
+  expect: unknown
+  required: true
+  note: 単独の OK は許可語にしない（取りこぼしは overrides で補う）
+- text: "We love streamers. Feel free to share it with your friends!"
+  expect: unknown
+  required: true
+  note: 許可語が別の文にある
+
+# ---- OK ----
+- text: "Streamers and YouTubers are welcome to stream and monetize videos of this game."
+  expect: ok
+- text: "You can stream this game and monetize your videos."
+  expect: ok
+- text: "Let's plays are encouraged! Have fun."
+  expect: ok
+- text: "Content creators are allowed to make videos of the game."
+  expect: ok
+- text: "Permission is granted to stream and record gameplay of this game."
+  expect: ok
+- text: "本作の実況・配信は自由に行っていただいて構いません。"
+  expect: ok
+- text: "配信OK！収益化OKです。"
+  expect: ok
+- text: "実況歓迎です。たくさん遊んでください。"
+  expect: ok
+- text: "Feel free to stream it, no permission needed."
+  expect: ok
+
+# ---- 条件付き ----
+- text: "You may stream this game, but please credit the developer and link to the Steam page."
+  expect: conditional
+- text: "Streaming is allowed, but you cannot monetize the videos."
+  expect: conditional
+- text: "Let's plays are fine for non-commercial use only."
+  expect: conditional
+- text: "If you want to stream the game, please contact us first."
+  expect: conditional
+- text: "Streaming this game requires prior permission. Please ask for permission via email."
+  expect: conditional
+- text: "配信は可能ですが、収益化は不可です。"
+  expect: conditional
+- text: "動画配信の際は、事前にご連絡ください。"
+  expect: conditional
+- text: "無断での配信は禁止します。"
+  expect: conditional
+  note: 許可を取れば可
+- text: "実況動画には必ずクレジット表記をお願いします。"
+  expect: conditional
+
+# ---- NG ----
+- text: "Streaming and recording of this game is prohibited."
+  expect: ng
+- text: "Please do not stream or upload videos of this game."
+  expect: ng
+- text: "本作の配信・実況は禁止です。"
+  expect: ng
+- text: "ゲーム実況はご遠慮ください。"
+  expect: ng
+
+# ---- 不明 ----
+- text: "A short psychological horror game about a quiet hallway."
+  expect: unknown
+- text: "Livestreaming support: the game has a streamer mode that hides your name."
+  expect: unknown
+  note: 配信の語はあるが許可・禁止の記述はない
+- text: "Uses the Twitch integration so viewers can vote."
+  expect: unknown
+- text: "Monetization is not allowed, but streaming is fine."
+  expect: conditional
+  note: 収益化だけの制限は NG ではなく条件付き
