@@ -88,7 +88,7 @@ def test_verdicts_evidence_and_history(cfg, client, tmp_path, world):
     assert {json.loads(h)["to"] for h in history} == {"ok", "ng"}
 
     st = {s.name: s for s in result.statuses}["streaming"]
-    assert st.count == 2 and "OK 1・条件付き 0・NG 1・不明 0" in st.notes[0]
+    assert st.count == 2 and any("OK 1・条件付き 0・NG 1・不明 0" in n for n in st.notes)
     html = (tmp_path / "site" / "index.html").read_text(encoding="utf-8")
     assert "配信可否チェック: 正常" in html
 

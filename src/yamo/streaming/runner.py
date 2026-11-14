@@ -78,14 +78,19 @@ def check_item(
 
 def run_checks(
     cfg: Config, client: HttpClient, store: StateStore, items: list[dict[str, Any]], now: dt.datetime,
+    skip_ids: set[str] = frozenset(),
 ) -> SourceStatus:
-    """掲載作品の配信可否を更新し、各 item["streaming"] に反映する。"""
+    """掲載作品の配信可否を更新し、各 item["streaming"] に反映する。
+
+    skip_ids（手動確定のある作品）は自動判定しない。
+    """
     status = SourceStatus("streaming")
     cache: dict[str, Any] = store.load(CACHE, {})
     ttl = cfg.cache_ttl_days.streaming
     targets = [
         i for i in sorted(items, key=lambda i: (-i["score"], i["id"]))
-        if not i.get("stale") and is_expired(cache.get(i["id"], {}).get("checked_at"), ttl, now)
+        if not i.get("stale") and i["id"] not in skip_ids
+        and is_expired(cache.get(i["id"], {}).get("checked_at"), ttl, now)
     ]
     web = client.derive(WEB_RETRY, cfg.streaming.page_timeout_sec)
     fetcher = PageFetcher(
@@ -118,12 +123,15 @@ def run_checks(
         if item["id"] in cache:
             item["streaming"] = cache[item["id"]]
 
-    counts = Counter(i["streaming"]["verdict"] for i in items)
     pending = max(0, len(targets) - checked)
     status.count = checked
-    status.notes.append(
-        f"今回判定 {checked}件 / 未判定・期限切れで次回以降 {pending}件 / "
-        f"掲載中: OK {counts['ok']}・条件付き {counts['conditional']}・NG {counts['ng']}・不明 {counts['unknown']}"
-    )
+    status.notes.append(f"今回判定 {checked}件 / 未判定・期限切れで次回以降 {pending}件")
     log.info("配信可否: %s", status.notes[-1])
     return status
+
+
+def summarize(items: list[dict[str, Any]]) -> str:
+    counts = Counter(i["streaming"]["verdict"] for i in items)
+    manual = sum(1 for i in items if i["streaming"].get("method") == "manual")
+    return (f"掲載中: OK {counts['ok']}・条件付き {counts['conditional']}・NG {counts['ng']}・"
+            f"不明 {counts['unknown']}（うち手動確認済み {manual}件）")

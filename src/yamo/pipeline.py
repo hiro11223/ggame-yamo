@@ -17,6 +17,7 @@ from .scoring import itch_score, steam_score
 from .sources import itch, steam_store
 from .state import StateStore, is_expired, iso, utcnow
 from .streaming import runner as streaming
+from .streaming.overrides import apply_overrides, load_overrides, overridden_ids
 
 log = logging.getLogger(__name__)
 
@@ -394,6 +395,7 @@ def run(
     max_new: int | None = None,
     sources: set[str] | None = None,
     check_streaming: bool = True,
+    overrides_path: str | Path | None = "overrides.yaml",
 ) -> RunResult:
     now = now or utcnow()
     sources = sources or set(ALL_SOURCES)
@@ -425,8 +427,21 @@ def run(
             st[0].notes.append(f"Steam と同一作品として統合 {merged}件")
 
     items.sort(key=lambda i: (-i["score"], i["id"]))
-    if items and check_streaming:
-        statuses.append(streaming.run_checks(cfg, client, store, items, now))
+    overrides, ov_warnings = load_overrides(overrides_path) if overrides_path else ({}, [])
+    warnings += ov_warnings
+    if items:
+        st_streaming = (
+            streaming.run_checks(cfg, client, store, items, now, skip_ids=overridden_ids(items, overrides))
+            if check_streaming else SourceStatus("streaming", status="skipped")
+        )
+        applied, unused = apply_overrides(items, overrides)  # 手動確定は自動判定より優先
+        st_streaming.notes.append(f"手動確定（overrides.yaml）{len(overrides)}件のうち掲載中 {applied}件に反映")
+        if unused:
+            st_streaming.notes.append(f"掲載中の作品に当たらなかった ID: {', '.join(unused[:20])}"
+                                      + (" ほか" if len(unused) > 20 else ""))
+        st_streaming.notes.append(streaming.summarize(items))
+        if check_streaming or overrides:
+            statuses.append(st_streaming)
     mark_new(items, last_output)
     for w in warnings:
         log.warning(w)

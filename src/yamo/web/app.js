@@ -220,7 +220,9 @@ function renderRow(item, tab, now) {
     el("td", { class: "c-thumb" }, link(item.url, thumb) || thumb),
     cell("タイトル", "c-title", title,
       sub.length ? el("div", { class: "sub" }, sub.join(" ・ ")) : null,
-      desc ? el("p", { class: "desc" }, desc) : null),
+      desc ? el("p", { class: "desc" }, desc) : null,
+      // overrides.yaml に書く ID（選択してコピーしやすいよう独立した要素にする）
+      el("div", { class: "item-id", title: "overrides.yaml で使う作品ID" }, item.id)),
     cell("ソース", "c-source", sourceCell(item)),
     cell("価格", "c-num", formatPrice(item.price_jpy)),
     cell("好評率", "c-num", formatRatio(item.positive_ratio)),

@@ -144,15 +144,35 @@ fetch:
 ## overrides.yaml の書き方
 
 配信可否を手動で確定させるファイルです。自動判定より優先され、ページには「手動確認済み」と表示されます。
-（反映処理は段階6で実装予定です。書式は次のとおりです）
+手動で確定した作品は、自動判定の巡回もしなくなります。
+
+### 編集のしかた
+
+1. ページで作品を探し、タイトルの下に小さく出ている **作品ID**（例 `steam:620`、`itch:作者/スラッグ`）をコピーします
+2. GitHub でリポジトリの `overrides.yaml` を開き、鉛筆アイコン（Edit）を押します
+3. 次の形式で追記して、**Commit changes** を押します
+4. 次回の定期実行（または手動実行）でページに反映されます
 
 ```yaml
-- id: steam:620                  # 作品ID（steam:<appid> または itch:<作者>/<スラッグ>）
+- id: steam:620                  # 作品ID（ページに表示されているもの）
   verdict: conditional           # ok | conditional | ng | unknown
-  note: 収益化はクレジット表記が条件
-  evidence_url: https://example.com/streaming-policy
-  checked_on: 2026-11-10
+  note: 収益化はクレジット表記が条件   # 任意。ページの「根拠」に表示される（500字まで）
+  evidence_url: https://example.com/streaming-policy   # 任意。http(s) の URL
+  checked_on: 2026-11-10         # 確認した日（YYYY-MM-DD）
 ```
+
+| verdict | 表示 |
+|---|---|
+| `ok` | ✅ OK |
+| `conditional` | ⚠️ 条件付き |
+| `ng` | ❌ NG |
+| `unknown` | ❓ 不明 |
+
+- 書き間違いのある項目は**その項目だけ無視**され、理由がページの「警告」に表示されます（更新全体は止まりません）
+- 同じ ID を2回書いた場合は、後に書いた方が使われます
+- 確認日から30日たつと「要再確認」と表示されます。確認し直したら `checked_on` を更新してください
+- Steam と itch.io で統合された作品は、どちらの ID で書いても反映されます
+- 掲載中の作品に当たらない ID は、ページの「配信可否チェック → 詳細」に一覧されます（掲載されれば反映されます）
 
 ## 手元で動かす
 

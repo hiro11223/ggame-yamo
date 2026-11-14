@@ -106,3 +106,8 @@ test("http(s) 以外の URL はリンクにしない", () => {
   assert.equal(app.safeUrl("not a url"), null);
   assert.equal(app.safeUrl("https://example.com/a"), "https://example.com/a");
 });
+
+test("根拠URLのない手動確定（url: null）でも落ちない", () => {
+  assert.equal(app.safeUrl(null), null);
+  assert.equal(app.safeUrl(undefined), null);
+});

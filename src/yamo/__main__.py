@@ -26,6 +26,7 @@ def main(argv: list[str] | None = None) -> int:
     r.add_argument("--max-new", type=int, default=None, help="作品ごとの取得（公式サイトURL など）の上限（config を上書き）")
     r.add_argument("--sources", default=None, help="カンマ区切り。例: steam")
     r.add_argument("--no-streaming", action="store_true", help="配信可否チェックをしない（手元での確認用）")
+    r.add_argument("--overrides", default="overrides.yaml", help="配信可否の手動確定ファイル")
 
     sub.add_parser("check-tags", help="config のタグが実在するか検証する")
 
@@ -51,7 +52,7 @@ def main(argv: list[str] | None = None) -> int:
 
     sources = set(args.sources.split(",")) if args.sources else None
     result = run(cfg, _client(cfg), args.state_dir, args.out, max_new=args.max_new, sources=sources,
-                 check_streaming=not args.no_streaming)
+                 check_streaming=not args.no_streaming, overrides_path=args.overrides)
     for s in result.statuses:
         print(f"[{s.name}] {s.status} count={s.count} {'; '.join(s.notes + s.errors)}")
     return result.exit_code

@@ -1,4 +1,6 @@
-# 配信可否の手動確定（自動判定より優先される）。段階6で反映処理を実装予定。
+# 配信可否の手動確定（自動判定より優先される）。書き方は README の「overrides.yaml の書き方」を参照。
+# 作品ID はページのタイトルの下に表示されている（例 steam:620 / itch:作者/スラッグ）。
+#
 # 例:
 # - id: steam:620
 #   verdict: conditional        # ok | conditional | ng | unknown
