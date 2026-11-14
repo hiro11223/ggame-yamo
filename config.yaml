@@ -59,10 +59,11 @@ categories:
   bakage:
     label: バカゲー
     steam:
-      collect:     [Funny, Comedy, Memes, Dark Humor, Physics, Party Game]
-      require_any: [Funny, Comedy, Memes, Dark Humor]
+      # 必須は「笑い・ネタ」を直接表すタグのみ。Surreal / Experimental は範囲が広すぎるので使わない
+      collect:     [Funny, Comedy, Memes, Parody, Satire, Dark Humor, Dark Comedy, Physics, Party Game]
+      require_any: [Funny, Comedy, Memes, Parody, Satire, Dark Humor, Dark Comedy]
       exclude:     [Sexual Content]
-      bonus:       { Short: 5, Online Co-Op: 8, Physics: 3 }
+      bonus:       { Short: 5, Online Co-Op: 8, Local Multiplayer: 3, Physics: 3, Destruction: 3 }
     itch: { tags: [funny, comedy, meme, parody] }
     filters:
       max_price_jpy: 1500

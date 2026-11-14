@@ -113,4 +113,15 @@
 **補足: `Parody` は実在した（tagid 4878）。**
 - Steam のタグ一覧では名前が `"Parody "`（末尾に空白）になっていた。前回の実在検証は空白を除かずに比べていたため、誤って「存在しない」と判定していた。
 - 検証側は空白を除いて比べるように修正済み。
-- config からは指示どおり削除してある。戻すかどうかは判断してほしい。
+- いったん config から削除したが、実在が確認できたので戻した（下記）。
+
+### 採用結果（2026-11-15、判断を任されたため Claude が決定）
+
+- **必須（require_any）**: Funny, Comedy, Memes, **Parody**, **Satire**, Dark Humor, **Dark Comedy**
+  - 笑い・ネタを直接表すタグに限った
+- **収集（collect）**: 上記 + Physics, Party Game
+- **加点（bonus）**: Short +5, Online Co-Op +8, **Local Multiplayer +3**, Physics +3, **Destruction +3**
+- **採用しなかったもの**: Surreal, Experimental, Psychedelic
+  - 範囲が広く、ホラーやアート系まで大量に拾うため
+  - 必要なら加点タグとして後から足せる
+- 注意: SteamSpy を使う限り、タグが1つ増えるごとに一覧の取得が1回（1分の待ち）増える
