@@ -1,0 +1,18 @@
+{
+ "exit_code": 0,
+ "generated_at": "2026-11-14T16:42:40Z",
+ "sources": [
+  {
+   "count": 552,
+   "errors": [],
+   "name": "steam",
+   "notes": [
+    "horror: 条件通過 3373件 → 掲載 300件",
+    "bakage: 条件通過 3734件 → 掲載 300件",
+    "公式サイトURL 取得 300件 / 未取得(次回以降) 252件"
+   ],
+   "status": "ok"
+  }
+ ],
+ "warnings": []
+}
