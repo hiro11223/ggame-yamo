@@ -1,0 +1,20 @@
+{
+ "1001": {
+  "success": true,
+  "data": {
+   "type": "game",
+   "name": "Quiet Hallway",
+   "steam_appid": 1001,
+   "is_free": false,
+   "short_description": "A short walk down a hallway that should not exist.",
+   "supported_languages": "English<strong>*</strong>, Japanese, French<br><strong>*</strong>languages with full audio support",
+   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1001/header.jpg",
+   "website": "https://tinyghost.example/",
+   "developers": ["Tiny Ghost"],
+   "publishers": ["Tiny Ghost"],
+   "demos": [{"appid": 1101, "description": ""}],
+   "price_overview": {"currency": "JPY", "initial": 52000, "final": 52000, "discount_percent": 0, "initial_formatted": "", "final_formatted": "¥ 520"},
+   "release_date": {"coming_soon": false, "date": "12 Mar, 2024"}
+  }
+ }
+}

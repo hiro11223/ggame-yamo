@@ -1,0 +1,72 @@
+# 実況ネタ探索サイト 設定ファイル
+# 書き方は README の「config.yaml の書き方」を参照。
+
+user_agent: "yamo/0.1 (+https://github.com/hiro11223/ggame-yamo)"
+
+fetch:
+  steamspy_interval_sec: 1.0       # SteamSpy 通常API
+  steamspy_list_interval_sec: 60   # SteamSpy 一覧系(タグ別一覧)
+  appdetails_interval_sec: 2.0     # Steam appdetails / appreviews
+  web_interval_sec: 2.0            # 公式サイト / itch ページ
+  timeout_sec: 30
+  max_new_fetch: 300               # 1回の実行で新規/再取得する appdetails の上限
+  max_streaming_checks: 150
+  retry: { max_attempts: 5, base_sec: 2, max_sec: 120 }
+
+cache_ttl_days: { appdetails: 7, streaming: 30 }
+
+currency:
+  to_jpy: { USD: 150, EUR: 165, GBP: 195, JPY: 1 }
+
+itch:
+  retention_days: 120
+  feeds: [newest, popular, top_rated]
+
+merge:
+  developer_similarity: 0.8
+
+streaming:
+  # 公式サイト巡回から除外するホスト（サブドメイン含む）
+  excluded_hosts: [x.com, twitter.com, linktr.ee, discord.gg, discord.com,
+                   youtube.com, youtu.be, facebook.com, instagram.com, tiktok.com,
+                   twitch.tv, reddit.com, patreon.com, bsky.app]
+
+defaults:
+  languages_any: [japanese, english]
+  release_after: "2015-01-01"
+  include_coming_soon: false
+
+categories:
+  horror:
+    label: ホラー
+    steam:
+      collect:     [Horror, Psychological Horror, Survival Horror]
+      require_any: [Horror, Psychological Horror, Survival Horror]
+      exclude:     [Sexual Content, Nudity]
+      bonus:       { Short: 5, Atmospheric: 3, Online Co-Op: 5 }
+    itch: { tags: [horror] }
+    filters:
+      max_price_jpy: 2000
+      min_positive_ratio: 0.80
+      reviews: { min: 30, max: 20000 }
+      require_demo: false
+    weights:
+      rating: 0.5            # 好評率（Wilson下限）
+      volume: 0.3            # レビュー数の「ちょうど良さ」
+      recency: 0.2
+      volume_sweet_spot: 500 # このレビュー数で volume が最大
+  bakage:
+    label: バカゲー
+    steam:
+      collect:     [Funny, Comedy, Memes, Parody, Dark Humor, Physics, Party Game]
+      require_any: [Funny, Comedy, Memes, Parody, Dark Humor]
+      exclude:     [Sexual Content]
+      bonus:       { Short: 5, Online Co-Op: 8, Physics: 3 }
+    itch: { tags: [funny, comedy, meme, parody] }
+    filters:
+      max_price_jpy: 1500
+      min_positive_ratio: 0.80
+      reviews: { min: 30, max: 30000 }
+    weights: { rating: 0.5, volume: 0.3, recency: 0.2, volume_sweet_spot: 800 }
+
+itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }

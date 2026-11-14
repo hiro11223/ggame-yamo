@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yamo"
+version = "0.1.0"
+description = "実況ネタ探索サイト: Steam / itch.io から実況向けゲームを収集して静的ページを生成する"
+requires-python = ">=3.11"  # 本番(GitHub Actions)は 3.12
+dependencies = [
+    "requests>=2.31",
+    "PyYAML>=6.0",
+    "pydantic>=2.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "responses>=0.25",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
