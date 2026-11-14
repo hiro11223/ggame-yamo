@@ -92,7 +92,7 @@
    - 対象は掲載作品（各カテゴリ上位 `max_items` 件）だけで、スコア順に1件ずつ、上限 `max_new_fetch` 件。7日キャッシュです
    - 表示用の日本語説明文は、`language=japanese` の GetItems（100件ずつ）で別に取得します（段階2）
    - appreviews は 2026-10-22 頃からストアのトップへ 302 されるようになったため、廃止しました
-5. **itch RSS**: カテゴリタグごとに3種類のフィードを取得します。
+5. **itch RSS**: カテゴリタグごとに3種類のフィードを取得します（実装済み。1ページ36件、`?page=N` で続き、存在しないタグは 200 で0件）。
    - 新着: `https://itch.io/games/newest/tag-<tag>.xml`
    - 人気順: `https://itch.io/games/tag-<tag>.xml`
    - 高評価: `https://itch.io/games/top-rated/tag-<tag>.xml`

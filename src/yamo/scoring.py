@@ -9,7 +9,7 @@ from __future__ import annotations
 import datetime as dt
 import math
 
-from .config import WeightsConfig
+from .config import ItchScoringConfig, WeightsConfig
 
 
 def wilson_lower(positive: int, total: int, z: float = 1.96) -> float:
@@ -59,3 +59,34 @@ def steam_score(
     base = 100 * parts / (weights.rating + weights.volume + weights.recency)
     extra = sum(v for t, v in bonus.items() if t in tags)
     return round(base + extra, 1)
+
+
+def itch_score(
+    *,
+    published: str | None,
+    price_jpy: float | None,
+    max_price_jpy: float | None,
+    tags_matched: list[str],
+    category_tags: list[str],
+    feeds: list[str],
+    weights: ItchScoringConfig,
+    today: dt.date,
+) -> float:
+    """itch 用の別基準スコア: 新しさ・価格・タグ一致度（＋人気/高評価フィードの加点）。"""
+    if published:
+        age = max(0, (today - dt.date.fromisoformat(published[:10])).days)
+        recency = 0.5 ** (age / weights.recency_half_life_days)
+    else:
+        recency = 0.5
+    if price_jpy is None:
+        price = 0.5
+    elif price_jpy == 0:
+        price = 1.0
+    else:
+        price = max(0.0, 1 - price_jpy / (max_price_jpy or 2000))
+    wanted = set(category_tags)
+    tag_match = len(wanted & set(tags_matched)) / len(wanted) if wanted else 0.0
+    total = weights.recency + weights.price + weights.tag_match
+    base = 100 * (weights.recency * recency + weights.price * price + weights.tag_match * tag_match) / total
+    bonus = sum(v for k, v in weights.feed_bonus.items() if k in feeds)
+    return round(base + bonus, 1)

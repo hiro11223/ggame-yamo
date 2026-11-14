@@ -51,9 +51,14 @@ class CurrencyConfig(_Strict):
         return out
 
 
+FeedKind = Literal["newest", "popular", "top_rated"]
+
+
 class ItchConfig(_Strict):
-    retention_days: int = Field(120, ge=1)
-    feeds: list[Literal["newest", "popular", "top_rated"]] = ["newest", "popular", "top_rated"]
+    retention_days: int = Field(120, ge=1)  # 最後に RSS で見かけてからこの日数で捨てる
+    feeds: list[FeedKind] = ["newest", "popular", "top_rated"]
+    pages: int = Field(1, ge=1, le=5)  # フィードごとの取得ページ数（1ページ36件）
+    max_items: int = Field(100, ge=1)  # カテゴリごとに掲載する itch 作品の上限（Steam とは別枠）
 
 
 class MergeConfig(_Strict):
@@ -130,6 +135,15 @@ class ItchScoringConfig(_Strict):
     recency: float = Field(0.5, ge=0)
     price: float = Field(0.2, ge=0)
     tag_match: float = Field(0.3, ge=0)
+    recency_half_life_days: float = Field(180, gt=0)
+    # 人気・高評価フィードに載っていれば加点（itch には評価数がないため、品質の目安として使う）
+    feed_bonus: dict[FeedKind, float] = {"top_rated": 10, "popular": 5}
+
+    @model_validator(mode="after")
+    def _nonzero(self) -> "ItchScoringConfig":
+        if self.recency + self.price + self.tag_match <= 0:
+            raise ValueError("itch_scoring の recency/price/tag_match の合計が 0 です")
+        return self
 
 
 class Config(_Strict):
@@ -155,6 +169,13 @@ class Config(_Strict):
             if key == "all":
                 raise ValueError("カテゴリ名 'all' は「全部」タブ用に予約されています")
         return v
+
+    def itch_tags(self) -> list[str]:
+        tags: set[str] = set()
+        for cat in self.categories.values():
+            if cat.itch:
+                tags |= set(cat.itch.tags)
+        return sorted(tags)
 
     def steam_tags(self) -> set[str]:
         """config で使っている全 Steam タグ（実在検証の対象）。"""

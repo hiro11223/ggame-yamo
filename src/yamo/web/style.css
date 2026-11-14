@@ -116,7 +116,7 @@ a:hover { text-decoration-thickness: 2px; }
 .games tbody tr:hover { background: var(--surface-2); }
 .c-num { text-align: right !important; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .c-thumb { width: 140px; }
-.c-thumb img, .no-thumb { display: block; width: 128px; height: auto; aspect-ratio: 460 / 215; border-radius: 4px; background: var(--chip); }
+.c-thumb img, .no-thumb { display: block; width: 128px; height: auto; aspect-ratio: 460 / 215; object-fit: cover; border-radius: 4px; background: var(--chip); }
 .c-title { min-width: 220px; max-width: 360px; }
 .title { font-weight: 600; line-height: 1.35; }
 .title a { color: var(--text); text-decoration: none; }
@@ -151,6 +151,7 @@ a:hover { text-decoration-thickness: 2px; }
 .checked { margin: 0; color: var(--muted); font-size: .75rem; }
 .check-links { font-size: .8rem; color: var(--muted); }
 .c-score { font-weight: 700; font-size: 1rem; }
+.basis { display: block; font-size: .65rem; font-weight: 500; color: var(--muted); }
 .empty td { text-align: center; color: var(--muted); padding: 32px; }
 
 .site-footer { color: var(--muted); font-size: .8rem; padding: 24px 0 40px; }

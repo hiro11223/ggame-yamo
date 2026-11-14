@@ -1,6 +1,6 @@
 # yamo — 実況ネタ探索サイト ジェネレータ
 
-Steam（と、今後追加する itch.io）から実況向けのゲーム（ホラー / バカゲー など）を集め、
+Steam と itch.io から実況向けのゲーム（ホラー / バカゲー など）を集め、
 おすすめ順と配信可否つきの一覧ページを作ります。GitHub Actions で週2回自動更新し、GitHub Pages で公開します。
 
 - サーバーや外部DBは使いません。静的な HTML と JS だけです
@@ -61,7 +61,7 @@ categories:
       require_any: [Horror, Psychological Horror, Survival Horror]  # どれか1つを持つ作品を集める
       exclude:     [Sexual Content, Nudity]                         # 1つでも持つ作品は除外
       bonus:       { Short: 5, Online Co-Op: 5 }                    # 持っていれば加点
-    itch: { tags: [horror] }         # itch.io のタグ（段階4で対応予定）
+    itch: { tags: [horror] }         # itch.io のタグ（URL の tag-○○ の部分）
     filters:
       max_price_jpy: 2000            # 価格の上限（円）
       min_positive_ratio: 0.80       # 好評率の下限
@@ -78,6 +78,28 @@ categories:
 - 1つの作品が複数のカテゴリに入ることがあります
 - タグ名は Steam のストアに表示される英語名です。実在しないタグを書くと、ページの「警告」に表示されます
 - タグが実在するかは、手元で `python -m yamo check-tags` を実行しても確かめられます
+
+### itch.io の設定
+
+```yaml
+itch:
+  retention_days: 120                  # 最後に RSS で見かけてからこの日数で一覧から外す
+  feeds: [newest, popular, top_rated]  # 取得するフィード（新着 / 人気 / 高評価）
+  pages: 1                             # フィードごとのページ数（1ページ36件）
+  max_items: 100                       # カテゴリごとに掲載する itch 作品の上限（Steam とは別枠）
+
+itch_scoring:                          # itch はレビュー数がないので別基準
+  recency: 0.5                         # 新しさの重み
+  price: 0.2                           # 安さの重み
+  tag_match: 0.3                       # カテゴリのタグにいくつ当てはまるか
+  recency_half_life_days: 180          # この日数で「新しさ」が半分になる
+  feed_bonus: { top_rated: 10, popular: 5 }  # 人気・高評価フィードに載っていれば加点
+```
+
+- RSS は新しい作品から36件ずつしか返さないので、実行のたびに見つけた作品を蓄積していきます
+- itch の作品は対応言語が分からないため、言語の条件（`languages_any`）は適用しません
+- 価格は RSS の通貨を見て、`currency.to_jpy` の換算レートで円にします。レートのない通貨は「価格不明」として扱い、警告を出します
+- Steam にも同じ作品がある場合（タイトルが一致し、開発者名と作者名が近い場合）は、Steam 側の行にまとめ、itch.io へのリンクを付けます
 
 ### 共通の条件
 
@@ -132,6 +154,6 @@ python -m pytest                                               # テスト（JS 
 | Steam IStoreQueryService/Query | タグでの候補収集と詳細（価格・言語・レビュー・デモ・タグ） |
 | Steam IStoreBrowseService/GetItems | 日本語の説明文 |
 | Steam appdetails | 公式サイトURL |
-| itch.io タグ別RSS | （段階4で対応予定） |
+| itch.io タグ別RSS（新着 / 人気 / 高評価） | 候補収集（タイトル・価格・画像・説明・公開日） |
 
 いずれも API キーは不要です。リクエストには、ツール名とこのリポジトリの URL を User-Agent として付けています。

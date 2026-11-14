@@ -20,8 +20,10 @@ currency:
   to_jpy: { USD: 150, EUR: 165, GBP: 195, JPY: 1 }
 
 itch:
-  retention_days: 120
+  retention_days: 120               # 最後に RSS で見かけてからこの日数で捨てる
   feeds: [newest, popular, top_rated]
+  pages: 1                          # フィードごとの取得ページ数（1ページ36件）
+  max_items: 100                    # カテゴリごとに掲載する itch 作品の上限（Steam とは別枠）
 
 merge:
   developer_similarity: 0.8
@@ -71,4 +73,10 @@ categories:
     weights: { rating: 0.5, volume: 0.3, recency: 0.2, volume_sweet_spot: 800 }
     max_items: 300
 
-itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }
+# itch はレビュー数がないので別基準: 新しさ・価格・タグ一致度（＋人気/高評価フィードに載っていれば加点）
+itch_scoring:
+  recency: 0.5
+  price: 0.2
+  tag_match: 0.3
+  recency_half_life_days: 180
+  feed_bonus: { top_rated: 10, popular: 5 }

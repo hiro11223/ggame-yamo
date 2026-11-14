@@ -9,18 +9,19 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from . import filters, render
+from . import filters, merge, render
 from .config import CategoryConfig, Config
 from .http import HttpClient, HttpStatusError, SourceUnavailable
 from .models import SourceStatus
-from .scoring import steam_score
-from .sources import steam_store
+from .scoring import itch_score, steam_score
+from .sources import itch, steam_store
 from .state import StateStore, is_expired, iso, utcnow
 
 log = logging.getLogger(__name__)
 
-ALL_SOURCES = ("steam",)
+ALL_SOURCES = ("steam", "itch")
 WEBSITE_CACHE = "steam_websites.json"
+ITCH_CACHE = "itch_items.json"
 
 FETCH_ERRORS = (SourceUnavailable, HttpStatusError, ValueError)
 
@@ -179,11 +180,16 @@ def _build_item(
         "description_ja": description_ja,
         "categories": scores,
         "score": max(scores.values()),
-        # 配信可否は段階5で判定する。それまでは全件「不明（未判定）」
-        "streaming": {"verdict": "unknown", "method": None, "checked_at": None, "evidence": []},
+        "score_basis": "steam",
+        "streaming": unknown_streaming(),
         "is_new": False,
         "stale": False,
     }
+
+
+def unknown_streaming() -> dict[str, Any]:
+    # 配信可否は段階5で判定する。それまでは全件「不明（未判定）」
+    return {"verdict": "unknown", "method": None, "checked_at": None, "evidence": []}
 
 
 def _run_steam(
@@ -257,6 +263,113 @@ def _run_steam(
     return items, [status]
 
 
+def _update_itch_cache(
+    cfg: Config, store: StateStore, found: dict[str, Any], now: dt.datetime, warnings: list[str],
+) -> dict[str, Any]:
+    """RSS で見つかった作品を蓄積キャッシュに反映し、保持期間を過ぎたものを捨てる。"""
+    cache: dict[str, Any] = store.load(ITCH_CACHE, {})
+    unknown_currencies: set[str] = set()
+    for item_id, (item, tags, feeds) in found.items():
+        rec = itch.to_record(item, tags, feeds, cfg.currency.to_jpy)
+        if item.currency and item.currency not in cfg.currency.to_jpy:
+            unknown_currencies.add(item.currency)
+        prev = cache.get(item_id, {})
+        rec["tags_matched"] = sorted(set(rec["tags_matched"]) | set(prev.get("tags_matched", [])))
+        rec["feeds"] = sorted(set(rec["feeds"]) | set(prev.get("feeds", [])))
+        rec["first_seen"] = prev.get("first_seen") or iso(now)
+        rec["last_seen"] = iso(now)
+        cache[item_id] = rec
+    for cur in sorted(unknown_currencies):
+        warnings.append(f"itch: 通貨 {cur} の換算レートが config.yaml の currency.to_jpy にありません（価格不明として扱います）")
+    expired = [k for k, v in cache.items() if is_expired(v.get("last_seen"), cfg.itch.retention_days, now)]
+    for k in expired:
+        del cache[k]
+    if expired:
+        log.info("itch: 保持期間切れ %d件を削除", len(expired))
+    store.save(ITCH_CACHE, cache)
+    return cache
+
+
+def _build_itch_item(item_id: str, rec: dict[str, Any], scores: dict[str, float]) -> dict[str, Any]:
+    return {
+        "id": item_id,
+        "source": "itch",
+        "title": rec["title"],
+        "url": rec["url"],
+        "thumbnail": rec.get("image"),
+        "price_jpy": rec.get("price_jpy"),
+        "positive": None,
+        "negative": None,
+        "reviews": None,
+        "positive_ratio": None,
+        "tags": rec.get("tags_matched", []),
+        "has_demo": False,
+        "early_access": False,
+        "languages": [],  # RSS からは分からない
+        "release_date": (rec.get("published") or "")[:10] or None,
+        "developers": [rec["author"]],
+        "author": rec["author"],
+        "website": None,  # itch のページ自体が公式ページ
+        "description": rec.get("description") or "",
+        "description_ja": None,
+        "platforms": rec.get("platforms", []),
+        "feeds": rec.get("feeds", []),
+        "categories": scores,
+        "score": max(scores.values()),
+        "score_basis": "itch",
+        "streaming": unknown_streaming(),
+        "is_new": False,
+        "stale": False,
+    }
+
+
+def _run_itch(
+    cfg: Config, client: HttpClient, store: StateStore, now: dt.datetime, warnings: list[str],
+) -> tuple[list[dict[str, Any]], list[SourceStatus]]:
+    tags = cfg.itch_tags()
+    if not tags:
+        return [], []
+    found, status, empty = itch.collect(client, tags, list(cfg.itch.feeds), cfg.itch.pages, cfg.fetch.web_interval_sec)
+    for tag in empty:
+        warnings.append(f"itchタグ {tag!r} の RSS が0件でした（タグ名を確認してください）")
+    # 取得に失敗しても、蓄積済みの作品で一覧を作る
+    cache = _update_itch_cache(cfg, store, found, now, warnings)
+    status.notes.append(f"今回 RSS で取得 {len(found)}件 / 蓄積 {len(cache)}件")
+
+    today = now.date()
+    per_cat: dict[str, list[tuple[float, str]]] = {}
+    reasons: Counter = Counter()
+    for key, cat in cfg.categories.items():
+        if not cat.itch or not cat.itch.tags:
+            continue
+        ranked = []
+        for item_id, rec in cache.items():
+            if not set(rec.get("tags_matched", [])) & set(cat.itch.tags):
+                continue
+            ok, why = filters.itch_filter(rec, cat, cfg.defaults)
+            if not ok:
+                reasons[why] += 1
+                continue
+            score = itch_score(
+                published=rec.get("published"), price_jpy=rec.get("price_jpy"),
+                max_price_jpy=cat.filters.max_price_jpy, tags_matched=rec.get("tags_matched", []),
+                category_tags=cat.itch.tags, feeds=rec.get("feeds", []), weights=cfg.itch_scoring, today=today,
+            )
+            ranked.append((score, item_id))
+        ranked.sort(key=lambda r: (-r[0], r[1]))
+        per_cat[key] = ranked[: cfg.itch.max_items]
+        status.notes.append(f"{key}: 条件通過 {len(ranked)}件 → 掲載 {len(per_cat[key])}件")
+    log.info("itch 本フィルタ: 除外 %s", dict(reasons))
+
+    scores_of: dict[str, dict[str, float]] = {}
+    for key, ranked in per_cat.items():
+        for score, item_id in ranked:
+            scores_of.setdefault(item_id, {})[key] = score
+    items = [_build_itch_item(i, cache[i], s) for i, s in scores_of.items()]
+    status.count = len(items)
+    return items, [status]
+
+
 def mark_new(items: list[dict[str, Any]], last_output: dict[str, Any]) -> None:
     """前回の出力に存在しなかった作品に NEW を付ける。
 
@@ -301,6 +414,13 @@ def run(
             items += prev
         else:
             items += steam_items
+
+    if "itch" in sources:
+        itch_items, st = _run_itch(cfg, client, store, now, warnings)
+        statuses += st
+        items, merged = merge.merge(items, itch_items, cfg.merge.developer_similarity)
+        if st:
+            st[0].notes.append(f"Steam と同一作品として統合 {merged}件")
 
     items.sort(key=lambda i: (-i["score"], i["id"]))
     mark_new(items, last_output)

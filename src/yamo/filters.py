@@ -64,3 +64,25 @@ def final_filter(
         except ValueError:
             pass
     return True, ""
+
+
+def itch_filter(record: dict[str, Any], cat: CategoryConfig, defaults: DefaultsConfig) -> tuple[bool, str]:
+    """itch 作品の条件。レビュー・対応言語は RSS から分からないので見ない。"""
+    f = cat.filters
+    if f.max_price_jpy is not None:
+        price = record.get("price_jpy")
+        if price is None:
+            return False, "価格不明"
+        if price > f.max_price_jpy:
+            return False, "価格上限超過"
+    if f.require_demo:
+        return False, "デモ不明"
+    after = f.release_after or defaults.release_after
+    published = record.get("published")
+    if after and published:
+        try:
+            if dt.date.fromisoformat(published[:10]) < after:
+                return False, "発売日が古い"
+        except ValueError:
+            pass
+    return True, ""

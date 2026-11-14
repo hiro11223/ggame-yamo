@@ -189,7 +189,8 @@ function streamingCell(item, now) {
   }
   if (verdictOf(item) === "unknown") {
     wrap.append(el("span", { class: "check-links" }, "確認: ",
-      link(item.url, "ストア"), item.website ? " / " : null, item.website ? link(item.website, "公式サイト") : null));
+      link(item.url, item.source === "itch" ? "itchページ" : "ストア"),
+      item.website ? " / " : null, item.website ? link(item.website, "公式サイト") : null));
   }
   return wrap;
 }
@@ -220,7 +221,7 @@ function renderRow(item, tab, now) {
     cell("タイトル", "c-title", title,
       sub.length ? el("div", { class: "sub" }, sub.join(" ・ ")) : null,
       desc ? el("p", { class: "desc" }, desc) : null),
-    cell("ソース", "c-source", SOURCE_LABELS[item.source] || item.source),
+    cell("ソース", "c-source", sourceCell(item)),
     cell("価格", "c-num", formatPrice(item.price_jpy)),
     cell("好評率", "c-num", formatRatio(item.positive_ratio)),
     cell("レビュー数", "c-num", item.reviews == null ? "—" : item.reviews.toLocaleString("ja-JP")),
@@ -228,8 +229,16 @@ function renderRow(item, tab, now) {
     cell("デモ", "c-demo", item.has_demo ? "あり" : "—"),
     cell("言語", "c-lang", langs),
     cell("配信可否", "c-stream", streamingCell(item, now)),
-    cell("スコア", "c-num c-score", Number.isFinite(score) ? score.toFixed(1) : "—"),
+    cell("スコア", "c-num c-score", Number.isFinite(score) ? score.toFixed(1) : "—",
+      item.score_basis === "itch" ? el("span", { class: "basis", title: "itch はレビュー数がないため、新しさ・価格・タグ一致度による別基準" }, "itch基準") : null),
   );
+}
+
+function sourceCell(item) {
+  const label = SOURCE_LABELS[item.source] || item.source;
+  if (!item.itch_url) return label;
+  // Steam と itch の両方にある作品（統合済み）
+  return el("span", {}, label, " / ", link(item.itch_url, "itch.io") || "itch.io");
 }
 
 function init() {

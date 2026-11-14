@@ -283,3 +283,101 @@ def test_steam_down_falls_back_to_previous(cfg, client, tmp_path, fake_steam):
     # 失敗時は last_output を上書きしない（次回の NEW 判定を壊さない）
     prev = StateStore(tmp_path / "state").load("last_output.json", {})
     assert prev["generated_at"] == "2026-11-15T03:17:00Z"
+
+
+# ---- itch.io 結合 ---------------------------------------------------------
+
+from yamo.sources import itch as itch_src  # noqa: E402
+
+from yamo.config import ItchTagsConfig  # noqa: E402
+
+from .conftest import FIXTURES  # noqa: E402
+
+ITCH_FEED = (FIXTURES / "itch_horror.xml").read_text(encoding="utf-8")
+# Steam の 1001「Quiet Hallway」（開発者 Dev）と同じ作品
+SAME_AS_STEAM = ('<item><guid>https://dev.itch.io/quiet-hallway</guid><title>Quiet Hallway [Free]</title>'
+                 '<plainTitle>Quiet Hallway</plainTitle><price>$0.00</price><currency>USD</currency>'
+                 '<link>https://dev.itch.io/quiet-hallway</link><description><![CDATA[x]]></description>'
+                 '<createDate>Mon, 02 Nov 2026 10:00:00 GMT</createDate></item>')
+
+
+class FakeItch:
+    def __init__(self):
+        self.feed = ITCH_FEED.replace("</channel>", SAME_AS_STEAM + "</channel>")
+        self.status = 200
+        self.calls = 0
+
+    def install(self, rsps):
+        for url in itch_src.FEED_PATHS.values():
+            rsps.add_callback(responses.GET, url.format(tag="horror"), callback=self.cb)
+
+    def cb(self, req):
+        self.calls += 1
+        if self.status != 200:
+            return self.status, {}, ""
+        if req.params.get("page"):
+            return 200, {}, '<rss><channel></channel></rss>'
+        return 200, {}, self.feed
+
+
+@pytest.fixture
+def fakes():
+    with responses.RequestsMock(assert_all_requests_are_fired=False) as rsps:
+        fs, fi = FakeSteam(), FakeItch()
+        fs.install(rsps)
+        fi.install(rsps)
+        yield fs, fi
+
+
+def itch_config():
+    cfg = make_config(currency={"to_jpy": {"USD": 150, "EUR": 165}})
+    cfg.categories["horror"].itch = ItchTagsConfig(tags=["horror"])
+    return cfg
+
+
+def test_itch_items_are_listed_and_merged(client, tmp_path, fakes):
+    fs, fi = fakes
+    cfg = itch_config()
+    result = run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW)
+    by_id = {i["id"]: i for i in result.items}
+    # Steam と同一作品は統合され、itch 側の行は出ない
+    assert "itch:dev/quiet-hallway" not in by_id
+    assert by_id["steam:1001"]["aliases"] == ["itch:dev/quiet-hallway"]
+    assert by_id["steam:1001"]["itch_url"] == "https://dev.itch.io/quiet-hallway"
+    # 2000円以下の itch 作品（無料・$1.34・€1.50）が並ぶ。KRW は換算できず「価格不明」で除外
+    itch_ids = sorted(i for i in by_id if i.startswith("itch:"))
+    assert itch_ids == ["itch:campteam-games/the-penjikent-creature", "itch:deeplookgames/dont-fix-her-pipes",
+                        "itch:emika-games/summer-of-58", "itch:euro-dev/castle-fog"]
+    fog = by_id["itch:euro-dev/castle-fog"]
+    assert fog["score_basis"] == "itch" and fog["price_jpy"] == 247.5 and fog["developers"] == ["euro-dev"]
+    assert any("通貨 KRW" in w for w in result.warnings)
+    st = {s.name: s for s in result.statuses}
+    assert st["itch"].status == "ok"
+    assert "Steam と同一作品として統合 1件" in st["itch"].notes
+    cache = StateStore(tmp_path / "state").load("itch_items.json", {})
+    assert cache["itch:euro-dev/castle-fog"]["feeds"] == ["newest", "popular", "top_rated"]
+
+
+def test_itch_cache_survives_outage_and_expires(client, tmp_path, fakes):
+    fs, fi = fakes
+    cfg = itch_config()
+    run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW)
+    # itch が落ちても、蓄積済みの作品で表示する（Steam は正常なのでジョブは成功）
+    fi.status = 503
+    r2 = run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW + dt.timedelta(days=3))
+    st = {s.name: s for s in r2.statuses}
+    assert st["itch"].status == "failed" and r2.exit_code == 0
+    assert "itch:euro-dev/castle-fog" in {i["id"] for i in r2.items}
+    # 保持期間（120日）を過ぎると捨てる
+    r3 = run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW + dt.timedelta(days=121))
+    assert not any(i["id"].startswith("itch:") for i in r3.items)
+    assert StateStore(tmp_path / "state").load("itch_items.json", {}) == {}
+
+
+def test_itch_only_when_steam_down_is_partial_success(client, tmp_path, fakes):
+    fs, fi = fakes
+    fs.taglist_status = 503
+    result = run(itch_config(), client, tmp_path / "state", tmp_path / "site", now=NOW)
+    st = {s.name: s.status for s in result.statuses}
+    assert st == {"steam": "failed", "itch": "ok"}
+    assert result.exit_code == 0  # 一部ソースのみ失敗 → 成功扱い
