@@ -1,0 +1,137 @@
+# yamo — 実況ネタ探索サイト ジェネレータ
+
+Steam（と、今後追加する itch.io）から実況向けのゲーム（ホラー / バカゲー など）を集め、
+おすすめ順と配信可否つきの一覧ページを作ります。GitHub Actions で週2回自動更新し、GitHub Pages で公開します。
+
+- サーバーや外部DBは使いません。静的な HTML と JS だけです
+- 検索エンジンに載らないよう、全ページに `noindex, nofollow` を入れ、`robots.txt` で全体を Disallow にしています
+- 要件は [doc/REQUIREMENTS.md](doc/REQUIREMENTS.md)、設計は [doc/PLAN.md](doc/PLAN.md) を参照してください
+
+## セットアップ
+
+### 1. GitHub Pages を有効にする
+
+リポジトリの **Settings → Pages** で、**Build and deployment → Source** を **GitHub Actions** にします。
+
+### 2. Actions の権限を設定する
+
+**Settings → Actions → General → Workflow permissions** で **Read and write permissions** を選んで保存します。
+状態（キャッシュや前回の一覧）を `data` ブランチにコミットするために必要です。
+
+### 3. 初回を手動で実行する
+
+**Actions** タブ → 左の **update** → **Run workflow** を押します。
+
+- 実行には数分かかります（Steam から各カテゴリを全件取得します）
+- 初回は `data` ブランチが自動で作られます
+- 完了すると、実行結果の **deploy** ジョブにページの URL が表示されます
+
+以降は、月曜と木曜の 12:17（日本時間）に自動で実行されます。
+
+## 手動実行のしかた
+
+- **Actions → update → Run workflow** を押します
+- `max_new` には、公式サイトURL など作品ごとに取得する件数の上限を指定できます。空欄なら config.yaml の値です
+- コマンドラインからは `gh workflow run update.yml` でも実行できます
+
+## 失敗したとき
+
+| 状況 | ジョブ | ページ |
+|---|---|---|
+| すべてのソースで取得に失敗 | **失敗**（GitHub から通知メールが届きます） | 前回のデータで表示し、「前回データ」と注記 |
+| 一部のソースだけ失敗 | 成功 | ヘッダーに「一部失敗」と詳細を表示 |
+| 正常 | 成功 | — |
+
+実行ログは Actions の各実行ページで確認できます。
+
+## config.yaml の書き方
+
+GitHub の Web 画面で編集し、コミットすれば、次回の実行から反映されます。
+設定ミス（未知のキー、範囲外の値）があると、実行時にエラーで止まります。
+
+### カテゴリを追加する
+
+`categories:` の下に追加します。キー（例 `horror`）は半角英小文字・数字・`_`・`-` のみ使えます。`all` は予約語なので使えません。
+
+```yaml
+categories:
+  horror:
+    label: ホラー                     # タブに表示する名前
+    steam:
+      require_any: [Horror, Psychological Horror, Survival Horror]  # どれか1つを持つ作品を集める
+      exclude:     [Sexual Content, Nudity]                         # 1つでも持つ作品は除外
+      bonus:       { Short: 5, Online Co-Op: 5 }                    # 持っていれば加点
+    itch: { tags: [horror] }         # itch.io のタグ（段階4で対応予定）
+    filters:
+      max_price_jpy: 2000            # 価格の上限（円）
+      min_positive_ratio: 0.80       # 好評率の下限
+      reviews: { min: 30, max: 20000 }  # レビュー数の範囲（多すぎ＝実況され尽くし）
+      require_demo: false            # true ならデモのある作品だけ
+    weights:
+      rating: 0.5                    # 好評率の重み
+      volume: 0.3                    # レビュー数の「ちょうど良さ」の重み
+      recency: 0.2                   # 新しさの重み
+      volume_sweet_spot: 500         # このレビュー数で volume が最大になる
+    max_items: 300                   # スコア上位この件数までを掲載
+```
+
+- 1つの作品が複数のカテゴリに入ることがあります
+- タグ名は Steam のストアに表示される英語名です。実在しないタグを書くと、ページの「警告」に表示されます
+- タグが実在するかは、手元で `python -m yamo check-tags` を実行しても確かめられます
+
+### 共通の条件
+
+```yaml
+defaults:
+  languages_any: [japanese, english]   # どれかに対応している作品だけ
+  release_after: "2015-01-01"          # これより前に発売された作品は除外
+  include_coming_soon: false           # 未発売の作品を含めるか
+```
+
+### 取得の設定
+
+```yaml
+fetch:
+  steam_interval_sec: 2.0   # Steam API へのリクエスト間隔（秒）
+  max_new_fetch: 300        # 1回の実行で作品ごとに取得する件数の上限
+```
+
+## overrides.yaml の書き方
+
+配信可否を手動で確定させるファイルです。自動判定より優先され、ページには「手動確認済み」と表示されます。
+（反映処理は段階6で実装予定です。書式は次のとおりです）
+
+```yaml
+- id: steam:620                  # 作品ID（steam:<appid> または itch:<作者>/<スラッグ>）
+  verdict: conditional           # ok | conditional | ng | unknown
+  note: 収益化はクレジット表記が条件
+  evidence_url: https://example.com/streaming-policy
+  checked_on: 2026-11-10
+```
+
+## 手元で動かす
+
+Python 3.12（3.11 でも動きます）が必要です。
+
+```bash
+python -m venv .venv
+.venv/Scripts/activate        # macOS / Linux は source .venv/bin/activate
+pip install -e ".[dev]"
+
+python -m yamo run --state-dir state --out site --max-new 20   # site/index.html ができる
+python -m yamo check-tags                                      # config のタグが実在するか
+python -m pytest                                               # テスト（JS のテストには Node が必要）
+```
+
+`state/` は手元用の状態ディレクトリです。GitHub Actions では `data` ブランチがこの役割を持ちます。
+
+## データソース
+
+| ソース | 用途 |
+|---|---|
+| Steam IStoreQueryService/Query | タグでの候補収集と詳細（価格・言語・レビュー・デモ・タグ） |
+| Steam IStoreBrowseService/GetItems | 日本語の説明文 |
+| Steam appdetails | 公式サイトURL |
+| itch.io タグ別RSS | （段階4で対応予定） |
+
+いずれも API キーは不要です。リクエストには、ツール名とこのリポジトリの URL を User-Agent として付けています。

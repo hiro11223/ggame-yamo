@@ -1,0 +1,103 @@
+# 定期更新: 収集 → ページ生成 → 状態を data ブランチにコミット → GitHub Pages にデプロイ
+#
+# - 全ソース失敗: 状態のコミットと（前回データでの）デプロイは行い、最後にジョブを失敗にする
+#   → GitHub の通知メールで気付ける
+# - 一部ソースのみ失敗: ページに表示し、ジョブは成功扱い
+name: update
+
+on:
+  schedule:
+    - cron: "17 3 * * 1,4"   # 月・木 12:17 JST（毎時0分の混雑を避ける）
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "作品ごとの取得（公式サイトURL など）の上限。空欄なら config.yaml の値"
+        required: false
+        default: ""
+
+permissions:
+  contents: write   # data ブランチへの push
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    outputs:
+      site_ready: ${{ steps.run.outputs.site_ready }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install .
+
+      - name: Prepare state (data branch worktree)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth=1 origin data; then
+            git worktree add state FETCH_HEAD
+          else
+            echo "data ブランチがないので新規作成します"
+            git worktree add --orphan -b data state
+          fi
+
+      - name: Update
+        id: run
+        env:
+          MAX_NEW: ${{ github.event.inputs.max_new }}
+        run: |
+          set +e
+          args=(run --state-dir state --out site)
+          if [ -n "${MAX_NEW}" ]; then args+=(--max-new "${MAX_NEW}"); fi
+          python -m yamo "${args[@]}"
+          code=$?
+          echo "exit_code=${code}" >> "$GITHUB_OUTPUT"
+          if [ -f site/index.html ]; then echo "site_ready=true" >> "$GITHUB_OUTPUT"; fi
+          echo "終了コード: ${code}"
+
+      - name: Commit state to data branch
+        if: always()
+        working-directory: state
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "状態に変更なし"
+          else
+            git commit -q -m "state: run ${{ github.run_id }} ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push origin HEAD:refs/heads/data
+          fi
+
+      - name: Upload Pages artifact
+        if: always() && steps.run.outputs.site_ready == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Fail if all sources failed
+        if: steps.run.outputs.exit_code != '0'
+        run: |
+          echo "::error::全ソースの取得に失敗しました（終了コード ${{ steps.run.outputs.exit_code }}）。ページは前回データで更新しています。"
+          exit 1
+
+  deploy:
+    needs: build
+    if: always() && needs.build.outputs.site_ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
