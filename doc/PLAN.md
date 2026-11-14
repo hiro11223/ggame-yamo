@@ -86,8 +86,10 @@
    - 収集のたびに最新値を取るので、詳細のキャッシュは持ちません
    - SteamSpy はタグ一覧が所有者数上位の560件しか返さず（Horror のカバー率2.1%）、タグも不正確だったため廃止しました（[STEAM_API_SURVEY.md](STEAM_API_SURVEY.md)）
 3. 本フィルタ（価格・好評率・レビュー数・言語・デモ・発売日）とスコア計算。加点タグは各作品の上位20タグで判定します。
+   - カテゴリごとにスコア上位 `max_items`（既定300件）だけを掲載します。複数カテゴリに入る作品は、上位に入ったカテゴリのタブにだけ出します
+   - 2026-11-15 の実測: 条件通過は horror 3,372件・bakage 3,734件で、掲載は各300件（重複を除いて552件）
 4. **appdetails** は、公式サイトURLを取るためだけに使います（StoreItem の `links` は SNS しか含まないため）。
-   - 対象は掲載作品だけで、スコア順に1件ずつ、上限 `max_new_fetch` 件。7日キャッシュです
+   - 対象は掲載作品（各カテゴリ上位 `max_items` 件）だけで、スコア順に1件ずつ、上限 `max_new_fetch` 件。7日キャッシュです
    - 表示用の日本語説明文は、`language=japanese` の GetItems（100件ずつ）で別に取得します（段階2）
    - appreviews は 2026-10-22 頃からストアのトップへ 302 されるようになったため、廃止しました
 5. **itch RSS**: カテゴリタグごとに3種類のフィードを取得します。
@@ -207,6 +209,7 @@ categories:
       volume: 0.3            # レビュー数の「ちょうど良さ」
       recency: 0.2
       volume_sweet_spot: 500 # このレビュー数で volume が最大
+    max_items: 300           # スコア上位この件数までを掲載
   bakage:
     label: バカゲー
     steam:
@@ -220,6 +223,7 @@ categories:
       min_positive_ratio: 0.80
       reviews: { min: 30, max: 30000 }
     weights: { rating: 0.5, volume: 0.3, recency: 0.2, volume_sweet_spot: 800 }
+    max_items: 300
 
 itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }
 ```

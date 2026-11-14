@@ -55,6 +55,7 @@ categories:
       volume: 0.3            # レビュー数の「ちょうど良さ」
       recency: 0.2
       volume_sweet_spot: 500 # このレビュー数で volume が最大
+    max_items: 300           # スコア上位この件数までを掲載
   bakage:
     label: バカゲー
     steam:
@@ -68,5 +69,6 @@ categories:
       min_positive_ratio: 0.80
       reviews: { min: 30, max: 30000 }
     weights: { rating: 0.5, volume: 0.3, recency: 0.2, volume_sweet_spot: 800 }
+    max_items: 300
 
 itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }

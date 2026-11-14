@@ -122,6 +122,8 @@ class CategoryConfig(_Strict):
     itch: ItchTagsConfig | None = None
     filters: FiltersConfig = FiltersConfig()
     weights: WeightsConfig = WeightsConfig()
+    # スコア上位この件数までを掲載（公式サイトURL・配信可否の取得もこの範囲のみ）。null で無制限
+    max_items: int | None = Field(300, ge=1)
 
 
 class ItchScoringConfig(_Strict):

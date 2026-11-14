@@ -164,6 +164,32 @@ def test_query_max_items_caps_collection(client, tmp_path, fake_steam):
     assert any("上限 2 件まで取得" in n for n in result.statuses[0].notes)
 
 
+def test_max_items_keeps_top_per_category(client, tmp_path, fake_steam):
+    base = {"require_any": ["Horror", "Psychological Horror"]}
+    filters = {"max_price_jpy": 2000, "min_positive_ratio": 0.8, "reviews": {"min": 30, "max": 20000}}
+    cfg = make_config(categories={
+        "a": {"label": "A", "steam": {**base, "bonus": {"Short": 50}}, "filters": filters, "max_items": 1},
+        "b": {"label": "B", "steam": base, "filters": filters},  # 既定 300件
+    })
+    result = run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW)
+    by_id = {i["id"]: i for i in result.items}
+    # a は上位1件（Short で +50 の 1001）だけ。1004 は a から外れ b にだけ残る
+    assert set(by_id["steam:1001"]["categories"]) == {"a", "b"}
+    assert set(by_id["steam:1004"]["categories"]) == {"b"}
+    assert by_id["steam:1004"]["score"] == by_id["steam:1004"]["categories"]["b"]
+    # 除外タグ未指定なので 1005 も通過し、条件通過は3件
+    assert set(by_id["steam:1005"]["categories"]) == {"b"}
+    assert "a: 条件通過 3件 → 掲載 1件" in result.statuses[0].notes
+
+
+def test_item_dropped_when_outside_all_limits(client, tmp_path, fake_steam):
+    cfg = make_config()
+    cfg.categories["horror"].max_items = 1
+    result = run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW)
+    assert len(result.items) == 1
+    assert len(fake_steam.website_calls) == 1  # 掲載外の作品の公式サイトは取りに行かない
+
+
 def test_website_cache_ttl(cfg, client, tmp_path, fake_steam):
     run(cfg, client, tmp_path / "state", tmp_path / "site", now=NOW)
     assert sorted(fake_steam.website_calls) == [1001, 1004]

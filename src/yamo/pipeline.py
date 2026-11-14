@@ -81,6 +81,27 @@ def _query_category(
     return found if pages else None
 
 
+def _keep_top(
+    cfg: Config, passed: list[tuple[int, list[str], dict[str, float]]], status: SourceStatus,
+) -> list[tuple[int, list[str], dict[str, float]]]:
+    """カテゴリごとにスコア上位 max_items 件だけ残す。
+
+    複数カテゴリに入る作品は、上位に入ったカテゴリだけを残す（どれにも入らなければ掲載しない）。
+    """
+    keep: dict[str, set[int]] = {}
+    for key, cat in cfg.categories.items():
+        ranked = sorted((-s[key], a) for a, _, s in passed if key in s)
+        limit = cat.max_items if cat.max_items is not None else len(ranked)
+        keep[key] = {a for _, a in ranked[:limit]}
+        status.notes.append(f"{key}: 条件通過 {len(ranked)}件 → 掲載 {len(keep[key])}件")
+    out = []
+    for appid, tags, scores in passed:
+        kept = {k: v for k, v in scores.items() if appid in keep.get(k, set())}
+        if kept:
+            out.append((appid, tags, kept))
+    return out
+
+
 def _fetch_websites(
     cfg: Config, client: HttpClient, store: StateStore, appids: list[int],
     max_new: int, now: dt.datetime, status: SourceStatus,
@@ -198,8 +219,9 @@ def _run_steam(
             )
         if scores:
             passed.append((appid, tags, scores))
+    log.info("本フィルタ: 除外 %s / 通過 %d件", dict(reasons), len(passed))
+    passed = _keep_top(cfg, passed, status)
     passed.sort(key=lambda p: (-max(p[2].values()), p[0]))
-    log.info("本フィルタ: 除外 %s / 掲載 %d件", dict(reasons), len(passed))
 
     # 3) 公式サイトURL（掲載作品のみ、スコア順）
     websites = _fetch_websites(cfg, client, store, [a for a, _, _ in passed], max_new, now, status)
