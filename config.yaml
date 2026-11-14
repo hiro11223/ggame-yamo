@@ -79,4 +79,4 @@ itch_scoring:
   price: 0.2
   tag_match: 0.3
   recency_half_life_days: 180
-  feed_bonus: { top_rated: 10, popular: 5 }
+  feed_bonus: { top_rated: 25, popular: 15 }   # 品質の目安。新着だけの作品が上位を占めないよう大きめ

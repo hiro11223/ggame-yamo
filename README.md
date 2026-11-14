@@ -93,7 +93,7 @@ itch_scoring:                          # itch はレビュー数がないので�
   price: 0.2                           # 安さの重み
   tag_match: 0.3                       # カテゴリのタグにいくつ当てはまるか
   recency_half_life_days: 180          # この日数で「新しさ」が半分になる
-  feed_bonus: { top_rated: 10, popular: 5 }  # 人気・高評価フィードに載っていれば加点
+  feed_bonus: { top_rated: 25, popular: 15 } # 人気・高評価フィードに載っていれば加点
 ```
 
 - RSS は新しい作品から36件ずつしか返さないので、実行のたびに見つけた作品を蓄積していきます
