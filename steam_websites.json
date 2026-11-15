@@ -47,6 +47,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:1097410": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://kittensgame.com"
+ },
  "steam:1114030": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
@@ -78,6 +82,10 @@
  "steam:1147030": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "http://www.cadgames.co.uk"
+ },
+ "steam:1147130": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://modernballfare.com"
  },
  "steam:1151050": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -255,6 +263,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "http://azamatika.com"
  },
+ "steam:1557220": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:1558800": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -282,6 +294,10 @@
  "steam:1573630": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://blazingplanetstudio.com/"
+ },
+ "steam:1578720": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://scrabdackle.com/"
  },
  "steam:1582570": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -311,6 +327,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "http://caiysware.com"
  },
+ "steam:1624190": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:1627350": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "http://www.beliefengine.com/deadletterdept/"
@@ -326,6 +346,10 @@
  "steam:1657170": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
+ },
+ "steam:1662010": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://waffleironstudios.com/"
  },
  "steam:1664200": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -346,6 +370,10 @@
  "steam:1675670": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
+ },
+ "steam:1675860": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.playjunkster.com"
  },
  "steam:1682490": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -391,9 +419,17 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://mindhack.xyz/?page_id=1145"
  },
+ "steam:1729140": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://hired2die.com/"
+ },
  "steam:1730360": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://notovia.net/"
+ },
+ "steam:1734110": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:1734680": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -411,6 +447,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://jellycargame.com"
  },
+ "steam:1745680": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://oddscure.com/"
+ },
  "steam:1748610": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://www.gamemaga.jp/tsugunohi/game/korone/"
@@ -422,6 +462,10 @@
  "steam:1755350": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "http://www.cubecubesports.com"
+ },
+ "steam:1756100": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://x.com/WhoGrandma"
  },
  "steam:1761780": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -435,12 +479,20 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:1775960": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://teamficus.com/"
+ },
  "steam:1783800": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
  "steam:1785940": {
   "fetched_at": "2026-11-15T10:00:59Z",
+  "website": null
+ },
+ "steam:1797930": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:1800940": {
@@ -499,6 +551,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:1864730": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://eo4.com"
+ },
  "steam:1872860": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://www.dna-studios-llc.com/"
@@ -511,13 +567,29 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:1883920": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:1889640": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://www.recode.games"
  },
+ "steam:1892140": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:1893440": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:1895890": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
+ },
+ "steam:1902650": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.triptimegames.com/"
  },
  "steam:1908870": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -549,6 +621,10 @@
  },
  "steam:1934870": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:1936360": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:1937880": {
@@ -659,6 +735,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:2079480": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://thethirdshiftgame.com/"
+ },
  "steam:2103950": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://ljfgames.com/kritter/"
@@ -666,6 +746,10 @@
  "steam:2106810": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://www.gamemaga.jp/kirisame/"
+ },
+ "steam:2107180": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://eruptingavocado.com/"
  },
  "steam:2110510": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -711,6 +795,10 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:2189040": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2189640": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
@@ -746,6 +834,10 @@
  "steam:2216360": {
   "fetched_at": "2026-11-15T02:12:22Z",
   "website": "https://www.toplitz-productions.com/"
+ },
+ "steam:2216960": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:2221500": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -791,6 +883,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:2247050": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2257440": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://oopsiedaisiesstudio.com"
@@ -806,6 +902,10 @@
  "steam:2263920": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://rasm.dev/golf"
+ },
+ "steam:2265920": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.castleofblackwater.com/"
  },
  "steam:2266820": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -827,6 +927,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://puzzledsquid.xyz/#tunnet"
  },
+ "steam:2290890": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2300160": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://impress.games/press-kit/lesser-evil/death-from-above---ukrainian-drone-operator"
@@ -841,6 +945,10 @@
  },
  "steam:2302540": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:2303420": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:2304730": {
@@ -915,8 +1023,16 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://www.killitwithfiregame.com/"
  },
+ "steam:2367120": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2376540": {
   "fetched_at": "2026-11-15T10:00:59Z",
+  "website": null
+ },
+ "steam:2379230": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:2380310": {
@@ -1015,6 +1131,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:2445590": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2454890": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -1022,6 +1142,10 @@
  "steam:2462520": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://notovia.net/"
+ },
+ "steam:2471090": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://store.steampowered.com/publisher/jasiogames"
  },
  "steam:2471970": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -1115,8 +1239,16 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://playoutofsight.com/"
  },
+ "steam:2536260": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2536530": {
   "fetched_at": "2026-11-15T10:00:59Z",
+  "website": null
+ },
+ "steam:2536600": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:2537470": {
@@ -1335,6 +1467,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:2761240": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2764750": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
@@ -1362,6 +1498,10 @@
  "steam:2776270": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://beetleballgame.com/"
+ },
+ "steam:2778500": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:2781210": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -1403,6 +1543,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://lokin.gg/"
  },
+ "steam:2810550": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2810780": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://madeinfairyland.com/"
@@ -1423,6 +1567,18 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:2835460": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:2835650": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://randomice.miraheze.org/wiki/Main_Page"
+ },
+ "steam:2835690": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://haunteddude.com/"
+ },
  "steam:2840000": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://hamster.cafe"
@@ -1442,6 +1598,10 @@
  "steam:2841650": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://pqube.co.uk/games/sniper-dan/"
+ },
+ "steam:2845840": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:2846060": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -1467,12 +1627,28 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://www.yiikrpg.com/iv.html"
  },
+ "steam:2869560": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://vk.com/tomotoro"
+ },
  "steam:2870710": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:2871140": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.liliengames.com/game/the-real-face-of-a-vtuber/the-real-faces-of-vtuber"
+ },
+ "steam:2871980": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2872930": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:2873810": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:2875280": {
@@ -1503,6 +1679,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://sgradegames.com/"
  },
+ "steam:2885060": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2885480": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -1514,6 +1694,10 @@
  "steam:2885610": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://whimsicaluniverses.com/"
+ },
+ "steam:2885810": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:2887450": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -1539,6 +1723,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://creatorslab.kodansha.co.jp/products/5138/"
  },
+ "steam:2902440": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2902540": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
@@ -1550,6 +1738,10 @@
  "steam:2905970": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://rockgame.pl"
+ },
+ "steam:2906280": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.nukearts.com.br/our-games/hidden-cats-in-spooky-village/"
  },
  "steam:2918090": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -1567,13 +1759,33 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:2920510": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2925320": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://noobzilla.games/"
  },
+ "steam:2928770": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.beyondbooleans.com/"
+ },
+ "steam:2931620": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2933200": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:2937590": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://www.wyrmhall.com"
+ },
+ "steam:2941360": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://monstershopgames.com/"
  },
  "steam:2945150": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -1595,6 +1807,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://www.lyko-studio.com"
  },
+ "steam:2954080": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2955720": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://linktr.ee/meia_calca"
@@ -1611,9 +1827,17 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://www.kekdot.com/"
  },
+ "steam:2963280": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:2964280": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:2964550": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://vr-realms.com/"
  },
  "steam:2971960": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -1654,6 +1878,10 @@
  "steam:2998260": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://lightthoughts.carrd.co"
+ },
+ "steam:3000370": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.hayesgeldmacher.com/ritual-static-press-kit"
  },
  "steam:3001730": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -1747,6 +1975,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://xeecee.com/misericorde-vol-two"
  },
+ "steam:3036380": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3036800": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://www.priprigame.com"
@@ -1766,6 +1998,10 @@
  "steam:3044030": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://linktr.ee/vinhill"
+ },
+ "steam:3045660": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3046300": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -1807,6 +2043,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:3077540": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://snrinteractive.com/"
+ },
  "steam:3077570": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://skoota.jp/games/momocrash/"
@@ -1823,6 +2063,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://www.triplecalavera.com/skeleton-hell"
  },
+ "steam:3091010": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3091770": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://mechanikoi.com.ar/en/"
@@ -1838,6 +2082,10 @@
  "steam:3104970": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://backyardsports.com/"
+ },
+ "steam:3106660": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3107900": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -1883,6 +2131,22 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3130800": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.myeye.studio/"
+ },
+ "steam:3131280": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://triomatica.games"
+ },
+ "steam:3135260": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3137530": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3140620": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -1919,6 +2183,10 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3156640": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3160640": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
@@ -1930,6 +2198,14 @@
  "steam:3168310": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "http://www.goblinz.com/"
+ },
+ "steam:3170580": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://backyardsports.com/"
+ },
+ "steam:3172760": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.zipit.games"
  },
  "steam:3176720": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -1955,13 +2231,25 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://endysis.net/it-paints-me"
  },
+ "steam:3187880": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://creatorslab.kodansha.co.jp/products/2650/"
+ },
  "steam:3189440": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:3189790": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://sgradegames.com/"
+ },
  "steam:3195580": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://lilysworldxd.com/"
+ },
+ "steam:3198680": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://beanjuicestudios.com/"
  },
  "steam:3198890": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -1974,6 +2262,18 @@
  "steam:3200460": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
+ },
+ "steam:3203590": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://www.torgomind.com/"
+ },
+ "steam:3207300": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://linktr.ee/gameandcode"
+ },
+ "steam:3208910": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.poultrypartygames.com"
  },
  "steam:3212530": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -1994,6 +2294,10 @@
  "steam:3215230": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://linktr.ee/GoSlimeyGo"
+ },
+ "steam:3215290": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3215660": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -2023,12 +2327,32 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://www.monkeystrikegames.com/"
  },
+ "steam:3229160": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3229170": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:3230330": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3231520": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:3233130": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3234760": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3235170": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3238580": {
@@ -2043,6 +2367,18 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://www.youtube.com/channel/UCOzHyKuO7c1L2Bp5linqbWw"
  },
+ "steam:3247640": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://icindustriesdev.pages.dev/sevendays"
+ },
+ "steam:3252360": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.turbolentogames.com/unemploymentsimulator2018"
+ },
+ "steam:3252920": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3253530": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -2050,6 +2386,14 @@
  "steam:3258290": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://equinox.game/"
+ },
+ "steam:3264960": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://groschevaux.com/"
+ },
+ "steam:3269860": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://bucketoffish.games/"
  },
  "steam:3272170": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -2105,6 +2449,10 @@
  },
  "steam:3301370": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3305540": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3306030": {
@@ -2167,6 +2515,10 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3342800": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3343770": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://kreidpix.com/"
@@ -2174,6 +2526,10 @@
  "steam:3345950": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://www.luskigamestudio.com/capote"
+ },
+ "steam:3346820": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3347910": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -2195,9 +2551,25 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3354220": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3356700": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3358340": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
+ },
+ "steam:3358680": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3363040": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://geismgame.com/"
  },
  "steam:3363200": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -2209,6 +2581,14 @@
  },
  "steam:3365910": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:3372090": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://tayfuntuna.com.tr/"
+ },
+ "steam:3376020": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3376250": {
@@ -2243,9 +2623,17 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3391350": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3394770": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:3395500": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://noffty.com/"
  },
  "steam:3396290": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -2255,9 +2643,17 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3400040": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3400650": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
+ },
+ "steam:3401570": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://abyssring.netlify.app/english"
  },
  "steam:3406690": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -2283,12 +2679,24 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3417940": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://chaosversestudio.com/"
+ },
  "steam:3421740": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3422060": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3426920": {
   "fetched_at": "2026-11-15T10:00:59Z",
+  "website": null
+ },
+ "steam:3427870": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3432160": {
@@ -2303,12 +2711,20 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3433230": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3435600": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
  "steam:3436130": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:3439320": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3444220": {
@@ -2323,13 +2739,33 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:3446430": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3447410": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3447620": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://zvgames.taplink.ws/"
+ },
+ "steam:3447920": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3448750": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3449040": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://studiosdeadpixel.com/"
+ },
+ "steam:3453530": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.coffiesimulator.com/"
  },
  "steam:3453910": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -2339,8 +2775,20 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3454520": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3457940": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:3459570": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3461060": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3461920": {
@@ -2349,6 +2797,10 @@
  },
  "steam:3470550": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3474310": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3476730": {
@@ -2366,6 +2818,22 @@
  "steam:3481320": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://roomgames.co/"
+ },
+ "steam:3481710": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3485770": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3486970": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3488200": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3489670": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -2399,13 +2867,29 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3509180": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://pocketboss.ch"
+ },
+ "steam:3509770": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://syato-sombrero.tumblr.com/"
+ },
  "steam:3510740": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:3514630": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:351510": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "http://www.jackboxgames.com"
+ },
+ "steam:3516580": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3520030": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -2415,8 +2899,20 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3528910": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3529390": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3529690": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3531630": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3532360": {
@@ -2429,6 +2925,10 @@
  },
  "steam:3537690": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:3540550": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3541630": {
@@ -2451,6 +2951,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3545940": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3547010": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://www.pantaloon.io/occlude"
@@ -2467,6 +2971,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://www.kelecik.com"
  },
+ "steam:3555520": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3555980": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://www.wildartsgames.com/caput-mortum"
@@ -2475,9 +2983,17 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:3564090": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://smokebreakgame.crd.co"
+ },
  "steam:3564340": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://www.joygame.com/en/select/steam-games/hold-your-king"
+ },
+ "steam:3565080": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3565980": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -2487,8 +3003,20 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3567620": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3569430": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:3572020": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3573020": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3573070": {
@@ -2501,6 +3029,14 @@
  },
  "steam:3575300": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3577630": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://www.eyesineverything.com/"
+ },
+ "steam:3582360": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3583060": {
@@ -2523,13 +3059,25 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3585160": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3585310": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3585400": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3588490": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:3589010": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://treeksamrix.com/bank"
  },
  "steam:3589820": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -2583,6 +3131,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://firefootstudios.com/"
  },
+ "steam:3607790": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3609320": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
@@ -2593,6 +3145,10 @@
  },
  "steam:3616260": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3618880": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3621200": {
@@ -2607,6 +3163,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:3626910": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3627790": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
@@ -2614,6 +3174,10 @@
  "steam:3629290": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
+ },
+ "steam:3631850": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.bitemegames.com/"
  },
  "steam:3632890": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -2625,6 +3189,14 @@
  },
  "steam:3634430": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3636960": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3638180": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3639010": {
@@ -2663,6 +3235,14 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3659180": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3664160": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3667230": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -2677,6 +3257,10 @@
  },
  "steam:3670630": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:3670670": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3670740": {
@@ -2703,6 +3287,14 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://mirowin.com/"
  },
+ "steam:3682360": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3684810": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.cardsandcastles.com"
+ },
  "steam:3685900": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://old-hard.ru/"
@@ -2715,6 +3307,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3689140": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3689660": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -2723,8 +3319,16 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:3690890": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3691430": {
   "fetched_at": "2026-11-15T10:00:59Z",
+  "website": null
+ },
+ "steam:3691640": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3692070": {
@@ -2771,6 +3375,14 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3708660": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3711090": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.mikdog.com/bru-boegie-episode-1-get-da-milk/"
+ },
  "steam:3714400": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -2787,6 +3399,14 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3722600": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3723530": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://brokenrecordstudio.com/"
+ },
  "steam:3723750": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -2802,6 +3422,10 @@
  "steam:3725630": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://wiseguysofficial.com"
+ },
+ "steam:3729890": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://sillykitty.org/"
  },
  "steam:3730790": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -2823,9 +3447,21 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3738050": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://konayachi.com"
+ },
  "steam:3739190": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:3739300": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3741640": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://konayachi.com"
  },
  "steam:3743090": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -2851,16 +3487,36 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:3754180": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3755350": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:3760770": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.delusionartstudio.com/"
  },
  "steam:3763820": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:3774300": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://play.google.com/store/apps/details?id=com.SUCorporation.JeffTheKiller"
+ },
+ "steam:3774940": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3775510": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:3777020": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3777060": {
@@ -2870,6 +3526,18 @@
  "steam:3777270": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:3777300": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3779380": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3779440": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://www.delugegame.com"
  },
  "steam:3785710": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -2903,6 +3571,14 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3808010": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3808900": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3809870": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -2915,6 +3591,14 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3813470": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3815140": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3816450": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -2923,6 +3607,10 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://risestudios.github.io/"
  },
+ "steam:3818230": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3820860": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -2930,6 +3618,10 @@
  "steam:382260": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "http://www.frozendev.com"
+ },
+ "steam:3823130": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3823460": {
   "fetched_at": "2026-11-14T17:50:58Z",
@@ -2941,6 +3633,10 @@
  },
  "steam:3823950": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:3825740": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3826670": {
@@ -2967,8 +3663,20 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://increpare.com"
  },
+ "steam:3831660": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3832630": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3834480": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3834600": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3837390": {
@@ -2982,6 +3690,10 @@
  "steam:3839910": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
+ },
+ "steam:3847100": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://sites.google.com/view/menspicetokyo/%E3%82%A2%E3%82%A4%E3%82%A2%E3%82%A4%E5%96%AB%E8%8C%B6%E5%BA%97"
  },
  "steam:3848750": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -2999,9 +3711,17 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://neuroticfly.com/"
  },
+ "steam:3857770": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3858990": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
+ },
+ "steam:3860920": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.616games.com"
  },
  "steam:3864450": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -3009,6 +3729,10 @@
  },
  "steam:3866140": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:3868630": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3873400": {
@@ -3022,6 +3746,10 @@
  "steam:3880190": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:3880350": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://mekagames.net"
  },
  "steam:3883570": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -3045,6 +3773,10 @@
  },
  "steam:3894170": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:3894390": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3894790": {
@@ -3075,6 +3807,14 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:3908200": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3908270": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://letherfall.netlify.app/"
+ },
  "steam:3909220": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -3082,6 +3822,10 @@
  "steam:3909960": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://www.atooi.com/"
+ },
+ "steam:3910410": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3912310": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -3107,9 +3851,17 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:3919400": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3919860": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://www.rhombicogames.com/game/consumption-line/"
+ },
+ "steam:3920890": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:3922920": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -3123,9 +3875,17 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:3926730": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3927170": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:3929970": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://3r.games/"
  },
  "steam:3930150": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -3133,6 +3893,14 @@
  },
  "steam:3930510": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:3931170": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:3933150": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3940340": {
@@ -3167,6 +3935,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:3954460": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3956170": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -3179,12 +3951,24 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://midnightgamestudios.com/"
  },
+ "steam:3962270": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://rogueduck.net"
+ },
+ "steam:3962400": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://elsewheregame.net"
+ },
  "steam:3963070": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
  "steam:3963490": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:3963520": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3965430": {
@@ -3195,9 +3979,21 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:3971470": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://vfs.edu/"
+ },
+ "steam:3975830": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3976340": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://linktr.ee/filthy_eden"
+ },
+ "steam:3978150": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://milkplus.moe/story/soundless/"
  },
  "steam:3979330": {
   "fetched_at": "2026-11-15T10:00:59Z",
@@ -3215,12 +4011,20 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:3983920": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:3985060": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://atmopixel.com/"
  },
  "steam:3987420": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:3987620": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:3989550": {
@@ -3245,6 +4049,10 @@
  },
  "steam:3994680": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:3998790": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4001350": {
@@ -3283,6 +4091,14 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4015300": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4017820": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4017930": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -3319,6 +4135,10 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:4037180": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://sound.games/games.html"
+ },
  "steam:4038780": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -3327,12 +4147,20 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://solarsuit.games/"
  },
+ "steam:4046950": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://wumbo-workshop.com/uh-oh"
+ },
  "steam:4052500": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
  "steam:4053520": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:4055570": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4056300": {
@@ -3363,9 +4191,21 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4075080": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4075590": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://footnotegames.carrd.co/"
+ },
+ "steam:4077400": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4079340": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.mystivedev.com"
  },
  "steam:4080010": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -3381,6 +4221,10 @@
  },
  "steam:4096830": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:4107470": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4108000": {
@@ -3407,6 +4251,14 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4119610": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4121400": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.kira-llc.com"
+ },
  "steam:4131900": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "http://www.genuine-studio.com"
@@ -3417,6 +4269,10 @@
  },
  "steam:4133830": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4135380": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4137210": {
@@ -3447,8 +4303,16 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://toilet8.okashi.games"
  },
+ "steam:4144070": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4144510": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4147050": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4149320": {
@@ -3463,6 +4327,14 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://www.outcaststudios.net/"
  },
+ "steam:4150570": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4150960": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4151830": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -3470,6 +4342,10 @@
  "steam:4152310": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://www.dimitars.dev/"
+ },
+ "steam:4152840": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:4154100": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -3495,6 +4371,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://games.parco.jp/page/polka/"
  },
+ "steam:4161930": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4163030": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -3503,8 +4383,16 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://www.jadenw.com"
  },
+ "steam:4168280": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4168750": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4170220": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4173130": {
@@ -3523,12 +4411,24 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:4181370": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4181410": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:4182030": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://x.com/chiikun1996"
+ },
  "steam:4182430": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4184020": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4185050": {
@@ -3537,6 +4437,10 @@
  },
  "steam:4186870": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4187020": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4188260": {
@@ -3554,6 +4458,14 @@
  "steam:4191830": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
+ },
+ "steam:4196110": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4197430": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://kimulatorsfilms.com/"
  },
  "steam:4198660": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -3579,13 +4491,25 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:4220370": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4222040": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4222340": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://x.com/CertainHaaton"
+ },
  "steam:4223300": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://hexnestgames.com/"
+ },
+ "steam:4224460": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:4225400": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -3603,6 +4527,10 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:4234170": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4240090": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -3613,6 +4541,10 @@
  },
  "steam:4246300": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4246830": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4247680": {
@@ -3631,6 +4563,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://lexipgames.com/"
  },
+ "steam:4251540": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://noseco.dev/buster-breaks-out"
+ },
  "steam:4251580": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://alleesaur.itch.io/everyday-devil"
@@ -3645,6 +4581,10 @@
  },
  "steam:4258770": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:4259890": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4262310": {
@@ -3666,6 +4606,18 @@
  "steam:4278170": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://www.gamesfromtheabyss.net/"
+ },
+ "steam:4280570": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4280820": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4281770": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:4285320": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -3707,6 +4659,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4299990": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4301580": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://linktr.ee/blamethegame_dev"
@@ -3715,8 +4671,16 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:4304030": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://detective-beebo.neocities.org/"
+ },
  "steam:4306070": {
   "fetched_at": "2026-11-14T17:50:58Z",
+  "website": null
+ },
+ "steam:4310570": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4310610": {
@@ -3743,6 +4707,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://rebelbinary.com/OnlyOne/"
  },
+ "steam:4324120": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4326790": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -3750,6 +4718,10 @@
  "steam:4329100": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://just-a-carrot.carrd.co/"
+ },
+ "steam:4334110": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:4334530": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -3762,6 +4734,22 @@
  "steam:4344480": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://www.skullqueens.games/"
+ },
+ "steam:4344730": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4346950": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://benjaminhalko.dev/johnsquest/"
+ },
+ "steam:4348980": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://helloitscrash.com"
+ },
+ "steam:4351380": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:4354460": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -3791,6 +4779,14 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:437550": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://melonsim.com"
+ },
+ "steam:4376660": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4380750": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -3805,6 +4801,10 @@
  },
  "steam:4389170": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4389810": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4391590": {
@@ -3839,8 +4839,16 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "https://www.dumbwaystodie.com/"
  },
+ "steam:4415470": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4415740": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:4417890": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:442070": {
@@ -3862,6 +4870,10 @@
  "steam:4429700": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://whichsausagemate.com/"
+ },
+ "steam:4429720": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.nightwellgames.com/deductopia"
  },
  "steam:4429870": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -3887,6 +4899,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "http://dawnbell.usagistore.com"
  },
+ "steam:4456630": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4458840": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://genieboygames.com"
@@ -3899,6 +4915,10 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
  },
+ "steam:4466710": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://erogejapan.com/"
+ },
  "steam:4467540": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -3909,6 +4929,10 @@
  },
  "steam:4479970": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:4481670": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4483120": {
@@ -3983,6 +5007,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:4535860": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4537100": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -3993,6 +5021,10 @@
  },
  "steam:4540090": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:4540510": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4547970": {
@@ -4007,12 +5039,32 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4562850": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4562940": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:4563540": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://sites.google.com/view/okage-factory/"
+ },
  "steam:4565430": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4566690": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4568220": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4571080": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4572790": {
@@ -4021,6 +5073,10 @@
  },
  "steam:4573760": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:4580120": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4580600": {
@@ -4055,6 +5111,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4588170": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4588930": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -4071,6 +5131,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:4599500": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4602120": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -4083,6 +5147,10 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:4610360": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4612480": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -4091,12 +5159,20 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4627630": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4628250": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://bit.ly/GrowSausagePressKit"
  },
  "steam:4629600": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4632530": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4635840": {
@@ -4109,6 +5185,10 @@
  },
  "steam:4641700": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:4642060": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4643930": {
@@ -4131,6 +5211,14 @@
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://claymatic.games/"
  },
+ "steam:4653340": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4655800": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4656000": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": "http://bombanana.leftostudio.com/"
@@ -4138,6 +5226,10 @@
  "steam:4661070": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://games.artdock.studio"
+ },
+ "steam:4664920": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
  },
  "steam:4665960": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -4163,6 +5255,14 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:4682660": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4683530": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4691990": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
@@ -4174,6 +5274,10 @@
  "steam:4703560": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
+ },
+ "steam:4719560": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://unyaunyagames.com/"
  },
  "steam:4720690": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -4227,6 +5331,10 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": null
  },
+ "steam:4818760": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4820140": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://bodinhe.com/"
@@ -4255,8 +5363,16 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:4836310": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4836650": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4838660": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4843210": {
@@ -4307,9 +5423,21 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:4895060": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:4895330": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://hangames.net/"
+ },
  "steam:4901420": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://countlessbathory.neocities.org/autumnsend"
+ },
+ "steam:4901860": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://criticsarcade.com/"
  },
  "steam:4908110": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -4337,6 +5465,10 @@
  },
  "steam:4918760": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:4922730": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:4925300": {
@@ -4367,6 +5499,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://drive.google.com/drive/folders/1ZrdvhLrcYeyFXWTCT_DqReB0Q2uL1GVF"
  },
+ "steam:4986740": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:4986750": {
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "https://neuroticfly.com/"
@@ -4378,6 +5514,10 @@
  "steam:5001630": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
+ },
+ "steam:5005100": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://crazishgames.com/"
  },
  "steam:5009390": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -4407,12 +5547,24 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:5032140": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.ivyjuice.games/"
+ },
  "steam:5032490": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:5033270": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:5037510": {
   "fetched_at": "2026-11-14T16:42:40Z",
+  "website": null
+ },
+ "steam:5044390": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:5051080": {
@@ -4439,12 +5591,24 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": "https://thisgameisnotreal.studio.site/"
  },
+ "steam:5089240": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:5095310": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
  "steam:5101080": {
   "fetched_at": "2026-11-15T12:21:22Z",
+  "website": null
+ },
+ "steam:5101390": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://coldcoffeestudio.com/"
+ },
+ "steam:5102980": {
+  "fetched_at": "2026-11-15T12:45:14Z",
   "website": null
  },
  "steam:5105650": {
@@ -4463,6 +5627,14 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:5114970": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
+ "steam:5119790": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:5131440": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
@@ -4475,9 +5647,17 @@
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
  },
+ "steam:5154340": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:5167420": {
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
+ },
+ "steam:5173660": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.616games.com"
  },
  "steam:5175310": {
   "fetched_at": "2026-11-14T16:42:40Z",
@@ -4515,6 +5695,10 @@
   "fetched_at": "2026-11-15T12:21:22Z",
   "website": null
  },
+ "steam:5327880": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": null
+ },
  "steam:5342930": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://www.atooi.com/"
@@ -4534,6 +5718,10 @@
  "steam:5372440": {
   "fetched_at": "2026-11-14T16:42:40Z",
   "website": null
+ },
+ "steam:5450430": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://steam.hillbillyyacht.club/"
  },
  "steam:5458210": {
   "fetched_at": "2026-11-15T12:21:22Z",
@@ -4563,6 +5751,14 @@
   "fetched_at": "2026-11-14T17:50:58Z",
   "website": "http://baconmaydie.com/"
  },
+ "steam:651380": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://www.indiedb.com/games/bang-bang"
+ },
+ "steam:661940": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "http://www.regularhumanbasketball.com"
+ },
  "steam:670160": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": null
@@ -4570,6 +5766,10 @@
  "steam:699180": {
   "fetched_at": "2026-11-15T10:00:59Z",
   "website": "https://twitter.com/IvanShivart"
+ },
+ "steam:703680": {
+  "fetched_at": "2026-11-15T12:45:14Z",
+  "website": "https://www.massivecrystal.com"
  },
  "steam:720030": {
   "fetched_at": "2026-11-15T10:00:59Z",
