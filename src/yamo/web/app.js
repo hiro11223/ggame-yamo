@@ -15,6 +15,8 @@ const RECHECK_DAYS = 30;
 const LANG_LABELS = { japanese: "日本語", english: "英語" };
 const SOURCE_LABELS = { steam: "Steam", itch: "itch.io" };
 const MAX_TAGS_SHOWN = 6;
+/** 一度に描く行数。件数が多いと行の生成が重いので、残りはスクロールに合わせて足していく。 */
+const PAGE_SIZE = 200;
 /* 配列の項目は複数選択。verdict/source はいずれかに一致（OR）、lang はすべて対応（AND）、
  * tag は tagMode（all=すべて含む / any=いずれか含む）、xtag は1つでも含めば除外。 */
 const DEFAULT_STATE = {
@@ -127,6 +129,13 @@ function tagOptions(items, tab, limit = 80) {
   return [...counts.entries()]
     .sort((a, b) => b[1] - a[1] || compare(a[0], b[0]))
     .slice(0, limit);
+}
+
+/** 件数の表示。一部だけ描いているときは「全体◯件中 ◯件」と出す。 */
+function countText(total, shown, filterCount) {
+  const fmt = (n) => n.toLocaleString("ja-JP");
+  const base = shown < total ? `${fmt(total)}件中 ${fmt(shown)}件を表示` : `${fmt(total)}件を表示`;
+  return base + (filterCount ? `（絞り込み条件 ${filterCount}件）` : "");
 }
 
 function formatPrice(yen) {
@@ -293,6 +302,7 @@ function init() {
   const tagAdd = document.getElementById("tag-add");
   const xtagAdd = document.getElementById("xtag-add");
   const chipsEl = document.getElementById("tag-chips");
+  const moreBtn = document.getElementById("more");
   const now = Date.now();
   const MULTI = ["verdict", "source", "lang"];
   const SINGLE = ["q", "tagMode", "priceMax", "minRatio", "minReviews", "maxReviews", "sort", "dir"];
@@ -339,19 +349,51 @@ function init() {
     }
   }
 
-  function render() {
-    const selected = selectItems(items, state);
+  let selected = [];
+  let shown = 0;
+
+  /** 次の PAGE_SIZE 件を表の末尾に足す。 */
+  function appendMore() {
+    const next = selected.slice(shown, shown + PAGE_SIZE);
+    if (!next.length) return;
     const frag = document.createDocumentFragment();
-    for (const item of selected) frag.append(renderRow(item, state.tab, now));
-    rows.replaceChildren(frag);
-    const n = activeFilterCount(state, defaults);
-    countEl.textContent = `${selected.length}件を表示` + (n ? `（絞り込み条件 ${n}件）` : "");
-    if (!selected.length) {
-      rows.append(el("tr", { class: "empty" }, el("td", { colspan: 11 }, "条件に合う作品はありません。")));
-    }
+    for (const item of next) frag.append(renderRow(item, state.tab, now));
+    rows.append(frag);
+    shown += next.length;
+    const rest = selected.length - shown;
+    countEl.textContent = countText(selected.length, shown, activeFilterCount(state, defaults));
+    moreBtn.hidden = rest <= 0;
+    moreBtn.textContent = `さらに表示（残り ${rest.toLocaleString("ja-JP")}件）`;
+  }
+
+  function render() {
+    selected = selectItems(items, state);
+    shown = 0;
+    rows.replaceChildren();
+    countEl.textContent = countText(0, 0, activeFilterCount(state, defaults));
+    moreBtn.hidden = true;
+    if (selected.length) appendMore();
+    else rows.append(el("tr", { class: "empty" }, el("td", { colspan: 11 }, "条件に合う作品はありません。")));
     const hash = stateToHash(state, defaults);
     if (hash !== location.hash) history.replaceState(null, "", hash || location.pathname + location.search);
+    watchMore();
   }
+
+  // ボタンが画面に近づいたら自動で続きを足す。observe し直すと現在の交差状態で必ず1回呼ばれるので、
+  // 足したあともまだ画面内にある（画面が縦に長い等）場合はそのまま続けて足される。
+  const observer = "IntersectionObserver" in window
+    ? new IntersectionObserver((entries) => {
+      if (!entries.some((e) => e.isIntersecting) || moreBtn.hidden) return;
+      appendMore();
+      watchMore();
+    }, { rootMargin: "0px 0px 800px 0px" })
+    : null;
+  function watchMore() {
+    if (!observer) return;
+    observer.unobserve(moreBtn);
+    if (!moreBtn.hidden) observer.observe(moreBtn);
+  }
+  moreBtn.addEventListener("click", () => { appendMore(); watchMore(); });
 
   function update(patch) {
     state = { ...state, ...patch };
@@ -397,7 +439,7 @@ function init() {
 if (typeof module !== "undefined" && module.exports) {
   module.exports = {
     scoreOf, verdictOf, sourcesOf, needsRecheck, matches, selectItems, tagOptions, activeFilterCount,
-    formatPrice, formatRatio, stateFromHash, stateToHash, safeUrl, DEFAULT_STATE,
+    countText, PAGE_SIZE, formatPrice, formatRatio, stateFromHash, stateToHash, safeUrl, DEFAULT_STATE,
   };
 } else if (typeof document !== "undefined") {
   init();

@@ -86,10 +86,11 @@
    - 収集のたびに最新値を取るので、詳細のキャッシュは持ちません
    - SteamSpy はタグ一覧が所有者数上位の560件しか返さず（Horror のカバー率2.1%）、タグも不正確だったため廃止しました（[STEAM_API_SURVEY.md](STEAM_API_SURVEY.md)）
 3. 本フィルタ（価格・好評率・レビュー数・言語・デモ・発売日）とスコア計算。加点タグは各作品の上位20タグで判定します。
-   - カテゴリごとにスコア上位 `max_items`（既定300件）だけを掲載します。複数カテゴリに入る作品は、上位に入ったカテゴリのタブにだけ出します
-   - 2026-11-15 の実測: 条件通過は horror 3,372件・bakage 3,734件で、掲載は各300件（重複を除いて552件）
+   - カテゴリごとにスコア上位 `max_items`（既定1000件）だけを掲載します。複数カテゴリに入る作品は、上位に入ったカテゴリのタブにだけ出します
+   - 2026-11-15 の実測: 条件通過は horror 3,372件・bakage 3,734件で、掲載は各300件（重複を除いて552件）。条件通過の1割弱しか載っていなかったため、同日に各1000件へ上げました
+   - 掲載が約2,000件（埋め込みデータ約3MB）になるので、一覧は最初の200件だけ描き、表の下の「さらに表示」ボタンが画面に近づいたら200件ずつ足します（ボタンを押しても可）。タブ・絞り込み・並べ替えを変えると最初の200件から描き直します。PC での実測では、ホラー1,200件の初回描画が全件描画の約700msから約200msに減りました
 4. **appdetails** は、公式サイトURLを取るためだけに使います（StoreItem の `links` は SNS しか含まないため）。
-   - 対象は掲載作品（各カテゴリ上位 `max_items` 件）だけで、スコア順に1件ずつ、上限 `max_new_fetch` 件。7日キャッシュです
+   - 対象は掲載作品（各カテゴリ上位 `max_items` 件）だけで、スコア順に1件ずつ、上限 `max_new_fetch` 件。30日キャッシュです（公式サイトURLはほぼ変わらず、掲載1000件×2カテゴリでも週2回・1回300件で追いつくため）
    - 表示用の日本語説明文は、`language=japanese` の GetItems（100件ずつ）で別に取得します（段階2）
    - appreviews は 2026-10-22 頃からストアのトップへ 302 されるようになったため、廃止しました
 5. **itch RSS**: カテゴリタグごとに3種類のフィードを取得します（実装済み。1ページ36件、`?page=N` で続き、存在しないタグは 200 で0件）。
@@ -114,7 +115,7 @@ SQLiteではなくJSONにします。理由は、GitHub上で差分が読めて�
 
 ```
 state/
-├── steam_websites.json   # Steam の公式サイトURL キャッシュ（appdetails、7日）
+├── steam_websites.json   # Steam の公式サイトURL キャッシュ（appdetails、30日）
 ├── itch_items.json       # itch RSS蓄積
 ├── streaming.json        # 配信可否 最新判定（30日）
 ├── verdict_history.jsonl # 判定変化の履歴（変化時のみ追記）
@@ -168,7 +169,7 @@ fetch:
   max_streaming_checks: 150
   retry: { max_attempts: 5, base_sec: 2, max_sec: 120 }
 
-cache_ttl_days: { appdetails: 7, streaming: 30 }
+cache_ttl_days: { appdetails: 30, streaming: 30 }
 
 currency:
   to_jpy: { USD: 150, EUR: 165, GBP: 195, JPY: 1 }
@@ -209,7 +210,7 @@ categories:
       volume: 0.3            # レビュー数の「ちょうど良さ」
       recency: 0.2
       volume_sweet_spot: 500 # このレビュー数で volume が最大
-    max_items: 300           # スコア上位この件数までを掲載
+    max_items: 1000          # スコア上位この件数までを掲載
   bakage:
     label: バカゲー
     steam:
@@ -223,7 +224,7 @@ categories:
       min_positive_ratio: 0.80
       reviews: { min: 30, max: 30000 }
     weights: { rating: 0.5, volume: 0.3, recency: 0.2, volume_sweet_spot: 800 }
-    max_items: 300
+    max_items: 1000
 
 itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }
 ```

@@ -88,6 +88,13 @@ test("価格上限・好評率の下限・レビュー数の範囲（不明な�
   assert.deepEqual(ids({ maxReviews: "100", minRatio: "0.9" }), []);
 });
 
+test("件数表示: 一部だけ描いているときは全体件数も出す", () => {
+  assert.equal(app.countText(1234, 200, 0), "1,234件中 200件を表示");
+  assert.equal(app.countText(150, 150, 2), "150件を表示（絞り込み条件 2件）");
+  assert.equal(app.countText(0, 0, 1), "0件を表示（絞り込み条件 1件）");
+  assert.ok(app.PAGE_SIZE > 0);
+});
+
 test("絞り込み条件の数を数える", () => {
   const d = { ...app.DEFAULT_STATE, tab: "horror" };
   assert.equal(app.activeFilterCount(d, d), 0);
