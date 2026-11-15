@@ -67,6 +67,8 @@ test("ソース: 統合済み作品は Steam と itch の両方に該当", () =>
   assert.deepEqual(ids(["itch"]), ["i", "m"]);
   assert.deepEqual(ids(["steam"]), ["m", "s"]);
   assert.deepEqual(ids(["steam", "itch"]), ["i", "m", "s"]);
+  // itch.io のみ: Steam にもある統合済み作品は除く
+  assert.deepEqual(ids(["itch_only"]), ["i"]);
 });
 
 test("価格上限・好評率の下限・レビュー数の範囲（不明な値は除外）", () => {

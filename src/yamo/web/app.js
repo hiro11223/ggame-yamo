@@ -45,9 +45,12 @@ function needsRecheck(item, now) {
   return days >= RECHECK_DAYS;
 }
 
-/** Steam と itch の両方にある作品（統合済み）は両方のソースに属する。 */
+/** Steam と itch の両方にある作品（統合済み）は両方のソースに属する。
+ * itch にしかない作品は、さらに "itch_only"（itch.io 限定）にも属する。 */
 function sourcesOf(item) {
-  return item.itch_url ? [item.source, "itch"] : [item.source];
+  if (item.itch_url) return [item.source, "itch"];
+  if (item.source === "itch") return ["itch", "itch_only"];
+  return [item.source];
 }
 
 function matches(item, state) {
