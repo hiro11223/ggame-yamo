@@ -82,10 +82,32 @@ a:hover { text-decoration-thickness: 2px; }
 
 /* 絞り込み */
 .controls {
-  display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 14px;
+  display: flex; flex-direction: column; gap: 10px;
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px;
 }
-.control { display: flex; flex-direction: column; gap: 2px; font-size: .8rem; color: var(--muted); }
+.controls-row { min-width: 0; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 14px; }
+.controls-row + .controls-row { border-top: 1px solid var(--border); padding-top: 10px; }
+.group {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px;
+  margin: 0; padding: 0; border: 0; min-width: 0;
+}
+.group legend { float: left; width: 100%; padding: 0; font-size: .8rem; color: var(--muted); }
+.group legend small { font-size: .7rem; margin-left: 2px; }
+.control select:disabled { opacity: .5; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips[hidden] { display: none; }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px; font: inherit; font-size: .85rem; cursor: pointer;
+  min-height: 32px; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--border);
+  background: var(--chip); color: var(--text);
+}
+.chip:hover .chip-x { color: var(--text); }
+.chip-mark { font-weight: 700; }
+.chip-include .chip-mark { color: var(--ok); }
+.chip-exclude { border-style: dashed; }
+.chip-exclude .chip-mark { color: var(--ng); }
+.chip-x { color: var(--muted); margin-left: 2px; }
+.control { min-width: 0; display: flex; flex-direction: column; gap: 2px; font-size: .8rem; color: var(--muted); }
 .control.search { flex: 1 1 220px; }
 .control input, .control select {
   font: inherit; font-size: .95rem; color: var(--text); background: var(--surface-2);
@@ -164,6 +186,7 @@ a:hover { text-decoration-thickness: 2px; }
   .controls { padding: 10px; gap: 8px; }
   .control { flex: 1 1 calc(50% - 8px); }
   .control.search { flex-basis: 100%; }
+  .group { flex: 1 1 100%; }
   .control select { min-width: 0; width: 100%; }
   .table-wrap { background: none; border: 0; }
   .games thead { display: none; }

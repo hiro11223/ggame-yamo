@@ -28,11 +28,12 @@ test("タブに属さない作品は出ない", () => {
   assert.equal(app.selectItems([a], S({ tab: "bakage" })).length, 0);
 });
 
-test("配信可否で絞り込める（NG 以外を含む）", () => {
+test("配信可否は複数選んだうちいずれかに一致", () => {
   const items = ["ok", "conditional", "ng", "unknown"].map((v) => item(v, { streaming: { verdict: v } }));
-  assert.deepEqual(app.selectItems(items, S({ verdict: "ok" })).map((i) => i.id), ["ok"]);
-  assert.deepEqual(app.selectItems(items, S({ verdict: "not_ng" })).map((i) => i.id).sort(),
-    ["conditional", "ok", "unknown"]);
+  const ids = (verdict) => app.selectItems(items, S({ verdict })).map((i) => i.id).sort();
+  assert.deepEqual(ids(["ok"]), ["ok"]);
+  assert.deepEqual(ids(["ok", "conditional"]), ["conditional", "ok"]);
+  assert.deepEqual(ids([]), ["conditional", "ng", "ok", "unknown"]);
   assert.equal(app.verdictOf(item("x", { streaming: undefined })), "unknown");
 });
 
@@ -40,10 +41,50 @@ test("タグ・言語・デモ・NEW で絞り込める", () => {
   const a = item("a", { tags: ["Horror", "Short"], languages: ["english", "japanese"], has_demo: true, is_new: true });
   const b = item("b");
   const ids = (st) => app.selectItems([a, b], S(st)).map((i) => i.id);
-  assert.deepEqual(ids({ tag: "Short" }), ["a"]);
-  assert.deepEqual(ids({ lang: "japanese" }), ["a"]);
+  assert.deepEqual(ids({ tag: ["Short"] }), ["a"]);
+  assert.deepEqual(ids({ lang: ["japanese"] }), ["a"]);
+  assert.deepEqual(ids({ lang: ["japanese", "english"] }), ["a"]);
   assert.deepEqual(ids({ demo: true }), ["a"]);
   assert.deepEqual(ids({ new: true }), ["a"]);
+});
+
+test("複数タグ: すべて含む / いずれか含む / 除外", () => {
+  const a = item("a", { tags: ["Horror", "Short"] });
+  const b = item("b", { tags: ["Horror", "Co-op"] });
+  const c = item("c", { tags: ["Funny"] });
+  const ids = (st) => app.selectItems([a, b, c], S(st)).map((i) => i.id).sort();
+  assert.deepEqual(ids({ tag: ["Horror", "Short"] }), ["a"]);
+  assert.deepEqual(ids({ tag: ["Short", "Co-op"], tagMode: "any" }), ["a", "b"]);
+  assert.deepEqual(ids({ xtag: ["Co-op"] }), ["a", "c"]);
+  assert.deepEqual(ids({ tag: ["Horror"], xtag: ["Short"] }), ["b"]);
+});
+
+test("ソース: 統合済み作品は Steam と itch の両方に該当", () => {
+  const s = item("s", { source: "steam" });
+  const i = item("i", { source: "itch" });
+  const m = item("m", { source: "steam", itch_url: "https://x.itch.io/m" });
+  const ids = (source) => app.selectItems([s, i, m], S({ source })).map((x) => x.id).sort();
+  assert.deepEqual(ids(["itch"]), ["i", "m"]);
+  assert.deepEqual(ids(["steam"]), ["m", "s"]);
+  assert.deepEqual(ids(["steam", "itch"]), ["i", "m", "s"]);
+});
+
+test("価格上限・好評率・レビュー数の下限（不明な値は除外）", () => {
+  const a = item("a", { price_jpy: 0, positive_ratio: 0.95, reviews: 1000 });
+  const b = item("b", { price_jpy: 1500, positive_ratio: 0.8, reviews: 50 });
+  const c = item("c", { price_jpy: null, positive_ratio: null, reviews: null });
+  const ids = (st) => app.selectItems([a, b, c], S(st)).map((i) => i.id).sort();
+  assert.deepEqual(ids({ priceMax: "0" }), ["a"]);
+  assert.deepEqual(ids({ priceMax: "1500" }), ["a", "b"]);
+  assert.deepEqual(ids({ minRatio: "0.9" }), ["a"]);
+  assert.deepEqual(ids({ minReviews: "50" }), ["a", "b"]);
+  assert.deepEqual(ids({ priceMax: "2000", minReviews: "100" }), ["a"]);
+});
+
+test("絞り込み条件の数を数える", () => {
+  const d = { ...app.DEFAULT_STATE, tab: "horror" };
+  assert.equal(app.activeFilterCount(d, d), 0);
+  assert.equal(app.activeFilterCount({ ...d, tag: ["A", "B"], demo: true, sort: "price", tab: "all" }, d), 3);
 });
 
 test("検索は空白区切りの AND・大文字小文字を区別しない・日本語説明も対象", () => {
@@ -91,13 +132,20 @@ test("表示用の整形", () => {
 
 test("URL hash と状態の往復（既定値は省略）", () => {
   const defaults = { ...app.DEFAULT_STATE, tab: "horror" };
-  const st = { ...defaults, tab: "bakage", tag: "Dark Humor", demo: true };
+  const st = { ...defaults, tab: "bakage", tag: ["Dark Humor", "Short"], verdict: ["ok"], demo: true };
   const hash = app.stateToHash(st, defaults);
-  assert.equal(hash, "#tab=bakage&tag=Dark+Humor&demo=1");
+  assert.equal(hash, "#tab=bakage&verdict=ok&tag=Dark+Humor&tag=Short&demo=1");
   assert.deepEqual(app.stateFromHash(hash, defaults), st);
   assert.equal(app.stateToHash(defaults, defaults), "");
   // 未知のキーは無視
   assert.deepEqual(app.stateFromHash("#evil=1", defaults), defaults);
+  // 旧形式（単一値・NG 以外）の URL も読める
+  const old = app.stateFromHash("#tag=Short&verdict=not_ng&lang=japanese", defaults);
+  assert.deepEqual(old.tag, ["Short"]);
+  assert.deepEqual(old.lang, ["japanese"]);
+  assert.deepEqual(old.verdict.sort(), ["conditional", "ok", "unknown"]);
+  // 既定値の配列を書き換えない
+  assert.deepEqual(defaults.tag, []);
 });
 
 test("http(s) 以外の URL はリンクにしない", () => {

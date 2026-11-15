@@ -15,9 +15,15 @@ const RECHECK_DAYS = 30;
 const LANG_LABELS = { japanese: "日本語", english: "英語" };
 const SOURCE_LABELS = { steam: "Steam", itch: "itch.io" };
 const MAX_TAGS_SHOWN = 6;
+/* 配列の項目は複数選択。verdict/source はいずれかに一致（OR）、lang はすべて対応（AND）、
+ * tag は tagMode（all=すべて含む / any=いずれか含む）、xtag は1つでも含めば除外。 */
 const DEFAULT_STATE = {
-  tab: null, q: "", verdict: "", tag: "", lang: "", sort: "score", dir: "desc", demo: false, new: false,
+  tab: null, q: "", verdict: [], source: [], tag: [], tagMode: "all", xtag: [], lang: [],
+  priceMax: "", minRatio: "", minReviews: "",
+  sort: "score", dir: "desc", demo: false, new: false,
 };
+/** 絞り込み条件（タブ・並べ替え以外）のキー。 */
+const FILTER_KEYS = ["q", "verdict", "source", "tag", "xtag", "lang", "priceMax", "minRatio", "minReviews", "demo", "new"];
 
 // ---- 純粋関数 -------------------------------------------------------------
 
@@ -39,14 +45,25 @@ function needsRecheck(item, now) {
   return days >= RECHECK_DAYS;
 }
 
+/** Steam と itch の両方にある作品（統合済み）は両方のソースに属する。 */
+function sourcesOf(item) {
+  return item.itch_url ? [item.source, "itch"] : [item.source];
+}
+
 function matches(item, state) {
   if (state.tab && state.tab !== "all" && !(state.tab in item.categories)) return false;
-  if (state.verdict) {
-    const v = verdictOf(item);
-    if (state.verdict === "not_ng" ? v === "ng" : v !== state.verdict) return false;
+  if (state.verdict.length && !state.verdict.includes(verdictOf(item))) return false;
+  if (state.source.length && !sourcesOf(item).some((s) => state.source.includes(s))) return false;
+  if (state.tag.length) {
+    const has = (t) => item.tags.includes(t);
+    if (state.tagMode === "any" ? !state.tag.some(has) : !state.tag.every(has)) return false;
   }
-  if (state.tag && !item.tags.includes(state.tag)) return false;
-  if (state.lang && !item.languages.includes(state.lang)) return false;
+  if (state.xtag.some((t) => item.tags.includes(t))) return false;
+  if (!state.lang.every((l) => item.languages.includes(l))) return false;
+  // 数値条件: 値が不明（null）の作品は、条件を指定したときは出さない
+  if (state.priceMax !== "" && !(item.price_jpy != null && item.price_jpy <= Number(state.priceMax))) return false;
+  if (state.minRatio !== "" && !(item.positive_ratio != null && item.positive_ratio >= Number(state.minRatio))) return false;
+  if (state.minReviews !== "" && !(item.reviews != null && item.reviews >= Number(state.minReviews))) return false;
   if (state.demo && !item.has_demo) return false;
   if (state.new && !item.is_new) return false;
   if (state.q) {
@@ -57,6 +74,16 @@ function matches(item, state) {
     }
   }
   return true;
+}
+
+/** 既定値から変えている絞り込み条件の数（配列は選んだ値の数）。 */
+function activeFilterCount(state, defaults) {
+  let n = 0;
+  for (const k of FILTER_KEYS) {
+    if (Array.isArray(state[k])) n += state[k].length;
+    else if (state[k] !== defaults[k]) n += 1;
+  }
+  return n;
 }
 
 const SORT_KEYS = {
@@ -108,13 +135,20 @@ function formatRatio(r) {
   return r === null || r === undefined ? "—" : Math.round(r * 100) + "%";
 }
 
-/** URL の hash（#tab=horror&tag=Short ...）と状態の相互変換。 */
+/** URL の hash（#tab=horror&tag=Short&tag=Co-op ...）と状態の相互変換。配列はキーを繰り返す。 */
 function stateFromHash(hash, defaults) {
   const state = { ...defaults };
+  for (const [k, d] of Object.entries(defaults)) if (Array.isArray(d)) state[k] = [...d];
   const params = new URLSearchParams(hash.replace(/^#/, ""));
   for (const [k, v] of params) {
     if (!(k in state)) continue;
-    state[k] = typeof defaults[k] === "boolean" ? v === "1" : v;
+    const d = defaults[k];
+    if (Array.isArray(d)) { if (v && !state[k].includes(v)) state[k].push(v); }
+    else state[k] = typeof d === "boolean" ? v === "1" : v;
+  }
+  // 旧形式の「NG 以外」
+  if (state.verdict.includes("not_ng")) {
+    state.verdict = [...new Set([...state.verdict.filter((v) => v !== "not_ng"), "ok", "conditional", "unknown"])];
   }
   return state;
 }
@@ -122,6 +156,7 @@ function stateFromHash(hash, defaults) {
 function stateToHash(state, defaults) {
   const params = new URLSearchParams();
   for (const [k, v] of Object.entries(state)) {
+    if (Array.isArray(v)) { for (const x of v) params.append(k, x); continue; }
     if (v === defaults[k]) continue;
     params.set(k, typeof v === "boolean" ? (v ? "1" : "0") : v);
   }
@@ -251,25 +286,43 @@ function init() {
   const form = document.getElementById("controls");
   const rows = document.getElementById("rows");
   const countEl = document.getElementById("result-count");
-  const tagSelect = form.elements.tag;
+  const tagAdd = document.getElementById("tag-add");
+  const xtagAdd = document.getElementById("xtag-add");
+  const chipsEl = document.getElementById("tag-chips");
   const now = Date.now();
+  const MULTI = ["verdict", "source", "lang"];
+  const SINGLE = ["q", "tagMode", "priceMax", "minRatio", "minReviews", "sort", "dir"];
   let state = stateFromHash(location.hash, defaults);
   if (!tabs.includes(state.tab)) state.tab = defaults.tab;
 
+  /** タグ追加用の select を、現在のタブのタグ（選択済みは除く）で作り直す。 */
   function syncTags() {
-    const current = state.tag;
-    tagSelect.replaceChildren(el("option", { value: "" }, "すべて"));
-    for (const [t, n] of tagOptions(items, state.tab)) {
-      tagSelect.append(el("option", { value: t }, `${t} (${n})`));
+    const chosen = new Set([...state.tag, ...state.xtag]);
+    const options = tagOptions(items, state.tab).filter(([t]) => !chosen.has(t));
+    for (const [select, label] of [[tagAdd, "＋ 含むタグを追加"], [xtagAdd, "＋ 除外タグを追加"]]) {
+      select.replaceChildren(el("option", { value: "" }, label),
+        ...options.map(([t, n]) => el("option", { value: t }, `${t} (${n})`)));
+      select.value = "";
     }
-    if (current && ![...tagSelect.options].some((o) => o.value === current)) {
-      tagSelect.append(el("option", { value: current }, current));
-    }
-    tagSelect.value = current;
+    const chip = (key, t, cls, prefix) => {
+      const b = el("button", { type: "button", class: "chip " + cls, "aria-label": `${prefix}タグ「${t}」を外す` },
+        el("span", { class: "chip-mark", "aria-hidden": "true" }, key === "xtag" ? "−" : "＋"), t,
+        el("span", { class: "chip-x", "aria-hidden": "true" }, "×"));
+      b.addEventListener("click", () => update({ [key]: state[key].filter((x) => x !== t) }));
+      return b;
+    };
+    chipsEl.replaceChildren(
+      ...state.tag.map((t) => chip("tag", t, "chip-include", "含む")),
+      ...state.xtag.map((t) => chip("xtag", t, "chip-exclude", "除外")));
+    chipsEl.hidden = !state.tag.length && !state.xtag.length;
+    form.elements.tagMode.disabled = state.tag.length < 2;
   }
 
   function syncForm() {
-    for (const name of ["q", "verdict", "lang", "sort", "dir"]) form.elements[name].value = state[name];
+    for (const name of SINGLE) form.elements[name].value = state[name];
+    for (const name of MULTI) {
+      for (const box of form.querySelectorAll(`input[name="${name}"]`)) box.checked = state[name].includes(box.value);
+    }
     form.elements.demo.checked = state.demo;
     form.elements.new.checked = state.new;
     for (const b of document.querySelectorAll(".tab")) {
@@ -287,7 +340,8 @@ function init() {
     const frag = document.createDocumentFragment();
     for (const item of selected) frag.append(renderRow(item, state.tab, now));
     rows.replaceChildren(frag);
-    countEl.textContent = `${selected.length}件を表示`;
+    const n = activeFilterCount(state, defaults);
+    countEl.textContent = `${selected.length}件を表示` + (n ? `（絞り込み条件 ${n}件）` : "");
     if (!selected.length) {
       rows.append(el("tr", { class: "empty" }, el("td", { colspan: 11 }, "条件に合う作品はありません。")));
     }
@@ -296,9 +350,8 @@ function init() {
   }
 
   function update(patch) {
-    const tabChanged = patch.tab !== undefined && patch.tab !== state.tab;
     state = { ...state, ...patch };
-    if (tabChanged) syncTags();
+    syncTags();
     syncForm();
     render();
   }
@@ -309,8 +362,17 @@ function init() {
   form.addEventListener("input", (e) => {
     const t = e.target;
     if (!t.name) return;
-    update({ [t.name]: t.type === "checkbox" ? t.checked : t.value });
+    if (MULTI.includes(t.name)) {
+      update({ [t.name]: [...form.querySelectorAll(`input[name="${t.name}"]:checked`)].map((b) => b.value) });
+    } else {
+      update({ [t.name]: t.type === "checkbox" ? t.checked : t.value });
+    }
   });
+  for (const [select, key] of [[tagAdd, "tag"], [xtagAdd, "xtag"]]) {
+    select.addEventListener("change", () => {
+      if (select.value) update({ [key]: [...state[key], select.value] });
+    });
+  }
   for (const b of document.querySelectorAll("th button[data-sort]")) {
     b.addEventListener("click", () => {
       const key = b.dataset.sort;
@@ -320,6 +382,7 @@ function init() {
       update({ sort: key, dir });
     });
   }
+  // 状態の配列はその場で書き換えないので、既定値の配列をそのまま入れてよい
   document.getElementById("reset").addEventListener("click", () => update({ ...defaults, tab: state.tab }));
 
   syncTags();
@@ -329,7 +392,7 @@ function init() {
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = {
-    scoreOf, verdictOf, needsRecheck, matches, selectItems, tagOptions,
+    scoreOf, verdictOf, sourcesOf, needsRecheck, matches, selectItems, tagOptions, activeFilterCount,
     formatPrice, formatRatio, stateFromHash, stateToHash, safeUrl, DEFAULT_STATE,
   };
 } else if (typeof document !== "undefined") {

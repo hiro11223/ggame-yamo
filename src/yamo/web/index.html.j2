@@ -59,54 +59,108 @@
   </nav>
 
   <form class="controls" id="controls" onsubmit="return false">
-    <label class="control search">
-      <span>検索</span>
-      <input type="search" name="q" placeholder="タイトル・開発者・説明" autocomplete="off">
-    </label>
-    <label class="control">
-      <span>配信可否</span>
-      <select name="verdict">
-        <option value="">すべて</option>
-        <option value="ok">✅ OK</option>
-        <option value="conditional">⚠️ 条件付き</option>
-        <option value="ng">❌ NG</option>
-        <option value="unknown">❓ 不明</option>
-        <option value="not_ng">NG 以外</option>
-      </select>
-    </label>
-    <label class="control">
-      <span>タグ</span>
-      <select name="tag"><option value="">すべて</option></select>
-    </label>
-    <label class="control">
-      <span>言語</span>
-      <select name="lang">
-        <option value="">指定なし</option>
-        <option value="japanese">日本語対応</option>
-        <option value="english">英語対応</option>
-      </select>
-    </label>
-    <label class="control">
-      <span>並べ替え</span>
-      <select name="sort">
-        <option value="score">スコア</option>
-        <option value="reviews">レビュー数</option>
-        <option value="ratio">好評率</option>
-        <option value="price">価格</option>
-        <option value="release">発売日</option>
-        <option value="title">タイトル</option>
-      </select>
-    </label>
-    <label class="control">
-      <span>順序</span>
-      <select name="dir">
-        <option value="desc">降順</option>
-        <option value="asc">昇順</option>
-      </select>
-    </label>
-    <label class="check"><input type="checkbox" name="demo"> デモあり</label>
-    <label class="check"><input type="checkbox" name="new"> NEW のみ</label>
-    <button type="button" class="reset" id="reset">条件をリセット</button>
+    <div class="controls-row">
+      <label class="control search">
+        <span>検索</span>
+        <input type="search" name="q" placeholder="タイトル・開発者・説明（空白区切りで AND）" autocomplete="off">
+      </label>
+      <label class="control">
+        <span>並べ替え</span>
+        <select name="sort">
+          <option value="score">スコア</option>
+          <option value="reviews">レビュー数</option>
+          <option value="ratio">好評率</option>
+          <option value="price">価格</option>
+          <option value="release">発売日</option>
+          <option value="title">タイトル</option>
+        </select>
+      </label>
+      <label class="control">
+        <span>順序</span>
+        <select name="dir">
+          <option value="desc">降順</option>
+          <option value="asc">昇順</option>
+        </select>
+      </label>
+      <button type="button" class="reset" id="reset">条件をリセット</button>
+    </div>
+
+    <div class="controls-row">
+      <fieldset class="group">
+        <legend>配信可否<small>（いずれか）</small></legend>
+        <label class="check"><input type="checkbox" name="verdict" value="ok"> ✅ OK</label>
+        <label class="check"><input type="checkbox" name="verdict" value="conditional"> ⚠️ 条件付き</label>
+        <label class="check"><input type="checkbox" name="verdict" value="ng"> ❌ NG</label>
+        <label class="check"><input type="checkbox" name="verdict" value="unknown"> ❓ 不明</label>
+      </fieldset>
+      <fieldset class="group">
+        <legend>ソース<small>（いずれか）</small></legend>
+        <label class="check"><input type="checkbox" name="source" value="steam"> Steam</label>
+        <label class="check"><input type="checkbox" name="source" value="itch"> itch.io</label>
+      </fieldset>
+      <fieldset class="group">
+        <legend>言語<small>（すべて対応）</small></legend>
+        <label class="check"><input type="checkbox" name="lang" value="japanese"> 日本語</label>
+        <label class="check"><input type="checkbox" name="lang" value="english"> 英語</label>
+      </fieldset>
+      <fieldset class="group">
+        <legend>その他</legend>
+        <label class="check"><input type="checkbox" name="demo"> デモあり</label>
+        <label class="check"><input type="checkbox" name="new"> NEW のみ</label>
+      </fieldset>
+    </div>
+
+    <div class="controls-row">
+      <label class="control">
+        <span>価格</span>
+        <select name="priceMax">
+          <option value="">指定なし</option>
+          <option value="0">無料のみ</option>
+          <option value="500">¥500 以下</option>
+          <option value="1000">¥1,000 以下</option>
+          <option value="1500">¥1,500 以下</option>
+          <option value="2000">¥2,000 以下</option>
+          <option value="3000">¥3,000 以下</option>
+        </select>
+      </label>
+      <label class="control">
+        <span>好評率</span>
+        <select name="minRatio">
+          <option value="">指定なし</option>
+          <option value="0.7">70% 以上</option>
+          <option value="0.8">80% 以上</option>
+          <option value="0.9">90% 以上</option>
+          <option value="0.95">95% 以上</option>
+        </select>
+      </label>
+      <label class="control">
+        <span>レビュー数</span>
+        <select name="minReviews">
+          <option value="">指定なし</option>
+          <option value="10">10件以上</option>
+          <option value="50">50件以上</option>
+          <option value="100">100件以上</option>
+          <option value="500">500件以上</option>
+          <option value="1000">1,000件以上</option>
+        </select>
+      </label>
+      <label class="control">
+        <span>含むタグ</span>
+        <select id="tag-add" aria-label="含むタグを追加"></select>
+      </label>
+      <label class="control">
+        <span>タグの一致</span>
+        <select name="tagMode">
+          <option value="all">すべて含む</option>
+          <option value="any">いずれか含む</option>
+        </select>
+      </label>
+      <label class="control">
+        <span>除外タグ</span>
+        <select id="xtag-add" aria-label="除外タグを追加"></select>
+      </label>
+    </div>
+    <div class="chips" id="tag-chips" aria-label="選択中のタグ" hidden></div>
   </form>
 
   <p class="result-count" id="result-count" aria-live="polite"></p>
