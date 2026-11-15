@@ -69,7 +69,7 @@ test("ソース: 統合済み作品は Steam と itch の両方に該当", () =>
   assert.deepEqual(ids(["steam", "itch"]), ["i", "m", "s"]);
 });
 
-test("価格上限・好評率・レビュー数の下限（不明な値は除外）", () => {
+test("価格上限・好評率の下限・レビュー数の範囲（不明な値は除外）", () => {
   const a = item("a", { price_jpy: 0, positive_ratio: 0.95, reviews: 1000 });
   const b = item("b", { price_jpy: 1500, positive_ratio: 0.8, reviews: 50 });
   const c = item("c", { price_jpy: null, positive_ratio: null, reviews: null });
@@ -79,6 +79,11 @@ test("価格上限・好評率・レビュー数の下限（不明な値は除�
   assert.deepEqual(ids({ minRatio: "0.9" }), ["a"]);
   assert.deepEqual(ids({ minReviews: "50" }), ["a", "b"]);
   assert.deepEqual(ids({ priceMax: "2000", minReviews: "100" }), ["a"]);
+  assert.deepEqual(ids({ maxReviews: "100" }), ["b"]);
+  assert.deepEqual(ids({ minReviews: "10", maxReviews: "1000" }), ["a", "b"]);
+  // 「レビューは少ないが好評」
+  assert.deepEqual(ids({ maxReviews: "100", minRatio: "0.8" }), ["b"]);
+  assert.deepEqual(ids({ maxReviews: "100", minRatio: "0.9" }), []);
 });
 
 test("絞り込み条件の数を数える", () => {

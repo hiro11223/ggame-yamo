@@ -19,11 +19,11 @@ const MAX_TAGS_SHOWN = 6;
  * tag は tagMode（all=すべて含む / any=いずれか含む）、xtag は1つでも含めば除外。 */
 const DEFAULT_STATE = {
   tab: null, q: "", verdict: [], source: [], tag: [], tagMode: "all", xtag: [], lang: [],
-  priceMax: "", minRatio: "", minReviews: "",
+  priceMax: "", minRatio: "", minReviews: "", maxReviews: "",
   sort: "score", dir: "desc", demo: false, new: false,
 };
 /** 絞り込み条件（タブ・並べ替え以外）のキー。 */
-const FILTER_KEYS = ["q", "verdict", "source", "tag", "xtag", "lang", "priceMax", "minRatio", "minReviews", "demo", "new"];
+const FILTER_KEYS = ["q", "verdict", "source", "tag", "xtag", "lang", "priceMax", "minRatio", "minReviews", "maxReviews", "demo", "new"];
 
 // ---- 純粋関数 -------------------------------------------------------------
 
@@ -64,6 +64,7 @@ function matches(item, state) {
   if (state.priceMax !== "" && !(item.price_jpy != null && item.price_jpy <= Number(state.priceMax))) return false;
   if (state.minRatio !== "" && !(item.positive_ratio != null && item.positive_ratio >= Number(state.minRatio))) return false;
   if (state.minReviews !== "" && !(item.reviews != null && item.reviews >= Number(state.minReviews))) return false;
+  if (state.maxReviews !== "" && !(item.reviews != null && item.reviews <= Number(state.maxReviews))) return false;
   if (state.demo && !item.has_demo) return false;
   if (state.new && !item.is_new) return false;
   if (state.q) {
@@ -291,7 +292,7 @@ function init() {
   const chipsEl = document.getElementById("tag-chips");
   const now = Date.now();
   const MULTI = ["verdict", "source", "lang"];
-  const SINGLE = ["q", "tagMode", "priceMax", "minRatio", "minReviews", "sort", "dir"];
+  const SINGLE = ["q", "tagMode", "priceMax", "minRatio", "minReviews", "maxReviews", "sort", "dir"];
   let state = stateFromHash(location.hash, defaults);
   if (!tabs.includes(state.tab)) state.tab = defaults.tab;
 
