@@ -1,4 +1,27 @@
 {
+ "itch:122cx/present2you": {
+  "author": "122cx",
+  "currency": "USD",
+  "description": "A gift which is a curse in disguise",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkzMjA4LnBuZw==/315x250%23c/5o3omM.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-08T09:38:05Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "gift",
+  "updated": "2026-11-15T09:58:45Z",
+  "url": "https://122cx.itch.io/present2you"
+ },
  "itch:3di70r/crusty-proto": {
   "author": "3di70r",
   "currency": "USD",
@@ -8,7 +31,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4NjE2NzU3LnBuZw==/315x250%23c/UsCkth.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -31,7 +54,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMjM5MzU0LzExNDY3MTguanBn/315x250%23c/gL2ixc.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -57,7 +80,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjgyMDQ0LnBuZw==/315x250%23c/OecJ2G.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -104,7 +127,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTA0NjE3LmpwZWc=/315x250%23c/HrSG5l.jpeg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -117,6 +140,29 @@
   "title": "Trudge the Happy Trail of Destiny",
   "updated": "2026-11-11T12:59:35Z",
   "url": "https://4thdimensiondisorder.itch.io/trudge-the-happy-trail-of-destiny"
+ },
+ "itch:5-billion-cigarettes/sprunki-apibsbsfm-mobile-port": {
+  "author": "5-billion-cigarettes",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg3ODE0LnBuZw==/315x250%23c/UV%2B8rg.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T05:53:30Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Sprunki APIBSBSFM (TW) Mobile Port",
+  "updated": "2026-11-15T05:58:36Z",
+  "url": "https://5-billion-cigarettes.itch.io/sprunki-apibsbsfm-mobile-port"
  },
  "itch:5kids2feed/fista-complete-nes-collection": {
   "author": "5kids2feed",
@@ -148,7 +194,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTQwNzQ2LnBuZw==/315x250%23c/IKyH0Q.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -191,7 +237,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI5MzMxMzM2LmdpZg==/original/%2BGVAti.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -214,7 +260,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MTE4ODMzLnBuZw==/315x250%23c/hbzfLR.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -237,7 +283,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzM2NTA5NjYucG5n/315x250%23c/XVpg%2B2.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -260,7 +306,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjcyMDA2LnBuZw==/315x250%23c/6A7r1I.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -305,7 +351,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxMTc3OTc5LnBuZw==/315x250%23c/8%2BTleC.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -330,7 +376,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyNDgzNjgucG5n/315x250%23c/pCHU15.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -355,7 +401,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzg3MzM4NTEuZ2lm/original/R0bBdx.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -378,7 +424,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI3NzQ5Mjc5LmpwZw==/315x250%23c/xJ8d2l.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -401,7 +447,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI5ODEwMjcxLmpwZw==/315x250%23c/1PegtD.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -435,6 +481,30 @@
   "title": "CORN FISH",
   "updated": "2026-11-14T17:40:22Z",
   "url": "https://adina4now.itch.io/corn-fish"
+ },
+ "itch:ads58791/lgtm": {
+  "author": "ads58791",
+  "currency": "USD",
+  "description": "Your AI coworker is very confident. Your production server is not.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg4NDkyLnBuZw==/315x250%23c/CJIz5y.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T00:05:16Z",
+  "tags_matched": [
+   "comedy",
+   "funny"
+  ],
+  "title": "LGTM: Survive Your AI Coworker",
+  "updated": "2026-11-15T07:36:13Z",
+  "url": "https://ads58791.itch.io/lgtm"
  },
  "itch:aesprion/yeet-bob": {
   "author": "aesprion",
@@ -603,7 +673,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyOTQzOTYzLnBuZw==/315x250%23c/uY7ctb.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -649,7 +719,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwNDEwMjMwLnBuZw==/315x250%23c/CSDNeu.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -747,7 +817,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzUyMzMzNDEucG5n/315x250%23c/GlqLhQ.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -761,6 +831,29 @@
   "updated": "2021-02-21T03:36:04Z",
   "url": "https://algorat.itch.io/the-ratchelor-a-rat-dating-sim"
  },
+ "itch:alnhirap/sound-travel": {
+  "author": "alnhirap",
+  "currency": "USD",
+  "description": "石の反響で闇を視る、音のステルスホラー / Echolocation stealth horror",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjM0Mzc4LnBuZw==/315x250%23c/H2gbR%2F.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T05:56:18Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "SOUND TRAVEL",
+  "updated": "2026-11-15T05:42:43Z",
+  "url": "https://alnhirap.itch.io/sound-travel"
+ },
  "itch:alvaking/mar-creto": {
   "author": "alvaking",
   "currency": "USD",
@@ -770,7 +863,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyMzc1NzI1LnBuZw==/315x250%23c/Cd7noD.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -794,7 +887,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1ODAxMDAyLnBuZw==/315x250%23c/SRuMp7.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -808,6 +901,29 @@
   "updated": "2026-04-02T02:52:10Z",
   "url": "https://alvaking.itch.io/super-momos"
  },
+ "itch:amdhixgamingstudio/satkela-engineer": {
+  "author": "amdhixgamingstudio",
+  "currency": "USD",
+  "description": "Trapped inside a livestream! Survive the Satkela Engineer & escape the portal",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkxNDM4LmpwZw==/315x250%23c/xcvqrf.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "android"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T07:53:50Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "SATKELA ENGINEER",
+  "updated": "2026-11-15T08:03:46Z",
+  "url": "https://amdhixgamingstudio.itch.io/satkela-engineer"
+ },
  "itch:anabolicpanda/temple-ram": {
   "author": "anabolicpanda",
   "currency": "USD",
@@ -817,7 +933,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTMwNTgxLnBuZw==/315x250%23c/56qdkb.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -852,6 +968,30 @@
   "updated": "2026-11-13T15:02:52Z",
   "url": "https://andriykodev.itch.io/unholy-pepperoni"
  },
+ "itch:andromedaghostgames/nro": {
+  "author": "andromedaghostgames",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg4NDM3LmpwZw==/315x250%23c/0PC%2FNN.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "android",
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-13T11:27:42Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "NRO",
+  "updated": "2026-11-15T09:02:22Z",
+  "url": "https://andromedaghostgames.itch.io/nro"
+ },
  "itch:andylukito/warnet-simulator": {
   "author": "andylukito",
   "currency": "USD",
@@ -861,7 +1001,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzg3OTMzNDAuanBn/315x250%23c/Ibs6lW.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -882,7 +1022,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjUxMTI1LnBuZw==/315x250%23c/GgJRPr.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -893,7 +1033,7 @@
    "comedy"
   ],
   "title": "FLAGGED!",
-  "updated": "2026-11-15T01:43:09Z",
+  "updated": "2026-11-15T06:09:21Z",
   "url": "https://anewworlds.itch.io/flagged"
  },
  "itch:ant-san/jester": {
@@ -906,7 +1046,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzk2NDE4MDMuZ2lm/original/vMHUtd.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -930,7 +1070,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyMjg0NDMxLmdpZg==/original/LoMBvB.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -954,7 +1094,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTExNjkzLnBuZw==/315x250%23c/%2FSCKB2.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -980,8 +1120,10 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjI1MjM1LnBuZw==/315x250%23c/8BqgQe.png",
-  "last_seen": "2026-11-15T02:24:04Z",
-  "platforms": [],
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
   "price": 0.0,
   "price_jpy": 0.0,
   "published": "2026-11-14T00:53:05Z",
@@ -989,7 +1131,7 @@
    "meme"
   ],
   "title": "E.A.B.M.M.E.A.C.U.N.O.C.J.L.M.S.O.C.C.T.T.B.T.F.S",
-  "updated": "2026-11-14T06:00:42Z",
+  "updated": "2026-11-15T07:19:18Z",
   "url": "https://applecorestudios.itch.io/evil-addicting-bonkers-cool-clicker"
  },
  "itch:aqua-simulator-official/aqua-simulator": {
@@ -1001,7 +1143,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTI3MzcyLnBuZw==/315x250%23c/TrExzG.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -1038,6 +1180,29 @@
   "updated": "2023-01-09T21:14:13Z",
   "url": "https://archerzenmi.itch.io/break-into-flareons-house-and-date-him"
  },
+ "itch:archimedes-0/the-last-verse": {
+  "author": "archimedes-0",
+  "currency": "USD",
+  "description": "Folk-horror pixel-art survival. The village has sung for 200 years. Now it is singing your name.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk1MTI5LnBuZw==/315x250%23c/cZTr98.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:19:57Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "The Last Verse",
+  "updated": "2026-11-15T09:58:07Z",
+  "url": "https://archimedes-0.itch.io/the-last-verse"
+ },
  "itch:archiusdev/directimental": {
   "author": "archiusdev",
   "currency": "USD",
@@ -1070,7 +1235,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc4MTU1LnBuZw==/315x250%23c/z9Q%2Fj7.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1116,7 +1281,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyNDUxMjYwLmdpZg==/original/EK%2FIZl.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1177,6 +1342,30 @@
   "updated": "2026-11-14T20:46:22Z",
   "url": "https://autopossessplayer0.itch.io/directors-cut"
  },
+ "itch:autopossessplayer0/stage07": {
+  "author": "autopossessplayer0",
+  "currency": "USD",
+  "description": "You’ve landed your dream job as camera operator! Just don't disappoint the Director..",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMTc2MDMzLnBuZw==/315x250%23c/P9rFtY.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "android",
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-12T23:15:38Z",
+  "tags_matched": [
+   "parody"
+  ],
+  "title": "Stage 07",
+  "updated": "2026-11-15T08:16:04Z",
+  "url": "https://autopossessplayer0.itch.io/stage07"
+ },
  "itch:avatar184/goooglemops": {
   "author": "avatar184",
   "currency": "USD",
@@ -1186,7 +1375,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTQzMzIwLnBuZw==/315x250%23c/a2aGqF.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1280,7 +1469,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI0NjQ0OTM3LmdpZg==/original/XLH8Rm.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1303,7 +1492,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI0NjE5NDA3LnBuZw==/315x250%23c/%2BvsUik.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -1329,7 +1518,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzI0NzQwNTUzLnBuZw==/315x250%23c/sUbEUJ.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1375,7 +1564,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxNzMyMTUucG5n/315x250%23c/OSMAHQ.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1422,7 +1611,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMjM5ODQxLzExNDIzNTAucG5n/315x250%23c/GBHLqT.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -1449,7 +1638,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzU1NjE4NTQucG5n/315x250%23c/qvYwvt.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -1475,7 +1664,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxNzI1NjUucG5n/315x250%23c/mwfOjh.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -1500,7 +1689,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc5MTc4LnBuZw==/315x250%23c/DnrWPC.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1523,7 +1712,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc5NjYzLnBuZw==/315x250%23c/Gy%2F6JZ.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -1567,7 +1756,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxODM2NTkyLmpwZw==/315x250%23c/GCoiBG.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1590,7 +1779,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjgxNTA1LnBuZw==/315x250%23c/7j1s5z.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1659,7 +1848,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTMwOTIxLnBuZw==/315x250%23c/5HwmkM.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1703,7 +1892,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MDUzMzIxLnBuZw==/315x250%23c/kE0lS4.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1726,7 +1915,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc1NDEyLmpwZw==/315x250%23c/w6dS2j.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1750,7 +1939,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzYxNzYxMjkuanBn/315x250%23c/VHnfg%2F.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -1776,7 +1965,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEzMTQ4NzEyLmpwZw==/315x250%23c/bGyZC6.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "windows"
@@ -1800,7 +1989,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjExMzc4LnBuZw==/315x250%23c/ut4bGh.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "windows"
@@ -1824,7 +2013,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MTg3NzQxLnBuZw==/315x250%23c/Kp%2FLYt.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -1915,7 +2104,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTc5MDg1LnBuZw==/315x250%23c/kc7lrA.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2009,7 +2198,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTkzNTY3LnBuZw==/315x250%23c/qkpoev.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2056,7 +2245,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1OTg5MjM0LnBuZw==/315x250%23c/gaFt6l.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -2081,7 +2270,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwOTkxNzMucG5n/315x250%23c/1zJuTp.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -2105,7 +2294,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxMzgwMjY0LnBuZw==/315x250%23c/DR06vu.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -2129,7 +2318,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5NjA4MzU0LmpwZw==/315x250%23c/3AYDCZ.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2152,7 +2341,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI1MDQyMzA2LmdpZg==/original/lco4O8.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2175,7 +2364,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDM3MzI4LmpwZw==/315x250%23c/T3e9Y9.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2198,7 +2387,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIzMDA0NzM4LnBuZw==/315x250%23c/dJq4SP.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2212,6 +2401,29 @@
   "updated": "2026-06-25T20:48:56Z",
   "url": "https://cattrigger.itch.io/carnivore"
  },
+ "itch:cf0612/neon-breakout": {
+  "author": "cf0612",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkzODMyLnBuZw==/315x250%23c/%2B%2BBSP0.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 1.5,
+  "price_jpy": 225.0,
+  "published": "2026-11-15T09:00:38Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "neon-breakout",
+  "updated": "2026-11-15T09:48:54Z",
+  "url": "https://cf0612.itch.io/neon-breakout"
+ },
  "itch:chickentuna/adhdinosaur": {
   "author": "chickentuna",
   "currency": "USD",
@@ -2221,7 +2433,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzY3MjU1NDEucG5n/315x250%23c/TwZWBG.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2235,6 +2447,30 @@
   "updated": "2022-11-14T08:45:23Z",
   "url": "https://chickentuna.itch.io/adhdinosaur"
  },
+ "itch:chinesepowered/capyhit": {
+  "author": "chinesepowered",
+  "currency": "USD",
+  "description": "The studio cut the capybara. Now the capybara cuts the producer.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg0NzI4LnBuZw==/315x250%23c/H46X1r.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T20:50:24Z",
+  "tags_matched": [
+   "comedy",
+   "funny"
+  ],
+  "title": "CAPYHIT: Director's Cut",
+  "updated": "2026-11-15T08:57:03Z",
+  "url": "https://chinesepowered.itch.io/capyhit"
+ },
  "itch:classof09/demo": {
   "author": "classof09",
   "currency": "USD",
@@ -2244,7 +2480,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQzODAzODQuanBn/315x250%23c/faaX%2FB.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -2282,6 +2518,29 @@
   "updated": "2026-11-14T13:59:26Z",
   "url": "https://clearedsoap.itch.io/rusty-box"
  },
+ "itch:codeyoung/careful-what-you-wish": {
+  "author": "codeyoung",
+  "currency": "USD",
+  "description": "Every wish comes true. That's the problem.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg2MTQxLnBuZw==/315x250%23c/amKb02.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T04:54:06Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "Careful What You Wish",
+  "updated": "2026-11-15T08:43:40Z",
+  "url": "https://codeyoung.itch.io/careful-what-you-wish"
+ },
  "itch:comfortkuma/knee-deep": {
   "author": "comfortkuma",
   "currency": "USD",
@@ -2291,7 +2550,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI3MzM5MDk2LnBuZw==/315x250%23c/%2F26AU1.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2315,7 +2574,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzUzNDQzNDYucG5n/315x250%23c/5gqoFC.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2339,7 +2598,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2NDU3OTc4LnBuZw==/315x250%23c/RxH%2BKG.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2364,7 +2623,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2NDU3OTc1LnBuZw==/315x250%23c/UYEikE.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2434,7 +2693,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIwMDY3NTYyLmdpZg==/original/w0tfxi.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2457,7 +2716,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDgzOTg0LmdpZg==/original/6OH3e1.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2481,7 +2740,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxODk3NDExLnBuZw==/315x250%23c/m6XcVH.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -2505,7 +2764,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxNDc2NzkxLmdpZg==/original/AWPx1Z.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -2521,6 +2780,30 @@
   "updated": "2026-02-08T03:44:58Z",
   "url": "https://cutiesai.itch.io/14dayswithyou"
  },
+ "itch:daemagog/speak-now-directors-cut": {
+  "author": "daemagog",
+  "currency": "USD",
+  "description": "You were hired to film the wedding. You'd rather direct it.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkyMDIzLnBuZw==/315x250%23c/CjudGL.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T07:52:06Z",
+  "tags_matched": [
+   "comedy",
+   "funny"
+  ],
+  "title": "SPEAK NOW: The Director's Cut",
+  "updated": "2026-11-15T08:13:24Z",
+  "url": "https://daemagog.itch.io/speak-now-directors-cut"
+ },
  "itch:dalichrome/house-rules": {
   "author": "dalichrome",
   "currency": "USD",
@@ -2530,7 +2813,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwNjExOTk1LmdpZg==/original/HABfUZ.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2554,7 +2837,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIzNTU1NTgwLnBuZw==/315x250%23c/bcTbT%2B.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -2595,6 +2878,29 @@
   "updated": "2025-10-07T12:44:36Z",
   "url": "https://dancingengie.itch.io/adhd"
  },
+ "itch:danmastrow/prumms": {
+  "author": "danmastrow",
+  "currency": "USD",
+  "description": "Assemble your battlebot and watch the robots fight!",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMxOTY1MjE3LnBuZw==/315x250%23c/dOmx5J.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-07T12:12:21Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "NARNOK: Prumms Robot Jousting",
+  "updated": "2026-11-15T04:43:10Z",
+  "url": "https://danmastrow.itch.io/prumms"
+ },
  "itch:dave-microwaves-games/300-am-at-the-krusty-krab": {
   "author": "dave-microwaves-games",
   "currency": "USD",
@@ -2627,7 +2933,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMjcxODI0LzEzMTQxNzUucG5n/315x250%23c/3eS3do.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -2650,7 +2956,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxNjg0NTMucG5n/315x250%23c/%2BB0A8k.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2673,7 +2979,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIzNzAwMzUyLmpwZw==/315x250%23c/2w7wDb.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "windows"
@@ -2697,7 +3003,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTE1NTExLmpwZw==/315x250%23c/gGaBLc.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -2720,7 +3026,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE3NjU4MjE1LmpwZw==/315x250%23c/aoX%2BV7.jpg",
-  "last_seen": "2026-11-14T17:50:58Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -2745,7 +3051,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIwMTMzODgwLmpwZw==/315x250%23c/ptybNV.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "osx",
@@ -2842,7 +3148,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyMjEyNDg4LnBuZw==/315x250%23c/zSXlCz.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2888,7 +3194,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI0Nzc1NzcxLmpwZw==/315x250%23c/z5hdKY.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2911,7 +3217,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDcwMzY3LnBuZw==/315x250%23c/P5Ow%2Fb.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2934,7 +3240,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEwOTE1MjkxLmpwZw==/315x250%23c/Xj24SS.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -2957,7 +3263,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2MDI0MTk4LnBuZw==/315x250%23c/HJGFz2.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -2980,7 +3286,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQyNDA0MDIucG5n/315x250%23c/truQkk.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -3006,7 +3312,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQzNzk3MDYuanBn/315x250%23c/y%2FzZ6Y.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -3031,7 +3337,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1NzI2NjIucG5n/315x250%23c/9Wc903.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3093,6 +3399,29 @@
   "updated": "2026-11-14T03:25:04Z",
   "url": "https://disusdev.itch.io/the-office-incident"
  },
+ "itch:dodoblam/tung-tung-sahur-horror-game": {
+  "author": "dodoblam",
+  "currency": "USD",
+  "description": "Solve the mysteries of the abandoned hostel to escape Tung Tung Tung Sahur",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk1MzA2LnBuZw==/315x250%23c/xXO8JN.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:28:14Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Tung Tung Sahur Horror Game",
+  "updated": "2026-11-15T10:01:11Z",
+  "url": "https://dodoblam.itch.io/tung-tung-sahur-horror-game"
+ },
  "itch:double-system-games/gorilla-warfare": {
   "author": "double-system-games",
   "currency": "USD",
@@ -3149,7 +3478,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyMjAxMzkuanBn/315x250%23c/4MCnjo.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3221,7 +3550,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMTY0NzE4LzEzMjU5MTQucG5n/315x250%23c/b35FgN.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -3259,6 +3588,29 @@
   "updated": "2026-11-14T23:52:06Z",
   "url": "https://eaglemasterca.itch.io/the-hollow-demo"
  },
+ "itch:easyqpoandrew02/last-stop": {
+  "author": "easyqpoandrew02",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0ODM0LmpwZw==/315x250%23c/WXYj%2B2.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:17:18Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Last Stop",
+  "updated": "2026-11-15T09:28:57Z",
+  "url": "https://easyqpoandrew02.itch.io/last-stop"
+ },
  "itch:ecorust9/shibuya-marble-texture": {
   "author": "ecorust9",
   "currency": "USD",
@@ -3268,7 +3620,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzM1ODI5MjQucG5n/315x250%23c/2X3Opk.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -3291,7 +3643,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIwNTIzNDY3LnBuZw==/315x250%23c/qrNMrn.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3314,7 +3666,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4MTAxMTA0LmdpZg==/original/aynF8m.gif",
-  "last_seen": "2026-11-14T17:50:58Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3383,7 +3735,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyODEyNTU1LnBuZw==/315x250%23c/fIvmIo.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3407,7 +3759,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI5NTY3NTE4LnBuZw==/315x250%23c/LxvsbI.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -3433,7 +3785,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzY1Mzc0ODcucG5n/315x250%23c/6TjuaO.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -3503,7 +3855,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvODY4NDgvMTE1NTU1MC5naWY=/original/DnAh90.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -3572,7 +3924,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTMzMjA4LnBuZw==/315x250%23c/1ibJSM.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -3619,7 +3971,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzM2NTQzNTgucG5n/315x250%23c/oEA9B5.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -3642,7 +3994,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzI0MTMyNTUxLnBuZw==/315x250%23c/zAWG2i.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3665,7 +4017,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzU0NjI3MTkucG5n/315x250%23c/KS1L80.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -3713,7 +4065,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMTQ3Mzk1LzExNzYyNjYuanBn/315x250%23c/LQbCuN.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -3729,6 +4081,29 @@
   "updated": "2026-11-03T13:53:32Z",
   "url": "https://fictionfactorygames.itch.io/arcade-spirits"
  },
+ "itch:fienthebean1/five-nights-at-jeos": {
+  "author": "fienthebean1",
+  "currency": "USD",
+  "description": "Survive five nights at Joe's. Watch the cameras, shut the doors, and don't run out of power.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkyMzgxLnBuZw==/315x250%23c/1MByfJ.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T08:26:10Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Five Nights at Joe's",
+  "updated": "2026-11-15T08:36:41Z",
+  "url": "https://fienthebean1.itch.io/five-nights-at-jeos"
+ },
  "itch:fisho/haunted-island": {
   "author": "fisho",
   "currency": "USD",
@@ -3738,7 +4113,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2NDgwMjIucG5n/315x250%23c/%2FnKRNp.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -3785,7 +4160,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzExNDY4Njc1LnBuZw==/315x250%23c/cqQ6ym.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -3833,7 +4208,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI1ODg0MTE4LnBuZw==/315x250%23c/Pdm4uN.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "osx",
@@ -3858,7 +4233,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjMxNDIxLnBuZw==/315x250%23c/1cwp1j.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3904,7 +4279,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5ODgzMjc4LmpwZw==/315x250%23c/o1qEpx.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3918,6 +4293,29 @@
   "updated": "2026-01-04T04:40:44Z",
   "url": "https://gamesbyalbie.itch.io/zorlok"
  },
+ "itch:gaming-rf/promptless": {
+  "author": "gaming-rf",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0NDM2LnBuZw==/315x250%23c/7OXKvK.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T04:48:01Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Promptless",
+  "updated": "2026-11-15T09:20:47Z",
+  "url": "https://gaming-rf.itch.io/promptless"
+ },
  "itch:garfield-gamer-2718427/femboyhootersvisualnovel": {
   "author": "garfield-gamer-2718427",
   "currency": "GBP",
@@ -3927,7 +4325,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzk2MzU2NjMuanBn/315x250%23c/lV6FAc.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3951,7 +4349,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxNjQxODI1LnBuZw==/315x250%23c/LC5bpl.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -3965,6 +4363,27 @@
   "updated": "2026-02-22T17:25:27Z",
   "url": "https://garula.itch.io/the-freak-circus"
  },
+ "itch:garvitdhawan/hollow-night": {
+  "author": "garvitdhawan",
+  "currency": "USD",
+  "description": "Survive 3 minutes of undead until dawn. Auto-attack Halloween roguelite.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg5NjA0LnBuZw==/315x250%23c/YpEvbo.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T06:59:31Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Hollow Night",
+  "updated": "2026-11-15T07:16:57Z",
+  "url": "https://garvitdhawan.itch.io/hollow-night"
+ },
  "itch:gbpatch/our-life": {
   "author": "gbpatch",
   "currency": "USD",
@@ -3975,7 +4394,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzcwMTIxNDMucG5n/315x250%23c/BalGQb.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -3991,6 +4410,29 @@
   "title": "​Our Life: Beginnings & Always",
   "updated": "2022-05-22T15:48:27Z",
   "url": "https://gbpatch.itch.io/our-life"
+ },
+ "itch:genero-msa/fix-it-in-post": {
+  "author": "genero-msa",
+  "currency": "USD",
+  "description": "A stunt goes wrong. The director yells CUT. You get a few cuts to fix it.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjE1OTQ2LnBuZw==/315x250%23c/KfwxeE.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-13T20:48:21Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Fix It in Post",
+  "updated": "2026-11-15T04:11:10Z",
+  "url": "https://genero-msa.itch.io/fix-it-in-post"
  },
  "itch:george-gardiner/back-to-the-shelf": {
   "author": "george-gardiner",
@@ -4025,7 +4467,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyMjk1NTg1LmpwZw==/315x250%23c/tdTIBa.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4048,7 +4490,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjYyOTY1LnBuZw==/315x250%23c/u%2BxiVy.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4086,6 +4528,30 @@
   "updated": "2026-11-10T22:45:14Z",
   "url": "https://ghostfuneral.itch.io/angel-city"
  },
+ "itch:goldenharbourgames/stick-vs-weeds": {
+  "author": "goldenharbourgames",
+  "currency": "USD",
+  "description": "Лето 1985-го. Пацан, палка и крапива. Комедия 18+ с матом.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0NzYzLnBuZw==/315x250%23c/HTotNX.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T00:23:52Z",
+  "tags_matched": [
+   "comedy",
+   "funny"
+  ],
+  "title": "Отп*зди траву",
+  "updated": "2026-11-15T09:24:18Z",
+  "url": "https://goldenharbourgames.itch.io/stick-vs-weeds"
+ },
  "itch:gonzaatt/altf4": {
   "author": "gonzaatt",
   "currency": "USD",
@@ -4095,7 +4561,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwNjcyNDgxLnBuZw==/315x250%23c/eJQ%2F0N.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4164,7 +4630,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQyMjc0NzUucG5n/315x250%23c/R9%2B0%2FE.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4187,7 +4653,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5NDg3OTk2LnBuZw==/315x250%23c/GbzzwM.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4211,7 +4677,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwOTA1MjMzLmdpZg==/original/vgxOnv.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4273,6 +4739,28 @@
   "updated": "2026-11-15T00:06:52Z",
   "url": "https://grimforge-games.itch.io/the-blood-tithe"
  },
+ "itch:gugl-mazdai/dino-ruiner-boogle-must-die": {
+  "author": "gugl-mazdai",
+  "currency": "USD",
+  "description": "An arcade revenge spree where five mini-games turn the cactus into the T-Rex's worst obstacle.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjgzNTUxLmpwZw==/315x250%23c/w35A%2BU.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T03:14:13Z",
+  "tags_matched": [
+   "funny",
+   "parody"
+  ],
+  "title": "Dino Ruiner: Boogle Must Die!",
+  "updated": "2026-11-15T03:19:10Z",
+  "url": "https://gugl-mazdai.itch.io/dino-ruiner-boogle-must-die"
+ },
  "itch:guizindograuzin/mpf1": {
   "author": "guizindograuzin",
   "currency": "USD",
@@ -4282,7 +4770,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjczODU0LnBuZw==/315x250%23c/FDLVNR.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -4304,7 +4792,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzExNTE4OTQ3LnBuZw==/315x250%23c/%2BjB78d.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4375,7 +4863,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2Mzk3ODg5LnBuZw==/315x250%23c/jUvPeh.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -4391,6 +4879,27 @@
   "title": "CreepyDates",
   "updated": "2026-10-28T03:53:21Z",
   "url": "https://hahadit.itch.io/creepydates"
+ },
+ "itch:hallower1980/director-mischief-and-mayhem": {
+  "author": "hallower1980",
+  "currency": "USD",
+  "description": "Familiar dramatic movie tropes disrupted by unlikely director input. Hilarious chaos ensues.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg2Nzc4LnBuZw==/315x250%23c/U954wf.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T05:17:43Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Director! Mischief and Mayhem",
+  "updated": "2026-11-15T05:33:15Z",
+  "url": "https://hallower1980.itch.io/director-mischief-and-mayhem"
  },
  "itch:happycrazywild/dirk-the-dictionary": {
   "author": "happycrazywild",
@@ -4424,7 +4933,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2OTM0Mjk2LnBuZw==/315x250%23c/Z057i%2B.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4448,7 +4957,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDUwODU0LnBuZw==/315x250%23c/QwaImV.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4471,7 +4980,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzgyODEzNDkucG5n/315x250%23c/HaYsLL.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4494,7 +5003,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5ODYxMTA2LnBuZw==/315x250%23c/vR%2F%2F90.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4517,7 +5026,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MTkwODkwLmdpZg==/original/jljRpT.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -4542,7 +5051,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjcxNzQzLmpwZw==/315x250%23c/%2B6q42f.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4566,7 +5075,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMzMjc5NTUucG5n/315x250%23c/2ikfu1.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -4592,7 +5101,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2NTA1NTEyLmpwZw==/315x250%23c/6QCklN.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4639,7 +5148,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjMyNDYyLmpwZw==/315x250%23c/nwD3v4.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4685,7 +5194,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzkxNDAwMzkuanBn/315x250%23c/A7ONdY.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -4711,7 +5220,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQwNDAzNjQucG5n/315x250%23c/LApOQz.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -4804,7 +5313,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjgwNDI1LnBuZw==/315x250%23c/bHDIr%2F.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4818,6 +5327,29 @@
   "updated": "2026-11-15T01:35:55Z",
   "url": "https://hulxjmd3000.itch.io/huy-game"
  },
+ "itch:hyeon-dea/escapedudu": {
+  "author": "hyeon-dea",
+  "currency": "USD",
+  "description": "[트릭컬 팬게임] 두두와 스피키의 추격을 피해 미로에서 탈출하는 1인칭 공포게임!",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg1MzY3LnBuZw==/315x250%23c/MhFqXZ.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T03:54:20Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "EscapeDuDu (트릭컬 2차 창작)",
+  "updated": "2026-11-15T08:42:37Z",
+  "url": "https://hyeon-dea.itch.io/escapedudu"
+ },
  "itch:hypnoto/dont-leak-the-chip": {
   "author": "hypnoto",
   "currency": "USD",
@@ -4827,7 +5359,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTE2ODEyLmpwZw==/315x250%23c/MWN%2FoV.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4923,7 +5455,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTU2NDkwLmpwZw==/315x250%23c/R39ChQ.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4946,7 +5478,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTE5NDQ4LnBuZw==/315x250%23c/y8OIL6.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -4967,7 +5499,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI3ODA4NzUzLmpwZw==/315x250%23c/CP2MCJ.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -4981,6 +5513,29 @@
   "updated": "2026-07-02T14:31:52Z",
   "url": "https://illomens.itch.io/no-one-is-going-to-buy-your-game"
  },
+ "itch:imakestuffsc/annoying-ducks": {
+  "author": "imakestuffsc",
+  "currency": "USD",
+  "description": "How hard is it to babysit a few ducks?",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg2ODU1LnBuZw==/315x250%23c/zqgRU6.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T05:22:23Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "Annoying Ducks",
+  "updated": "2026-11-15T05:42:46Z",
+  "url": "https://imakestuffsc.itch.io/annoying-ducks"
+ },
  "itch:impostersyndrome/death-flush": {
   "author": "impostersyndrome",
   "currency": "USD",
@@ -4990,7 +5545,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQxNjM4NjIucG5n/315x250%23c/99uM7j.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -5036,7 +5591,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQxMzkzNzcuZ2lm/original/rEPyno.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5059,7 +5614,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjExMzkwLnBuZw==/315x250%23c/Xn5Z05.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5082,7 +5637,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwMzgzODcyLnBuZw==/315x250%23c/6a1TMM.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5105,7 +5660,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTIwODM1LnBuZw==/315x250%23c/h%2FP9FN.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -5117,6 +5672,29 @@
   "updated": "2026-11-12T15:45:38Z",
   "url": "https://itspinguplayz.itch.io/reverse-snake"
  },
+ "itch:ityespia99/gru-theft-auto-san-juan": {
+  "author": "ityespia99",
+  "currency": "USD",
+  "description": "Awesome Third-person Open world short game. Not based on Despicable me",
+  "feeds": [
+   "popular"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzEzOTk0OTE4LmpwZw==/315x250%23c/cJOMoD.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2023-11-11T22:36:06Z",
+  "tags_matched": [
+   "meme"
+  ],
+  "title": "Gru Theft Auto: San Juan",
+  "updated": "2026-02-27T21:16:29Z",
+  "url": "https://ityespia99.itch.io/gru-theft-auto-san-juan"
+ },
  "itch:jane-chef/chungos-gauntlet": {
   "author": "jane-chef",
   "currency": "USD",
@@ -5126,7 +5704,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzgyNDU0MjEucG5n/315x250%23c/ebBt7d.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -5163,6 +5741,29 @@
   "updated": "2026-11-14T15:07:27Z",
   "url": "https://jaydenchii.itch.io/slice-of-life-warmindo"
  },
+ "itch:jb190058/doom-quest-inevitable": {
+  "author": "jb190058",
+  "currency": "USD",
+  "description": "A very very very very very scuffed fan game where you survive against demons.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk2NTAxLnBuZw==/315x250%23c/QvKn81.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T10:02:18Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Doom Quest - Inevitable",
+  "updated": "2026-11-15T10:07:01Z",
+  "url": "https://jb190058.itch.io/doom-quest-inevitable"
+ },
  "itch:jbodah/admin-play": {
   "author": "jbodah",
   "currency": "USD",
@@ -5173,7 +5774,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzUwMzU3NDcucG5n/315x250%23c/Gpdo7n.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5197,7 +5798,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEzMjEzNjUzLnBuZw==/315x250%23c/%2Fr5sGU.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5220,7 +5821,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1NTYwNjQ3LnBuZw==/315x250%23c/ZOChpM.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5243,7 +5844,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzcwNzEyNDIucG5n/315x250%23c/HURqRu.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5267,7 +5868,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzc0OTE4NTUucG5n/315x250%23c/eIDAVE.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5290,7 +5891,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMTM3OTEvNDY5NDMuanBn/315x250%23c/oHAuXV.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -5305,6 +5906,29 @@
   "updated": "2024-11-11T13:38:52Z",
   "url": "https://jigxorandy.itch.io/game-of-the-year"
  },
+ "itch:jonathan1115/gigafan": {
+  "author": "jonathan1115",
+  "currency": "USD",
+  "description": "Le réseau social où tu es la star, et où tu choisis tout !",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk1MjgwLnBuZw==/315x250%23c/tTzXjg.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:14:28Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "Gigafan",
+  "updated": "2026-11-15T09:45:01Z",
+  "url": "https://jonathan1115.itch.io/gigafan"
+ },
  "itch:jonofeio/facebook2collection": {
   "author": "jonofeio",
   "currency": "USD",
@@ -5314,7 +5938,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDQwNDM4LnBuZw==/315x250%23c/IJ%2BMFy.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5337,7 +5961,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyOTIzODQyLnBuZw==/315x250%23c/OSTJ1F.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5383,7 +6007,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIwODkyNjEzLmpwZw==/315x250%23c/Kv9rmK.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -5406,7 +6030,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDMxOTk1LnBuZw==/315x250%23c/JEKMDh.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5448,11 +6072,12 @@
   "currency": "USD",
   "description": "",
   "feeds": [
+   "popular",
    "top_rated"
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI4NDM4MjQ3LnBuZw==/315x250%23c/2FeRYV.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "windows"
@@ -5476,7 +6101,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc1MzY5LnBuZw==/315x250%23c/QfhvA%2F.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -5499,7 +6124,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjQ4MTIyLmpwZWc=/315x250%23c/Lao0dL.jpeg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5537,6 +6162,29 @@
   "updated": "2026-11-14T15:36:49Z",
   "url": "https://junior237dev.itch.io/last-metro-horror-update"
  },
+ "itch:juslangit/sir-reginald-the-magnificent": {
+  "author": "juslangit",
+  "currency": "USD",
+  "description": "He is the hero. You are the healer. Keep him alive.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk1NzQ4LnBuZw==/315x250%23c/uPLWMn.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-11T09:38:15Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Sir Reginald the Magnificent",
+  "updated": "2026-11-15T09:45:05Z",
+  "url": "https://juslangit.itch.io/sir-reginald-the-magnificent"
+ },
  "itch:justellajane/hollow-hearth-demo-to-be-continued": {
   "author": "justellajane",
   "currency": "USD",
@@ -5569,7 +6217,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyNjEyMDc5LnBuZw==/315x250%23c/fZ6LOy.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5615,7 +6263,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjY4MzE5LmdpZg==/original/vmoeXF.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -5639,7 +6287,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMjY4NTY3LzEyOTU2NjUucG5n/315x250%23c/%2BMMxaP.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -5663,7 +6311,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc3MDM5LnBuZw==/315x250%23c/1ikH%2FN.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5674,7 +6322,7 @@
    "funny"
   ],
   "title": "FANTA-stic",
-  "updated": "2026-11-15T00:12:25Z",
+  "updated": "2026-11-15T04:01:46Z",
   "url": "https://keltime.itch.io/fanta-stic"
  },
  "itch:ketibanmobil/the-luckiest-of-them-all": {
@@ -5709,7 +6357,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzU0NzcyNDMuanBn/315x250%23c/eJtC18.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -5721,6 +6369,52 @@
   "updated": "2021-03-21T04:29:58Z",
   "url": "https://kevinsoares.itch.io/buzz-lightyear"
  },
+ "itch:khazap/bounceback-golf-2": {
+  "author": "khazap",
+  "currency": "USD",
+  "description": "Bouncy Dog Go Up",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg4MzgxLnBuZw==/315x250%23c/tB87Ld.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T06:34:40Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Bounceback Golf 2 (better)",
+  "updated": "2026-11-15T06:50:25Z",
+  "url": "https://khazap.itch.io/bounceback-golf-2"
+ },
+ "itch:kid421/the-white-ward-20261115": {
+  "author": "kid421",
+  "currency": "USD",
+  "description": "There ara something happened in the white ward...",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkwMzIzLmdpZg==/original/g%2Fjv6K.gif",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-08T07:19:56Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "The White Ward | 絕命白色病房",
+  "updated": "2026-11-15T07:20:37Z",
+  "url": "https://kid421.itch.io/the-white-ward-20261115"
+ },
  "itch:kindanice/making-the-game": {
   "author": "kindanice",
   "currency": "USD",
@@ -5730,7 +6424,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyNzExMTQ2LnBuZw==/315x250%23c/HF7px9.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5753,7 +6447,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc5MzAzLnBuZw==/315x250%23c/TC1UwE.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -5774,7 +6468,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTQzNTAzLnBuZw==/315x250%23c/mc6SLz.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5797,7 +6491,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc3NjM3LnBuZw==/315x250%23c/frrN85.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5881,6 +6575,29 @@
   "updated": "2026-11-14T16:48:58Z",
   "url": "https://kozel-games.itch.io/run-idiots-over"
  },
+ "itch:krllb/wait-and-bat": {
+  "author": "krllb",
+  "currency": "USD",
+  "description": "Whack a reckless scooter rider on the sidewalk and see how far they fly",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0MTM4LmdpZg==/original/9kKD6P.gif",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:10:02Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "Wait & Bat",
+  "updated": "2026-11-15T09:54:50Z",
+  "url": "https://krllb.itch.io/wait-and-bat"
+ },
  "itch:kryptickitty/who-stole-my-bone": {
   "author": "kryptickitty",
   "currency": "USD",
@@ -5890,7 +6607,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIwMzQzOTQuZ2lm/original/6jJrws.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5913,7 +6630,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1NjAyNjEwLnBuZw==/315x250%23c/vqbJ%2BC.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "windows"
@@ -5938,7 +6655,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwNDkyMjkucG5n/315x250%23c/nmIykb.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5961,7 +6678,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTU5MTI1LnBuZw==/315x250%23c/AJcDw4.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -5984,7 +6701,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIwMDUzMzIyLnBuZw==/315x250%23c/8Xf4YA.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -6005,7 +6722,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzM5NDMxMjkucG5n/315x250%23c/%2FDdkhP.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6021,6 +6738,29 @@
   "updated": "2026-05-30T04:28:20Z",
   "url": "https://ladymeowsith.itch.io/a-cottage-story"
  },
+ "itch:larchm/prompt-pray": {
+  "author": "larchm",
+  "currency": "USD",
+  "description": "A vibe coder’s first day. Describe it. Pray it works",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjYzNjU2LnBuZw==/315x250%23c/7vWswd.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-13T20:55:50Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "LawaK: Prompt & Pray",
+  "updated": "2026-11-15T08:45:16Z",
+  "url": "https://larchm.itch.io/prompt-pray"
+ },
  "itch:lastwinter/haunting-at-neighborhood": {
   "author": "lastwinter",
   "currency": "USD",
@@ -6030,7 +6770,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzkzODI2ODUucG5n/315x250%23c/%2BMIOFc.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "windows"
@@ -6045,6 +6785,29 @@
   "updated": "2022-07-08T09:52:41Z",
   "url": "https://lastwinter.itch.io/haunting-at-neighborhood"
  },
+ "itch:lastwinter/thaiholyshoot": {
+  "author": "lastwinter",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "popular"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzEzNzk2NDM3LnBuZw==/315x250%23c/%2B8WHKM.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2023-10-23T14:08:27Z",
+  "tags_matched": [
+   "meme"
+  ],
+  "title": "(Thai/Shooter) คนเจ๋งป่าหิมพานต์ HolyShoot Fps shooter",
+  "updated": "2023-10-24T08:24:52Z",
+  "url": "https://lastwinter.itch.io/thaiholyshoot"
+ },
  "itch:laurahunt/if-on-a-winters-night-four-travelers": {
   "author": "laurahunt",
   "currency": "USD",
@@ -6054,7 +6817,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzM3NDY3NTMuZ2lm/original/wvUDvL.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6079,7 +6842,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1MDM4ODcwLnBuZw==/315x250%23c/1VMpak.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -6102,7 +6865,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMTA2ODgwLnBuZw==/315x250%23c/oeUQqY.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android"
   ],
@@ -6149,7 +6912,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE0ODAwNzU4LnBuZw==/315x250%23c/WjK12q.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6174,7 +6937,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwOTcyMjIucG5n/315x250%23c/a0NL9j.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6261,6 +7024,27 @@
   "updated": "2026-11-14T15:25:55Z",
   "url": "https://lildayne.itch.io/tadaima-demo"
  },
+ "itch:lion639/jam-kit-godot4-vol2": {
+  "author": "lion639",
+  "currency": "USD",
+  "description": "Save slots with metadata, rebindable controls, music crossfade and ducking — 29 headless checks, Godot 4.3.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkyMDM4LnBuZw==/315x250%23c/%2BdQyqr.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [],
+  "price": 5.0,
+  "price_jpy": 750.0,
+  "published": "2026-11-15T08:10:03Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Jam Kit Vol. 2 — Save Slots, Rebinds, Crossfade, Settings (Godot 4)",
+  "updated": "2026-11-15T08:15:01Z",
+  "url": "https://lion639.itch.io/jam-kit-godot4-vol2"
+ },
  "itch:livingslime/prescriptionlove": {
   "author": "livingslime",
   "currency": "USD",
@@ -6271,7 +7055,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4Mjc4NzgyLnBuZw==/315x250%23c/nkA1x6.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6297,7 +7081,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxMzIyOTk2LnBuZw==/315x250%23c/CVV4Oa.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6322,7 +7106,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIzNTY3MTI4LnBuZw==/315x250%23c/yUIh1J.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6347,7 +7131,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1NTk0NDYxLnBuZw==/315x250%23c/l%2BT6T8.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -6370,7 +7154,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQyNTUwNzAuZ2lm/original/G3NPOm.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -6393,7 +7177,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyNjA1MDA0LnBuZw==/315x250%23c/BxECk0.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -6406,6 +7190,29 @@
   "title": "Pizza Tower Academy - Dating Sim",
   "updated": "2023-06-29T03:57:16Z",
   "url": "https://loulouvz.itch.io/pizza-tower-academy-dating-sim"
+ },
+ "itch:lqyunn/bounds-back": {
+  "author": "lqyunn",
+  "currency": "USD",
+  "description": "You are trapped by Bounds. It bounds you back if you run. Grab the keys that appear and find your way out. Good luck.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg4NTM1LnBuZw==/315x250%23c/Xq2n0O.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T06:10:10Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Bounds Back",
+  "updated": "2026-11-15T07:07:32Z",
+  "url": "https://lqyunn.itch.io/bounds-back"
  },
  "itch:luatsenpai/the-silent-beacon-ds": {
   "author": "luatsenpai",
@@ -6482,7 +7289,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzkxMzI5NjkucG5n/315x250%23c/%2FDwXCM.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -6506,7 +7313,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MDg3OTg1LmdpZg==/original/xFld7F.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -6529,7 +7336,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzk1OTY1NTMucG5n/315x250%23c/o%2F%2FxPr.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -6553,7 +7360,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQwNzYzNDAucG5n/315x250%23c/RyNITm.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6601,7 +7408,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzExMTIzNDE5LnBuZw==/315x250%23c/ZMeWRp.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6616,6 +7423,53 @@
   "title": "REFLEXIA Prototype ver.",
   "updated": "2023-01-28T15:08:55Z",
   "url": "https://mahoumaiden.itch.io/reflexia-prototype-ver"
+ },
+ "itch:mairii/dont-cheat-again": {
+  "author": "mairii",
+  "currency": "USD",
+  "description": "A card game where everyone cheats. Catch them in the act, blow the whistle, and let the bouncer's hammer do the rest.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg0OTY0LnBuZw==/315x250%23c/ZQOe7j.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T03:56:59Z",
+  "tags_matched": [
+   "comedy",
+   "meme"
+  ],
+  "title": "Don't Cheat Again",
+  "updated": "2026-11-15T04:44:02Z",
+  "url": "https://mairii.itch.io/dont-cheat-again"
+ },
+ "itch:malygos-lan/the-cutting-room-floor": {
+  "author": "malygos-lan",
+  "currency": "USD",
+  "description": "A breakout game survives 40 years of its boss's \"improvements\". Then you cut them all.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg5MDc1LnBuZw==/315x250%23c/soMZGJ.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T05:27:01Z",
+  "tags_matched": [
+   "parody"
+  ],
+  "title": "The Cutting Room Floor",
+  "updated": "2026-11-15T06:39:22Z",
+  "url": "https://malygos-lan.itch.io/the-cutting-room-floor"
  },
  "itch:maq/the-last-show": {
   "author": "maq",
@@ -6650,7 +7504,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjI2NTg5LnBuZw==/315x250%23c/a0nFDI.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -6700,7 +7554,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE3NDExNjg0LnBuZw==/315x250%23c/E6hdO5.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -6713,6 +7567,32 @@
   "title": "Karinderya ni Mark (Android, Win, Linux, Browser)",
   "updated": "2025-11-20T00:42:56Z",
   "url": "https://mark-the-panda.itch.io/karinderya-ni-mark"
+ },
+ "itch:markgg-92/snake-chicken": {
+  "author": "markgg-92",
+  "currency": "USD",
+  "description": "\"Slither, strategize, and savor the feast—before you become the main course!\"",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg0MDIwLmpwZw==/315x250%23c/RJDca8.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "android",
+   "linux",
+   "osx",
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T03:29:07Z",
+  "tags_matched": [
+   "meme"
+  ],
+  "title": "Snake & Chicken",
+  "updated": "2026-11-15T04:43:02Z",
+  "url": "https://markgg-92.itch.io/snake-chicken"
  },
  "itch:maruhide/maruhide-night-watch-king": {
   "author": "maruhide",
@@ -6771,7 +7651,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2OTE2MzUzLnBuZw==/315x250%23c/sw0sKf.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -6794,7 +7674,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxODU5OTc0LnBuZw==/315x250%23c/a28Ngr.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android"
   ],
@@ -6817,7 +7697,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQ5MjA2MTUucG5n/315x250%23c/BBBJcH.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -6838,7 +7718,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEwNzY5NTM2LnBuZw==/315x250%23c/C1FS3W.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -6850,6 +7730,29 @@
   "updated": "2023-12-29T17:11:17Z",
   "url": "https://maxters.itch.io/thecurseofthewisetree"
  },
+ "itch:melon-444/dark-wood": {
+  "author": "melon-444",
+  "currency": "USD",
+  "description": "3D FPS",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg4ODI0LnBuZw==/315x250%23c/9N0AO6.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T19:15:06Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Dark Wood",
+  "updated": "2026-11-15T08:21:04Z",
+  "url": "https://melon-444.itch.io/dark-wood"
+ },
  "itch:meowdy-nio/i-can-fix-him": {
   "author": "meowdy-nio",
   "currency": "USD",
@@ -6859,7 +7762,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI1NzUwODYzLnBuZw==/315x250%23c/Sgtlj%2F.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -6883,7 +7786,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjM5ODcwLnBuZw==/315x250%23c/xgFfde.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -6904,7 +7807,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI4NTQ2ODA1LmdpZg==/original/9b0Pdq.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -6927,7 +7830,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE0NjIyNDk0LnBuZw==/315x250%23c/sVIn2e.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "windows"
@@ -6942,6 +7845,30 @@
   "updated": "2026-01-01T23:54:08Z",
   "url": "https://mikeklubnika.itch.io/buckshot-roulette"
  },
+ "itch:milkiwaey/not-today": {
+  "author": "milkiwaey",
+  "currency": "USD",
+  "description": "He just wants to catch a train. The town has other plans.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkyMDA1LnBuZw==/315x250%23c/Zqra1%2F.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T08:15:19Z",
+  "tags_matched": [
+   "comedy",
+   "funny"
+  ],
+  "title": "NOT TODAY",
+  "updated": "2026-11-15T09:15:37Z",
+  "url": "https://milkiwaey.itch.io/not-today"
+ },
  "itch:mimu2026/empty-box": {
   "author": "mimu2026",
   "currency": "USD",
@@ -6951,7 +7878,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI3NTYyOTczLnBuZw==/315x250%23c/ejTCgn.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -6976,7 +7903,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI1NTU3MTA5LnBuZw==/315x250%23c/bKXc97.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -6992,6 +7919,27 @@
   "updated": "2026-09-08T20:25:04Z",
   "url": "https://mirawakestudios.itch.io/wan2talk"
  },
+ "itch:mlgjammino/paddling-pool-quest-the-complete-series": {
+  "author": "mlgjammino",
+  "currency": "USD",
+  "description": "14 fun games where you get to help Paul build a paddling pool!",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk1Mjg5LnBuZw==/315x250%23c/eSztpJ.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:29:55Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Paddling Pool Quest: The Complete Series",
+  "updated": "2026-11-15T09:48:32Z",
+  "url": "https://mlgjammino.itch.io/paddling-pool-quest-the-complete-series"
+ },
  "itch:mlodapieknapolska/shaker-gourmeter": {
   "author": "mlodapieknapolska",
   "currency": "USD",
@@ -7001,10 +7949,9 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjgwMDA3LnBuZw==/315x250%23c/G%2FDgQH.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
-   "osx",
-   "windows"
+   "html"
   ],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -7014,7 +7961,7 @@
    "horror"
   ],
   "title": "snake gourmet",
-  "updated": "2026-11-15T01:29:20Z",
+  "updated": "2026-11-15T10:08:11Z",
   "url": "https://mlodapieknapolska.itch.io/shaker-gourmeter"
  },
  "itch:monkeykg/date-knight": {
@@ -7026,7 +7973,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI5NTk5OTI4LnBuZw==/315x250%23c/cK4PB3.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -7051,7 +7998,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMwNDk4NTYzLmdpZg==/original/L7HFbh.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7074,7 +8021,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTQ4NDA2LmdpZg==/original/CO9l5G.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -7111,6 +8058,29 @@
   "updated": "2026-11-14T16:05:52Z",
   "url": "https://moonlightember-1.itch.io/goose-terrorizes-all-6"
  },
+ "itch:moonlitarcade/shogunpowder": {
+  "author": "moonlitarcade",
+  "currency": "USD",
+  "description": "Lights. Camera. Mayhem. A fast 3D arena shooter on a ninja film set: bots, CTF, a 3-level adventure. itch.io exclusive.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0NTQ4LnBuZw==/315x250%23c/ucPGxC.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T02:03:32Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Shogunpowder",
+  "updated": "2026-11-15T09:24:14Z",
+  "url": "https://moonlitarcade.itch.io/shogunpowder"
+ },
  "itch:morrieirrom/date-the-dude": {
   "author": "morrieirrom",
   "currency": "USD",
@@ -7120,7 +8090,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5NDk0Nzg1LmpwZw==/315x250%23c/xQQiCT.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -7142,7 +8112,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2NDI5NTgzLmpwZw==/315x250%23c/5lRRHP.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -7165,7 +8135,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwODMyMDc3LnBuZw==/315x250%23c/5h3BMR.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7235,7 +8205,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTE4ODI3LnBuZw==/315x250%23c/pJGDd%2F.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7306,7 +8276,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI3NjQ4NjUucG5n/315x250%23c/DZfV4W.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7330,7 +8300,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvOTIxMTUvNDU0MDMxLnBuZw==/315x250%23c/cxthdQ.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7353,7 +8323,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMzODkzOTQucG5n/315x250%23c/ZsDSh4.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -7419,7 +8389,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5NTgxMTI2LnBuZw==/315x250%23c/JKAKru.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7442,7 +8412,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1MjMwMDY4LnBuZw==/315x250%23c/E4%2Br0y.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7455,6 +8425,29 @@
   "title": "Satoru Gojo Backshot Simulator",
   "updated": "2024-05-05T21:19:59Z",
   "url": "https://niblet.itch.io/gojobackshotsimulator"
+ },
+ "itch:nibstudio/erf-the-forgotten-day": {
+  "author": "nibstudio",
+  "currency": "USD",
+  "description": "Wake up in a hedge maze with a bag of raw meat. The creatures can't be killed. Feed them.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkzMzIyLnBuZw==/315x250%23c/1o0csC.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T08:51:31Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "​​Erf: The Forgotten Day​",
+  "updated": "2026-11-15T09:06:46Z",
+  "url": "https://nibstudio.itch.io/erf-the-forgotten-day"
  },
  "itch:nichoz/the-crawling-ink-of-wrenfold-abbey": {
   "author": "nichoz",
@@ -7486,7 +8479,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIzNjAzMDM2LnBuZw==/315x250%23c/XDauk2.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -7510,7 +8503,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQ1MjMxODcuZ2lm/original/5%2BUV5L.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7534,7 +8527,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyMjIxMjAwLmdpZg==/original/iTOgtd.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7557,7 +8550,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjcyODMzLmpwZw==/315x250%23c/KAgCyT.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -7604,7 +8597,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2NDYwMzM1LnBuZw==/315x250%23c/rZC4IS.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7650,7 +8643,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxNzE2Mzg5LnBuZw==/315x250%23c/RDRkBR.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "windows"
@@ -7665,6 +8658,52 @@
   "updated": "2026-11-10T11:26:17Z",
   "url": "https://notsospecialgames.itch.io/grandfathers-estate"
  },
+ "itch:noturlifecoach/scraptrap": {
+  "author": "noturlifecoach",
+  "currency": "USD",
+  "description": "Build a scrap sorter. Save the good junk. Please don’t Bonk the lobster.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjgzMzE4LmpwZw==/315x250%23c/rJu8lD.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T03:05:03Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Scraptrap!",
+  "updated": "2026-11-15T03:15:54Z",
+  "url": "https://noturlifecoach.itch.io/scraptrap"
+ },
+ "itch:novagames-dev/wildveil": {
+  "author": "novagames-dev",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg2NjQxLnBuZw==/315x250%23c/dy9Epv.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T06:11:03Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Wildveil",
+  "updated": "2026-11-15T06:36:19Z",
+  "url": "https://novagames-dev.itch.io/wildveil"
+ },
  "itch:nrar/junior-em-busca-de-sua-air-fyrer": {
   "author": "nrar",
   "currency": "USD",
@@ -7674,7 +8713,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxNzA0NjMxLmpwZw==/315x250%23c/ix0imp.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -7688,6 +8727,27 @@
   "updated": "2026-11-02T17:52:02Z",
   "url": "https://nrar.itch.io/junior-em-busca-de-sua-air-fyrer"
  },
+ "itch:nsguinn/cut-content": {
+  "author": "nsguinn",
+  "currency": "USD",
+  "description": "Bingo night at the Last Call Casino. The studio cut a level from this game, and you are still in it.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg5ODgyLnBuZw==/315x250%23c/hW78p0.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T07:05:33Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Cut Content",
+  "updated": "2026-11-15T07:23:17Z",
+  "url": "https://nsguinn.itch.io/cut-content"
+ },
  "itch:nso9019/roam": {
   "author": "nso9019",
   "currency": "USD",
@@ -7697,7 +8757,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIwNzEzNzQwLnBuZw==/315x250%23c/QEfto2.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -7741,7 +8801,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MjE1ODM5LnBuZw==/315x250%23c/8zoPdd.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7764,7 +8824,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxNDc5Mjg0LnBuZw==/315x250%23c/K3E7P8.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7788,7 +8848,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4MDI4MjE2LnBuZw==/315x250%23c/Hpq47V.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7801,6 +8861,53 @@
   "title": "Taiyaki Fabulous Museum of Fish",
   "updated": "2025-08-29T13:08:39Z",
   "url": "https://objetdiscret.itch.io/tai-fab-museum"
+ },
+ "itch:ohadianoush/cut-again": {
+  "author": "ohadianoush",
+  "currency": "USD",
+  "description": "Set up a movie stunt, call ACTION, and watch it go wrong.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkyNTYxLnBuZw==/315x250%23c/2NSpSY.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T08:29:46Z",
+  "tags_matched": [
+   "comedy",
+   "funny"
+  ],
+  "title": "CUT! AGAIN!",
+  "updated": "2026-11-15T09:36:39Z",
+  "url": "https://ohadianoush.itch.io/cut-again"
+ },
+ "itch:ohge-games/directors-cut": {
+  "author": "ohge-games",
+  "currency": "USD",
+  "description": "Some games never made the cut...",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjc1MTQzLnBuZw==/315x250%23c/tuaK5w.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-12T05:28:08Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Cutting Room Terminal",
+  "updated": "2026-11-15T10:03:29Z",
+  "url": "https://ohge-games.itch.io/directors-cut"
  },
  "itch:ohmyjosh1/urgent-delivery-elevator-out": {
   "author": "ohmyjosh1",
@@ -7825,6 +8932,29 @@
   "updated": "2026-11-14T20:36:19Z",
   "url": "https://ohmyjosh1.itch.io/urgent-delivery-elevator-out"
  },
+ "itch:olaycolay/uc-love": {
+  "author": "olaycolay",
+  "currency": "USD",
+  "description": "Date the personifications of the Universities of California!",
+  "feeds": [
+   "popular"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzkwMDAwMDEucG5n/315x250%23c/QIsRn6.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2022-05-23T03:51:51Z",
+  "tags_matched": [
+   "meme"
+  ],
+  "title": "UC Love (FULL VERSION!)",
+  "updated": "2023-03-01T04:52:44Z",
+  "url": "https://olaycolay.itch.io/uc-love"
+ },
  "itch:olegus-dev/floppa-runner": {
   "author": "olegus-dev",
   "currency": "USD",
@@ -7834,7 +8964,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDY0MDE3LnBuZw==/315x250%23c/oMeG6s.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7857,7 +8987,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzg5NzM1MzUucG5n/315x250%23c/gpUlxT.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -7871,6 +9001,29 @@
   "updated": "2022-09-02T06:05:37Z",
   "url": "https://omogonixlachlan.itch.io/swamp-sim-relayered"
  },
+ "itch:onegrand/tiny-orbit": {
+  "author": "onegrand",
+  "currency": "USD",
+  "description": "Clean up all the junk in space. One button. Chain reactions. Real space-history loot.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkwMzg3LnBuZw==/315x250%23c/wptXjJ.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T21:58:00Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "Tiny Orbit",
+  "updated": "2026-11-15T07:26:13Z",
+  "url": "https://onegrand.itch.io/tiny-orbit"
+ },
  "itch:ookii-tsuki/ram-raider": {
   "author": "ookii-tsuki",
   "currency": "USD",
@@ -7881,7 +9034,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTUxODU1LnBuZw==/315x250%23c/QtL754.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "windows"
@@ -7905,7 +9058,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MDQxNDQ2LnBuZw==/315x250%23c/XNgvlX.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7975,7 +9128,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQwNjUzMDAucG5n/315x250%23c/zaxN4Q.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -7998,7 +9151,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjgwODY3LnBuZw==/315x250%23c/nhHFeV.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -8043,7 +9196,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzM1Nzc3NjIucG5n/315x250%23c/MBfO%2Fs.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -8069,7 +9222,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI1NTY0ODk1LnBuZw==/315x250%23c/mxnekb.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8117,7 +9270,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyOTMzNDY5LnBuZw==/315x250%23c/QwuK26.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8141,7 +9294,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyOTMzNzczLnBuZw==/315x250%23c/CqBq%2FU.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8164,7 +9317,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc2OTE2LnBuZw==/315x250%23c/0h5qy2.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -8189,7 +9342,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI5ODUzMDIucG5n/315x250%23c/AD8Tgc.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -8212,7 +9365,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI4MTQ4MjcyLnBuZw==/315x250%23c/iSFE8R.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -8251,6 +9404,29 @@
   "updated": "2026-11-14T17:49:37Z",
   "url": "https://perkyiv.itch.io/too-high-to-die"
  },
+ "itch:phamvietvuong56321-cloud/dung-de-tui-bay": {
+  "author": "phamvietvuong56321-cloud",
+  "currency": "USD",
+  "description": "Help Bánh Bao dodge birds in this funny 2D arcade game!",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg3MzUwLmpwZw==/315x250%23c/rGJYHx.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T04:46:42Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "ĐỪNG ĐỂ TUI BAY",
+  "updated": "2026-11-15T06:23:09Z",
+  "url": "https://phamvietvuong56321-cloud.itch.io/dung-de-tui-bay"
+ },
  "itch:pierre-emad/six-ways-to-die": {
   "author": "pierre-emad",
   "currency": "USD",
@@ -8283,7 +9459,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI0NTA2ODg2LnBuZw==/315x250%23c/gyEgui.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8329,7 +9505,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc5ODA3LnBuZw==/315x250%23c/c060xO.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -8375,7 +9551,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjMyOTIxLnBuZw==/315x250%23c/ep2m4R.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8399,7 +9575,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2NzQ0MTcyLnBuZw==/315x250%23c/0ef3CU.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -8434,6 +9610,29 @@
   "updated": "2026-11-14T15:27:10Z",
   "url": "https://polkgamer.itch.io/akumu"
  },
+ "itch:pollito-productions/patodex": {
+  "author": "pollito-productions",
+  "currency": "USD",
+  "description": "Explorá una ciudad, fotografiá patos extraños y completá tu Patodex.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjgyOTExLmpwZw==/315x250%23c/Eo1K3C.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "linux"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T02:51:45Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Patodex",
+  "updated": "2026-11-15T03:10:46Z",
+  "url": "https://pollito-productions.itch.io/patodex"
+ },
  "itch:poncle/vampire-survivors": {
   "author": "poncle",
   "currency": "USD",
@@ -8443,7 +9642,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzcyNDkxNTIucG5n/315x250%23c/YLrvvd.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8466,7 +9665,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTgzMTQ2LnBuZw==/315x250%23c/1Gz295.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8489,7 +9688,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEzNzkwNTM2LnBuZw==/315x250%23c/a3UnLy.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -8515,7 +9714,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc0Nzc3LnBuZw==/315x250%23c/ewZW1a.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8538,7 +9737,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2Nzc1NTkwLmdpZg==/original/F5CYDF.gif",
-  "last_seen": "2026-11-14T17:50:58Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -8562,7 +9761,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwMzQ1MTc0LmdpZg==/original/BC7%2BzY.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -8588,7 +9787,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1NTkzMzguZ2lm/original/UC6TZy.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -8612,7 +9811,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMTA3MDc3LzkwODUxMy5naWY=/original/KAzbZ4.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -8659,7 +9858,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxNTk0NzQ1LmpwZw==/315x250%23c/70lewF.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -8745,6 +9944,27 @@
   "updated": "2026-11-14T15:17:45Z",
   "url": "https://quantum-captain.itch.io/silent-hollow"
  },
+ "itch:quetefollow7/orculo-los-archivos-del-ltimo-despertar": {
+  "author": "quetefollow7",
+  "currency": "USD",
+  "description": "Explora un búnker dominado por máquinas y descubre si la humanidad sigue viva… y qué oculta ORÁCULO.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjc4NjE4LnBuZw==/315x250%23c/WGhGpS.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T07:49:35Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "ORÁCULO: Los archivos del último despertar",
+  "updated": "2026-11-15T08:07:19Z",
+  "url": "https://quetefollow7.itch.io/orculo-los-archivos-del-ltimo-despertar"
+ },
  "itch:qwook/last-seen-online": {
   "author": "qwook",
   "currency": "USD",
@@ -8754,7 +9974,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MjQ0NDc5LnBuZw==/315x250%23c/wtflM3.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8777,7 +9997,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMjU2NzM5LzEzMDE4ODYuanBn/315x250%23c/qTKCyg.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -8802,7 +10022,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzk2ODczMTIucG5n/315x250%23c/in3D2N.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -8827,7 +10047,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEzOTExNTU0LnBuZw==/315x250%23c/9Xjwn6.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -8851,7 +10071,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEwMTM5MjUxLnBuZw==/315x250%23c/tItICn.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -8875,7 +10095,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2NzE3MDc4LnBuZw==/315x250%23c/itNyZG.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -8899,7 +10119,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2MDI2ODkxLmpwZw==/315x250%23c/%2BMNSFD.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -8924,7 +10144,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4MTIzMTk2LnBuZw==/315x250%23c/CjAEb%2B.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -8947,7 +10167,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTc2NjIwLnBuZw==/315x250%23c/S8Nrmq.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -8962,6 +10182,29 @@
   "updated": "2026-11-13T00:12:54Z",
   "url": "https://ramato9.itch.io/mictlan"
  },
+ "itch:ravenveil-interactive/contral": {
+  "author": "ravenveil-interactive",
+  "currency": "USD",
+  "description": "A early development ambient Parkour game",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkxNjMxLnBuZw==/315x250%23c/%2Bixuv8.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T08:02:15Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Contral",
+  "updated": "2026-11-15T08:09:20Z",
+  "url": "https://ravenveil-interactive.itch.io/contral"
+ },
  "itch:rcheck/honey-i-leaked-the-company": {
   "author": "rcheck",
   "currency": "USD",
@@ -8971,7 +10214,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjQ3OTc2LnBuZw==/315x250%23c/x09mqI.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -8998,7 +10241,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEyNzM0NTc5LnBuZw==/315x250%23c/g2%2BNQR.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9022,7 +10265,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzExNTk1Nzk5LmpwZw==/315x250%23c/M3tL3R.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -9046,7 +10289,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxODY1MjYwLnBuZw==/315x250%23c/IC%2Ff5K.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -9065,11 +10308,12 @@
   "currency": "USD",
   "description": "The bad guys are hot…?!",
   "feeds": [
+   "popular",
    "top_rated"
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEwNDc4Mzk1LnBuZw==/315x250%23c/2EaccO.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9106,6 +10350,30 @@
   "updated": "2026-11-14T21:48:42Z",
   "url": "https://reffffrf0-lgtm.itch.io/dead-city-last-survivor"
  },
+ "itch:regulatornzl/quota-or-die": {
+  "author": "regulatornzl",
+  "currency": "USD",
+  "description": "Book demos, close deals, dodge PIPs. A sales roguelite where you hit your number or get fired trying.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjgxNjYzLnBuZw==/315x250%23c/8mzeTr.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T02:04:09Z",
+  "tags_matched": [
+   "comedy",
+   "funny"
+  ],
+  "title": "Quota or Die",
+  "updated": "2026-11-15T08:05:32Z",
+  "url": "https://regulatornzl.itch.io/quota-or-die"
+ },
  "itch:renansimmoesgmailcom/confia": {
   "author": "renansimmoesgmailcom",
   "currency": "USD",
@@ -9115,7 +10383,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc5MDE4LnBuZw==/315x250%23c/j7IXBP.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9138,7 +10406,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5ODgyMzc4LnBuZw==/315x250%23c/XNMmDw.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -9205,7 +10473,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjM1MDkxLnBuZw==/315x250%23c/mDf%2F7B.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9219,6 +10487,54 @@
   "updated": "2026-11-14T06:34:59Z",
   "url": "https://rideover.itch.io/raid-over-woskom"
  },
+ "itch:rixcod/donothing": {
+  "author": "rixcod",
+  "currency": "USD",
+  "description": "Do Nothing Live More",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMxNzE0NzA2LnBuZw==/315x250%23c/jGY%2FXL.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "android",
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-02T07:07:50Z",
+  "tags_matched": [
+   "comedy",
+   "funny"
+  ],
+  "title": "Do Nothing",
+  "updated": "2026-11-15T05:44:21Z",
+  "url": "https://rixcod.itch.io/donothing"
+ },
+ "itch:riya1126agarwalgmailcom/whispers-in-the-wood": {
+  "author": "riya1126agarwalgmailcom",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0MjQyLnBuZw==/315x250%23c/1wtJBg.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:12:36Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Whispers in the Woods",
+  "updated": "2026-11-15T09:42:40Z",
+  "url": "https://riya1126agarwalgmailcom.itch.io/whispers-in-the-wood"
+ },
  "itch:robobarbie/blooming-panic": {
   "author": "robobarbie",
   "currency": "USD",
@@ -9229,7 +10545,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzc2OTc0OTEucG5n/315x250%23c/b%2FgqIz.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -9253,7 +10569,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzc2NzE4NTUuZ2lm/original/mkWkNV.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -9301,7 +10617,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI1MzAzODc4LmdpZg==/original/1bdgWv.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9324,7 +10640,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIzMzkxNjAzLmdpZg==/original/DiYNwQ.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -9350,7 +10666,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4MDAyMzYzLnBuZw==/315x250%23c/ASJcG4.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -9376,7 +10692,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxNjQzODYxLnBuZw==/315x250%23c/xvcjq8.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -9401,7 +10717,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MDY5NDk0LnBuZw==/315x250%23c/L4%2Fmoy.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -9440,6 +10756,30 @@
   "updated": "2026-11-14T09:42:29Z",
   "url": "https://rubber-stamp-studio.itch.io/permit-to-exist"
  },
+ "itch:russianssr1/onaf": {
+  "author": "russianssr1",
+  "currency": "USD",
+  "description": "survival,FNAF,2D",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk1OTQ3LmpwZw==/315x250%23c/hxE9Sz.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "android",
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:44:34Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "ONAF",
+  "updated": "2026-11-15T09:53:38Z",
+  "url": "https://russianssr1.itch.io/onaf"
+ },
  "itch:ryon-games/five-nights-at-friedrichs": {
   "author": "ryon-games",
   "currency": "USD",
@@ -9450,7 +10790,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxNDA3MDI0LnBuZw==/315x250%23c/nyVyom.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -9500,7 +10840,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2MTM1MDA5LnBuZw==/315x250%23c/T7ryvG.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9544,7 +10884,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI4OTE4NzMucG5n/315x250%23c/pnUIrT.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9584,6 +10924,29 @@
   "updated": "2026-11-14T15:12:29Z",
   "url": "https://samuellences.itch.io/dead-frequency"
  },
+ "itch:samuraistudio/dumpster-mas": {
+  "author": "samuraistudio",
+  "currency": "USD",
+  "description": "foddian dumpster",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkxMzI5LnBuZw==/315x250%23c/7tivcD.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T07:58:39Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "Dumpster massacre",
+  "updated": "2026-11-15T09:21:55Z",
+  "url": "https://samuraistudio.itch.io/dumpster-mas"
+ },
  "itch:sarveshm/the-longest-hallway": {
   "author": "sarveshm",
   "currency": "USD",
@@ -9616,7 +10979,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2MTUxMTgzLmdpZg==/original/bAmxuB.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9639,7 +11002,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvNDA0MzEvMTgwNTEyLmdpZg==/original/hMas0l.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -9688,7 +11051,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE3NDIzOTMwLmdpZg==/original/wAcfMK.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -9711,7 +11074,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwODM0Mzc4LnBuZw==/315x250%23c/%2FgU582.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -9735,7 +11098,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxNDI1Mzc3LmpwZw==/315x250%23c/xsxq0H.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -9759,7 +11122,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwNjUwNTkzLmpwZw==/315x250%23c/re94kn.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -9783,7 +11146,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI4OTQ1MDY5LmpwZw==/315x250%23c/7hxD2D.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "osx",
@@ -9809,7 +11172,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzk5OTIzNDQucG5n/315x250%23c/6yJQQM.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -9856,7 +11219,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1Mzg3NzMuZ2lm/original/KxIMes.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -9902,7 +11265,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjU1NzUyLmpwZw==/315x250%23c/pRSkQh.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -9950,7 +11313,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzczMzk0NDMuanBn/315x250%23c/vpbQBw.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -9966,6 +11329,29 @@
   "title": "Resident Evil 4: Otome Edition (ver 1.04)",
   "updated": "2026-06-03T06:00:14Z",
   "url": "https://shimmersoft.itch.io/re4-otome"
+ },
+ "itch:shintoworks/zyuquish": {
+  "author": "shintoworks",
+  "currency": "USD",
+  "description": "呪物を袋ごと揉んで除霊する短編ホラー / Squeeze cursed toys. They stare back.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg3MDU0LnBuZw==/315x250%23c/cXqUod.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T05:22:49Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "呪クイーズ / Zyuquish",
+  "updated": "2026-11-15T05:35:52Z",
+  "url": "https://shintoworks.itch.io/zyuquish"
  },
  "itch:shipkit/the-attic": {
   "author": "shipkit",
@@ -10000,7 +11386,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTQ5NjYyLnBuZw==/315x250%23c/zo8ggF.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10013,6 +11399,52 @@
   "title": "Devil Gacha NIGHTMARE",
   "updated": "2026-11-13T08:02:15Z",
   "url": "https://shootingstarrfish.itch.io/devil-gacha-nightmare"
+ },
+ "itch:siendemy/ambulance-disaster": {
+  "author": "siendemy",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0MTQ0LmpwZw==/315x250%23c/sUjIyP.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:27:56Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Ambulance Disaster",
+  "updated": "2026-11-15T09:58:46Z",
+  "url": "https://siendemy.itch.io/ambulance-disaster"
+ },
+ "itch:silentdevex/the-whispering-house": {
+  "author": "silentdevex",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk1Nzg3LnBuZw==/315x250%23c/Gz9kMl.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:48:27Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "The Whispering House",
+  "updated": "2026-11-15T10:02:18Z",
+  "url": "https://silentdevex.itch.io/the-whispering-house"
  },
  "itch:silly-gooober/shitpost-battlegrounds": {
   "author": "silly-gooober",
@@ -10040,11 +11472,12 @@
   "currency": "USD",
   "description": "Help George to fix his deadly printer!",
   "feeds": [
+   "popular",
    "top_rated"
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzQyODUxMjkucG5n/315x250%23c/trciOa.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10068,7 +11501,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI4NDE3NTIyLnBuZw==/315x250%23c/a0ZwfG.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -10093,7 +11526,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMxMTQ4NTU5LnBuZw==/315x250%23c/BEgFlN.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -10112,11 +11545,12 @@
   "currency": "USD",
   "description": "Hey this is a Dandy's World game i made in like 20 minutes so like don't expect any quality in this",
   "feeds": [
+   "popular",
    "top_rated"
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxOTk2Nzk5LnBuZw==/315x250%23c/zNdeIv.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10139,7 +11573,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDM0ODEwLnBuZw==/315x250%23c/PwoaEX.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10162,7 +11596,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjMzNjMxLnBuZw==/315x250%23c/NjFjCd.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10187,7 +11621,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5MzU0MjE3LnBuZw==/315x250%23c/9kuHwt.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -10213,7 +11647,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5NjgyMjc4LnBuZw==/315x250%23c/mdp6SI.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -10238,7 +11672,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI3NjIwMzEyLnBuZw==/315x250%23c/%2B6ncNq.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10284,7 +11718,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxMjA4NTg3LnBuZw==/315x250%23c/iHsbwH.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -10309,7 +11743,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzg4MDQ3NzQucG5n/315x250%23c/TtPEWq.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -10335,7 +11769,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2OTI3NDgzLnBuZw==/315x250%23c/C8w3v%2F.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10358,7 +11792,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIwMzA1NjU5LmpwZw==/315x250%23c/1wj2sv.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10381,12 +11815,8 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjc3NTMzLnBuZw==/315x250%23c/fbxl3w.png",
-  "last_seen": "2026-11-15T02:24:04Z",
-  "platforms": [
-   "linux",
-   "osx",
-   "windows"
-  ],
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
   "published": "2026-11-14T23:54:23Z",
@@ -10394,7 +11824,7 @@
    "comedy"
   ],
   "title": "Un Mundo Maravilloso",
-  "updated": "2026-11-15T00:28:44Z",
+  "updated": "2026-11-15T05:42:27Z",
   "url": "https://srnewvegas.itch.io/un-mundo-maravilloso"
  },
  "itch:stars-en-delire/stars-en-dlire-dition-parodie": {
@@ -10405,8 +11835,8 @@
    "newest"
   ],
   "first_seen": "2026-11-15T02:12:22Z",
-  "image": "https://img.itch.zone/aW1nLzMyMjc4ODE4LnBuZw==/315x250%23c/hUn5Pk.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjgyNTE0LnBuZw==/315x250%23c/zXvi5U.png",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10418,7 +11848,7 @@
    "parody"
   ],
   "title": "Stars en délire - Édition  Parodie",
-  "updated": "2026-11-15T00:51:33Z",
+  "updated": "2026-11-15T02:39:32Z",
   "url": "https://stars-en-delire.itch.io/stars-en-dlire-dition-parodie"
  },
  "itch:steelkrill/1998": {
@@ -10430,7 +11860,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzEwMTIxNDIwLmpwZw==/315x250%23c/gFoqb4.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -10567,7 +11997,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzg1MDQxNjQucG5n/315x250%23c/Oxsuv2.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -10585,6 +12015,29 @@
   "updated": "2022-04-03T19:17:22Z",
   "url": "https://studioclump.itch.io/ssml"
  },
+ "itch:sugasugar/noise-busters-game": {
+  "author": "sugasugar",
+  "currency": "USD",
+  "description": "ベランダから暴走車を撃退せよ! Take down noisy street racers from your balcony!",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkxNjM1LnBuZw==/315x250%23c/CjdCF6.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T08:06:10Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "ご近所大作戦",
+  "updated": "2026-11-15T08:16:17Z",
+  "url": "https://sugasugar.itch.io/noise-busters-game"
+ },
  "itch:super-secret-projects/nuggetadventure": {
   "author": "super-secret-projects",
   "currency": "USD",
@@ -10594,7 +12047,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTQ3Mjg0LnBuZw==/315x250%23c/Avo186.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -10634,6 +12087,29 @@
   "updated": "2026-11-14T21:19:14Z",
   "url": "https://svoker.itch.io/carnal-pulpo"
  },
+ "itch:syntheticbeef/directors-cut": {
+  "author": "syntheticbeef",
+  "currency": "USD",
+  "description": "Type any monster you can imagine. Bet on who it kills first.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjYzMzI0LmpwZw==/315x250%23c/cM1zAn.jpg",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T18:12:16Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Director's Cut",
+  "updated": "2026-11-15T09:59:05Z",
+  "url": "https://syntheticbeef.itch.io/directors-cut"
+ },
  "itch:syring4/offscript": {
   "author": "syring4",
   "currency": "USD",
@@ -10643,7 +12119,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwMzczNzk3LnBuZw==/315x250%23c/Kf7O3r.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10667,7 +12143,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTQ2NTUwLnBuZw==/315x250%23c/RX6ByI.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "windows"
@@ -10738,7 +12214,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzExMDAyNTEwLnBuZw==/315x250%23c/iIARm4.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10761,7 +12237,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjcxMDkyLmpwZw==/315x250%23c/A2MHs2.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -10784,7 +12260,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMjA2NjMyLnBuZw==/315x250%23c/KOy8iq.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10807,7 +12283,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1ODU4NTI4LnBuZw==/315x250%23c/la0IL8.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "osx",
    "windows"
@@ -10880,7 +12356,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMTA2NTk5LzU4NjAxMi5naWY=/original/%2Fz0let.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -10906,7 +12382,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4MDcwMzgyLnBuZw==/315x250%23c/icOHc9.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -10975,7 +12451,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTY3Njc3LnBuZw==/315x250%23c/c3ZHGc.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -10988,6 +12464,29 @@
   "title": "Hanko Relay 稟議ハンコリレー",
   "updated": "2026-11-12T13:15:41Z",
   "url": "https://the-shinobi.itch.io/hanko-relay"
+ },
+ "itch:the-techbot/bouncy-corpse": {
+  "author": "the-techbot",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjgyNTI0LnBuZw==/315x250%23c/HtFDAk.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T02:32:54Z",
+  "tags_matched": [
+   "funny"
+  ],
+  "title": "Bouncy Corpse",
+  "updated": "2026-11-15T02:46:21Z",
+  "url": "https://the-techbot.itch.io/bouncy-corpse"
  },
  "itch:theauthorbtlg/red-button": {
   "author": "theauthorbtlg",
@@ -11021,7 +12520,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzExMzI1MDY1LnBuZw==/315x250%23c/QSH1gf.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11046,7 +12545,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDQxODAzLnBuZw==/315x250%23c/4C8MLR.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11060,6 +12559,29 @@
   "updated": "2026-11-13T22:03:10Z",
   "url": "https://thegreenherring.itch.io/eddy-the-cleaner"
  },
+ "itch:thenithhouse/khuen-thiang-khuen": {
+  "author": "thenithhouse",
+  "currency": "USD",
+  "description": "Thai horror point-and-click: a wedding that begins at midnight",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkwNTA3LnBuZw==/315x250%23c/Eg04SA.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T07:27:27Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "ฤกษ์เที่ยงคืน",
+  "updated": "2026-11-15T07:41:20Z",
+  "url": "https://thenithhouse.itch.io/khuen-thiang-khuen"
+ },
  "itch:thepottus/cinco-noitadas-com-eduardo": {
   "author": "thepottus",
   "currency": "USD",
@@ -11070,7 +12592,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI0NTczNTMzLnBuZw==/315x250%23c/v0hIfo.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11109,6 +12631,29 @@
   "updated": "2026-11-14T21:08:38Z",
   "url": "https://thetallyman.itch.io/tallyman"
  },
+ "itch:thomasiano/white-noise": {
+  "author": "thomasiano",
+  "currency": "USD",
+  "description": "Seven days of polar night. One radio. Nine missed calls.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkxNTI2LnBuZw==/315x250%23c/fRjD90.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T08:05:28Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "White Noise",
+  "updated": "2026-11-15T08:29:14Z",
+  "url": "https://thomasiano.itch.io/white-noise"
+ },
  "itch:timdar83/squirms": {
   "author": "timdar83",
   "currency": "USD",
@@ -11118,7 +12663,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxNzkwNDMxLnBuZw==/315x250%23c/3PoYt3.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11164,7 +12709,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4OTEwOTMuZ2lm/original/uYf86A.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11180,6 +12725,29 @@
   "updated": "2024-10-07T19:06:14Z",
   "url": "https://tipsheda.itch.io/i-feel-fantastic"
  },
+ "itch:tituitoch/the-rice-fields-demo": {
+  "author": "tituitoch",
+  "currency": "USD",
+  "description": "Catch frogs in the rice fields to buy your father's medicine.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk1NDAxLnBuZw==/315x250%23c/kjl3R%2F.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T14:08:43Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "The Rice Fields - Demo",
+  "updated": "2026-11-15T09:54:00Z",
+  "url": "https://tituitoch.itch.io/the-rice-fields-demo"
+ },
  "itch:tkalri/mog-merge": {
   "author": "tkalri",
   "currency": "USD",
@@ -11189,7 +12757,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDgwMDAwLmpwZw==/315x250%23c/vHYMkO.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -11231,7 +12799,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDc4MzY2LnBuZw==/315x250%23c/FajeSF.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11254,7 +12822,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI4OTk1OTUucG5n/315x250%23c/NyTAVW.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11279,7 +12847,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDY1NjUxLmdpZg==/original/TdULYa.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11348,7 +12916,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjcyODUzLnBuZw==/315x250%23c/zeh0j4.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -11418,7 +12986,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjczODA0LnBuZw==/315x250%23c/a40JGL.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11441,7 +13009,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzM4OTg1NjcucG5n/315x250%23c/ERaafl.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11466,7 +13034,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzY3NzY0NTgucG5n/315x250%23c/%2F3wCi9.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11491,7 +13059,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMjY0MzYzLzEyOTA3MTEucG5n/315x250%23c/7SbsrM.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11518,7 +13086,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzk4ODk5ODQuZ2lm/original/VUjy7b.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11541,7 +13109,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzExODU1NTUyLmdpZg==/original/I8h%2BEZ.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11587,7 +13155,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMTA3NTYzLzQ5OTA2My5qcGc=/315x250%23c/op%2BMf2.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -11610,7 +13178,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjgwOTc4LmpwZw==/315x250%23c/V4xcro.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -11623,6 +13191,52 @@
   "title": "Dust & Thunder",
   "updated": "2026-11-15T01:59:44Z",
   "url": "https://viclow.itch.io/dust-and-thunder"
+ },
+ "itch:viennncollection/the-next-wake": {
+  "author": "viennncollection",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg2Njg5LnBuZw==/315x250%23c/2t9aah.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T05:13:32Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "The Next Wake [in Develop]",
+  "updated": "2026-11-15T07:22:41Z",
+  "url": "https://viennncollection.itch.io/the-next-wake"
+ },
+ "itch:violettebdg/frequency-shift": {
+  "author": "violettebdg",
+  "currency": "USD",
+  "description": "Fall, try and survive!",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjMzOTk5LnBuZw==/315x250%23c/61yNma.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "android"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T05:48:59Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Frequency Shift",
+  "updated": "2026-11-15T08:12:31Z",
+  "url": "https://violettebdg.itch.io/frequency-shift"
  },
  "itch:vitaliykorzhenko/knock-it-off": {
   "author": "vitaliykorzhenko",
@@ -11656,7 +13270,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMDY0NDY2LmpwZw==/315x250%23c/PmFx00.jpg",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11703,7 +13317,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzcxMDUyNjUucG5n/315x250%23c/%2FSHfYQ.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11716,6 +13330,29 @@
   "title": "Flesh, Blood, & Concrete",
   "updated": "2026-06-12T19:51:59Z",
   "url": "https://waxwing0.itch.io/fbc"
+ },
+ "itch:wcg4-productions/hollow-house": {
+  "author": "wcg4-productions",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjkwNzk1LnBuZw==/315x250%23c/hDd56h.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T07:41:41Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Hollow House",
+  "updated": "2026-11-15T08:04:59Z",
+  "url": "https://wcg4-productions.itch.io/hollow-house"
  },
  "itch:weeangusmcdread/papi-industries-greenshift": {
   "author": "weeangusmcdread",
@@ -11749,7 +13386,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE0MDg2MzY3LnBuZw==/315x250%23c/k7Ht2R.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11774,7 +13411,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjcyODg4LnBuZw==/315x250%23c/pGhwmz.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11789,6 +13426,29 @@
   "updated": "2026-11-14T22:09:11Z",
   "url": "https://wellspringstudios.itch.io/barry-the-bat-worth-it"
  },
+ "itch:whispermg/critical-conveyor": {
+  "author": "whispermg",
+  "currency": "USD",
+  "description": "You are a doctor working a conveyor belt that brings you an endless number of patients.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjg4NTM5LnBuZw==/315x250%23c/fDGhG5.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T06:09:02Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Critical Conveyor",
+  "updated": "2026-11-15T06:48:58Z",
+  "url": "https://whispermg.itch.io/critical-conveyor"
+ },
  "itch:wildwits/sovereign-tower": {
   "author": "wildwits",
   "currency": "USD",
@@ -11799,7 +13459,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI1MDQwNjIxLnBuZw==/315x250%23c/kzUXh1.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11822,7 +13482,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI0NDY0Mzg0LnBuZw==/315x250%23c/fepke5.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11847,7 +13507,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE1OTI2NDY4LmdpZg==/original/2twRJq.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -11897,7 +13557,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTY2ODMwLnBuZw==/315x250%23c/vttD1c.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11920,7 +13580,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMxOTgxMjQzLnBuZw==/315x250%23c/unYfiD.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11934,6 +13594,29 @@
   "updated": "2026-11-09T11:59:42Z",
   "url": "https://woofywoofy.itch.io/catch-em"
  },
+ "itch:woozoosstudio/mugunghwa-ghost-night": {
+  "author": "woozoosstudio",
+  "currency": "USD",
+  "description": "",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0MjQ5LnBuZw==/315x250%23c/v0AfH1.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T08:32:29Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "Mugunghwa: Night of the Mongdal Ghost (무궁화 꽃이 피었습니다: 몽달귀신의 밤)",
+  "updated": "2026-11-15T09:13:07Z",
+  "url": "https://woozoosstudio.itch.io/mugunghwa-ghost-night"
+ },
  "itch:worblir/jermle": {
   "author": "worblir",
   "currency": "USD",
@@ -11943,7 +13626,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE3NTI1NzY1LmdpZg==/original/ccbQ%2Fm.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -11966,7 +13649,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzM4NjA3MzQucG5n/315x250%23c/nThx4a.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -12036,7 +13719,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE4NTQ5ODc3LnBuZw==/315x250%23c/rhnvo1.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "linux",
@@ -12083,7 +13766,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzczNDA4MzMucG5n/315x250%23c/mEEeCd.png",
-  "last_seen": "2026-11-14T17:50:58Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -12097,6 +13780,29 @@
   "updated": "2022-06-05T15:16:04Z",
   "url": "https://ximer.itch.io/chinese-social-credit-test"
  },
+ "itch:xlaucifer/remember": {
+  "author": "xlaucifer",
+  "currency": "USD",
+  "description": "Has acabado en un bosque y no sabes por qué.",
+  "feeds": [
+   "popular"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzI5NzE2MzMzLmdpZg==/original/CAEZBR.gif",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "html"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-09-01T10:02:05Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "Remember",
+  "updated": "2026-10-29T10:04:13Z",
+  "url": "https://xlaucifer.itch.io/remember"
+ },
  "itch:xx696/rhs01": {
   "author": "xx696",
   "currency": "USD",
@@ -12106,7 +13812,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE0NDg3MDMxLnBuZw==/315x250%23c/1lnM%2F%2B.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
@@ -12129,7 +13835,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE5NTE1MzQ2LnBuZw==/315x250%23c/DfrNm5.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -12152,7 +13858,7 @@
   ],
   "first_seen": "2026-11-15T02:12:22Z",
   "image": "https://img.itch.zone/aW1nLzMyMjU1MTQzLnBuZw==/315x250%23c/6byz%2FP.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [],
   "price": 0.0,
   "price_jpy": 0.0,
@@ -12173,7 +13879,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2NzMxNTMxLnBuZw==/315x250%23c/MUXY1C.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "windows"
@@ -12197,7 +13903,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzI2MzA4NzU3LnBuZw==/315x250%23c/z0o8a2.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -12211,6 +13917,29 @@
   "updated": "2026-04-01T16:01:54Z",
   "url": "https://younghorses.itch.io/rebungered"
  },
+ "itch:yukatustudio/the-cencors-cut": {
+  "author": "yukatustudio",
+  "currency": "USD",
+  "description": "The last censor did not come back. His notes are still in the drawer.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjc4MTIyLnBuZw==/315x250%23c/LpAZ%2Fr.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-14T23:47:11Z",
+  "tags_matched": [
+   "horror"
+  ],
+  "title": "The Cencor's Cut",
+  "updated": "2026-11-15T10:01:53Z",
+  "url": "https://yukatustudio.itch.io/the-cencors-cut"
+ },
  "itch:yvpg/slot-da-picanha-demo": {
   "author": "yvpg",
   "currency": "USD",
@@ -12220,7 +13949,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMyMTc4NzkwLnBuZw==/315x250%23c/SJ5azE.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -12243,7 +13972,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzk1NTQ3NDQucG5n/315x250%23c/DASuL0.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -12266,7 +13995,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1hZ2UvMTgzMTY1Lzg2MTUzNC5naWY=/original/%2FBs4GY.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -12289,7 +14018,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIxNTI3NTAuZ2lm/original/zeDrXs.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "linux",
    "osx",
@@ -12314,7 +14043,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzE2NTM4MDAuZ2lm/original/XJ2zeo.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "html"
   ],
@@ -12349,6 +14078,29 @@
   "updated": "2026-11-14T14:39:18Z",
   "url": "https://zeus074.itch.io/k-7-the-curse-of-the-valley"
  },
+ "itch:zhangzc-official/db-tyrant": {
+  "author": "zhangzc-official",
+  "currency": "USD",
+  "description": "Play as a dictator-tuner singing lullabies to an Eldritch god with air-raid sirens, revolvers, and broken TVs.",
+  "feeds": [
+   "newest"
+  ],
+  "first_seen": "2026-11-15T10:00:59Z",
+  "image": "https://img.itch.zone/aW1nLzMyMjk0NjA3LnBuZw==/315x250%23c/3NQnFU.png",
+  "last_seen": "2026-11-15T10:00:59Z",
+  "platforms": [
+   "windows"
+  ],
+  "price": 0.0,
+  "price_jpy": 0.0,
+  "published": "2026-11-15T09:55:28Z",
+  "tags_matched": [
+   "comedy"
+  ],
+  "title": "DB TYRANT",
+  "updated": "2026-11-15T10:07:07Z",
+  "url": "https://zhangzc-official.itch.io/db-tyrant"
+ },
  "itch:zieelane/helping-your-boyfriend": {
   "author": "zieelane",
   "currency": "USD",
@@ -12359,7 +14111,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzMwMTM1Mzc4LmdpZg==/original/U2DC5U.gif",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "android",
    "osx",
@@ -12384,7 +14136,7 @@
   ],
   "first_seen": "2026-11-14T17:50:58Z",
   "image": "https://img.itch.zone/aW1nLzIyODEzNDg5LnBuZw==/315x250%23c/vY9yn0.png",
-  "last_seen": "2026-11-15T02:24:04Z",
+  "last_seen": "2026-11-15T10:00:59Z",
   "platforms": [
    "windows"
   ],
