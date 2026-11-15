@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T02:12:22Z",
+ "generated_at": "2026-11-15T02:24:04Z",
  "items": [
   {
    "author": "zieelane",
@@ -929,6 +929,70 @@
   },
   {
    "categories": {
+    "bakage": 101.6
+   },
+   "description": "DWARF COMBAT! Stonewards is a 1-4 player co-op first-person roguelite defense game. Lead a crew of stubborn\r\ndwarves from your base camp to aid nearby kingdoms, mine deep for resources, forge powerful\r\nupgrades, and hold the line against relentless monster attacks.\r\n",
+   "description_ja": "ドワーフたちよ、戦いへ！Stonewardsは、1〜4人協力プレイ対応の一人称視点ローグライト防衛ゲームです。拠点キャンプから頑固なドワーフたちを率いて近隣の王国を助け、地中深くで資源を採掘し、強力なアップグレードを鍛造し、容赦ないモンスターの襲撃に立ち向かいましょう。",
+   "developers": [
+    "Banana Tiger Studio"
+   ],
+   "early_access": true,
+   "has_demo": false,
+   "id": "steam:4502710",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 66,
+   "positive": 877,
+   "positive_ratio": 0.93,
+   "price_jpy": 1350.0,
+   "release_date": "2026-08-11",
+   "reviews": 943,
+   "score": 101.6,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-14T17:50:58Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4502710/",
+     "https://bananatigerstudio.com/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Online Co-Op",
+    "Roguelite",
+    "Mining",
+    "First-Person",
+    "Dwarves",
+    "Action",
+    "Survival",
+    "3D",
+    "Procedural Generation",
+    "Multiplayer",
+    "Funny",
+    "Exploration",
+    "PvE",
+    "Fantasy",
+    "Singleplayer",
+    "Dark Fantasy",
+    "Crafting",
+    "Action RPG",
+    "Roguelike",
+    "Action Roguelike"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4502710/c57ab526296dfdab54cbc5aa2b93bc1fb46f5acd/header.jpg?t=1791908001",
+   "title": "Stonewards",
+   "url": "https://store.steampowered.com/app/4502710/",
+   "website": "https://bananatigerstudio.com/"
+  },
+  {
+   "categories": {
     "bakage": 101.5
    },
    "description": "Build a top-tier business solo or in co-op (1–6 players). Start from scratch, keep the slot machines spinning and deal with chaotic events like vandals and alien invasions. Grow your fortune and show everyone why the house always wins.",
@@ -990,70 +1054,6 @@
    "title": "The House Always Wins",
    "url": "https://store.steampowered.com/app/3412160/",
    "website": "https://toxicstudio.games/"
-  },
-  {
-   "categories": {
-    "bakage": 101.5
-   },
-   "description": "DWARF COMBAT! Stonewards is a 1-4 player co-op first-person roguelite defense game. Lead a crew of stubborn\r\ndwarves from your base camp to aid nearby kingdoms, mine deep for resources, forge powerful\r\nupgrades, and hold the line against relentless monster attacks.\r\n",
-   "description_ja": "ドワーフたちよ、戦いへ！Stonewardsは、1〜4人協力プレイ対応の一人称視点ローグライト防衛ゲームです。拠点キャンプから頑固なドワーフたちを率いて近隣の王国を助け、地中深くで資源を採掘し、強力なアップグレードを鍛造し、容赦ないモンスターの襲撃に立ち向かいましょう。",
-   "developers": [
-    "Banana Tiger Studio"
-   ],
-   "early_access": true,
-   "has_demo": false,
-   "id": "steam:4502710",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 66,
-   "positive": 875,
-   "positive_ratio": 0.9299,
-   "price_jpy": 1350.0,
-   "release_date": "2026-08-11",
-   "reviews": 941,
-   "score": 101.5,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-14T17:50:58Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/4502710/",
-     "https://bananatigerstudio.com/"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Online Co-Op",
-    "Roguelite",
-    "Mining",
-    "First-Person",
-    "Dwarves",
-    "Action",
-    "Survival",
-    "3D",
-    "Procedural Generation",
-    "Multiplayer",
-    "Funny",
-    "Exploration",
-    "PvE",
-    "Fantasy",
-    "Singleplayer",
-    "Dark Fantasy",
-    "Crafting",
-    "Action RPG",
-    "Roguelike",
-    "Action Roguelike"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4502710/c57ab526296dfdab54cbc5aa2b93bc1fb46f5acd/header.jpg?t=1791908001",
-   "title": "Stonewards",
-   "url": "https://store.steampowered.com/app/4502710/",
-   "website": "https://bananatigerstudio.com/"
   },
   {
    "categories": {
@@ -1134,7 +1134,7 @@
    ],
    "has_demo": false,
    "id": "itch:bob-boy-big/john-pumpkin-murder-man",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -1181,7 +1181,7 @@
    ],
    "has_demo": false,
    "id": "itch:mlodapieknapolska/shaker-gourmeter",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -1231,7 +1231,7 @@
    ],
    "has_demo": false,
    "id": "itch:restrictz/take-13-directors-cut",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -1279,7 +1279,7 @@
    ],
    "has_demo": false,
    "id": "itch:ventalox/ashveil",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -1309,6 +1309,52 @@
    "thumbnail": "https://img.itch.zone/aW1nLzMyMjgxMzQyLmpwZw==/315x250%23c/BYbkQZ.jpg",
    "title": "Ashveil",
    "url": "https://ventalox.itch.io/ashveil",
+   "website": null
+  },
+  {
+   "author": "xdgamess",
+   "categories": {
+    "horror": 100.0
+   },
+   "description": "DeadEnd",
+   "description_ja": null,
+   "developers": [
+    "xdgamess"
+   ],
+   "early_access": false,
+   "feeds": [
+    "newest"
+   ],
+   "has_demo": false,
+   "id": "itch:xdgamess/dead-end",
+   "is_new": true,
+   "languages": [],
+   "negative": null,
+   "platforms": [],
+   "positive": null,
+   "positive_ratio": null,
+   "price_jpy": 0.0,
+   "release_date": "2026-11-15",
+   "reviews": null,
+   "score": 100.0,
+   "score_basis": "itch",
+   "source": "itch",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://xdgamess.itch.io/dead-end"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "horror"
+   ],
+   "thumbnail": "https://img.itch.zone/aW1nLzMyMjgxNDY5LmpwZw==/315x250%23c/KGdgF0.jpg",
+   "title": "Dead End",
+   "url": "https://xdgamess.itch.io/dead-end",
    "website": null
   },
   {
@@ -1448,7 +1494,7 @@
    ],
    "has_demo": false,
    "id": "itch:5kids2feed/fista-complete-nes-collection",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -1495,7 +1541,7 @@
    ],
    "has_demo": false,
    "id": "itch:aaaclabs/keep-rolling",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -1543,7 +1589,7 @@
    ],
    "has_demo": false,
    "id": "itch:abhi-seel/the-check-in-incident",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -1636,7 +1682,7 @@
    ],
    "has_demo": false,
    "id": "itch:after-the-bell/after-the-bell",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -1730,7 +1776,7 @@
    ],
    "has_demo": false,
    "id": "itch:arth17/blackout",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -1874,7 +1920,7 @@
    ],
    "has_demo": false,
    "id": "itch:burthebear/echo-hack-haven-princeton",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -1922,7 +1968,7 @@
    ],
    "has_demo": false,
    "id": "itch:byolegzharkov/crust",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -1971,7 +2017,7 @@
    ],
    "has_demo": false,
    "id": "itch:byolegzharkov/matros",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2068,7 +2114,7 @@
    ],
    "has_demo": false,
    "id": "itch:eaglemasterca/the-hollow-demo",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2164,7 +2210,7 @@
    ],
    "has_demo": false,
    "id": "itch:elitefalcon/spoopy",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2308,7 +2354,7 @@
    ],
    "has_demo": false,
    "id": "itch:george-gardiner/back-to-the-shelf",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2356,7 +2402,7 @@
    ],
    "has_demo": false,
    "id": "itch:grimforge-games/the-blood-tithe",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2405,7 +2451,7 @@
    ],
    "has_demo": false,
    "id": "itch:guizindograuzin/mpf1",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -2452,7 +2498,7 @@
    ],
    "has_demo": false,
    "id": "itch:hmzdev/dont-look-your-behind",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2485,6 +2531,54 @@
    "website": null
   },
   {
+   "author": "iconicxpgames",
+   "categories": {
+    "horror": 99.8
+   },
+   "description": "Free zombie fort defense demo. Build by day, survive five nights, carry your save into the full game.",
+   "description_ja": null,
+   "developers": [
+    "iconicxpgames"
+   ],
+   "early_access": false,
+   "feeds": [
+    "newest"
+   ],
+   "has_demo": false,
+   "id": "itch:iconicxpgames/torchwatch-free-demo",
+   "is_new": true,
+   "languages": [],
+   "negative": null,
+   "platforms": [
+    "html"
+   ],
+   "positive": null,
+   "positive_ratio": null,
+   "price_jpy": 0.0,
+   "release_date": "2026-11-14",
+   "reviews": null,
+   "score": 99.8,
+   "score_basis": "itch",
+   "source": "itch",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://iconicxpgames.itch.io/torchwatch-free-demo"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "horror"
+   ],
+   "thumbnail": "https://img.itch.zone/aW1nLzMyMjY4OTU2LnBuZw==/315x250%23c/4Ax6gn.png",
+   "title": "Torchwatch (FREE DEMO)",
+   "url": "https://iconicxpgames.itch.io/torchwatch-free-demo",
+   "website": null
+  },
+  {
    "author": "joshghamelin",
    "categories": {
     "horror": 99.8
@@ -2500,7 +2594,7 @@
    ],
    "has_demo": false,
    "id": "itch:joshghamelin/the-post",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2740,7 +2834,7 @@
    ],
    "has_demo": false,
    "id": "itch:le3sa/stay-on-the-line-narrative-horror",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2882,7 +2976,7 @@
    ],
    "has_demo": false,
    "id": "itch:macsome10/marcos-magical-girls",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -2979,7 +3073,7 @@
    ],
    "has_demo": false,
    "id": "itch:nazkth/project-mantis",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -3169,7 +3263,7 @@
    ],
    "has_demo": false,
    "id": "itch:pedraudaudau/cinco-mlgs-com-pedro-problemas-de-natal",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -3362,7 +3456,7 @@
    ],
    "has_demo": false,
    "id": "itch:reffffrf0-lgtm/dead-city-last-survivor",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -3553,7 +3647,7 @@
    ],
    "has_demo": false,
    "id": "itch:sarveshm/the-longest-hallway",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -3649,7 +3743,7 @@
    ],
    "has_demo": false,
    "id": "itch:shipkit/the-attic",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -3746,7 +3840,7 @@
    ],
    "has_demo": false,
    "id": "itch:tinami1106/grandma-20261115",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -3842,7 +3936,7 @@
    ],
    "has_demo": false,
    "id": "itch:unbreakablezheng/your-movie-sucks",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -3891,7 +3985,7 @@
    ],
    "has_demo": false,
    "id": "itch:zucchinibasketgames/the-operators-dead",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -4051,7 +4145,7 @@
    ],
    "has_demo": false,
    "id": "itch:green-gorilla1/fearing-gorilla-real-download-trust",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -4388,11 +4482,11 @@
     "japanese"
    ],
    "negative": 102,
-   "positive": 1352,
-   "positive_ratio": 0.9298,
+   "positive": 1348,
+   "positive_ratio": 0.9297,
    "price_jpy": 1200.0,
    "release_date": "2026-10-08",
-   "reviews": 1454,
+   "reviews": 1450,
    "score": 99.3,
    "score_basis": "steam",
    "source": "steam",
@@ -4451,7 +4545,7 @@
    ],
    "has_demo": false,
    "id": "itch:andriykodev/unholy-pepperoni",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -4778,7 +4872,7 @@
    ],
    "has_demo": false,
    "id": "itch:eternal1man/mindshift",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -5122,7 +5216,7 @@
    ],
    "has_demo": false,
    "id": "itch:thetallyman/tallyman",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -5174,11 +5268,11 @@
     "japanese"
    ],
    "negative": 6,
-   "positive": 608,
+   "positive": 609,
    "positive_ratio": 0.9902,
    "price_jpy": 1050.0,
    "release_date": "2026-04-22",
-   "reviews": 614,
+   "reviews": 615,
    "score": 97.9,
    "score_basis": "steam",
    "source": "steam",
@@ -6037,7 +6131,7 @@
    ],
    "has_demo": false,
    "id": "itch:drozd-studios/the-usher-below",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -6668,69 +6762,6 @@
   },
   {
    "categories": {
-    "horror": 96.3
-   },
-   "description": "UP! UP! UP! It's the only thought you can still grasp. You have an infection that started in your foot, now it's in your head.\r\nMeet strange neighbours, make bad trades, learn about them. Everytime you fail, the building stays the same. What changes is what you know.",
-   "description_ja": "UP! UP! UP! It's the only thought you can still grasp. You have an infection that started in your foot, now it's in your head.\r\nMeet strange neighbours, make bad trades, learn about them. Everytime you fail, the building stays the same. What changes is what you know.",
-   "developers": [
-    "Raffaele Picca"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:4519130",
-   "is_new": false,
-   "languages": [
-    "english"
-   ],
-   "negative": 30,
-   "positive": 720,
-   "positive_ratio": 0.96,
-   "price_jpy": 1600.0,
-   "release_date": "2026-07-20",
-   "reviews": 750,
-   "score": 96.3,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-14T17:50:58Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/4519130/",
-     "https://www.moldrise.com/"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Psychological Horror",
-    "Horror",
-    "Atmospheric",
-    "Retro",
-    "Dark Humor",
-    "Outbreak Sim",
-    "Exploration",
-    "Singleplayer",
-    "Mystery",
-    "Puzzle",
-    "First-Person",
-    "Multiple Endings",
-    "Narrative",
-    "Adventure",
-    "3D",
-    "Walking Simulator",
-    "Survival Horror",
-    "Lore-Rich",
-    "Great Soundtrack",
-    "Perma Death"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4519130/1e86fd32896317d1e4fdae7540a3e953cff0feaa/header.jpg?t=1791550185",
-   "title": "MOLDRISE",
-   "url": "https://store.steampowered.com/app/4519130/",
-   "website": "https://www.moldrise.com/"
-  },
-  {
-   "categories": {
     "bakage": 96.2
    },
    "description": "Get ready to drink and drive (safely). Challenge friends in multiple drinking and driving game modes, like drunk cop chases, pedestrians, races, capture the flag, hot potato, and more! With options to change the style of play, there is so much drunk driving fun!",
@@ -6790,6 +6821,69 @@
    "title": "Intoxicated Driver",
    "url": "https://store.steampowered.com/app/2701080/",
    "website": null
+  },
+  {
+   "categories": {
+    "horror": 96.2
+   },
+   "description": "UP! UP! UP! It's the only thought you can still grasp. You have an infection that started in your foot, now it's in your head.\r\nMeet strange neighbours, make bad trades, learn about them. Everytime you fail, the building stays the same. What changes is what you know.",
+   "description_ja": "UP! UP! UP! It's the only thought you can still grasp. You have an infection that started in your foot, now it's in your head.\r\nMeet strange neighbours, make bad trades, learn about them. Everytime you fail, the building stays the same. What changes is what you know.",
+   "developers": [
+    "Raffaele Picca"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:4519130",
+   "is_new": false,
+   "languages": [
+    "english"
+   ],
+   "negative": 30,
+   "positive": 723,
+   "positive_ratio": 0.9602,
+   "price_jpy": 1600.0,
+   "release_date": "2026-07-20",
+   "reviews": 753,
+   "score": 96.2,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-14T17:50:58Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4519130/",
+     "https://www.moldrise.com/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Psychological Horror",
+    "Horror",
+    "Atmospheric",
+    "Retro",
+    "Dark Humor",
+    "Outbreak Sim",
+    "Exploration",
+    "Singleplayer",
+    "Mystery",
+    "Puzzle",
+    "First-Person",
+    "Multiple Endings",
+    "Narrative",
+    "Adventure",
+    "3D",
+    "Walking Simulator",
+    "Survival Horror",
+    "Lore-Rich",
+    "Great Soundtrack",
+    "Perma Death"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4519130/1e86fd32896317d1e4fdae7540a3e953cff0feaa/header.jpg?t=1791550185",
+   "title": "MOLDRISE",
+   "url": "https://store.steampowered.com/app/4519130/",
+   "website": "https://www.moldrise.com/"
   },
   {
    "categories": {
@@ -7048,7 +7142,7 @@
   },
   {
    "categories": {
-    "bakage": 87.8,
+    "bakage": 87.9,
     "horror": 96.0
    },
    "description": "A prince who has lost his kingdom and everything else. His uncle and aide-de-camp, unable to leave him. In a cramped rented room abroad, click on objects and piece together a codependent relationship filled with brutality and endurance. Watch helplessness turn into violence, tenderness into torture.",
@@ -7065,11 +7159,11 @@
     "japanese"
    ],
    "negative": 22,
-   "positive": 340,
-   "positive_ratio": 0.9392,
+   "positive": 341,
+   "positive_ratio": 0.9394,
    "price_jpy": 790.0,
    "release_date": "2026-09-04",
-   "reviews": 362,
+   "reviews": 363,
    "score": 96.0,
    "score_basis": "steam",
    "source": "steam",
@@ -7633,11 +7727,11 @@
     "english"
    ],
    "negative": 50,
-   "positive": 778,
-   "positive_ratio": 0.9396,
+   "positive": 780,
+   "positive_ratio": 0.9398,
    "price_jpy": 580.0,
    "release_date": "2025-10-24",
-   "reviews": 828,
+   "reviews": 830,
    "score": 95.2,
    "score_basis": "steam",
    "source": "steam",
@@ -7758,11 +7852,11 @@
     "japanese"
    ],
    "negative": 70,
-   "positive": 369,
-   "positive_ratio": 0.8405,
+   "positive": 370,
+   "positive_ratio": 0.8409,
    "price_jpy": 264.0,
    "release_date": "2026-06-04",
-   "reviews": 439,
+   "reviews": 440,
    "score": 95.1,
    "score_basis": "steam",
    "source": "steam",
@@ -7819,11 +7913,11 @@
     "japanese"
    ],
    "negative": 26,
-   "positive": 500,
-   "positive_ratio": 0.9506,
+   "positive": 501,
+   "positive_ratio": 0.9507,
    "price_jpy": 1200.0,
    "release_date": "2026-02-19",
-   "reviews": 526,
+   "reviews": 527,
    "score": 94.9,
    "score_basis": "steam",
    "source": "steam",
@@ -9371,11 +9465,11 @@
     "japanese"
    ],
    "negative": 36,
-   "positive": 477,
-   "positive_ratio": 0.9298,
+   "positive": 479,
+   "positive_ratio": 0.9301,
    "price_jpy": 990.0,
    "release_date": "2026-01-22",
-   "reviews": 513,
+   "reviews": 515,
    "score": 93.3,
    "score_basis": "steam",
    "source": "steam",
@@ -9620,11 +9714,11 @@
     "japanese"
    ],
    "negative": 38,
-   "positive": 381,
-   "positive_ratio": 0.9093,
+   "positive": 382,
+   "positive_ratio": 0.9095,
    "price_jpy": 530.0,
    "release_date": "2026-04-27",
-   "reviews": 419,
+   "reviews": 420,
    "score": 93.1,
    "score_basis": "steam",
    "source": "steam",
@@ -10537,11 +10631,11 @@
     "english"
    ],
    "negative": 68,
-   "positive": 610,
-   "positive_ratio": 0.8997,
+   "positive": 609,
+   "positive_ratio": 0.8996,
    "price_jpy": 1500.0,
    "release_date": "2026-05-14",
-   "reviews": 678,
+   "reviews": 677,
    "score": 92.5,
    "score_basis": "steam",
    "source": "steam",
@@ -10904,7 +10998,7 @@
    ],
    "has_demo": false,
    "id": "itch:stellararcades/haunted-tides",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -11015,12 +11109,12 @@
     "english",
     "japanese"
    ],
-   "negative": 286,
-   "positive": 1916,
-   "positive_ratio": 0.8701,
+   "negative": 287,
+   "positive": 1918,
+   "positive_ratio": 0.8698,
    "price_jpy": 1150.0,
    "release_date": "2026-08-07",
-   "reviews": 2202,
+   "reviews": 2205,
    "score": 92.3,
    "score_basis": "steam",
    "source": "steam",
@@ -11194,6 +11288,67 @@
    "title": "Delivery & Beyond",
    "url": "https://store.steampowered.com/app/3376480/",
    "website": "https://hyena.quest/"
+  },
+  {
+   "categories": {
+    "horror": 92.2
+   },
+   "description": "BLOOD VIAL is a retro-inspired micro-FPS with a leaking health bar. Swim through the spilled blood of your fallen enemies to keep your vial full. Grow increasingly powerful with new upgrades and weapons. Navigate an ever-shifting labyrinth of crypts, catacombs and cathedrals.",
+   "description_ja": "BLOOD VIAL is a retro-inspired micro-FPS with a leaking health bar. Swim through the spilled blood of your fallen enemies to keep your vial full. Grow increasingly powerful with new upgrades and weapons. Navigate an ever-shifting labyrinth of crypts, catacombs and cathedrals.",
+   "developers": [
+    "Dillon Steyl"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:3648730",
+   "is_new": false,
+   "languages": [
+    "english"
+   ],
+   "negative": 15,
+   "positive": 349,
+   "positive_ratio": 0.9588,
+   "price_jpy": 655.0,
+   "release_date": "2026-05-04",
+   "reviews": 364,
+   "score": 92.2,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:12:22Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3648730/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Boomer Shooter",
+    "FPS",
+    "Roguelite",
+    "Difficult",
+    "Shooter",
+    "Action Roguelike",
+    "Roguelike",
+    "3D",
+    "First-Person",
+    "Procedural Generation",
+    "Horror",
+    "Action",
+    "Gore",
+    "Dark",
+    "Retro",
+    "Singleplayer",
+    "Fast-Paced",
+    "Violent",
+    "Vampires"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3648730/0ee8c335a9f53276ca246d32d2acc697d25e3fd7/header.jpg?t=1782437419",
+   "title": "Blood Vial",
+   "url": "https://store.steampowered.com/app/3648730/",
+   "website": null
   },
   {
    "categories": {
@@ -11446,67 +11601,6 @@
   },
   {
    "categories": {
-    "horror": 92.1
-   },
-   "description": "BLOOD VIAL is a retro-inspired micro-FPS with a leaking health bar. Swim through the spilled blood of your fallen enemies to keep your vial full. Grow increasingly powerful with new upgrades and weapons. Navigate an ever-shifting labyrinth of crypts, catacombs and cathedrals.",
-   "description_ja": "BLOOD VIAL is a retro-inspired micro-FPS with a leaking health bar. Swim through the spilled blood of your fallen enemies to keep your vial full. Grow increasingly powerful with new upgrades and weapons. Navigate an ever-shifting labyrinth of crypts, catacombs and cathedrals.",
-   "developers": [
-    "Dillon Steyl"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:3648730",
-   "is_new": false,
-   "languages": [
-    "english"
-   ],
-   "negative": 15,
-   "positive": 348,
-   "positive_ratio": 0.9587,
-   "price_jpy": 655.0,
-   "release_date": "2026-05-04",
-   "reviews": 363,
-   "score": 92.1,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-15T02:12:22Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/3648730/"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Boomer Shooter",
-    "FPS",
-    "Roguelite",
-    "Difficult",
-    "Shooter",
-    "Action Roguelike",
-    "Roguelike",
-    "3D",
-    "First-Person",
-    "Procedural Generation",
-    "Horror",
-    "Action",
-    "Gore",
-    "Dark",
-    "Retro",
-    "Singleplayer",
-    "Fast-Paced",
-    "Violent",
-    "Vampires"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3648730/0ee8c335a9f53276ca246d32d2acc697d25e3fd7/header.jpg?t=1782437419",
-   "title": "Blood Vial",
-   "url": "https://store.steampowered.com/app/3648730/",
-   "website": null
-  },
-  {
-   "categories": {
     "bakage": 92.1
    },
    "description": "Stick with the same color, bounce off the rest! Snatch the soap, sabotage your friends!\r\nAdorable jelly critters are here for chaotic, hilarious showdowns!\r\n\r\nSupports 4-player local and up to 6-player online battles, plus a map editor so you can jump into laugh-out-loud matches anytime!",
@@ -11622,6 +11716,70 @@
    "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739190/ad2bc0e1b0c16b9bc3de4f41aca782cfc767c584/header.jpg?t=1775018215",
    "title": "Heavy Spoilers RPG: The true identity of the final enemy is the hero's father",
    "url": "https://store.steampowered.com/app/3739190/",
+   "website": null
+  },
+  {
+   "categories": {
+    "horror": 92.1
+   },
+   "description": "First-person psychological horror about ignorance and attempts. Protect yourself as a lone carpenter, hastily look for materials in your house to board up a door that shouldn’t exist. At any cost.",
+   "description_ja": "無知と試みについての、一人称視点のサイコロジカルホラー。孤独な大工として身を守り、存在するはずのないドアを塞ぐために、家の中の材料を急いで探してください。どんな犠牲を払っても。",
+   "developers": [
+    "Cdodge",
+    "trushkeen"
+   ],
+   "early_access": false,
+   "has_demo": true,
+   "id": "steam:4034000",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 9,
+   "positive": 217,
+   "positive_ratio": 0.9602,
+   "price_jpy": 549.0,
+   "release_date": "2025-11-12",
+   "reviews": 226,
+   "score": 92.1,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:12:22Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4034000/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Psychological Horror",
+    "Psychological",
+    "Atmospheric",
+    "Exploration",
+    "Horror",
+    "Action",
+    "Surreal",
+    "Thriller",
+    "Linear",
+    "Walking Simulator",
+    "First-Person",
+    "Adventure",
+    "Stylized",
+    "3D",
+    "Short",
+    "Singleplayer",
+    "Hidden Object",
+    "Perma Death",
+    "Indie",
+    "Simulation"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034000/92c4b53b14a70e57199ad5b0a6a3d046952f51f1/header.jpg?t=1787251568",
+   "title": "Box of Broken Nails",
+   "url": "https://store.steampowered.com/app/4034000/",
    "website": null
   },
   {
@@ -11800,6 +11958,57 @@
    "website": null
   },
   {
+   "author": "iconicxpgames",
+   "categories": {
+    "horror": 91.9
+   },
+   "description": "Build a fort, rescue survivors, and hold off the zombies until dawn.",
+   "description_ja": null,
+   "developers": [
+    "iconicxpgames"
+   ],
+   "early_access": false,
+   "feeds": [
+    "newest"
+   ],
+   "has_demo": false,
+   "id": "itch:iconicxpgames/torchwatch-last-fort-last-hope",
+   "is_new": true,
+   "languages": [],
+   "negative": null,
+   "platforms": [
+    "android",
+    "linux",
+    "osx",
+    "windows"
+   ],
+   "positive": null,
+   "positive_ratio": null,
+   "price_jpy": 748.5,
+   "release_date": "2026-11-12",
+   "reviews": null,
+   "score": 91.9,
+   "score_basis": "itch",
+   "source": "itch",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://iconicxpgames.itch.io/torchwatch-last-fort-last-hope"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "horror"
+   ],
+   "thumbnail": "https://img.itch.zone/aW1nLzMyMjY5MDM5LnBuZw==/315x250%23c/VL54zX.png",
+   "title": "Torchwatch: Last Fort, Last Hope",
+   "url": "https://iconicxpgames.itch.io/torchwatch-last-fort-last-hope",
+   "website": null
+  },
+  {
    "author": "ookii-tsuki",
    "categories": {
     "bakage": 91.9
@@ -11963,70 +12172,6 @@
    "title": "Backroom Company",
    "url": "https://store.steampowered.com/app/3010460/",
    "website": "https://www.hypercent.co.kr/backroomcompany"
-  },
-  {
-   "categories": {
-    "horror": 91.9
-   },
-   "description": "First-person psychological horror about ignorance and attempts. Protect yourself as a lone carpenter, hastily look for materials in your house to board up a door that shouldn’t exist. At any cost.",
-   "description_ja": "無知と試みについての、一人称視点のサイコロジカルホラー。孤独な大工として身を守り、存在するはずのないドアを塞ぐために、家の中の材料を急いで探してください。どんな犠牲を払っても。",
-   "developers": [
-    "Cdodge",
-    "trushkeen"
-   ],
-   "early_access": false,
-   "has_demo": true,
-   "id": "steam:4034000",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 9,
-   "positive": 215,
-   "positive_ratio": 0.9598,
-   "price_jpy": 549.0,
-   "release_date": "2025-11-12",
-   "reviews": 224,
-   "score": 91.9,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-15T02:12:22Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/4034000/"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Psychological Horror",
-    "Psychological",
-    "Atmospheric",
-    "Exploration",
-    "Horror",
-    "Action",
-    "Surreal",
-    "Thriller",
-    "Linear",
-    "Walking Simulator",
-    "First-Person",
-    "Adventure",
-    "Stylized",
-    "3D",
-    "Short",
-    "Singleplayer",
-    "Hidden Object",
-    "Perma Death",
-    "Indie",
-    "Simulation"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4034000/92c4b53b14a70e57199ad5b0a6a3d046952f51f1/header.jpg?t=1787251568",
-   "title": "Box of Broken Nails",
-   "url": "https://store.steampowered.com/app/4034000/",
-   "website": null
   },
   {
    "categories": {
@@ -12397,6 +12542,71 @@
   },
   {
    "categories": {
+    "horror": 91.6
+   },
+   "description": "You are the lifeline supporting an expedition into the unknown. Keep both yourself and your squad alive by interpreting instrument readings, explore the facilities, and uncover something ancient and eager to be born.",
+   "description_ja": "地下世界へ向かう特殊部隊の生死は、あなたにかかっています。\r\nあなたは管制室からモニターやレーダーを確認し、無線で隊員へ指示を出します。\r\n全員を生還へ導きながら、深淵に潜む\"太古の何か\"の正体を暴いてください。",
+   "developers": [
+    "FromSouthGames"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:2895680",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 56,
+   "positive": 343,
+   "positive_ratio": 0.8596,
+   "price_jpy": 1050.0,
+   "release_date": "2026-07-29",
+   "reviews": 399,
+   "score": 91.6,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:12:22Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2895680/",
+     "https://belowrustedgods.com/",
+     "https://belowrustedgods.com/press"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Psychological Horror",
+    "Horror",
+    "Puzzle",
+    "Multiple Endings",
+    "Lovecraftian",
+    "Exploration",
+    "Lore-Rich",
+    "First-Person",
+    "Alternate History",
+    "Choices Matter",
+    "Realistic",
+    "Thriller",
+    "Walking Simulator",
+    "Simulation",
+    "Atmospheric",
+    "Psychological",
+    "Singleplayer",
+    "Adventure",
+    "3D",
+    "Action-Adventure"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895680/7136578c8c2876c7aa5e75d34543fc820787c61e/header.jpg?t=1785330035",
+   "title": "Below, Rusted Gods",
+   "url": "https://store.steampowered.com/app/2895680/",
+   "website": "https://belowrustedgods.com/"
+  },
+  {
+   "categories": {
     "bakage": 91.6
    },
    "description": "Build a strong defense of hololive dolls to defeat a robot army in this exciting hololive-themed tower defense game!!",
@@ -12580,71 +12790,6 @@
   },
   {
    "categories": {
-    "horror": 91.5
-   },
-   "description": "You are the lifeline supporting an expedition into the unknown. Keep both yourself and your squad alive by interpreting instrument readings, explore the facilities, and uncover something ancient and eager to be born.",
-   "description_ja": "地下世界へ向かう特殊部隊の生死は、あなたにかかっています。\r\nあなたは管制室からモニターやレーダーを確認し、無線で隊員へ指示を出します。\r\n全員を生還へ導きながら、深淵に潜む\"太古の何か\"の正体を暴いてください。",
-   "developers": [
-    "FromSouthGames"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:2895680",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 56,
-   "positive": 342,
-   "positive_ratio": 0.8593,
-   "price_jpy": 1050.0,
-   "release_date": "2026-07-29",
-   "reviews": 398,
-   "score": 91.5,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-15T02:12:22Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/2895680/",
-     "https://belowrustedgods.com/",
-     "https://belowrustedgods.com/press"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Psychological Horror",
-    "Horror",
-    "Puzzle",
-    "Multiple Endings",
-    "Lovecraftian",
-    "Exploration",
-    "Lore-Rich",
-    "First-Person",
-    "Alternate History",
-    "Choices Matter",
-    "Realistic",
-    "Thriller",
-    "Walking Simulator",
-    "Simulation",
-    "Atmospheric",
-    "Psychological",
-    "Singleplayer",
-    "Adventure",
-    "3D",
-    "Action-Adventure"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2895680/7136578c8c2876c7aa5e75d34543fc820787c61e/header.jpg?t=1785330035",
-   "title": "Below, Rusted Gods",
-   "url": "https://store.steampowered.com/app/2895680/",
-   "website": "https://belowrustedgods.com/"
-  },
-  {
-   "categories": {
     "bakage": 85.6,
     "horror": 91.5
    },
@@ -12778,6 +12923,68 @@
   },
   {
    "categories": {
+    "bakage": 91.4
+   },
+   "description": "The only game in the world that's more anticipated than GTA VI. Pih 2 is a one-hit-kill comedy FPS. Fight various types of enemy pihs and bosses in increasingly ridiculous situations, dodge instant death and try not to rage when everything goes wrong.",
+   "description_ja": "世界で唯一、GTA VI以上に待ち望まれているゲーム。Pih 2は、一撃で決着するコメディFPSだ。ますますバカげていく状況で、さまざまな敵のブタやボスと戦い、即死をかわし、すべてが台無しになってもキレないように耐えろ。",
+   "developers": [
+    "BecomeANobody"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:4547970",
+   "is_new": false,
+   "languages": [
+    "english"
+   ],
+   "negative": 40,
+   "positive": 402,
+   "positive_ratio": 0.9095,
+   "price_jpy": 1350.0,
+   "release_date": "2026-08-04",
+   "reviews": 442,
+   "score": 91.4,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:12:22Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4547970/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Action",
+    "Funny",
+    "FPS",
+    "Indie",
+    "First-Person",
+    "Shooter",
+    "Difficult",
+    "Realistic",
+    "Colorful",
+    "Comedy",
+    "Family Friendly",
+    "Fantasy",
+    "Parkour",
+    "Sniper",
+    "Linear",
+    "Singleplayer",
+    "Physics",
+    "Sequel",
+    "Memes",
+    "Score Attack"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4547970/707dd5291fd506ef4d3775a25cab19b19435b5a2/header.jpg?t=1785873328",
+   "title": "Pih 2",
+   "url": "https://store.steampowered.com/app/4547970/",
+   "website": null
+  },
+  {
+   "categories": {
     "horror": 91.4
    },
    "description": "\"Stories to Tell\" Is a psychological horror game series developed by a 16 year old were each installment is based on a dream/nightmare that I, the developer, have experienced. This is a game you wouldn't want to miss...",
@@ -12902,26 +13109,26 @@
   },
   {
    "categories": {
-    "bakage": 91.3
+    "horror": 91.3
    },
-   "description": "The only game in the world that's more anticipated than GTA VI. Pih 2 is a one-hit-kill comedy FPS. Fight various types of enemy pihs and bosses in increasingly ridiculous situations, dodge instant death and try not to rage when everything goes wrong.",
-   "description_ja": "世界で唯一、GTA VI以上に待ち望まれているゲーム。Pih 2は、一撃で決着するコメディFPSだ。ますますバカげていく状況で、さまざまな敵のブタやボスと戦い、即死をかわし、すべてが台無しになってもキレないように耐えろ。",
+   "description": "Wasteland Bites is a horror-based food truck sim. Cooking up questionable cuisine in your post-apocalyptic food truck is tough. Fending off mutants, UFOs, rabid dogs, and things lurking in the dark? That's the real challenge. A chaotic mix of cooking and survival in a long gone world.",
+   "description_ja": "Wasteland Bites is a horror-based food truck sim. Cooking up questionable cuisine in your post-apocalyptic food truck is tough. Fending off mutants, UFOs, rabid dogs, and things lurking in the dark? That's the real challenge. A chaotic mix of cooking and survival in a long gone world.",
    "developers": [
-    "BecomeANobody"
+    "CosmicDev"
    ],
    "early_access": false,
-   "has_demo": false,
-   "id": "steam:4547970",
+   "has_demo": true,
+   "id": "steam:3748640",
    "is_new": false,
    "languages": [
     "english"
    ],
-   "negative": 40,
-   "positive": 401,
-   "positive_ratio": 0.9093,
-   "price_jpy": 1350.0,
-   "release_date": "2026-08-04",
-   "reviews": 441,
+   "negative": 32,
+   "positive": 430,
+   "positive_ratio": 0.9307,
+   "price_jpy": 1200.0,
+   "release_date": "2026-04-03",
+   "reviews": 462,
    "score": 91.3,
    "score_basis": "steam",
    "source": "steam",
@@ -12929,37 +13136,37 @@
    "streaming": {
     "checked_at": "2026-11-15T02:12:22Z",
     "checked_urls": [
-     "https://store.steampowered.com/app/4547970/"
+     "https://store.steampowered.com/app/3748640/"
     ],
     "evidence": [],
     "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
-    "Action",
-    "Funny",
-    "FPS",
-    "Indie",
+    "Horror",
+    "Cooking",
+    "Simulation",
+    "Time Management",
+    "Post-apocalyptic",
+    "Shop Keeper",
+    "Jump Scare",
     "First-Person",
-    "Shooter",
-    "Difficult",
-    "Realistic",
-    "Colorful",
-    "Comedy",
-    "Family Friendly",
-    "Fantasy",
-    "Parkour",
-    "Sniper",
-    "Linear",
+    "Point & Click",
+    "Survival Horror",
+    "Resource Management",
+    "Psychological Horror",
+    "Adventure",
+    "Job Simulator",
+    "2.5D",
+    "Dark Comedy",
+    "Management",
+    "Stylized",
     "Singleplayer",
-    "Physics",
-    "Sequel",
-    "Memes",
-    "Score Attack"
+    "Cartoony"
    ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4547970/707dd5291fd506ef4d3775a25cab19b19435b5a2/header.jpg?t=1785873328",
-   "title": "Pih 2",
-   "url": "https://store.steampowered.com/app/4547970/",
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3748640/ce5558b6919ada973bb53ab3e3e3e1e341231fe4/header_alt_assets_0.jpg?t=1791825473",
+   "title": "Wasteland Bites",
+   "url": "https://store.steampowered.com/app/3748640/",
    "website": null
   },
   {
@@ -13084,68 +13291,6 @@
    "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3694590/98b3d9fb567ecc21546594462650cc4840589157/header.jpg?t=1777048321",
    "title": "Haunted Room : 205",
    "url": "https://store.steampowered.com/app/3694590/",
-   "website": null
-  },
-  {
-   "categories": {
-    "horror": 91.2
-   },
-   "description": "Wasteland Bites is a horror-based food truck sim. Cooking up questionable cuisine in your post-apocalyptic food truck is tough. Fending off mutants, UFOs, rabid dogs, and things lurking in the dark? That's the real challenge. A chaotic mix of cooking and survival in a long gone world.",
-   "description_ja": "Wasteland Bites is a horror-based food truck sim. Cooking up questionable cuisine in your post-apocalyptic food truck is tough. Fending off mutants, UFOs, rabid dogs, and things lurking in the dark? That's the real challenge. A chaotic mix of cooking and survival in a long gone world.",
-   "developers": [
-    "CosmicDev"
-   ],
-   "early_access": false,
-   "has_demo": true,
-   "id": "steam:3748640",
-   "is_new": false,
-   "languages": [
-    "english"
-   ],
-   "negative": 32,
-   "positive": 429,
-   "positive_ratio": 0.9306,
-   "price_jpy": 1200.0,
-   "release_date": "2026-04-03",
-   "reviews": 461,
-   "score": 91.2,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-15T02:12:22Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/3748640/"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Horror",
-    "Cooking",
-    "Simulation",
-    "Time Management",
-    "Post-apocalyptic",
-    "Shop Keeper",
-    "Jump Scare",
-    "First-Person",
-    "Point & Click",
-    "Survival Horror",
-    "Resource Management",
-    "Psychological Horror",
-    "Adventure",
-    "Job Simulator",
-    "2.5D",
-    "Dark Comedy",
-    "Management",
-    "Stylized",
-    "Singleplayer",
-    "Cartoony"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3748640/ce5558b6919ada973bb53ab3e3e3e1e341231fe4/header_alt_assets_0.jpg?t=1791825473",
-   "title": "Wasteland Bites",
-   "url": "https://store.steampowered.com/app/3748640/",
    "website": null
   },
   {
@@ -13279,80 +13424,6 @@
    "title": "Heaven Does Not Respond",
    "url": "https://store.steampowered.com/app/3817240/",
    "website": "https://risestudios.github.io/"
-  },
-  {
-   "categories": {
-    "horror": 91.1
-   },
-   "description": "No Legs. Just Flips. A hard and punishing game where you flip, fall, and climb as Flippy, using only rotation. Do you have what it takes to get back to Jeff?",
-   "description_ja": "足はない。フリップだけ。Flippyとなり、回転だけを使ってフリップし、落下し、相棒のもとへ戻るために登り続ける、難しく容赦のないゲーム。",
-   "developers": [
-    "Elegant Horse Studios"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:3826670",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 42,
-   "positive": 239,
-   "positive_ratio": 0.8505,
-   "price_jpy": 1900.0,
-   "release_date": "2026-10-16",
-   "reviews": 281,
-   "score": 91.1,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-15T02:12:22Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/3826670/",
-     "https://eleganthorsestudios.com/flipping-is-hard/",
-     "https://eleganthorsestudios.com/press",
-     "https://eleganthorsestudios.com/press-kit"
-    ],
-    "evidence": [
-     {
-      "excerpt": "Streaming and monetized videos are welcome.",
-      "matched": [
-       "videos are welcome"
-      ],
-      "url": "https://eleganthorsestudios.com/flipping-is-hard/"
-     }
-    ],
-    "method": "auto",
-    "verdict": "ok"
-   },
-   "tags": [
-    "Psychological Horror",
-    "Action",
-    "Difficult",
-    "Online Co-Op",
-    "Philosophical",
-    "Simulation",
-    "Story Rich",
-    "Precision Platformer",
-    "Physics",
-    "Parkour",
-    "Singleplayer",
-    "Platformer",
-    "Combat Racing",
-    "Dark Humor",
-    "Adventure",
-    "Funny",
-    "Controller",
-    "Replay Value",
-    "Third Person",
-    "3D Platformer"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/e82a2c44caf29a67be6ad43c4256940eaef51111/header.jpg?t=1793963780",
-   "title": "Flipping is Hard",
-   "url": "https://store.steampowered.com/app/3826670/",
-   "website": "https://eleganthorsestudios.com/flipping-is-hard/"
   },
   {
    "categories": {
@@ -13494,11 +13565,11 @@
     "english"
    ],
    "negative": 18,
-   "positive": 1747,
+   "positive": 1750,
    "positive_ratio": 0.9898,
    "price_jpy": 395.0,
    "release_date": "2026-08-10",
-   "reviews": 1765,
+   "reviews": 1768,
    "score": 91.1,
    "score_basis": "steam",
    "source": "steam",
@@ -13600,69 +13671,6 @@
    "title": "Caput Mortum",
    "url": "https://store.steampowered.com/app/3555980/",
    "website": "https://www.wildartsgames.com/caput-mortum"
-  },
-  {
-   "categories": {
-    "horror": 91.0
-   },
-   "description": "Iron Blight is a survival horror game set in a cold, rainy Eastern Bloc town. You are trapped in a room as abominations claw at your door, with nowhere to run. You must survive the feverish night, uncover the horrors lurking in the shadows, and above all, find your wife, Valeria. ",
-   "description_ja": "『Iron Blight』は冷たい雨が降る旧東側諸国の町を舞台にしたサバイバルホラー。逃げ場のない部屋で異形がドアを掻きむしるなか、熱病のような夜を生き延び、暗闇の恐怖を暴き、妻のヴァレリアを見つけ出せ。",
-   "developers": [
-    "Ronesans Interactive"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:4001350",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 76,
-   "positive": 1015,
-   "positive_ratio": 0.9303,
-   "price_jpy": 1700.0,
-   "release_date": "2026-08-24",
-   "reviews": 1091,
-   "score": 91.0,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-15T02:12:22Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/4001350/"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Survival Horror",
-    "Post-apocalyptic",
-    "1990's",
-    "Inventory Management",
-    "FPS",
-    "Atmospheric",
-    "Horror",
-    "Shooter",
-    "Action",
-    "Dark",
-    "Psychological Horror",
-    "Zombies",
-    "Retro",
-    "Stylized",
-    "Gore",
-    "Indie",
-    "Resource Management",
-    "First-Person",
-    "Singleplayer",
-    "Gun Customization"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001350/62e4b5d1c76a7eabc83ff82a829567c31164eed2/header.jpg?t=1794418028",
-   "title": "Iron Blight",
-   "url": "https://store.steampowered.com/app/4001350/",
-   "website": null
   },
   {
    "categories": {
@@ -13786,6 +13794,143 @@
    "title": "Scarecrow: 90s Crime Story",
    "url": "https://store.steampowered.com/app/2280360/",
    "website": "https://scarecrow-game.com/"
+  },
+  {
+   "categories": {
+    "horror": 90.9
+   },
+   "description": "No Legs. Just Flips. A hard and punishing game where you flip, fall, and climb as Flippy, using only rotation. Do you have what it takes to get back to Jeff?",
+   "description_ja": "足はない。フリップだけ。Flippyとなり、回転だけを使ってフリップし、落下し、相棒のもとへ戻るために登り続ける、難しく容赦のないゲーム。",
+   "developers": [
+    "Elegant Horse Studios"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:3826670",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 42,
+   "positive": 236,
+   "positive_ratio": 0.8489,
+   "price_jpy": 1900.0,
+   "release_date": "2026-10-16",
+   "reviews": 278,
+   "score": 90.9,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:12:22Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3826670/",
+     "https://eleganthorsestudios.com/flipping-is-hard/",
+     "https://eleganthorsestudios.com/press",
+     "https://eleganthorsestudios.com/press-kit"
+    ],
+    "evidence": [
+     {
+      "excerpt": "Streaming and monetized videos are welcome.",
+      "matched": [
+       "videos are welcome"
+      ],
+      "url": "https://eleganthorsestudios.com/flipping-is-hard/"
+     }
+    ],
+    "method": "auto",
+    "verdict": "ok"
+   },
+   "tags": [
+    "Psychological Horror",
+    "Action",
+    "Difficult",
+    "Online Co-Op",
+    "Philosophical",
+    "Simulation",
+    "Story Rich",
+    "Precision Platformer",
+    "Physics",
+    "Parkour",
+    "Singleplayer",
+    "Platformer",
+    "Combat Racing",
+    "Dark Humor",
+    "Adventure",
+    "Funny",
+    "Controller",
+    "Replay Value",
+    "Third Person",
+    "3D Platformer"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/e82a2c44caf29a67be6ad43c4256940eaef51111/header.jpg?t=1793963780",
+   "title": "Flipping is Hard",
+   "url": "https://store.steampowered.com/app/3826670/",
+   "website": "https://eleganthorsestudios.com/flipping-is-hard/"
+  },
+  {
+   "categories": {
+    "horror": 90.9
+   },
+   "description": "Iron Blight is a survival horror game set in a cold, rainy Eastern Bloc town. You are trapped in a room as abominations claw at your door, with nowhere to run. You must survive the feverish night, uncover the horrors lurking in the shadows, and above all, find your wife, Valeria. ",
+   "description_ja": "『Iron Blight』は冷たい雨が降る旧東側諸国の町を舞台にしたサバイバルホラー。逃げ場のない部屋で異形がドアを掻きむしるなか、熱病のような夜を生き延び、暗闇の恐怖を暴き、妻のヴァレリアを見つけ出せ。",
+   "developers": [
+    "Ronesans Interactive"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:4001350",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 77,
+   "positive": 1016,
+   "positive_ratio": 0.9296,
+   "price_jpy": 1700.0,
+   "release_date": "2026-08-24",
+   "reviews": 1093,
+   "score": 90.9,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:12:22Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4001350/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Survival Horror",
+    "Post-apocalyptic",
+    "1990's",
+    "Inventory Management",
+    "FPS",
+    "Atmospheric",
+    "Horror",
+    "Shooter",
+    "Action",
+    "Dark",
+    "Psychological Horror",
+    "Zombies",
+    "Retro",
+    "Stylized",
+    "Gore",
+    "Indie",
+    "Resource Management",
+    "First-Person",
+    "Singleplayer",
+    "Gun Customization"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001350/62e4b5d1c76a7eabc83ff82a829567c31164eed2/header.jpg?t=1794418028",
+   "title": "Iron Blight",
+   "url": "https://store.steampowered.com/app/4001350/",
+   "website": null
   },
   {
    "categories": {
@@ -14091,6 +14236,69 @@
   },
   {
    "categories": {
+    "horror": 90.7
+   },
+   "description": "The silent union of two girls begins to dissolve in an abandoned high school. A melancholic and liminal short story played in a single sitting, where the fear of collapse is felt at every moment.",
+   "description_ja": "廃校を舞台に、二人の少女の絆が解け始める。崩壊への恐怖が常に漂う、一度のプレイで完結する、メランコリックでリミナルな短編ストーリー。",
+   "developers": [
+    "Umigame Studios"
+   ],
+   "early_access": false,
+   "has_demo": true,
+   "id": "steam:4530240",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 43,
+   "positive": 290,
+   "positive_ratio": 0.8709,
+   "price_jpy": 395.0,
+   "release_date": "2026-07-28",
+   "reviews": 333,
+   "score": 90.7,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:12:22Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4530240/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Visual Novel",
+    "Mystery",
+    "Female Protagonist",
+    "Psychological Horror",
+    "Atmospheric",
+    "Story Rich",
+    "LGBTQ+",
+    "Indie",
+    "2D",
+    "Anime",
+    "Emotional",
+    "Adventure",
+    "Psychedelic",
+    "Stylized",
+    "Surreal",
+    "Experimental",
+    "Horror",
+    "Psychological",
+    "Singleplayer",
+    "Choose Your Own Adventure"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530240/84c2cd20f19aa8263b7ccdf8057c00c51ea41060/header.jpg?t=1794152623",
+   "title": "Dissolution of the Silent Union",
+   "url": "https://store.steampowered.com/app/4530240/",
+   "website": null
+  },
+  {
+   "categories": {
     "bakage": 90.7
    },
    "description": "Sinner Maker allows you to create characters and simulate a society built around them. Construct homes, manage their needs, and watch as they fall in love, form friendships, and even become enemies.\r\nManage resources and solve emerging problems if you want your soul to be saved.",
@@ -14386,69 +14594,6 @@
   },
   {
    "categories": {
-    "horror": 90.6
-   },
-   "description": "The silent union of two girls begins to dissolve in an abandoned high school. A melancholic and liminal short story played in a single sitting, where the fear of collapse is felt at every moment.",
-   "description_ja": "廃校を舞台に、二人の少女の絆が解け始める。崩壊への恐怖が常に漂う、一度のプレイで完結する、メランコリックでリミナルな短編ストーリー。",
-   "developers": [
-    "Umigame Studios"
-   ],
-   "early_access": false,
-   "has_demo": true,
-   "id": "steam:4530240",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 43,
-   "positive": 288,
-   "positive_ratio": 0.8701,
-   "price_jpy": 395.0,
-   "release_date": "2026-07-28",
-   "reviews": 331,
-   "score": 90.6,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-15T02:12:22Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/4530240/"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Visual Novel",
-    "Mystery",
-    "Female Protagonist",
-    "Psychological Horror",
-    "Atmospheric",
-    "Story Rich",
-    "LGBTQ+",
-    "Indie",
-    "2D",
-    "Anime",
-    "Emotional",
-    "Adventure",
-    "Psychedelic",
-    "Stylized",
-    "Surreal",
-    "Experimental",
-    "Horror",
-    "Psychological",
-    "Singleplayer",
-    "Choose Your Own Adventure"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530240/84c2cd20f19aa8263b7ccdf8057c00c51ea41060/header.jpg?t=1794152623",
-   "title": "Dissolution of the Silent Union",
-   "url": "https://store.steampowered.com/app/4530240/",
-   "website": null
-  },
-  {
-   "categories": {
     "bakage": 90.6
    },
    "description": "A cute incremental game packed with dopamine!\r\nJust hover. Stab forks into giant fruit for gold, buy more forks, and pick Boons that stack into big synergies. Smash the fruit into jam and spend it on powerful skills!",
@@ -14715,11 +14860,11 @@
     "japanese"
    ],
    "negative": 88,
-   "positive": 540,
-   "positive_ratio": 0.8599,
+   "positive": 541,
+   "positive_ratio": 0.8601,
    "price_jpy": 1150.0,
    "release_date": "2026-04-23",
-   "reviews": 628,
+   "reviews": 629,
    "score": 90.4,
    "score_basis": "steam",
    "source": "steam",
@@ -15779,11 +15924,11 @@
     "japanese"
    ],
    "negative": 28,
-   "positive": 666,
-   "positive_ratio": 0.9597,
+   "positive": 668,
+   "positive_ratio": 0.9598,
    "price_jpy": 120.0,
    "release_date": "2025-11-15",
-   "reviews": 694,
+   "reviews": 696,
    "score": 90.1,
    "score_basis": "steam",
    "source": "steam",
@@ -16193,12 +16338,12 @@
     "english",
     "japanese"
    ],
-   "negative": 74,
-   "positive": 498,
-   "positive_ratio": 0.8706,
+   "negative": 75,
+   "positive": 501,
+   "positive_ratio": 0.8698,
    "price_jpy": 135.0,
    "release_date": "2026-08-03",
-   "reviews": 572,
+   "reviews": 576,
    "score": 89.9,
    "score_basis": "steam",
    "source": "steam",
@@ -16255,11 +16400,11 @@
     "japanese"
    ],
    "negative": 52,
-   "positive": 522,
-   "positive_ratio": 0.9094,
+   "positive": 523,
+   "positive_ratio": 0.9096,
    "price_jpy": 1100.0,
    "release_date": "2026-03-13",
-   "reviews": 574,
+   "reviews": 575,
    "score": 89.8,
    "score_basis": "steam",
    "source": "steam",
@@ -16303,7 +16448,7 @@
   },
   {
    "categories": {
-    "horror": 89.7
+    "horror": 89.8
    },
    "description": "An explosive mix of action and mystery, seasoned with black humor and a sinister atmosphere.  Journey into Hell alongside a brave boy named Blizzy and defeat Evil itself. Save the world and become a hero. But at what cost? ",
    "description_ja": "アクションとミステリーが爆発的にミックスされ、ブラックユーモアと不吉な雰囲気で味付けされています。 勇敢な少年ブリジーと共に地獄を旅し、悪のを倒しましょう。世界を救い、ヒーローになるのでしょう。しかし、そこには代償があります。",
@@ -16319,12 +16464,12 @@
     "japanese"
    ],
    "negative": 29,
-   "positive": 262,
-   "positive_ratio": 0.9003,
+   "positive": 265,
+   "positive_ratio": 0.9014,
    "price_jpy": 1600.0,
    "release_date": "2026-05-14",
-   "reviews": 291,
-   "score": 89.7,
+   "reviews": 294,
+   "score": 89.8,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
@@ -16362,6 +16507,69 @@
    "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3529690/98f340d6f85b03210c6454f5ad47c84986494486/header.jpg?t=1794059863",
    "title": "Creepy Tale: Snow Child",
    "url": "https://store.steampowered.com/app/3529690/",
+   "website": null
+  },
+  {
+   "categories": {
+    "horror": 89.8
+   },
+   "description": "\"Hariti\" is a first-person psychological horror game. You will play as a mother searching for her missing daughter in a crisis-ridden hospital. Experience an atmosphere of extreme dread within the halls of this abandoned Chinese-style medical facility.",
+   "description_ja": "『鬼子母 Hariti』は、一人称視点のサイコロジカルホラーゲームです。プレイヤーは一人の母親となり、危機の迫る病院の中で行方不明の娘を捜索します。廃墟となった中国式の病院で、極限の恐怖と重苦しい雰囲気を体験することになります。",
+   "developers": [
+    "Ghostcase"
+   ],
+   "early_access": false,
+   "has_demo": true,
+   "id": "steam:4018740",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 46,
+   "positive": 340,
+   "positive_ratio": 0.8808,
+   "price_jpy": 905.0,
+   "release_date": "2026-08-12",
+   "reviews": 386,
+   "score": 89.8,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:12:22Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4018740/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Adventure",
+    "RPG",
+    "Casual",
+    "Simulation",
+    "Horror",
+    "Psychological Horror",
+    "Action RPG",
+    "Puzzle",
+    "3D",
+    "Realistic",
+    "Noir",
+    "Stylized",
+    "Psychological",
+    "Thriller",
+    "Indie",
+    "Supernatural",
+    "Survival Horror",
+    "Survival",
+    "Psychedelic",
+    "Female Protagonist"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018740/33039aac8f79847143cf85fda094e7263f066de3/header.jpg?t=1786496319",
+   "title": "Hariti",
+   "url": "https://store.steampowered.com/app/4018740/",
    "website": null
   },
   {
@@ -16425,69 +16633,6 @@
    "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917620/a3db73efc6aa8f6817a89428e7f9b24ffe3f19c6/header.jpg?t=1789403538",
    "title": "MAID MOVING BOXES",
    "url": "https://store.steampowered.com/app/3917620/",
-   "website": null
-  },
-  {
-   "categories": {
-    "horror": 89.7
-   },
-   "description": "\"Hariti\" is a first-person psychological horror game. You will play as a mother searching for her missing daughter in a crisis-ridden hospital. Experience an atmosphere of extreme dread within the halls of this abandoned Chinese-style medical facility.",
-   "description_ja": "『鬼子母 Hariti』は、一人称視点のサイコロジカルホラーゲームです。プレイヤーは一人の母親となり、危機の迫る病院の中で行方不明の娘を捜索します。廃墟となった中国式の病院で、極限の恐怖と重苦しい雰囲気を体験することになります。",
-   "developers": [
-    "Ghostcase"
-   ],
-   "early_access": false,
-   "has_demo": true,
-   "id": "steam:4018740",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 46,
-   "positive": 339,
-   "positive_ratio": 0.8805,
-   "price_jpy": 905.0,
-   "release_date": "2026-08-12",
-   "reviews": 385,
-   "score": 89.7,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": "2026-11-15T02:12:22Z",
-    "checked_urls": [
-     "https://store.steampowered.com/app/4018740/"
-    ],
-    "evidence": [],
-    "method": "auto",
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Adventure",
-    "RPG",
-    "Casual",
-    "Simulation",
-    "Horror",
-    "Psychological Horror",
-    "Action RPG",
-    "Puzzle",
-    "3D",
-    "Realistic",
-    "Noir",
-    "Stylized",
-    "Psychological",
-    "Thriller",
-    "Indie",
-    "Supernatural",
-    "Survival Horror",
-    "Survival",
-    "Psychedelic",
-    "Female Protagonist"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018740/33039aac8f79847143cf85fda094e7263f066de3/header.jpg?t=1786496319",
-   "title": "Hariti",
-   "url": "https://store.steampowered.com/app/4018740/",
    "website": null
   },
   {
@@ -17426,9 +17571,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3044030/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17485,9 +17633,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3048140/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17545,9 +17696,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3145620/",
+     "https://jessemakkonen.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17604,9 +17759,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3168310/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17664,9 +17822,14 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3327120/",
+     "https://dreadline.express/",
+     "https://dreadline.express/press"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17723,9 +17886,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3575300/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17781,9 +17947,18 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4042160/",
+     "https://solarsuit.games/",
+     "https://solarsuit.games/press",
+     "https://solarsuit.games/presskit",
+     "https://solarsuit.games/press-kit",
+     "https://solarsuit.games/streaming",
+     "https://solarsuit.games/faq"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17840,9 +18015,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4204530/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17889,20 +18067,23 @@
     "english",
     "japanese"
    ],
-   "negative": 27,
-   "positive": 221,
-   "positive_ratio": 0.8911,
+   "negative": 28,
+   "positive": 223,
+   "positive_ratio": 0.8884,
    "price_jpy": 636.0,
    "release_date": "2026-09-13",
-   "reviews": 248,
+   "reviews": 251,
    "score": 89.1,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4580600/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -17934,6 +18115,68 @@
   },
   {
    "categories": {
+    "horror": 89.1
+   },
+   "description": "Equipped only with a weapon that consumes your own blood, explore an ancient brutalist catacomb. Beware the Eyes of The Whispering Crypt. Find the 4 artifacts of desire. Confront God.",
+   "description_ja": "Equipped only with a weapon that consumes your own blood, explore an ancient brutalist catacomb. Beware the Eyes of The Whispering Crypt. Find the 4 artifacts of desire. Confront God.",
+   "developers": [
+    "Games From The Abyss"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:4810070",
+   "is_new": false,
+   "languages": [
+    "english"
+   ],
+   "negative": 34,
+   "positive": 180,
+   "positive_ratio": 0.8411,
+   "price_jpy": 405.0,
+   "release_date": "2026-09-17",
+   "reviews": 214,
+   "score": 89.1,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4810070/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Short",
+    "First-Person",
+    "Horror",
+    "Atmospheric",
+    "Platformer",
+    "Female Protagonist",
+    "Adventure",
+    "Psychological Horror",
+    "Dark Fantasy",
+    "FPS",
+    "Dystopian",
+    "Philosophical",
+    "Shooter",
+    "Singleplayer",
+    "Action",
+    "Exploration",
+    "3D",
+    "Retro",
+    "Combat",
+    "Mystery Dungeon"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4810070/31be922da1b9dd7dcc3f0a6d79109ecfbcd0e2a2/header.jpg?t=1790272989",
+   "title": "CONCRETE BURIAL",
+   "url": "https://store.steampowered.com/app/4810070/",
+   "website": null
+  },
+  {
+   "categories": {
     "horror": 89.0
    },
    "description": "Sheriff James Cooper is slowly bleeding to death in an unfamiliar hospital. But the moment his life ends, everything starts over. He has fifteen minutes to break this endless cycle, uncover the truth, and find a way out before it's too late.",
@@ -17960,9 +18203,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2918090/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18019,9 +18265,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4167960/",
+     "https://www.jadenw.com"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18053,65 +18303,6 @@
   },
   {
    "categories": {
-    "horror": 89.0
-   },
-   "description": "Equipped only with a weapon that consumes your own blood, explore an ancient brutalist catacomb. Beware the Eyes of The Whispering Crypt. Find the 4 artifacts of desire. Confront God.",
-   "description_ja": "Equipped only with a weapon that consumes your own blood, explore an ancient brutalist catacomb. Beware the Eyes of The Whispering Crypt. Find the 4 artifacts of desire. Confront God.",
-   "developers": [
-    "Games From The Abyss"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:4810070",
-   "is_new": false,
-   "languages": [
-    "english"
-   ],
-   "negative": 34,
-   "positive": 179,
-   "positive_ratio": 0.8404,
-   "price_jpy": 405.0,
-   "release_date": "2026-09-17",
-   "reviews": 213,
-   "score": 89.0,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Short",
-    "First-Person",
-    "Horror",
-    "Atmospheric",
-    "Platformer",
-    "Female Protagonist",
-    "Adventure",
-    "Psychological Horror",
-    "Dark Fantasy",
-    "FPS",
-    "Dystopian",
-    "Philosophical",
-    "Shooter",
-    "Singleplayer",
-    "Action",
-    "Exploration",
-    "3D",
-    "Retro",
-    "Combat",
-    "Mystery Dungeon"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4810070/31be922da1b9dd7dcc3f0a6d79109ecfbcd0e2a2/header.jpg?t=1790272989",
-   "title": "CONCRETE BURIAL",
-   "url": "https://store.steampowered.com/app/4810070/",
-   "website": null
-  },
-  {
-   "categories": {
     "bakage": 88.9
    },
    "description": "Golf Gang is a racing game. It’s a party game. It’s the fastest game of minigolf you'll ever play!  Blend precision with speed to dominate in 8-player online mayhem or your solo speed runs.",
@@ -18138,9 +18329,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1151050/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18197,9 +18391,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2669150/",
+     "https://mindlock.games/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18256,9 +18454,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3979870/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18316,10 +18517,27 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4223300/",
+     "https://hexnestgames.com/",
+     "https://hexnestgames.com/press",
+     "https://hexnestgames.com/presskit",
+     "https://hexnestgames.com/press-kit",
+     "https://hexnestgames.com/streaming",
+     "https://hexnestgames.com/faq"
+    ],
+    "evidence": [
+     {
+      "excerpt": "You are free to record, stream, upload, and monetize any and all Birds of War content.",
+      "matched": [
+       "free to record"
+      ],
+      "url": "https://hexnestgames.com/presskit"
+     }
+    ],
+    "method": "auto",
+    "verdict": "ok"
    },
    "tags": [
     "Multiplayer",
@@ -18375,9 +18593,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1135700/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18418,19 +18639,22 @@
     "english"
    ],
    "negative": 42,
-   "positive": 559,
-   "positive_ratio": 0.9301,
+   "positive": 560,
+   "positive_ratio": 0.9302,
    "price_jpy": 1400.0,
    "release_date": "2025-02-04",
-   "reviews": 601,
+   "reviews": 602,
    "score": 88.8,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2194790/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18488,9 +18712,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2471970/",
+     "https://www.sotenbox.com/planetary-life/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18549,9 +18777,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2564960/",
+     "https://notovia.net/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18610,10 +18842,22 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3048760/",
+     "https://ci-en.net/creator/13341"
+    ],
+    "evidence": [
+     {
+      "excerpt": "Monetization is also allowed without any issues.",
+      "matched": [
+       "monetization is also allowed"
+      ],
+      "url": "https://store.steampowered.com/app/3048760/"
+     }
+    ],
+    "method": "auto",
+    "verdict": "ok"
    },
    "tags": [
     "Casual",
@@ -18670,9 +18914,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3599690/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18731,9 +18978,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3916300/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18788,9 +19038,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/5088440/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18847,9 +19100,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3412620/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18905,9 +19161,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3793580/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -18965,9 +19224,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4262310/",
+     "https://www.bagofducks.studio/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19021,9 +19284,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2810780/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19055,66 +19321,6 @@
   },
   {
    "categories": {
-    "bakage": 88.6
-   },
-   "description": "Black Hole Fishing is an absurd incremental game about catching, breeding, and perfecting SO MANY fish. Catch a fish, optimize its traits, then stock your pond with it as you pour fish and science into an endless singularity!",
-   "description_ja": "リラックスできる釣り旅行なんて忘れましょう、あなたは惑星破壊を最適化しているのです。突飛な実験を行い、奇妙な魚を繁殖させ、成長するシンギュラリティに食べさせましょう。科学が行き過ぎた、魅力的でダークコメディ調のインクリメンタルゲームです。",
-   "developers": [
-    "SDG Games"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:3667390",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 68,
-   "positive": 548,
-   "positive_ratio": 0.8896,
-   "price_jpy": 790.0,
-   "release_date": "2026-04-07",
-   "reviews": 616,
-   "score": 88.6,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Incremental",
-    "Idler",
-    "Fishing",
-    "Creature Collector",
-    "Casual",
-    "Top-Down",
-    "Relaxing",
-    "Funny",
-    "Resource Management",
-    "Economy",
-    "Management",
-    "Automation",
-    "Simulation",
-    "2D",
-    "Minimalist",
-    "Singleplayer",
-    "Experimental",
-    "Farming Sim",
-    "Procedural Generation",
-    "Cartoony"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3667390/734a575f478cc32e84201d6db947baf9ba880222/header.jpg?t=1793915245",
-   "title": "Black Hole Fishing",
-   "url": "https://store.steampowered.com/app/3667390/",
-   "website": null
-  },
-  {
-   "categories": {
     "horror": 88.6
    },
    "description": "Love, Death & My Daughter is a free game that combines a virtual desktop interface with narrative storytelling. you will repair a memory program within an old software system, gradually recover memories from the past, and come to understand the love a mother left behind in a new light.",
@@ -19142,9 +19348,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/5105650/",
+     "https://geismgame.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19193,9 +19403,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/5372440/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19227,66 +19440,6 @@
   },
   {
    "categories": {
-    "bakage": 88.5
-   },
-   "description": "Want to grab cute Taffies and toss them around? Dilly-draggy Taffy Town is a casual town-building fan game inspired by indie VTuber Ace Taffy. No one-way doors, complex Metroidvania maps or tough bosses—just loads of Taffies to drag around with your big, merciless hands!",
-   "description_ja": "かわいいタフィーをつかんで、ぶんぶん振り回してみませんか？『だらドラタフィタウン』は、個人勢VTuber・永雛タフィーのファンゲーム。気軽に遊べる町づくりシミュレーションです。一方通行の扉も、複雑なメトロイドヴァニア風のマップも、手強いボスもありません。いるのは、そこらじゅうを走り回るたくさんのタフィーたち！あなたは容赦ない大きな手となって、彼女たちをあちこち引っ張り回すだけ！",
-   "developers": [
-    "LuzhangGames"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:3186040",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 51,
-   "positive": 1638,
-   "positive_ratio": 0.9698,
-   "price_jpy": 235.0,
-   "release_date": "2025-08-29",
-   "reviews": 1689,
-   "score": 88.5,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Casual",
-    "Idler",
-    "Funny",
-    "Cute",
-    "Incremental",
-    "City Builder",
-    "Management",
-    "Physics",
-    "Isometric",
-    "Dark Comedy",
-    "Simulation",
-    "Dark Humor",
-    "Singleplayer",
-    "Economy",
-    "Capitalism",
-    "God Game",
-    "Cartoon",
-    "Comedy",
-    "3D",
-    "Top-Down"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186040/header.jpg?t=1794125447",
-   "title": "拖拖拉拉小菲镇",
-   "url": "https://store.steampowered.com/app/3186040/",
-   "website": null
-  },
-  {
-   "categories": {
     "horror": 88.5
    },
    "description": "Ignited Entry is a full length narrative driven psychological horror game with voice acting, dreamish visuals, and horror elements that will keep you on the edge of your seat. \r\n\r\nSome doors should never be opened. But you must go in.",
@@ -19312,9 +19465,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3292480/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19342,6 +19498,69 @@
    "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292480/header.jpg?t=1758140419",
    "title": "Ignited Entry",
    "url": "https://store.steampowered.com/app/3292480/",
+   "website": null
+  },
+  {
+   "categories": {
+    "bakage": 88.5
+   },
+   "description": "Black Hole Fishing is an absurd incremental game about catching, breeding, and perfecting SO MANY fish. Catch a fish, optimize its traits, then stock your pond with it as you pour fish and science into an endless singularity!",
+   "description_ja": "リラックスできる釣り旅行なんて忘れましょう、あなたは惑星破壊を最適化しているのです。突飛な実験を行い、奇妙な魚を繁殖させ、成長するシンギュラリティに食べさせましょう。科学が行き過ぎた、魅力的でダークコメディ調のインクリメンタルゲームです。",
+   "developers": [
+    "SDG Games"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:3667390",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 68,
+   "positive": 547,
+   "positive_ratio": 0.8894,
+   "price_jpy": 790.0,
+   "release_date": "2026-04-07",
+   "reviews": 615,
+   "score": 88.5,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3667390/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Incremental",
+    "Idler",
+    "Fishing",
+    "Creature Collector",
+    "Casual",
+    "Top-Down",
+    "Relaxing",
+    "Funny",
+    "Resource Management",
+    "Economy",
+    "Management",
+    "Automation",
+    "Simulation",
+    "2D",
+    "Minimalist",
+    "Singleplayer",
+    "Experimental",
+    "Farming Sim",
+    "Procedural Generation",
+    "Cartoony"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3667390/734a575f478cc32e84201d6db947baf9ba880222/header.jpg?t=1793915245",
+   "title": "Black Hole Fishing",
+   "url": "https://store.steampowered.com/app/3667390/",
    "website": null
   },
   {
@@ -19377,9 +19596,12 @@
    "source": "itch",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://seenthai.itch.io/this-role-you-are-capybara"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19418,9 +19640,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2575060/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19477,9 +19702,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3114010/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19511,6 +19739,69 @@
   },
   {
    "categories": {
+    "bakage": 88.4
+   },
+   "description": "Want to grab cute Taffies and toss them around? Dilly-draggy Taffy Town is a casual town-building fan game inspired by indie VTuber Ace Taffy. No one-way doors, complex Metroidvania maps or tough bosses—just loads of Taffies to drag around with your big, merciless hands!",
+   "description_ja": "かわいいタフィーをつかんで、ぶんぶん振り回してみませんか？『だらドラタフィタウン』は、個人勢VTuber・永雛タフィーのファンゲーム。気軽に遊べる町づくりシミュレーションです。一方通行の扉も、複雑なメトロイドヴァニア風のマップも、手強いボスもありません。いるのは、そこらじゅうを走り回るたくさんのタフィーたち！あなたは容赦ない大きな手となって、彼女たちをあちこち引っ張り回すだけ！",
+   "developers": [
+    "LuzhangGames"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:3186040",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 51,
+   "positive": 1643,
+   "positive_ratio": 0.9699,
+   "price_jpy": 235.0,
+   "release_date": "2025-08-29",
+   "reviews": 1694,
+   "score": 88.4,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3186040/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Casual",
+    "Idler",
+    "Funny",
+    "Cute",
+    "Incremental",
+    "City Builder",
+    "Management",
+    "Physics",
+    "Isometric",
+    "Dark Comedy",
+    "Simulation",
+    "Dark Humor",
+    "Singleplayer",
+    "Economy",
+    "Capitalism",
+    "God Game",
+    "Cartoon",
+    "Comedy",
+    "3D",
+    "Top-Down"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186040/header.jpg?t=1794125447",
+   "title": "拖拖拉拉小菲镇",
+   "url": "https://store.steampowered.com/app/3186040/",
+   "website": null
+  },
+  {
+   "categories": {
     "horror": 88.4
    },
    "description": "Village romance hotter than summer's heat!\r\n\r\nDrowning in debt, you escape to the countryside\r\nonly to meet the loan shark noona, your first love, and the tsundere village princess!\r\n\r\nThis summer, your heart’s melting faster than ice cream.\r\nWho’s going to set your world on fire?",
@@ -19537,9 +19828,14 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4179020/",
+     "https://storytaco.com/",
+     "https://storytaco.com/press-kit"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19596,9 +19892,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4562940/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19630,6 +19929,70 @@
   },
   {
    "categories": {
+    "horror": 88.3
+   },
+   "description": "Alice's World is a story-driven 2D adventure puzzle game. Amidst desolate ruins and deserted cities in a world filled with death, the young girl Alice hears \"your\" voice from in front of the screen. You must guide her forward, solve the mysteries, and reach the top of the tower.",
+   "description_ja": "『Ib』や『ゆめにっき』に影響を受けた、メタ要素のある謎解きADVです。主人公の少女「アリス」はプレイヤーである「あなた」を認識しています。これはゲームなので、どうプレイするかはあなたの自由です。ただし、アリスもあなたの行いを覚えていることをお忘れなく。",
+   "developers": [
+    "STORIA GAMES CO., LTD"
+   ],
+   "early_access": false,
+   "has_demo": true,
+   "id": "steam:2439560",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 37,
+   "positive": 302,
+   "positive_ratio": 0.8909,
+   "price_jpy": 1600.0,
+   "release_date": "2025-11-25",
+   "reviews": 339,
+   "score": 88.3,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2439560/",
+     "https://www.storiagame.com/aw-test"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Adventure",
+    "Horror",
+    "Story Rich",
+    "Cute",
+    "Anime",
+    "Side Scroller",
+    "Atmospheric",
+    "Exploration",
+    "Indie",
+    "Puzzle",
+    "2D",
+    "Female Protagonist",
+    "Psychological Horror",
+    "Singleplayer",
+    "Multiple Endings",
+    "Visual Novel",
+    "Choices Matter",
+    "Dark Fantasy",
+    "Psychological",
+    "Mystery"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439560/a756463c594d8cf5af252eff788fa87fd3ab9633/header.jpg?t=1790899279",
+   "title": "Alice's World",
+   "url": "https://store.steampowered.com/app/2439560/",
+   "website": "https://www.storiagame.com/aw-test"
+  },
+  {
+   "categories": {
     "bakage": 88.3
    },
    "description": "Go wild with your BFFS in your ultimate cozy getaway! Yank up hilariously plump veggies, reel in giant flappy fish, bump into adorable little animals, and unlock a bunch of weird and wonderful toys! If you feel like it, doing absolutely nothing on the beach is exactly what you're supposed to do!",
@@ -19656,9 +20019,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2918500/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19715,9 +20081,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3730790/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19775,9 +20144,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/852090/",
+     "https://www.penkopark.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19834,9 +20207,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1916970/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -19870,66 +20246,6 @@
    "categories": {
     "horror": 88.2
    },
-   "description": "Alice's World is a story-driven 2D adventure puzzle game. Amidst desolate ruins and deserted cities in a world filled with death, the young girl Alice hears \"your\" voice from in front of the screen. You must guide her forward, solve the mysteries, and reach the top of the tower.",
-   "description_ja": "『Ib』や『ゆめにっき』に影響を受けた、メタ要素のある謎解きADVです。主人公の少女「アリス」はプレイヤーである「あなた」を認識しています。これはゲームなので、どうプレイするかはあなたの自由です。ただし、アリスもあなたの行いを覚えていることをお忘れなく。",
-   "developers": [
-    "STORIA GAMES CO., LTD"
-   ],
-   "early_access": false,
-   "has_demo": true,
-   "id": "steam:2439560",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 37,
-   "positive": 301,
-   "positive_ratio": 0.8905,
-   "price_jpy": 1600.0,
-   "release_date": "2025-11-25",
-   "reviews": 338,
-   "score": 88.2,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Adventure",
-    "Horror",
-    "Story Rich",
-    "Cute",
-    "Anime",
-    "Side Scroller",
-    "Atmospheric",
-    "Exploration",
-    "Indie",
-    "Puzzle",
-    "2D",
-    "Female Protagonist",
-    "Psychological Horror",
-    "Singleplayer",
-    "Multiple Endings",
-    "Visual Novel",
-    "Choices Matter",
-    "Dark Fantasy",
-    "Psychological",
-    "Mystery"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439560/a756463c594d8cf5af252eff788fa87fd3ab9633/header.jpg?t=1790899279",
-   "title": "Alice's World",
-   "url": "https://store.steampowered.com/app/2439560/",
-   "website": "https://www.storiagame.com/aw-test"
-  },
-  {
-   "categories": {
-    "horror": 88.2
-   },
    "description": "You’re Sophie, a young blind girl who sees through her teddy bear’s eyes. Escape your captors and uncover the evil history of the dark mansion you desperately seek to escape in this unique, atmospheric horror puzzle/adventure game.",
    "description_ja": "『Out of Sight』は一人称と二人称視点、そして魅力的な声優の演技をブレンドした、没入感満載のホラーゲーム。背筋が凍るような感情的な旅へとプレイヤーを引き込んでいく。",
    "developers": [
@@ -19954,9 +20270,18 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2526310/",
+     "https://playoutofsight.com/",
+     "https://playoutofsight.com/press",
+     "https://playoutofsight.com/presskit",
+     "https://playoutofsight.com/press-kit",
+     "https://playoutofsight.com/streaming",
+     "https://playoutofsight.com/faq"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20015,10 +20340,32 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2988620/",
+     "https://nozorigames.ru",
+     "https://nozorigames.ru/press",
+     "https://nozorigames.ru/presskit",
+     "https://nozorigames.ru/press-kit"
+    ],
+    "evidence": [
+     {
+      "excerpt": "The game includes access to the Darkweb, a forbidden resource. The player's actions directly impact the streamer, the relationship with her, the overall plot, and the game's ending. Features:",
+      "matched": [
+       "forbidden"
+      ],
+      "url": "https://nozorigames.ru/press"
+     },
+     {
+      "excerpt": "The game includes access to the Darkweb, a forbidden resource. The player's actions directly impact the streamer, the relationship with her, the overall plot, and the game's ending. Features:",
+      "matched": [
+       "forbidden"
+      ],
+      "url": "https://nozorigames.ru/press-kit"
+     }
+    ],
+    "method": "auto",
+    "verdict": "ng"
    },
    "tags": [
     "Visual Novel",
@@ -20075,9 +20422,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3979350/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20135,9 +20485,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4217690/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20195,9 +20548,14 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2925320/",
+     "https://noobzilla.games/",
+     "https://noobzilla.games/presskit"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20245,19 +20603,22 @@
     "japanese"
    ],
    "negative": 54,
-   "positive": 363,
-   "positive_ratio": 0.8705,
+   "positive": 365,
+   "positive_ratio": 0.8711,
    "price_jpy": 350.0,
    "release_date": "2024-06-21",
-   "reviews": 417,
+   "reviews": 419,
    "score": 88.1,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3001730/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20315,9 +20676,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4038780/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20365,19 +20729,22 @@
     "japanese"
    ],
    "negative": 90,
-   "positive": 911,
-   "positive_ratio": 0.9101,
+   "positive": 912,
+   "positive_ratio": 0.9102,
    "price_jpy": 530.0,
    "release_date": "2026-08-28",
-   "reviews": 1001,
+   "reviews": 1002,
    "score": 88.1,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4529120/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20440,9 +20807,12 @@
    "source": "itch",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://nomnomnami.itch.io/date-senbei"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20481,9 +20851,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2521400/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20539,9 +20912,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2878140/",
+     "https://vchiban.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20598,9 +20975,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3388760/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20658,9 +21038,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3489670/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20718,9 +21101,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3532360/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20767,9 +21153,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3604800/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20827,9 +21216,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4645760/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20891,9 +21283,12 @@
    "source": "itch",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://objetdiscret.itch.io/tai-fab-kitchen"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20922,19 +21317,22 @@
     "japanese"
    ],
    "negative": 121,
-   "positive": 890,
-   "positive_ratio": 0.8803,
+   "positive": 891,
+   "positive_ratio": 0.8804,
    "price_jpy": 1200.0,
    "release_date": "2025-05-30",
-   "reviews": 1011,
+   "reviews": 1012,
    "score": 87.9,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2197890/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -20966,6 +21364,69 @@
   },
   {
    "categories": {
+    "horror": 87.9
+   },
+   "description": "The Wellmonts Case is a first-person psychological horror game set in 1993, Northern Maine. As a private detective, you explore the abandoned Wellmont farm, search for clues, photograph unsettling evidence, and uncover the truth behind a family's unexplained disappearance.",
+   "description_ja": "『The Wellmonts Case』は、1993年のメイン州北部を舞台にした一人称視点の心理ホラーゲームです。私立探偵として、放棄されたWellmont農場を探索し、手がかりを探し、不穏な証拠を撮影し、家族の謎めいた失踪の真相を明らかにします。",
+   "developers": [
+    "Zakym s. r. o."
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:3648400",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 12,
+   "positive": 223,
+   "positive_ratio": 0.9489,
+   "price_jpy": 1000.0,
+   "release_date": "2026-01-20",
+   "reviews": 235,
+   "score": 87.9,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3648400/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Adventure",
+    "Horror",
+    "Psychological Horror",
+    "Thriller",
+    "Walking Simulator",
+    "Dark",
+    "Atmospheric",
+    "3D",
+    "Mystery",
+    "Realistic",
+    "Exploration",
+    "Cinematic",
+    "Investigation",
+    "Psychological",
+    "Story Rich",
+    "Violent",
+    "First-Person",
+    "1990's",
+    "Singleplayer",
+    "Indie"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3648400/f81dd76e7c776d0510e7648d5ba0e1faafb03b0b/header.jpg?t=1791704132",
+   "title": "The Wellmonts Case",
+   "url": "https://store.steampowered.com/app/3648400/",
+   "website": null
+  },
+  {
+   "categories": {
     "bakage": 87.8
    },
    "description": "Generate voltage while uncovering the mysteries of a power plant in this story-based clicker game.",
@@ -20991,9 +21452,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2774240/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21041,9 +21505,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3480990/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21077,66 +21544,6 @@
    "categories": {
     "horror": 87.8
    },
-   "description": "The Wellmonts Case is a first-person psychological horror game set in 1993, Northern Maine. As a private detective, you explore the abandoned Wellmont farm, search for clues, photograph unsettling evidence, and uncover the truth behind a family's unexplained disappearance.",
-   "description_ja": "『The Wellmonts Case』は、1993年のメイン州北部を舞台にした一人称視点の心理ホラーゲームです。私立探偵として、放棄されたWellmont農場を探索し、手がかりを探し、不穏な証拠を撮影し、家族の謎めいた失踪の真相を明らかにします。",
-   "developers": [
-    "Zakym s. r. o."
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:3648400",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 12,
-   "positive": 222,
-   "positive_ratio": 0.9487,
-   "price_jpy": 1000.0,
-   "release_date": "2026-01-20",
-   "reviews": 234,
-   "score": 87.8,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Adventure",
-    "Horror",
-    "Psychological Horror",
-    "Thriller",
-    "Walking Simulator",
-    "Dark",
-    "Atmospheric",
-    "3D",
-    "Mystery",
-    "Realistic",
-    "Exploration",
-    "Cinematic",
-    "Investigation",
-    "Psychological",
-    "Story Rich",
-    "Violent",
-    "First-Person",
-    "1990's",
-    "Singleplayer",
-    "Indie"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3648400/f81dd76e7c776d0510e7648d5ba0e1faafb03b0b/header.jpg?t=1791704132",
-   "title": "The Wellmonts Case",
-   "url": "https://store.steampowered.com/app/3648400/",
-   "website": null
-  },
-  {
-   "categories": {
-    "horror": 87.8
-   },
    "description": "The court is peaceful after dark. Just you, a ball, and a whole lot of crickets. You put in the hours every evening. While your friends are out partying, you're on the grind. But tonight... you don't feel quite so alone.",
    "description_ja": "The court is peaceful after dark. Just you, a ball, and a whole lot of crickets. You put in the hours every evening. While your friends are out partying, you're on the grind. But tonight... you don't feel quite so alone.",
    "developers": [
@@ -21160,9 +21567,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4095020/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21210,9 +21620,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4540090/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21269,9 +21682,18 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1293650/",
+     "https://uani.de/b_2/",
+     "https://uani.de/press",
+     "https://uani.de/presskit",
+     "https://uani.de/press-kit",
+     "https://uani.de/streaming",
+     "https://uani.de/faq"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21330,9 +21752,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2462520/",
+     "https://notovia.net/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21390,9 +21816,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3864450/",
+     "https://bitbornestudio.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21449,9 +21879,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3919190/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21510,9 +21943,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4691990/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21566,9 +22002,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1939390/",
+     "https://studionachtwerk.com/dino-party"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21625,9 +22065,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2119590/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21684,9 +22127,18 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2971960/",
+     "http://www.findyourwordsgame.com",
+     "http://www.findyourwordsgame.com/press",
+     "http://www.findyourwordsgame.com/presskit",
+     "http://www.findyourwordsgame.com/press-kit",
+     "http://www.findyourwordsgame.com/streaming",
+     "http://www.findyourwordsgame.com/faq"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21744,9 +22196,18 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2983410/",
+     "https://firesquid.games/games/xenopurge",
+     "https://firesquid.games/press",
+     "https://firesquid.games/presskit",
+     "https://firesquid.games/press-kit",
+     "https://firesquid.games/streaming",
+     "https://firesquid.games/faq"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21793,19 +22254,23 @@
     "english"
    ],
    "negative": 48,
-   "positive": 631,
-   "positive_ratio": 0.9293,
+   "positive": 632,
+   "positive_ratio": 0.9294,
    "price_jpy": 1200.0,
    "release_date": "2025-07-08",
-   "reviews": 679,
+   "reviews": 680,
    "score": 87.6,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3104970/",
+     "https://backyardsports.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21856,9 +22321,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3212530/",
+     "http://harmonyzone.org/press/AnthologyOfTheKiller.html"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21915,9 +22384,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3316350/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -21975,9 +22447,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3447410/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22025,19 +22500,22 @@
     "japanese"
    ],
    "negative": 138,
-   "positive": 1245,
-   "positive_ratio": 0.9002,
+   "positive": 1246,
+   "positive_ratio": 0.9003,
    "price_jpy": 265.0,
    "release_date": "2026-05-08",
-   "reviews": 1383,
+   "reviews": 1384,
    "score": 87.6,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4479970/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22095,9 +22573,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1061180/",
+     "http://www.bruteforcegame.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22155,9 +22637,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2986450/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22214,9 +22699,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3583060/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22274,9 +22762,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3777270/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22333,9 +22824,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3832630/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22367,66 +22861,6 @@
   },
   {
    "categories": {
-    "bakage": 87.5
-   },
-   "description": "Chaotic bomb disposal fun with friends & monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?",
-   "description_ja": "友達とサルと爆弾解除！「見猿」、「聞か猿」、「言わ猿」の三猿になって協力しよう。必要な情報は各自に一部だけ。意思疎通し、謎を解き、時間と勝負！爆発前に解除できる？",
-   "developers": [
-    "Lefto Studio"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:4656000",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 175,
-   "positive": 4191,
-   "positive_ratio": 0.9599,
-   "price_jpy": 1050.0,
-   "release_date": "2026-09-02",
-   "reviews": 4366,
-   "score": 87.5,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Multiplayer",
-    "Online Co-Op",
-    "Team-Based",
-    "Puzzle",
-    "Party Game",
-    "Casual",
-    "Comedy",
-    "Funny",
-    "Time Management",
-    "Indie",
-    "Co-op",
-    "3D",
-    "First-Person",
-    "Cute",
-    "Choices Matter",
-    "Colorful",
-    "Family Friendly",
-    "Dialogue Heavy",
-    "Stylized",
-    "VR"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
-   "title": "BOMBANANA!",
-   "url": "https://store.steampowered.com/app/4656000/",
-   "website": "http://bombanana.leftostudio.com/"
-  },
-  {
-   "categories": {
     "horror": 87.5
    },
    "description": "A girl detective faces her darkest mystery yet, in this horror-romance visual novel with stickers, fashion, and bad ends.",
@@ -22442,19 +22876,22 @@
     "english"
    ],
    "negative": 27,
-   "positive": 1339,
-   "positive_ratio": 0.9802,
+   "positive": 1345,
+   "positive_ratio": 0.9803,
    "price_jpy": 1813.0,
    "release_date": "2026-08-24",
-   "reviews": 1366,
+   "reviews": 1372,
    "score": 87.5,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4833450/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22512,9 +22949,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2988300/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22573,9 +23013,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3091770/",
+     "https://mechanikoi.com.ar/en/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22630,9 +23074,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3481320/",
+     "https://roomgames.co/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22690,9 +23138,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3958640/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22724,6 +23175,70 @@
   },
   {
    "categories": {
+    "bakage": 87.4
+   },
+   "description": "Chaotic bomb disposal fun with friends & monkeys! Work together as a 3-player co-op team of blind, deaf, and mute monkeys. Each player has only part of the needed information. Communicate, solve puzzles, and race against the clock. Can you defuse the bombs before they explode?",
+   "description_ja": "友達とサルと爆弾解除！「見猿」、「聞か猿」、「言わ猿」の三猿になって協力しよう。必要な情報は各自に一部だけ。意思疎通し、謎を解き、時間と勝負！爆発前に解除できる？",
+   "developers": [
+    "Lefto Studio"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:4656000",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 175,
+   "positive": 4204,
+   "positive_ratio": 0.96,
+   "price_jpy": 1050.0,
+   "release_date": "2026-09-02",
+   "reviews": 4379,
+   "score": 87.4,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4656000/",
+     "http://bombanana.leftostudio.com/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Multiplayer",
+    "Online Co-Op",
+    "Team-Based",
+    "Puzzle",
+    "Party Game",
+    "Casual",
+    "Comedy",
+    "Funny",
+    "Time Management",
+    "Indie",
+    "Co-op",
+    "3D",
+    "First-Person",
+    "Cute",
+    "Choices Matter",
+    "Colorful",
+    "Family Friendly",
+    "Dialogue Heavy",
+    "Stylized",
+    "VR"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
+   "title": "BOMBANANA!",
+   "url": "https://store.steampowered.com/app/4656000/",
+   "website": "http://bombanana.leftostudio.com/"
+  },
+  {
+   "categories": {
     "horror": 87.3
    },
    "description": "ASPIS is a story-driven first-person horror game set in the late-1980s USSR. Engineer Andrey enters an experimental system to see his deceased family again. But the machine opens worlds it was never meant to find. Explore the institute and step beyond reality.",
@@ -22750,9 +23265,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3129420/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22811,9 +23329,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3827830/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22871,9 +23392,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4112070/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22930,9 +23454,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4287040/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -22989,9 +23516,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4588930/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23048,9 +23578,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3186680/",
+     "https://endysis.net/it-paints-me"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23107,9 +23641,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3807550/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23168,9 +23705,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2152740/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23228,9 +23768,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1583520/",
+     "https://slimekinggames.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23287,9 +23831,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2401230/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23347,9 +23894,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3294890/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23398,9 +23948,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3006280/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23457,9 +24010,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3689660/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23508,9 +24064,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4163030/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23568,9 +24127,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4796160/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23628,9 +24190,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3829620/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23688,9 +24253,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3866140/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23748,9 +24316,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3885590/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23797,19 +24368,22 @@
     "english"
    ],
    "negative": 4,
-   "positive": 374,
+   "positive": 373,
    "positive_ratio": 0.9894,
    "price_jpy": 120.0,
    "release_date": "2025-10-27",
-   "reviews": 378,
+   "reviews": 377,
    "score": 86.8,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3963070/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23867,9 +24441,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4191830/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23914,9 +24491,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4757300/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -23974,9 +24554,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1739900/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24034,9 +24617,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2317640/",
+     "https://nexile.se/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24094,9 +24681,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2476100/",
+     "http://creepybrothers.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24154,9 +24745,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2516920/",
+     "https://panitiagamedev.carrd.co/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24213,9 +24808,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2960770/",
+     "https://www.kekdot.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24272,9 +24871,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3229170/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24321,19 +24923,22 @@
     "english"
    ],
    "negative": 47,
-   "positive": 378,
-   "positive_ratio": 0.8894,
+   "positive": 381,
+   "positive_ratio": 0.8902,
    "price_jpy": 350.0,
    "release_date": "2025-03-11",
-   "reviews": 425,
+   "reviews": 428,
    "score": 86.7,
    "score_basis": "steam",
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3316470/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24387,9 +24992,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3734980/",
+     "https://dream-studios.net/games/ASimpleJob"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24448,9 +25057,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4286040/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24510,9 +25122,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1657170/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24569,9 +25184,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2761100/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24629,9 +25247,18 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3077570/",
+     "https://skoota.jp/games/momocrash/",
+     "https://skoota.jp/press",
+     "https://skoota.jp/presskit",
+     "https://skoota.jp/press-kit",
+     "https://skoota.jp/streaming",
+     "https://skoota.jp/faq"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24693,9 +25320,12 @@
    "source": "itch",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://seenthai.itch.io/this-role-you"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24733,9 +25363,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1070550/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24789,9 +25422,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1459910/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24849,9 +25485,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/1639610/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24903,9 +25542,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2479740/",
+     "https://www.emikagames.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -24962,9 +25605,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2596100/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25021,9 +25667,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3053950/",
+     "https://dungeonrampage.com/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25080,9 +25730,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3583310/",
+     "https://motamot.co/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25138,9 +25792,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3724490/",
+     "https://antiquegeargames.com"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25198,9 +25856,18 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4396620/",
+     "https://impress.games/press-kit/karaclan/unlucky-mummy",
+     "https://impress.games/press",
+     "https://impress.games/presskit",
+     "https://impress.games/press-kit",
+     "https://impress.games/streaming",
+     "https://impress.games/faq"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25255,9 +25922,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2192900/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25314,9 +25984,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/2948790/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25375,9 +26048,13 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3100210/",
+     "https://www.sourmilkgames.com/my-sweet-housemate"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25435,9 +26112,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3313310/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25469,67 +26149,6 @@
   },
   {
    "categories": {
-    "bakage": 85.5,
-    "horror": 86.3
-   },
-   "description": "Haunted Heist is a 3-8 player round-based PvP horror party game where Heisters find and retrieve gems in a procedurally generated mansion, while Tricksters use chaotic abilities to distress, disrupt, and dispose of them to protect their home.",
-   "description_ja": "Haunted Heistは3〜8人で遊ぶラウンド制のPvPホラーパーティーゲームです。ハイスターがランダム生成された屋敷内で宝石を探し集め、トリックスターが混沌とした能力を使ってハイスターを苦しめ、妨害し、そして排除しながら自分たちの家を守ります。",
-   "developers": [
-    "autotroph games"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:4024440",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 6,
-   "positive": 135,
-   "positive_ratio": 0.9574,
-   "price_jpy": 1350.0,
-   "release_date": "2026-10-12",
-   "reviews": 141,
-   "score": 86.3,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Party Game",
-    "Horror",
-    "Action",
-    "Funny",
-    "PvP",
-    "FPS",
-    "Heist",
-    "Character Customization",
-    "Multiplayer",
-    "Team-Based",
-    "Dark Comedy",
-    "Cartoony",
-    "Shooter",
-    "3D",
-    "Cute",
-    "First-Person",
-    "Stylized",
-    "Online Co-Op",
-    "Supernatural",
-    "Early Access"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4024440/a0c648f8b640efae435a68f2d05eff10e2c33b96/header.jpg?t=1794338478",
-   "title": "Haunted Heist",
-   "url": "https://store.steampowered.com/app/4024440/",
-   "website": "https://www.autotrophgames.com/"
-  },
-  {
-   "categories": {
     "horror": 86.3
    },
    "description": "The game takes place in the world of the Cretaceous Period... Dinosaurs attack players in various scenes, including jungles, caves, lakes, and some buildings eroded by plants! Use the characteristics of increased number of weapons to overcome difficult challenges!",
@@ -25557,9 +26176,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4249140/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25617,9 +26239,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/5133900/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25677,9 +26302,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3037930/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25737,9 +26365,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3400650/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25796,9 +26427,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3444220/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25830,6 +26464,63 @@
   },
   {
    "categories": {
+    "horror": 86.2
+   },
+   "description": "Yoko no Hanashi is a first-person survival horror game where you need to survive in an abandoned college with one of your chosen yandere: Yoto (male version) and Yoko (female version)",
+   "description_ja": "Yoko no Hanashi is a first-person survival horror game where you need to survive in an abandoned college with one of your chosen yandere: Yoto (male version) and Yoko (female version)",
+   "developers": [
+    "MerendaTeam"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:3906610",
+   "is_new": false,
+   "languages": [
+    "english"
+   ],
+   "negative": 28,
+   "positive": 280,
+   "positive_ratio": 0.9091,
+   "price_jpy": 470.0,
+   "release_date": "2026-01-26",
+   "reviews": 308,
+   "score": 86.2,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3906610/"
+    ],
+    "evidence": [],
+    "method": "auto",
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Indie",
+    "Horror",
+    "Exploration",
+    "Story Rich",
+    "Singleplayer",
+    "Casual",
+    "Puzzle",
+    "First-Person",
+    "3D",
+    "Survival Horror",
+    "Psychological Horror",
+    "Adventure",
+    "Action",
+    "Violent",
+    "Gore"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906610/ad7545090585b184e4b9327af068c49b3f75343a/header.jpg?t=1782334848",
+   "title": "Yoko no Hanashi",
+   "url": "https://store.steampowered.com/app/3906610/",
+   "website": null
+  },
+  {
+   "categories": {
     "bakage": 86.2
    },
    "description": "A co-op game for 1-6+ players where you fall, dig, and explode your way down a dangerous cave system to find your lost dog.\r\nCatch your friends and watch your step on this journey full of traps, hazards, and the most deadly force of all: gravity.\r\nWill you jump into the unknown to rescue your dog?",
@@ -25856,9 +26547,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4244510/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25900,7 +26594,7 @@
    "early_access": false,
    "has_demo": true,
    "id": "steam:4992660",
-   "is_new": true,
+   "is_new": false,
    "languages": [
     "english",
     "japanese"
@@ -25916,9 +26610,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/4992660/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -25976,9 +26673,12 @@
    "source": "steam",
    "stale": false,
    "streaming": {
-    "checked_at": null,
+    "checked_at": "2026-11-15T02:24:04Z",
+    "checked_urls": [
+     "https://store.steampowered.com/app/3565980/"
+    ],
     "evidence": [],
-    "method": null,
+    "method": "auto",
     "verdict": "unknown"
    },
    "tags": [
@@ -26006,60 +26706,6 @@
    "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565980/c9bef29849787df3c3dc6fd1644b798ae766d093/header.jpg?t=1787239450",
    "title": "The Stalked 3",
    "url": "https://store.steampowered.com/app/3565980/",
-   "website": null
-  },
-  {
-   "categories": {
-    "horror": 86.1
-   },
-   "description": "Yoko no Hanashi is a first-person survival horror game where you need to survive in an abandoned college with one of your chosen yandere: Yoto (male version) and Yoko (female version)",
-   "description_ja": "Yoko no Hanashi is a first-person survival horror game where you need to survive in an abandoned college with one of your chosen yandere: Yoto (male version) and Yoko (female version)",
-   "developers": [
-    "MerendaTeam"
-   ],
-   "early_access": false,
-   "has_demo": false,
-   "id": "steam:3906610",
-   "is_new": false,
-   "languages": [
-    "english"
-   ],
-   "negative": 28,
-   "positive": 279,
-   "positive_ratio": 0.9088,
-   "price_jpy": 470.0,
-   "release_date": "2026-01-26",
-   "reviews": 307,
-   "score": 86.1,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Indie",
-    "Horror",
-    "Exploration",
-    "Story Rich",
-    "Singleplayer",
-    "Casual",
-    "Puzzle",
-    "First-Person",
-    "3D",
-    "Survival Horror",
-    "Psychological Horror",
-    "Adventure",
-    "Action",
-    "Violent",
-    "Gore"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906610/ad7545090585b184e4b9327af068c49b3f75343a/header.jpg?t=1782334848",
-   "title": "Yoko no Hanashi",
-   "url": "https://store.steampowered.com/app/3906610/",
    "website": null
   },
   {
@@ -26171,6 +26817,67 @@
    "title": "Raise the Colours",
    "url": "https://store.steampowered.com/app/4008340/",
    "website": "https://linktr.ee/cornypastichedev"
+  },
+  {
+   "categories": {
+    "bakage": 85.4,
+    "horror": 86.1
+   },
+   "description": "Haunted Heist is a 3-8 player round-based PvP horror party game where Heisters find and retrieve gems in a procedurally generated mansion, while Tricksters use chaotic abilities to distress, disrupt, and dispose of them to protect their home.",
+   "description_ja": "Haunted Heistは3〜8人で遊ぶラウンド制のPvPホラーパーティーゲームです。ハイスターがランダム生成された屋敷内で宝石を探し集め、トリックスターが混沌とした能力を使ってハイスターを苦しめ、妨害し、そして排除しながら自分たちの家を守ります。",
+   "developers": [
+    "autotroph games"
+   ],
+   "early_access": false,
+   "has_demo": false,
+   "id": "steam:4024440",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 6,
+   "positive": 134,
+   "positive_ratio": 0.9571,
+   "price_jpy": 1350.0,
+   "release_date": "2026-10-12",
+   "reviews": 140,
+   "score": 86.1,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": null,
+    "evidence": [],
+    "method": null,
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Party Game",
+    "Horror",
+    "Action",
+    "Funny",
+    "PvP",
+    "FPS",
+    "Heist",
+    "Character Customization",
+    "Multiplayer",
+    "Team-Based",
+    "Dark Comedy",
+    "Cartoony",
+    "Shooter",
+    "3D",
+    "Cute",
+    "First-Person",
+    "Stylized",
+    "Online Co-Op",
+    "Supernatural",
+    "Early Access"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4024440/a0c648f8b640efae435a68f2d05eff10e2c33b96/header.jpg?t=1794338478",
+   "title": "Haunted Heist",
+   "url": "https://store.steampowered.com/app/4024440/",
+   "website": "https://www.autotrophgames.com/"
   },
   {
    "categories": {
@@ -27481,11 +28188,11 @@
     "japanese"
    ],
    "negative": 116,
-   "positive": 530,
-   "positive_ratio": 0.8204,
+   "positive": 531,
+   "positive_ratio": 0.8207,
    "price_jpy": 1700.0,
    "release_date": "2025-11-06",
-   "reviews": 646,
+   "reviews": 647,
    "score": 85.7,
    "score_basis": "steam",
    "source": "steam",
@@ -27600,11 +28307,11 @@
     "english"
    ],
    "negative": 32,
-   "positive": 1550,
-   "positive_ratio": 0.9798,
+   "positive": 1558,
+   "positive_ratio": 0.9799,
    "price_jpy": 1080.0,
    "release_date": "2026-09-21",
-   "reviews": 1582,
+   "reviews": 1590,
    "score": 85.7,
    "score_basis": "steam",
    "source": "steam",
@@ -28053,66 +28760,6 @@
    "categories": {
     "horror": 85.6
    },
-   "description": "Ghost Janitors is a multiplayer psychological horror game for 1-4 players. Your job? Cleaning haunted houses while avoiding terrifying monsters. Ready to face the spine-tingling challenge with your team?",
-   "description_ja": "Ghost Janitors は、1～4人で遊べるマルチプレイ対応の心理ホラーゲームです。あなたの仕事は？ 恐ろしいモンスターを避けながら、幽霊屋敷を清掃すること。仲間と一緒に、この背筋が凍る挑戦に立ち向かう覚悟はありますか？",
-   "developers": [
-    "Interactive Wave Studio"
-   ],
-   "early_access": false,
-   "has_demo": true,
-   "id": "steam:2772990",
-   "is_new": false,
-   "languages": [
-    "english",
-    "japanese"
-   ],
-   "negative": 139,
-   "positive": 933,
-   "positive_ratio": 0.8703,
-   "price_jpy": 1350.0,
-   "release_date": "2025-11-08",
-   "reviews": 1072,
-   "score": 85.6,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Horror",
-    "Online Co-Op",
-    "Psychological Horror",
-    "Multiplayer",
-    "Indie",
-    "Supernatural",
-    "Exploration",
-    "Realistic",
-    "Adventure",
-    "PvE",
-    "First-Person",
-    "Dark",
-    "Co-op",
-    "Early Access",
-    "Singleplayer",
-    "Action-Adventure",
-    "Action",
-    "Investigation",
-    "Hidden Object",
-    "Demons"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2772990/c4e6b95e5c371c233a30f29ca065de63d10aa489/header.jpg?t=1790870683",
-   "title": "Ghost Janitors",
-   "url": "https://store.steampowered.com/app/2772990/",
-   "website": null
-  },
-  {
-   "categories": {
-    "horror": 85.6
-   },
    "description": "Fragments of Dread is an episodic psychological horror series. Each episode tells a self-contained story of dread, fear, and survival.",
    "description_ja": "Fragments of Dread はエピソード形式の心理ホラーシリーズです。各エピソードは恐怖とサバイバルの独立した物語を描きます。",
    "developers": [
@@ -28394,6 +29041,66 @@
    "title": "Interior Worlds",
    "url": "https://store.steampowered.com/app/2207970/",
    "website": "https://raptorsoftgames.com/"
+  },
+  {
+   "categories": {
+    "horror": 85.5
+   },
+   "description": "Ghost Janitors is a multiplayer psychological horror game for 1-4 players. Your job? Cleaning haunted houses while avoiding terrifying monsters. Ready to face the spine-tingling challenge with your team?",
+   "description_ja": "Ghost Janitors は、1～4人で遊べるマルチプレイ対応の心理ホラーゲームです。あなたの仕事は？ 恐ろしいモンスターを避けながら、幽霊屋敷を清掃すること。仲間と一緒に、この背筋が凍る挑戦に立ち向かう覚悟はありますか？",
+   "developers": [
+    "Interactive Wave Studio"
+   ],
+   "early_access": false,
+   "has_demo": true,
+   "id": "steam:2772990",
+   "is_new": false,
+   "languages": [
+    "english",
+    "japanese"
+   ],
+   "negative": 140,
+   "positive": 935,
+   "positive_ratio": 0.8698,
+   "price_jpy": 1350.0,
+   "release_date": "2025-11-08",
+   "reviews": 1075,
+   "score": 85.5,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": null,
+    "evidence": [],
+    "method": null,
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Horror",
+    "Online Co-Op",
+    "Psychological Horror",
+    "Multiplayer",
+    "Indie",
+    "Supernatural",
+    "Exploration",
+    "Realistic",
+    "Adventure",
+    "PvE",
+    "First-Person",
+    "Dark",
+    "Co-op",
+    "Early Access",
+    "Singleplayer",
+    "Action-Adventure",
+    "Action",
+    "Investigation",
+    "Hidden Object",
+    "Demons"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2772990/c4e6b95e5c371c233a30f29ca065de63d10aa489/header.jpg?t=1790870683",
+   "title": "Ghost Janitors",
+   "url": "https://store.steampowered.com/app/2772990/",
+   "website": null
   },
   {
    "categories": {
@@ -30257,6 +30964,64 @@
   },
   {
    "categories": {
+    "horror": 85.1
+   },
+   "description": "\"Bureau of Contacts\" - ghost-hunting game for 1-4 players, in which you'll encounter 2 enemies at once - location itself and the ghosts with most human-like intelligence ever. So...look around and watch what you say!",
+   "description_ja": "\"Bureau of Contacts\" - 1～4人用の協力型ホラーゲームで、高度なジェネレーティブAI技術によってコントロールされた陰湿な幽霊や超常現象に立ち向かう。",
+   "developers": [
+    "MIROWIN"
+   ],
+   "early_access": false,
+   "has_demo": true,
+   "id": "steam:2840210",
+   "is_new": false,
+   "languages": [
+    "english"
+   ],
+   "negative": 112,
+   "positive": 480,
+   "positive_ratio": 0.8108,
+   "price_jpy": 920.0,
+   "release_date": "2025-04-12",
+   "reviews": 592,
+   "score": 85.1,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": null,
+    "evidence": [],
+    "method": null,
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Horror",
+    "Online Co-Op",
+    "Multiplayer",
+    "Co-op",
+    "Action",
+    "Adventure",
+    "Survival Horror",
+    "PvE",
+    "Exploration",
+    "Supernatural",
+    "Investigation",
+    "Action-Adventure",
+    "First-Person",
+    "Indie",
+    "Early Access",
+    "Psychological Horror",
+    "Singleplayer",
+    "Hentai",
+    "LGBTQ+"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840210/header.jpg?t=1755610209",
+   "title": "Bureau of Contacts",
+   "url": "https://store.steampowered.com/app/2840210/",
+   "website": "https://mirowin.com/"
+  },
+  {
+   "categories": {
     "bakage": 85.1
    },
    "description": "The rats told me to make this game. Run and gun alongside your troops in the Great Rat War against the vile TechnoRat armies. Recruit units, build structures, collect gear and upgrade your weapons to turn the tide of battle in your favor. The TechnoRat is all consuming!",
@@ -30449,7 +31214,7 @@
    ],
    "has_demo": false,
    "id": "itch:stars-en-delire/stars-en-dlire-dition-parodie",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -30596,64 +31361,6 @@
    "title": "Bring Me that Shawarma",
    "url": "https://store.steampowered.com/app/2635980/",
    "website": "https://shawaverse.carrd.co/"
-  },
-  {
-   "categories": {
-    "horror": 85.0
-   },
-   "description": "\"Bureau of Contacts\" - ghost-hunting game for 1-4 players, in which you'll encounter 2 enemies at once - location itself and the ghosts with most human-like intelligence ever. So...look around and watch what you say!",
-   "description_ja": "\"Bureau of Contacts\" - 1～4人用の協力型ホラーゲームで、高度なジェネレーティブAI技術によってコントロールされた陰湿な幽霊や超常現象に立ち向かう。",
-   "developers": [
-    "MIROWIN"
-   ],
-   "early_access": false,
-   "has_demo": true,
-   "id": "steam:2840210",
-   "is_new": false,
-   "languages": [
-    "english"
-   ],
-   "negative": 112,
-   "positive": 479,
-   "positive_ratio": 0.8105,
-   "price_jpy": 920.0,
-   "release_date": "2025-04-12",
-   "reviews": 591,
-   "score": 85.0,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Horror",
-    "Online Co-Op",
-    "Multiplayer",
-    "Co-op",
-    "Action",
-    "Adventure",
-    "Survival Horror",
-    "PvE",
-    "Exploration",
-    "Supernatural",
-    "Investigation",
-    "Action-Adventure",
-    "First-Person",
-    "Indie",
-    "Early Access",
-    "Psychological Horror",
-    "Singleplayer",
-    "Hentai",
-    "LGBTQ+"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840210/header.jpg?t=1755610209",
-   "title": "Bureau of Contacts",
-   "url": "https://store.steampowered.com/app/2840210/",
-   "website": "https://mirowin.com/"
   },
   {
    "categories": {
@@ -31567,7 +32274,7 @@
    ],
    "has_demo": false,
    "id": "itch:alexdevelopergame/old-guy-delivery",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -31662,7 +32369,7 @@
    ],
    "has_demo": false,
    "id": "itch:bytesizefactory/i-hate-flies",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -31708,7 +32415,7 @@
    ],
    "has_demo": false,
    "id": "itch:double-system-games/gorilla-warfare",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -31754,7 +32461,7 @@
    ],
    "has_demo": false,
    "id": "itch:ghostframe/deep-dark-dungeon",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -31846,7 +32553,7 @@
    ],
    "has_demo": false,
    "id": "itch:hertzmc/grand-theft-tractor",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -31938,7 +32645,7 @@
    ],
    "has_demo": false,
    "id": "itch:kaybroh/minimum-viable-hero",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -31984,7 +32691,7 @@
    ],
    "has_demo": false,
    "id": "itch:kockastudio/last-in-line",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -32030,7 +32737,7 @@
    ],
    "has_demo": false,
    "id": "itch:mariom-glasc/lil-dickys-freaky-friday",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -32260,7 +32967,7 @@
    ],
    "has_demo": false,
    "id": "itch:sacerdotex/mi-piso-de-11-m2",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -32398,7 +33105,7 @@
    ],
    "has_demo": false,
    "id": "itch:wellspringstudios/barry-the-bat-worth-it",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -33067,65 +33774,6 @@
    "title": "Digger: Galactic Treasures",
    "url": "https://store.steampowered.com/app/3604430/",
    "website": "https://rainstylegames.com/"
-  },
-  {
-   "categories": {
-    "horror": 84.7
-   },
-   "description": "Put the ‘love’ in 'Lovecraftian horror!' When a captivating comet named Hheily crashes into your apartment, you are drawn into an interplanetary conflict between light and dark. Feed Hheily's fire to save the world in this horror-comedy visual novel… and maybe even win a smooch!",
-   "description_ja": "ラヴクラフト風ホラーで愛を育もう！魅惑的な彗星ハレイがマンションの自室に墜落し、君は光と闇の惑星間戦争に巻き込まれてしまう。ホラーコメディービジュアルノベルでハレイに火を与え続けて世界を救え…そしてごほうびにキスをもらおう！",
-   "developers": [
-    "Akabaka"
-   ],
-   "early_access": false,
-   "has_demo": true,
-   "id": "steam:3848900",
-   "is_new": false,
-   "languages": [
-    "english"
-   ],
-   "negative": 22,
-   "positive": 200,
-   "positive_ratio": 0.9009,
-   "price_jpy": 1700.0,
-   "release_date": "2026-08-31",
-   "reviews": 222,
-   "score": 84.7,
-   "score_basis": "steam",
-   "source": "steam",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "Horror",
-    "Comedy",
-    "Visual Novel",
-    "Romance",
-    "Anime",
-    "Lovecraftian",
-    "RPG",
-    "Simulation",
-    "Psychological Horror",
-    "Hand-drawn",
-    "Cute",
-    "Multiple Endings",
-    "Choices Matter",
-    "Casual",
-    "Story Rich",
-    "Indie",
-    "2D",
-    "1990's",
-    "Singleplayer",
-    "Point & Click"
-   ],
-   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848900/228a30b1901b66a2df9846d661a96ddd70992674/header.jpg?t=1789349447",
-   "title": "Sucker for Love: Crush Landing",
-   "url": "https://store.steampowered.com/app/3848900/",
-   "website": null
   },
   {
    "categories": {
@@ -34062,6 +34710,65 @@
    "categories": {
     "horror": 84.5
    },
+   "description": "Put the ‘love’ in 'Lovecraftian horror!' When a captivating comet named Hheily crashes into your apartment, you are drawn into an interplanetary conflict between light and dark. Feed Hheily's fire to save the world in this horror-comedy visual novel… and maybe even win a smooch!",
+   "description_ja": "ラヴクラフト風ホラーで愛を育もう！魅惑的な彗星ハレイがマンションの自室に墜落し、君は光と闇の惑星間戦争に巻き込まれてしまう。ホラーコメディービジュアルノベルでハレイに火を与え続けて世界を救え…そしてごほうびにキスをもらおう！",
+   "developers": [
+    "Akabaka"
+   ],
+   "early_access": false,
+   "has_demo": true,
+   "id": "steam:3848900",
+   "is_new": false,
+   "languages": [
+    "english"
+   ],
+   "negative": 22,
+   "positive": 198,
+   "positive_ratio": 0.9,
+   "price_jpy": 1700.0,
+   "release_date": "2026-08-31",
+   "reviews": 220,
+   "score": 84.5,
+   "score_basis": "steam",
+   "source": "steam",
+   "stale": false,
+   "streaming": {
+    "checked_at": null,
+    "evidence": [],
+    "method": null,
+    "verdict": "unknown"
+   },
+   "tags": [
+    "Horror",
+    "Comedy",
+    "Visual Novel",
+    "Romance",
+    "Anime",
+    "Lovecraftian",
+    "RPG",
+    "Simulation",
+    "Psychological Horror",
+    "Hand-drawn",
+    "Cute",
+    "Multiple Endings",
+    "Choices Matter",
+    "Casual",
+    "Story Rich",
+    "Indie",
+    "2D",
+    "1990's",
+    "Singleplayer",
+    "Point & Click"
+   ],
+   "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3848900/228a30b1901b66a2df9846d661a96ddd70992674/header.jpg?t=1789349447",
+   "title": "Sucker for Love: Crush Landing",
+   "url": "https://store.steampowered.com/app/3848900/",
+   "website": null
+  },
+  {
+   "categories": {
+    "horror": 84.5
+   },
    "description": "You’re on duty at crossing #13. Keep an eye on the tracks, repair the sleepers, open the barriers for trains, cars, and people. Something in the woods is barking… and it’s calling you.",
    "description_ja": "あなたは第13号踏切の当直係員だ。線路を監視し、レールを修理し、列車や人、車を通行させろ。森の中で何かが吠え、あなたを呼んでいる。",
    "developers": [
@@ -34070,7 +34777,7 @@
    "early_access": false,
    "has_demo": true,
    "id": "steam:4398770",
-   "is_new": true,
+   "is_new": false,
    "languages": [
     "english",
     "japanese"
@@ -34226,7 +34933,7 @@
    ],
    "has_demo": false,
    "id": "itch:wrong-way-games/awkward-conversation-simulator",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -34846,11 +35553,11 @@
     "english"
    ],
    "negative": 31,
-   "positive": 283,
-   "positive_ratio": 0.9013,
+   "positive": 284,
+   "positive_ratio": 0.9016,
    "price_jpy": 470.0,
    "release_date": "2025-01-03",
-   "reviews": 314,
+   "reviews": 315,
    "score": 84.3,
    "score_basis": "steam",
    "source": "steam",
@@ -35069,7 +35776,7 @@
    ],
    "has_demo": false,
    "id": "itch:lazykitten/catchlight",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -35705,7 +36412,7 @@
    "early_access": false,
    "has_demo": false,
    "id": "steam:2590250",
-   "is_new": true,
+   "is_new": false,
    "languages": [
     "english"
    ],
@@ -35878,7 +36585,7 @@
    ],
    "has_demo": false,
    "id": "itch:mookichuu/overdose",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -39914,7 +40621,7 @@
    "early_access": false,
    "has_demo": false,
    "id": "steam:2216360",
-   "is_new": true,
+   "is_new": false,
    "languages": [
     "english",
     "japanese"
@@ -40294,7 +41001,7 @@
    ],
    "has_demo": false,
    "id": "itch:archonic/feast-of-jerbert",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -40339,7 +41046,7 @@
    ],
    "has_demo": false,
    "id": "itch:beefsupremelatteking/fling-cycle",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -40384,7 +41091,7 @@
    ],
    "has_demo": false,
    "id": "itch:beerserker103/strikethat",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -40427,7 +41134,7 @@
    ],
    "has_demo": false,
    "id": "itch:bestbrogames/bestbrofighter",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -40472,7 +41179,7 @@
    ],
    "has_demo": false,
    "id": "itch:hulxjmd3000/huy-game",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -40517,7 +41224,7 @@
    ],
    "has_demo": false,
    "id": "itch:king-nas/machoman-rocketwala",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -40560,7 +41267,7 @@
    ],
    "has_demo": false,
    "id": "itch:oxtar-dev/farm-for-sale-charity-race",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -40603,7 +41310,7 @@
    ],
    "has_demo": false,
    "id": "itch:pixelgames11/cookie-house-classic",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [],
@@ -40646,7 +41353,7 @@
    ],
    "has_demo": false,
    "id": "itch:renansimmoesgmailcom/confia",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -40676,53 +41383,6 @@
    "website": null
   },
   {
-   "author": "selyk-alien",
-   "categories": {
-    "horror": 77.5
-   },
-   "description": "Obsession is a visual novel or dating sim where you will make some Creepypastas fall in love with you",
-   "description_ja": null,
-   "developers": [
-    "selyk-alien"
-   ],
-   "early_access": false,
-   "feeds": [
-    "popular"
-   ],
-   "has_demo": false,
-   "id": "itch:selyk-alien/obsession",
-   "is_new": false,
-   "languages": [],
-   "negative": null,
-   "platforms": [
-    "android",
-    "osx",
-    "windows"
-   ],
-   "positive": null,
-   "positive_ratio": null,
-   "price_jpy": 0.0,
-   "release_date": "2025-11-20",
-   "reviews": null,
-   "score": 77.5,
-   "score_basis": "itch",
-   "source": "itch",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "horror"
-   ],
-   "thumbnail": "https://img.itch.zone/aW1nLzI4OTQ1MDY5LmpwZw==/315x250%23c/7hxD2D.jpg",
-   "title": "Obsession",
-   "url": "https://selyk-alien.itch.io/obsession",
-   "website": null
-  },
-  {
    "author": "viclow",
    "categories": {
     "bakage": 77.5
@@ -40738,7 +41398,7 @@
    ],
    "has_demo": false,
    "id": "itch:viclow/dust-and-thunder",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -40873,7 +41533,7 @@
    ],
    "has_demo": false,
    "id": "itch:ahmedbermo/feather-storm",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41051,7 +41711,7 @@
    ],
    "has_demo": false,
    "id": "itch:anewworlds/flagged",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41139,7 +41799,7 @@
    ],
    "has_demo": false,
    "id": "itch:avrdevstudio/hex-keys",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41184,7 +41844,7 @@
    ],
    "has_demo": false,
    "id": "itch:avrdevstudio/polterkeys",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41319,7 +41979,7 @@
    ],
    "has_demo": false,
    "id": "itch:big-studio/femboy-clicker",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41364,7 +42024,7 @@
    ],
    "has_demo": false,
    "id": "itch:boju-team/onethousand1",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41409,7 +42069,7 @@
    ],
    "has_demo": false,
    "id": "itch:brotherworks-studio/nightoffear",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41589,7 +42249,7 @@
    ],
    "has_demo": false,
    "id": "itch:dragon-slayer-27/bottomless",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41859,7 +42519,7 @@
    ],
    "has_demo": false,
    "id": "itch:hrbones/moorpislab",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41949,7 +42609,7 @@
    ],
    "has_demo": false,
    "id": "itch:juliolgs/bass-rush",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -41994,7 +42654,7 @@
    ],
    "has_demo": false,
    "id": "itch:keltime/fanta-stic",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -42039,7 +42699,7 @@
    ],
    "has_demo": false,
    "id": "itch:kohaku-works/japan-toilet-quiz",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -42174,7 +42834,7 @@
    ],
    "has_demo": false,
    "id": "itch:maq/the-last-show",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -42263,7 +42923,7 @@
    ],
    "has_demo": false,
    "id": "itch:njudev/scam-with-your-friends",
-   "is_new": true,
+   "is_new": false,
    "languages": [],
    "negative": null,
    "platforms": [
@@ -42290,97 +42950,6 @@
    "thumbnail": "https://img.itch.zone/aW1nLzMyMjcyODMzLmpwZw==/315x250%23c/KAgCyT.jpg",
    "title": "Scam With Your Friends",
    "url": "https://njudev.itch.io/scam-with-your-friends",
-   "website": null
-  },
-  {
-   "author": "racheldrawsthis",
-   "categories": {
-    "horror": 76.8
-   },
-   "description": "A short RPG thriller-story game about visiting your old friend's wedding.",
-   "description_ja": null,
-   "developers": [
-    "racheldrawsthis"
-   ],
-   "early_access": false,
-   "feeds": [
-    "top_rated"
-   ],
-   "has_demo": false,
-   "id": "itch:racheldrawsthis/married-in-red",
-   "is_new": false,
-   "languages": [],
-   "negative": null,
-   "platforms": [
-    "osx",
-    "windows"
-   ],
-   "positive": null,
-   "positive_ratio": null,
-   "price_jpy": 0.0,
-   "release_date": "2024-06-28",
-   "reviews": null,
-   "score": 76.8,
-   "score_basis": "itch",
-   "source": "itch",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "horror"
-   ],
-   "thumbnail": "https://img.itch.zone/aW1nLzE2NzE3MDc4LnBuZw==/315x250%23c/itNyZG.png",
-   "title": "Married in Red",
-   "url": "https://racheldrawsthis.itch.io/married-in-red",
-   "website": null
-  },
-  {
-   "author": "jennyvipham",
-   "categories": {
-    "horror": 76.1
-   },
-   "description": "Help him achieve his dreams!",
-   "description_ja": null,
-   "developers": [
-    "jennyvipham"
-   ],
-   "early_access": false,
-   "feeds": [
-    "top_rated"
-   ],
-   "has_demo": false,
-   "id": "itch:jennyvipham/going-live",
-   "is_new": false,
-   "languages": [],
-   "negative": null,
-   "platforms": [
-    "html"
-   ],
-   "positive": null,
-   "positive_ratio": null,
-   "price_jpy": 0.0,
-   "release_date": "2024-02-20",
-   "reviews": null,
-   "score": 76.1,
-   "score_basis": "itch",
-   "source": "itch",
-   "stale": false,
-   "streaming": {
-    "checked_at": null,
-    "evidence": [],
-    "method": null,
-    "verdict": "unknown"
-   },
-   "tags": [
-    "horror"
-   ],
-   "thumbnail": "https://img.itch.zone/aW1nLzE1NTYwNjQ3LnBuZw==/315x250%23c/ZOChpM.png",
-   "title": "Going Live!",
-   "url": "https://jennyvipham.itch.io/going-live",
    "website": null
   }
  ]

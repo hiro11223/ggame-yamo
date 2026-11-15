@@ -368,6 +368,24 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "itch:iconicxpgames/torchwatch-free-demo": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://iconicxpgames.itch.io/torchwatch-free-demo"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "itch:iconicxpgames/torchwatch-last-fort-last-hope": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://iconicxpgames.itch.io/torchwatch-last-fort-last-hope"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "itch:jaydenchii/slice-of-life-warmindo": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -584,10 +602,28 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "itch:nomnomnami/date-senbei": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://nomnomnami.itch.io/date-senbei"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "itch:notsospecialgames/grandfathers-estate": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://notsospecialgames.itch.io/grandfathers-estate"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "itch:objetdiscret/tai-fab-kitchen": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://objetdiscret.itch.io/tai-fab-kitchen"
   ],
   "evidence": [],
   "method": "auto",
@@ -764,6 +800,24 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "itch:seenthai/this-role-you": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://seenthai.itch.io/this-role-you"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "itch:seenthai/this-role-you-are-capybara": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://seenthai.itch.io/this-role-you-are-capybara"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "itch:seenthai/this-role-you-are-hamster": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -899,6 +953,15 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "itch:xdgamess/dead-end": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://xdgamess.itch.io/dead-end"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "itch:zeus074/k-7-the-curse-of-the-valley": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -926,6 +989,95 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:1061180": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1061180/",
+   "http://www.bruteforcegame.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1070550": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1070550/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1135700": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1135700/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1151050": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1151050/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1293650": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1293650/",
+   "https://uani.de/b_2/",
+   "https://uani.de/press",
+   "https://uani.de/presskit",
+   "https://uani.de/press-kit",
+   "https://uani.de/streaming",
+   "https://uani.de/faq"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1459910": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1459910/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1583520": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1583520/",
+   "https://slimekinggames.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1639610": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1639610/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1657170": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1657170/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:1684410": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -945,6 +1097,15 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:1739900": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1739900/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:1771180": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -958,6 +1119,25 @@
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/1910150/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1916970": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1916970/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:1939390": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/1939390/",
+   "https://studionachtwerk.com/dino-party"
   ],
   "evidence": [],
   "method": "auto",
@@ -987,6 +1167,51 @@
   "checked_urls": [
    "https://store.steampowered.com/app/2054520/",
    "https://drive.google.com/drive/folders/11Y5BYgJ34ZWW7Nj17ncwVBUZ5gG3EJj7?usp=sharing"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2119590": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2119590/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2152740": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2152740/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2192900": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2192900/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2194790": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2194790/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2197890": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2197890/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1048,6 +1273,16 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2317640": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2317640/",
+   "https://nexile.se/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2318480": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -1087,12 +1322,31 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2401230": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2401230/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2430900": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/2430900/",
    "https://www.ratcliffgames.com/",
    "https://www.ratcliffgames.com/presskit"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2439560": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2439560/",
+   "https://www.storiagame.com/aw-test"
   ],
   "evidence": [],
   "method": "auto",
@@ -1107,10 +1361,50 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2462520": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2462520/",
+   "https://notovia.net/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2471970": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2471970/",
+   "https://www.sotenbox.com/planetary-life/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2474030": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/2474030/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2476100": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2476100/",
+   "http://creepybrothers.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2479740": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2479740/",
+   "https://www.emikagames.com/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1127,6 +1421,25 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2516920": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2516920/",
+   "https://panitiagamedev.carrd.co/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2521400": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2521400/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2524930": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -1137,10 +1450,44 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2526310": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2526310/",
+   "https://playoutofsight.com/",
+   "https://playoutofsight.com/press",
+   "https://playoutofsight.com/presskit",
+   "https://playoutofsight.com/press-kit",
+   "https://playoutofsight.com/streaming",
+   "https://playoutofsight.com/faq"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2564910": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/2564910/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2564960": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2564960/",
+   "https://notovia.net/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2575060": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2575060/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1159,6 +1506,15 @@
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/2587770/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2596100": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2596100/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1208,6 +1564,16 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2669150": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2669150/",
+   "https://mindlock.games/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2701080": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -1221,6 +1587,24 @@
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/2731330/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2761100": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2761100/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2774240": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2774240/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1257,6 +1641,15 @@
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/2794590/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2810780": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2810780/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1299,12 +1692,31 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2878140": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2878140/",
+   "https://vchiban.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2895680": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/2895680/",
    "https://belowrustedgods.com/",
    "https://belowrustedgods.com/press"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2918090": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2918090/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1320,10 +1732,39 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2918500": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2918500/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2925320": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2925320/",
+   "https://noobzilla.games/",
+   "https://noobzilla.games/presskit"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2933200": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/2933200/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2948790": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2948790/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1338,6 +1779,16 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2960770": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2960770/",
+   "https://www.kekdot.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:2964280": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -1347,10 +1798,104 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:2971960": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2971960/",
+   "http://www.findyourwordsgame.com",
+   "http://www.findyourwordsgame.com/press",
+   "http://www.findyourwordsgame.com/presskit",
+   "http://www.findyourwordsgame.com/press-kit",
+   "http://www.findyourwordsgame.com/streaming",
+   "http://www.findyourwordsgame.com/faq"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2983410": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2983410/",
+   "https://firesquid.games/games/xenopurge",
+   "https://firesquid.games/press",
+   "https://firesquid.games/presskit",
+   "https://firesquid.games/press-kit",
+   "https://firesquid.games/streaming",
+   "https://firesquid.games/faq"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2986450": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2986450/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2988300": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2988300/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:2988620": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/2988620/",
+   "https://nozorigames.ru",
+   "https://nozorigames.ru/press",
+   "https://nozorigames.ru/presskit",
+   "https://nozorigames.ru/press-kit"
+  ],
+  "evidence": [
+   {
+    "excerpt": "The game includes access to the Darkweb, a forbidden resource. The player's actions directly impact the streamer, the relationship with her, the overall plot, and the game's ending. Features:",
+    "matched": [
+     "forbidden"
+    ],
+    "url": "https://nozorigames.ru/press"
+   },
+   {
+    "excerpt": "The game includes access to the Darkweb, a forbidden resource. The player's actions directly impact the streamer, the relationship with her, the overall plot, and the game's ending. Features:",
+    "matched": [
+     "forbidden"
+    ],
+    "url": "https://nozorigames.ru/press-kit"
+   }
+  ],
+  "method": "auto",
+  "verdict": "ng"
+ },
+ "steam:3001730": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3001730/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3003460": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3003460/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3006280": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3006280/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1377,10 +1922,65 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3037930": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3037930/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3044030": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3044030/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3046300": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3046300/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3048140": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3048140/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3048760": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3048760/",
+   "https://ci-en.net/creator/13341"
+  ],
+  "evidence": [
+   {
+    "excerpt": "Monetization is also allowed without any issues.",
+    "matched": [
+     "monetization is also allowed"
+    ],
+    "url": "https://store.steampowered.com/app/3048760/"
+   }
+  ],
+  "method": "auto",
+  "verdict": "ok"
+ },
+ "steam:3053950": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3053950/",
+   "https://dungeonrampage.com/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1406,10 +2006,73 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3077570": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3077570/",
+   "https://skoota.jp/games/momocrash/",
+   "https://skoota.jp/press",
+   "https://skoota.jp/presskit",
+   "https://skoota.jp/press-kit",
+   "https://skoota.jp/streaming",
+   "https://skoota.jp/faq"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3091770": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3091770/",
+   "https://mechanikoi.com.ar/en/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3100210": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3100210/",
+   "https://www.sourmilkgames.com/my-sweet-housemate"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3104970": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3104970/",
+   "https://backyardsports.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3111080": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3111080/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3114010": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3114010/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3129420": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3129420/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1442,6 +2105,16 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3145620": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3145620/",
+   "https://jessemakkonen.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3149370": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -1464,6 +2137,53 @@
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3156330/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3168310": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3168310/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3186040": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3186040/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3186680": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3186680/",
+   "https://endysis.net/it-paints-me"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3212530": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3212530/",
+   "http://harmonyzone.org/press/AnthologyOfTheKiller.html"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3229170": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3229170/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1502,6 +2222,24 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3292480": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3292480/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3294890": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3294890/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3301370": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -1520,11 +2258,49 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3313310": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3313310/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3314580": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3314580/",
    "https://trashdaygame.com"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3316350": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3316350/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3316470": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3316470/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3327120": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3327120/",
+   "https://dreadline.express/",
+   "https://dreadline.express/press"
   ],
   "evidence": [],
   "method": "auto",
@@ -1579,6 +2355,15 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3388760": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3388760/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3390880": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -1592,6 +2377,15 @@
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3394770/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3400650": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3400650/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1617,10 +2411,37 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3412620": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3412620/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3432480": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3432480/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3444220": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3444220/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3447410": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3447410/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1653,6 +2474,34 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3480990": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3480990/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3481320": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3481320/",
+   "https://roomgames.co/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3489670": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3489670/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3509160": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -1666,6 +2515,15 @@
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3529690/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3532360": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3532360/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1720,10 +2578,37 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3565980": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3565980/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3566870": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3566870/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3575300": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3575300/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3583060": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3583060/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1735,6 +2620,16 @@
    "https://store.steampowered.com/app/3583210/",
    "http://aggrocrab.com",
    "http://aggrocrab.com/press"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3583310": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3583310/",
+   "https://motamot.co/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1795,6 +2690,24 @@
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3597880/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3599690": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3599690/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3604800": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3604800/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1865,6 +2778,15 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3648400": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3648400/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3648730": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -1887,6 +2809,24 @@
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3667230/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3667390": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3667390/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3689660": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3689660/"
   ],
   "evidence": [],
   "method": "auto",
@@ -1919,10 +2859,39 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3724490": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3724490/",
+   "https://antiquegeargames.com"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3725090": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3725090/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3730790": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3730790/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3734980": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3734980/",
+   "https://dream-studios.net/games/ASimpleJob"
   ],
   "evidence": [],
   "method": "auto",
@@ -1973,6 +2942,33 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3777270": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3777270/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3793580": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3793580/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3807550": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3807550/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3809870": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -2012,6 +3008,33 @@
   "method": "auto",
   "verdict": "ok"
  },
+ "steam:3827830": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3827830/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3829620": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3829620/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3832630": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3832630/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3839300": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -2026,6 +3049,25 @@
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3848750/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3864450": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3864450/",
+   "https://bitbornestudio.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3866140": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3866140/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2051,6 +3093,15 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3885590": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3885590/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3894170": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -2065,6 +3116,15 @@
   "checked_urls": [
    "https://store.steampowered.com/app/3902800/",
    "https://herror.net/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3906610": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3906610/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2088,10 +3148,28 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3916300": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3916300/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3917620": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3917620/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3919190": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3919190/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2142,6 +3220,24 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:3958640": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3958640/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3963070": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3963070/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:3965430": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -2161,6 +3257,24 @@
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/3976340/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3979350": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3979350/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:3979870": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/3979870/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2222,6 +3336,30 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4038780": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4038780/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4042160": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4042160/",
+   "https://solarsuit.games/",
+   "https://solarsuit.games/press",
+   "https://solarsuit.games/presskit",
+   "https://solarsuit.games/press-kit",
+   "https://solarsuit.games/streaming",
+   "https://solarsuit.games/faq"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4053520": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -2246,10 +3384,28 @@
   "method": "auto",
   "verdict": "ng"
  },
+ "steam:4095020": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4095020/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4096830": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/4096830/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4112070": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4112070/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2305,10 +3461,40 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4163030": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4163030/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4167960": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4167960/",
+   "https://www.jadenw.com"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4174310": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/4174310/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4179020": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4179020/",
+   "https://storytaco.com/",
+   "https://storytaco.com/press-kit"
   ],
   "evidence": [],
   "method": "auto",
@@ -2324,10 +3510,28 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4191830": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4191830/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4198660": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/4198660/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4204530": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4204530/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2342,6 +3546,38 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4217690": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4217690/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4223300": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4223300/",
+   "https://hexnestgames.com/",
+   "https://hexnestgames.com/press",
+   "https://hexnestgames.com/presskit",
+   "https://hexnestgames.com/press-kit",
+   "https://hexnestgames.com/streaming",
+   "https://hexnestgames.com/faq"
+  ],
+  "evidence": [
+   {
+    "excerpt": "You are free to record, stream, upload, and monetize any and all Birds of War content.",
+    "matched": [
+     "free to record"
+    ],
+    "url": "https://hexnestgames.com/presskit"
+   }
+  ],
+  "method": "auto",
+  "verdict": "ok"
+ },
  "steam:4232760": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -2355,6 +3591,24 @@
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/4240090/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4244510": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4244510/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4249140": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4249140/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2387,6 +3641,16 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4262310": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4262310/",
+   "https://www.bagofducks.studio/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4285320": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -2407,6 +3671,24 @@
   "checked_urls": [
    "https://store.steampowered.com/app/4285690/",
    "https://jataterworldwide.com/airport-security-sucks/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4286040": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4286040/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4287040": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4287040/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2463,6 +3745,21 @@
   "checked_urls": [
    "https://store.steampowered.com/app/4391590/",
    "https://www.dosmangames.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4396620": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4396620/",
+   "https://impress.games/press-kit/karaclan/unlucky-mummy",
+   "https://impress.games/press",
+   "https://impress.games/presskit",
+   "https://impress.games/press-kit",
+   "https://impress.games/streaming",
+   "https://impress.games/faq"
   ],
   "evidence": [],
   "method": "auto",
@@ -2541,6 +3838,15 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4479970": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4479970/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4502710": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -2570,6 +3876,15 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4529120": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4529120/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4530240": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
@@ -2579,10 +3894,28 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4540090": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4540090/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4547970": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/4547970/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4562940": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4562940/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2612,10 +3945,28 @@
   "method": "auto",
   "verdict": "ok"
  },
+ "steam:4580600": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4580600/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4585340": {
   "checked_at": "2026-11-15T02:12:22Z",
   "checked_urls": [
    "https://store.steampowered.com/app/4585340/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4588930": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4588930/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2656,10 +4007,38 @@
   "method": "auto",
   "verdict": "ok"
  },
+ "steam:4645760": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4645760/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4656000": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4656000/",
+   "http://bombanana.leftostudio.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4681880": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/4681880/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4691990": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4691990/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2674,10 +4053,46 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4757300": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4757300/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:4775410": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/4775410/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4796160": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4796160/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4810070": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4810070/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:4833450": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4833450/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2746,6 +4161,15 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:4992660": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/4992660/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:5013160": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
@@ -2789,6 +4213,34 @@
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/5037510/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:5088440": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/5088440/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:5105650": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/5105650/",
+   "https://geismgame.com/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:5133900": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/5133900/"
   ],
   "evidence": [],
   "method": "auto",
@@ -2839,10 +4291,29 @@
   "method": "auto",
   "verdict": "unknown"
  },
+ "steam:5372440": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/5372440/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
  "steam:792710": {
   "checked_at": "2026-11-14T17:50:58Z",
   "checked_urls": [
    "https://store.steampowered.com/app/792710/"
+  ],
+  "evidence": [],
+  "method": "auto",
+  "verdict": "unknown"
+ },
+ "steam:852090": {
+  "checked_at": "2026-11-15T02:24:04Z",
+  "checked_urls": [
+   "https://store.steampowered.com/app/852090/",
+   "https://www.penkopark.com/"
   ],
   "evidence": [],
   "method": "auto",
