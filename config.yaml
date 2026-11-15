@@ -50,13 +50,15 @@ categories:
     filters:
       max_price_jpy: 2000
       min_positive_ratio: 0.80
-      reviews: { min: 30, max: 20000 }
+      reviews: { min: 30, max: 5000 }   # 5000件超は「もう知られている」として除外
       require_demo: false
+    # 出たばかりで実況向きの作品を上に出すため、新しさを重めにし、ちょうど良いレビュー数を少なめにする
     weights:
-      rating: 0.5            # 好評率（Wilson下限）
+      rating: 0.4            # 好評率（Wilson下限）
       volume: 0.3            # レビュー数の「ちょうど良さ」
-      recency: 0.2
-      volume_sweet_spot: 500 # このレビュー数で volume が最大
+      recency: 0.3
+      volume_sweet_spot: 150 # このレビュー数で volume が最大
+      recency_half_life_years: 1.0   # 発売から1年で「新しさ」が半分
     max_items: 1000          # スコア上位この件数までを掲載
   bakage:
     label: バカゲー
@@ -69,8 +71,8 @@ categories:
     filters:
       max_price_jpy: 1500
       min_positive_ratio: 0.80
-      reviews: { min: 30, max: 30000 }
-    weights: { rating: 0.5, volume: 0.3, recency: 0.2, volume_sweet_spot: 800 }
+      reviews: { min: 30, max: 5000 }
+    weights: { rating: 0.4, volume: 0.3, recency: 0.3, volume_sweet_spot: 150, recency_half_life_years: 1.0 }
     max_items: 1000
 
 # itch はレビュー数がないので別基準: 新しさ・価格・タグ一致度（＋人気/高評価フィードに載っていれば加点）

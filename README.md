@@ -65,13 +65,14 @@ categories:
     filters:
       max_price_jpy: 2000            # 価格の上限（円）
       min_positive_ratio: 0.80       # 好評率の下限
-      reviews: { min: 30, max: 20000 }  # レビュー数の範囲（多すぎ＝実況され尽くし）
+      reviews: { min: 30, max: 5000 }   # レビュー数の範囲（多すぎ＝もう知られている）
       require_demo: false            # true ならデモのある作品だけ
     weights:
-      rating: 0.5                    # 好評率の重み
+      rating: 0.4                    # 好評率の重み
       volume: 0.3                    # レビュー数の「ちょうど良さ」の重み
-      recency: 0.2                   # 新しさの重み
-      volume_sweet_spot: 500         # このレビュー数で volume が最大になる
+      recency: 0.3                   # 新しさの重み
+      volume_sweet_spot: 150         # このレビュー数で volume が最大になる（少なめ＝出たばかりの作品が有利）
+      recency_half_life_years: 1.0   # 発売からこの年数で「新しさ」が半分になる（省略時 2.0）
     max_items: 1000                  # スコア上位この件数までを掲載
 ```
 

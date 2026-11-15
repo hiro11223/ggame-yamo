@@ -203,13 +203,14 @@ categories:
     filters:
       max_price_jpy: 2000
       min_positive_ratio: 0.80
-      reviews: { min: 30, max: 20000 }
+      reviews: { min: 30, max: 5000 }
       require_demo: false
     weights:
-      rating: 0.5            # 好評率（Wilson下限）
+      rating: 0.4            # 好評率（Wilson下限）
       volume: 0.3            # レビュー数の「ちょうど良さ」
-      recency: 0.2
-      volume_sweet_spot: 500 # このレビュー数で volume が最大
+      recency: 0.3
+      volume_sweet_spot: 150 # このレビュー数で volume が最大
+      recency_half_life_years: 1.0
     max_items: 1000          # スコア上位この件数までを掲載
   bakage:
     label: バカゲー
@@ -222,8 +223,8 @@ categories:
     filters:
       max_price_jpy: 1500
       min_positive_ratio: 0.80
-      reviews: { min: 30, max: 30000 }
-    weights: { rating: 0.5, volume: 0.3, recency: 0.2, volume_sweet_spot: 800 }
+      reviews: { min: 30, max: 5000 }
+    weights: { rating: 0.4, volume: 0.3, recency: 0.3, volume_sweet_spot: 150, recency_half_life_years: 1.0 }
     max_items: 1000
 
 itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }
@@ -243,7 +244,8 @@ itch_scoring: { recency: 0.5, price: 0.2, tag_match: 0.3 }
 
 - **Steam**: 100 × (rating × Wilson下限(好評率) + volume × V + recency × R) + bonus
   - V は、log10(レビュー数) が sweet_spot で最大になる釣鐘型です
-  - R は、発売からの経過で減衰します
+  - R は、発売からの経過で減衰します（`recency_half_life_years` で半減。既定 2年、設定例は 1年）
+  - 出たばかりの実況向き作品を優先するため、設定例では sweet_spot を 150 件と少なめにし、レビュー 5000 件超は除外しています
 - **itch**: 新しさ、価格（安いほど高い）、カテゴリタグの一致数を正規化して重み付けします
   - Steamとは別基準なので、ページでは「itch基準」と明示します
   - 統合した作品は、Steam側のスコアを使います
