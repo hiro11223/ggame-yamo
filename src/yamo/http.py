@@ -81,6 +81,7 @@ class HttpClient:
         """GET。同じ rate_key のリクエストは interval 秒以上空ける。
 
         429/5xx/接続エラーは指数バックオフで再試行し、上限を超えたら SourceUnavailable。
+        リダイレクトのループ等、再試行しても直らない requests の例外はすぐ SourceUnavailable。
         それ以外の 4xx は HttpStatusError（再試行しない）。
         """
         attempts = self.retry.max_attempts
@@ -91,6 +92,9 @@ class HttpClient:
                 resp = self.session.get(url, params=params, timeout=self.timeout, stream=stream)
             except (requests.ConnectionError, requests.Timeout) as e:
                 reason = f"{type(e).__name__}: {e}"
+            except requests.RequestException as e:
+                # リダイレクトのループ・不正な URL など。再試行しても直らないのですぐ諦める
+                raise SourceUnavailable(f"{url}: {type(e).__name__}: {e}") from e
             else:
                 if resp.status_code < 400:
                     return resp

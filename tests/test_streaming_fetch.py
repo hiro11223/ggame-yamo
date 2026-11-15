@@ -107,3 +107,11 @@ def test_per_host_interval(fetcher, fake_clock):
     fetcher.get_text("https://a.example/p2")
     # 同じホストの連続アクセス（robots → p1）でだけ待つ。a の p2 は b を取っている間に間隔が空いたので待たない
     assert fake_clock.sleeps == [2, 2]
+
+
+@responses.activate
+def test_redirect_loop_page_is_none(fetcher):
+    # robots.txt もページもリダイレクトがループするサイトで、実行全体を落とさない
+    responses.get("https://loop.example/robots.txt", status=302, headers={"Location": "https://loop.example/robots.txt"})
+    responses.get("https://loop.example/press", status=302, headers={"Location": "https://loop.example/press"})
+    assert fetcher.get_text("https://loop.example/press") is None

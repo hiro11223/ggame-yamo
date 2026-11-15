@@ -55,3 +55,11 @@ def test_404_is_not_retried(client):
         client.get(URL, rate_key="k", interval=0)
     assert e.value.status == 404
     assert len(responses.calls) == 1
+
+
+@responses.activate
+def test_redirect_loop_raises_source_unavailable_without_retry(client):
+    responses.get(URL, status=302, headers={"Location": URL})
+    with pytest.raises(SourceUnavailable):
+        client.get(URL, rate_key="k", interval=0)
+    assert len(responses.calls) <= 31  # 1回分のリダイレクト追跡だけで、再試行はしない
